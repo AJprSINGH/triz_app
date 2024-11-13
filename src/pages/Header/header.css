@@ -1,0 +1,64 @@
+/* Dropdown animation classes */
+.dropdown-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  .dropdown-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .dropdown-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .dropdown-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  /* General styles for nav links */
+nav button {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative; /* Required for the ::before pseudo-element to be positioned */
+    background: none;
+    border: none;
+  }
+  
+  /* Hover effect for nav links */
+  nav button:hover {
+    color: #000;
+  }
+  
+  /* Create a line under the nav item */
+  nav button::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+    position: absolute;
+    top: 100%; /* Position the line below the text */
+    left: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+  }
+  
+  /* Expand the line width on hover */
+  nav button:hover::before {
+    width: 100%;
+  }
+  
+  /* Exclude 'Contact Us' from the hover effect */
+  nav .contact-button {
+    color: #444; /* Keep the default color */
+  }
+  
+  nav .contact-button:hover::before {
+    width: 0;
+  }
+  
+  

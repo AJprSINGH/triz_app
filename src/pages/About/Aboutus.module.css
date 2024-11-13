@@ -1,0 +1,85 @@
+.aboutus-container {
+    position: relative; /* Make sure the container is positioned relative to allow absolute positioning of pseudo-element */
+    min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+    padding: 10px 10px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center;
+    color: white; /* Text color to be readable on top of the background */
+  }
+  
+  .aboutus-container::before {
+    content: ''; /* Creates an empty pseudo-element */
+    position: absolute; /* Position it absolutely within the container */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/about_images/imagebg.jpg'); /* Background image */
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center center; /* Center the background */
+    background-attachment: fixed; /* Fix the background while scrolling */
+    filter: blur(8px); /* Apply a blur effect */
+    z-index: -1; /* Ensure the background image stays behind the content */
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between lines */
+    position: relative;
+  }
+  
+  /* Basic styling for each text line */
+  .rollover-text {
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0; /* Initially, the text is invisible */
+    transition: opacity 1s ease-in-out; /* Smooth opacity transition */
+  }
+  
+  /* Show class will make the text visible */
+  .show {
+    opacity: 1;
+    animation: slideIn 1s ease-in-out forwards; /* Apply the sliding animation */
+  }
+  
+  /* Keyframes for the sliding effect */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px); /* Start from below */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at the normal position */
+    }
+  }
+  
+  /* Line-specific colors */
+  .line-1 {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .line-1.show {
+    color: #1543a7; /* LimeGreen on show */
+  }
+  
+  .line-2 {
+    color: #4682b4; /* SteelBlue */
+  }
+  
+  .line-2.show {
+    color: #960359; /* DarkOrange on show */
+  }
+  
+  .line-3 {
+    color: #000000; /* SlateBlue */
+  }
+  
+  .line-3.show {
+    color: #5a0000; /* DeepPink on show */
+  }
+  

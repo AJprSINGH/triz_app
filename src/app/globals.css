@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+
+/* Add this in your CSS file */
+.roll-down-enter {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.roll-down-enter-active {
+  max-height: 500px; /* Adjust based on content */
+}
+
+.roll-down-exit {
+  max-height: 500px;
+}
+
+.roll-down-exit-active {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
