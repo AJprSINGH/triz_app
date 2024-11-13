@@ -5,7 +5,7 @@ import featureImage1 from '../../../public/AIservice_images/feature1.png';
 import featureImage2 from '../../../public/AIservice_images/feature2.png';
 import featureImage3 from '../../../public/AIservice_images/feature3.png';
 import Contact from '../Contact/ContactCard';
-import Scroll from '../ScrollToTop/scroll';
+import Scroll from '../ScrollToTop/Scroll';
 import Header from "../Header/NavBar";
 import Footer from "../Footer/Footer";
 
