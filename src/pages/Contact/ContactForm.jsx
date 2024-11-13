@@ -5,7 +5,7 @@ function ContactForm() {
     <div className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
       <form className="flex flex-col items-start self-stretch my-auto text-xs font-bold text-slate-800 max-md:mt-10 max-md:max-w-full">
         <h2 className="text-4xl tracking-tighter text-amber-500">Say Hi!</h2>
-        <p className="mt-4 text-xl leading-none text-slate-500">We'd like to talk with you.</p>
+        <p className="mt-4 text-xl leading-none text-slate-500">We&apos;d like to talk with you.</p>
         
         <label htmlFor="fullName" className="mt-20 leading-none max-md:mt-10">My name is</label>
         <input

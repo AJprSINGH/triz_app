@@ -28,7 +28,7 @@ function EducationChallenges() {
   return (
     <div className="flex flex-col rounded-md px-4 py-8 max-w-7xl mx-auto">
       <h1 className="text-3xl font-bold text-center text-amber-500 mb-10">
-        Revolutionizing education with personalized learning solutions to unlock every student's potential.
+        Revolutionizing education with personalized learning solutions to unlock every student&apos;s potential.
       </h1>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="md:w-1/3">

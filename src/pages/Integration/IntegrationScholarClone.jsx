@@ -20,7 +20,7 @@ function IntegrationScholarClone() {
                   <span className="text-amber-500">Enhance Your School</span>
                 </h1>
                 <p className="mt-8 ml-5 text-xl text-black max-md:mt-6 max-md:max-w-full">
-                  Simplify your school's operations by connecting essential systems for attendance, communication, and finance. Our integration solutions ensure smooth coordination across platforms, empowering your institution to run efficiently while focusing on growth and student success.
+                  Simplify your school&apos;s operations by connecting essential systems for attendance, communication, and finance. Our integration solutions ensure smooth coordination across platforms, empowering your institution to run efficiently while focusing on growth and student success.
                 </p>
                 <div className="mt-5 max-w-full w-[500px]">
                   <div className="flex gap-4 max-md:flex-col">

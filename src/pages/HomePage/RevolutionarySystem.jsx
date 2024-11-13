@@ -23,7 +23,7 @@ function RevolutionarySystem() {
           A Revolutionary School Management System
         </h2>
         <p className="text-xl mb-8">
-          We've developed a school management system that addresses today's most critical educational challenges, empowering students, educators, and institutions alike.
+          We&apos;ve developed a school management system that addresses today&apos;s most critical educational challenges, empowering students, educators, and institutions alike.
         </p>
         <ul className="space-y-4">
           {features.map((feature, index) => (
