@@ -54,8 +54,8 @@ function WhatWeOffer() {
       <p className="self-stretch mt-10 ml-3 text-xl text-black max-md:max-w-full">
         Scholar Clone is a forward-thinking company dedicated to transforming educational experiences through innovative solutions. We specialize in providing a comprehensive school management system that streamlines administrative tasks, enhances communication, and improves operational efficiency. Our Learning Management System (LMS) empowers educators and students with tools for interactive learning, assessment, and progress tracking, tailored to modern educational needs. In addition, our career counseling services guide students toward fulfilling their academic and professional aspirations, ensuring they make informed decisions about their future. At Scholar Clone, we are committed to fostering an environment where education and technology come together to create meaningful impacts on student&apos;s lives.
       </p>
-      <section className="mt-16 max-w-full w-[1088px] max-md:mt-10">
-        <div className="flex gap-5 max-md:flex-col">
+      <section className="mt-2 max-w-full w-[1088px] max-md:mt-10">
+        <div className="flex gap-2 max-md:flex-col">
           {offeringData.map((offering, index) => (
             <OfferingColumn key={index} imageSrc={offering.imageSrc} title={offering.title} />
           ))}
@@ -75,7 +75,7 @@ function WhatWeOffer() {
         <li>Automation and centralized management reduce overhead costs, freeing up the budget for essential growth areas.</li>
         <li>Supporting academic success alongside career planning ensures students are ready for future challenges.</li>
       </ul>
-      <section className="mt-20 w-full max-w-[1477px] max-md:mt-10 max-md:max-w-full">
+      <section className="mt-2 w-full max-w-[1477px] max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
           {valueData.map((value, index) => (
             <ValueColumn key={index} imageSrc={value.imageSrc} title={value.title} />
