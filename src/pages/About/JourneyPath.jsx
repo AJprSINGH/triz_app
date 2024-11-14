@@ -27,8 +27,6 @@ const milestones = [
 const JourneyPath = () => {
   const [visibleMilestones, setVisibleMilestones] = useState([]);
   const milestoneRefs = useRef([]);
-
-  // Intersection Observer setup
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -79,13 +77,13 @@ const JourneyPath = () => {
             data-index={index}
             className={`transition-opacity duration-1000 ease-in-out transform ${
               visibleMilestones.includes(index) ? 'opacity-100 translate-x-0' : 'opacity-0 translate-y-10'
-            } flex ${index % 2 === 0 ? 'justify-end' : 'justify-start'} w-full py-8`}
+            } flex ${index % 2 === 0 ? 'justify-end' : 'justify-start'} w-full py-4`}
           >
             <div
               className="p-6 bg-white shadow-lg rounded-lg max-w-md"
               style={{
-                marginLeft: index % 2 === 0 ? '-20px' : '20px',
-                marginRight: index % 2 === 1 ? '-20px' : '20px',
+                marginLeft: index % 2 === 0 ? '20px' : '350px',
+                marginRight: index % 2 === 1 ? '20px' : '350px',
               }}
             >
               <h3 className="text-xl font-bold text-blue-500">{milestone.year}</h3>

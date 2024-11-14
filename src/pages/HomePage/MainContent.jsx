@@ -17,7 +17,7 @@ function MainContent() {
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/3e1ee0c20767fb35fc2a7ed3a382cf408cb1d0424619595a661a560fc3f15ee1?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
           alt="Educational concept illustration"
-          className="w-full max-w-3xl rounded-xl shadow-lg"
+          className="w-full max-w-6xl rounded-xl shadow-lg"
         />
       </section>
 

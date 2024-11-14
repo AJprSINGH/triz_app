@@ -5,6 +5,7 @@ import Header from '../Header/NavBar';
 import Members from './PotentialMembers';
 import Journey from './JourneyPath';
 import Footer from '../Footer/Footer';
+import Content from './WhatWeOffer';
 const AboutMain = () => {
   const [currentLine, setCurrentLine] = useState(0);  // Manage the visible line
 
@@ -22,14 +23,14 @@ const AboutMain = () => {
       <main className='font-bold text-xl'>
       <Header />
       </main>
-      <div className={styles['aboutus-container']}>
+      <div className={styles['aboutus-container-new']}>
         <div className={styles['text-container']}>
           <h1 className={`${styles['rollover-text']} ${styles['line-1']} ${currentLine === 0 ? styles['show'] : ''}`}>Empowering Schools with Smart Technology for Every Need</h1>
           <h1 className={`${styles['rollover-text']} ${styles['line-2']} ${currentLine === 1 ? styles['show'] : ''}`}>Empowering Higher Education with Innovative Technology Solutions</h1>
           <h1 className={`${styles['rollover-text']} ${styles['line-3']} ${currentLine === 2 ? styles['show'] : ''}`}>Optimizing Business with Smart, Scalable Solutions</h1>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-white-100">
+      <div className="flex flex-col items-center justify-center mt-10 mb-10 bg-white-100">
       <h1 className="text-4xl font-bold text-sky-600 mb-8">Our Company</h1>
       <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center max-w-6xl w-full">
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">
@@ -47,6 +48,9 @@ const AboutMain = () => {
         </div>
       </div>
     </div>
+      <div className={styles['aboutus-container']}>
+        <Content />
+      </div>
     <Members />
     <Journey />
     <br/>

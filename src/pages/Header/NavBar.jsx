@@ -44,12 +44,12 @@ function NavBar() {
 
   return (
     <>
-      <header className="flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-2.5 w-full max-md:px-5 max-md:max-w-full bg-gradient-to-r from-green-200 to-green-400">
+      <header className="flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full max-md:px-5 max-md:max-w-full bg-gradient-to-r from-green-200 to-green-400">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/d81f651477a8ed310482ed81dfc64acfc3018cb20cf04e3989f524cbb10ffa51?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
           alt=""
-          className="object-contain shrink-0 w-40 max-w-full aspect-[2.67]"
+          className="object-contain shrink-0 w-28 max-w-full aspect-[2.67]"
         />
         <nav className="flex flex-wrap gap-10 items-center my-auto max-md:max-w-full">
           {navItems.map((item) => (
