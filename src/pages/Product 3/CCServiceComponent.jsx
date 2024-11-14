@@ -9,26 +9,34 @@ import Contact from '../Contact/ContactCard';
 import Scroll from '../ScrollToTop/Scroll';
 import Header from "../Header/NavBar";
 import Footer from "../Footer/Footer";
+import S1 from "./Feature 1/IntegrationServices";
+import S2 from "./Feature 2/IntegrationServices";
+import S3 from "./Feature 3/IntegrationServices";
+import S4 from "./Feature 4/IntegrationServices";
 
 const features = [
   {
     title: 'Illuminating Pathways to Possibilities',
     image: featureImage1,
+    serviceComponent: <S1 />,
     description: 'Streamline your school management process with our efficient tools designed to simplify attendance, timetabling, and much more.',
   },
   {
     title: 'Discovering Your Unique Professional Path',
     image: featureImage2,
+    serviceComponent: <S2 />,
     description: 'Gain full control over finances, including fees, payroll, and budgeting, with clear and intuitive tools.',
   },
   {
     title: 'Navigating Your Future with Guidance',
     image: featureImage3,
+    serviceComponent: <S3 />,
     description: 'Provide personalized learning experiences to your students with powerful LMS and content management tools.',
   },
   {
     title: 'Building Foundations for Success',
     image: featureImage4,
+    serviceComponent: <S4 />,
     description: 'Enhance communication between teachers, students, and parents with integrated messaging and notification systems.',
   },
 ];
@@ -96,9 +104,11 @@ const CCServiceComponent = () => {
         </div>
 
         {/* Selected Feature Description Section */}
-        <div className="feature-description w-full mt-16 px-8">
-          <h3 className="text-3xl font-bold text-blue-600 mb-6">{features[selectedFeatureIndex].title}</h3>
-          <p className="text-gray-700 text-lg">{features[selectedFeatureIndex].description}</p>
+        <div className="feature-description w-full mt-6 px-8">
+          {/* Render the components based on the selected feature */}
+          <div className="feature-content">
+            {features[selectedFeatureIndex].serviceComponent}
+          </div>
         </div>
 
         {/* Contact Us Section */}

@@ -44,7 +44,7 @@ function IntegrationScholarClone() {
             </div>
           </div>
         </section>
-        <Services />
+        
         <IG />
         {/* Contact Us Section */}
       <div className="contact-us w-full mt-16">
