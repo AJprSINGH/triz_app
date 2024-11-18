@@ -1,5 +1,5 @@
 /* Dropdown animation classes */
-.dropdown-enter {
+ .dropdown-enter {
     opacity: 0;
     transform: translateY(-10px);
   }
