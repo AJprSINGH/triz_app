@@ -16,7 +16,7 @@ const ClientSection = () => {
       <div className="mt-0 max-md:mt-10 relative w-full h-[150px]">
         {/* Image container with smooth scrolling animation */}
         <div
-          className="flex absolute gap-52 top-0 left-0 h-full animate-scroll"
+          className="flex absolute gap-40 top-0 left-0 h-full animate-scroll"
           style={{
             width: `${containerWidth * 2}px`, // Container width to accommodate both the original and duplicate sets
           }}
