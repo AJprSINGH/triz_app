@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuItem from './MenuItem';
 import { CSSTransition } from 'react-transition-group';
 import Link from 'next/link';  // Importing Link from Next.js
 import '../../app/globals.css';

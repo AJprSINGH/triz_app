@@ -1,45 +1,35 @@
 import React, { useState, useRef } from 'react';
 import NavItem from './NavItem';
-import ContactButton from './ContactButton';
 import Menu from './Menu';
 import FeatureList from './FeatureList';
-import Link from 'next/link';  // Import Link from Next.js
+import Link from 'next/link'; 
 import './header.css';
 import { useRouter } from 'next/router';
+
 const navItems = [
-  { label: 'HOME', layerName: 'home', href: '/' },  // Add href for Home
+  { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'SERVICES', layerName: 'services' },
-  { label: 'ABOUTUS', layerName: 'aboutus', href: '/aboutus' },  // Add href for About Us
+  { label: 'ABOUTUS', layerName: 'aboutus', href: '/aboutus' },
   { label: 'COMPANY', layerName: 'company' },
 ];
 
 function NavBar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
-  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 });
-
   const buttonRefs = useRef({});
-  const router = useRouter();  // Initialize useRouter hook
+  const dropdownRef = useRef(null);
+  const router = useRouter();
+
   const handleClick = () => {
-    router.push('/contactGlobal');  // Navigate to /contactGlobal
+    router.push('/contactGlobal');
   };
+
   const handleDropdownToggle = (layerName) => {
-    if (activeDropdown === layerName) {
-      setActiveDropdown(null); // Close if clicking the same button
-    } else {
-      setActiveDropdown(layerName);
-
-      // Get the button's position using getBoundingClientRect
-      const buttonRect = buttonRefs.current[layerName].getBoundingClientRect();
-      setDropdownPosition({
-        top: buttonRect.bottom + window.scrollY, // Position dropdown below the button
-        left: buttonRect.left + window.scrollX, // Align with the button's left
-      });
-    }
+    setActiveDropdown(layerName); // Set active dropdown on hover
   };
 
-  const handleCloseOverlay = () => {
-    setActiveDropdown(null); // Close the dropdown
+  const handleMouseLeaveDropdown = () => {
+    setActiveDropdown(null); // Close dropdown when leaving the dropdown content
   };
 
   return (
@@ -54,22 +44,20 @@ function NavBar() {
         <nav className="flex flex-wrap gap-10 items-center my-auto max-md:max-w-full">
           {navItems.map((item) => (
             item.href ? (
-              // If href is provided, wrap the item with a Link component
               <Link key={item.layerName} href={item.href}>
                 <button
                   ref={(el) => (buttonRefs.current[item.layerName] = el)}
-                  onClick={() => handleDropdownToggle(item.layerName)}
+                  onMouseEnter={() => handleDropdownToggle(item.layerName)}
                   className="relative z-10 font-bold"
                 >
                   <NavItem label={item.label} layerName={item.layerName} />
                 </button>
               </Link>
             ) : (
-              // If no href, just render the button as usual
               <button
                 key={item.layerName}
                 ref={(el) => (buttonRefs.current[item.layerName] = el)}
-                onClick={() => handleDropdownToggle(item.layerName)}
+                onMouseEnter={() => handleDropdownToggle(item.layerName)}
                 className="relative z-10 font-bold"
               >
                 <NavItem label={item.label} layerName={item.layerName} />
@@ -83,28 +71,24 @@ function NavBar() {
       </header>
       {(activeDropdown === 'products' || activeDropdown === 'services') && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-20"
-          onClick={handleCloseOverlay}
+          ref={dropdownRef}
+          className="ps-item absolute bg-white p-5 rounded-t-lg shadow-lg"
+          style={{
+            top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY,
+            left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
+            zIndex: 1000,  // Ensure dropdown is above other content
+          }}
         >
-          <div
-            className="relative bg-white p-5 rounded-lg shadow-lg"
-            style={{
-              position: 'absolute',
-              top: `${dropdownPosition.top}px`,
-              left: `${dropdownPosition.left}px`,
-              width: 'auto', // Adjust width as needed
-            }}
-            onClick={(e) => e.stopPropagation()} // Prevent click on menu from closing
-          >
-            {activeDropdown === 'products' && <Menu />}
-            {activeDropdown === 'services' && <FeatureList />}
-            <button
-              onClick={handleCloseOverlay}
-              className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
-            >
-              &times; {/* Close button */}
-            </button>
-          </div>
+          {activeDropdown === 'products' && (
+            <div onMouseLeave={handleMouseLeaveDropdown}>
+              <Menu />
+            </div>
+          )}
+          {activeDropdown === 'services' && (
+            <div onMouseLeave={handleMouseLeaveDropdown}>
+              <FeatureList />
+            </div>
+          )}
         </div>
       )}
     </>

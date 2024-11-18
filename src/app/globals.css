@@ -47,3 +47,34 @@ body {
   transition: max-height 0.5s ease-out;
 }
 
+/* Fade and Slide animation for menu */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-slide-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.fade-slide-enter-active {
+  animation: fadeSlideIn 0.5s forwards;
+}
+
+.fade-slide-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-slide-exit-active {
+  animation: fadeSlideIn 0.5s reverse forwards;
+}
+
+

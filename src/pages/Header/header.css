@@ -1,5 +1,5 @@
 /* Dropdown animation classes */
- .dropdown-enter {
+.dropdown-enter {
     opacity: 0;
     transform: translateY(-10px);
   }
@@ -61,4 +61,26 @@ nav button {
     width: 0;
   }
   
+    /* Hover effect for nav links */
+    .ps-item:hover {
+      color: #5abe41;
+    }
+    
+    /* Create a line under the nav item */
+    .ps-item::before {
+      content: '';
+      display: block;
+      height: 10px;
+      background-color: #f59f0a;
+      position: absolute;
+      top: 100%; /* Position the line below the text */
+      left: 0;
+      width: 0%;
+      transition: all ease-in-out 250ms;
+    }
+    
+    /* Expand the line width on hover */
+    .ps-item:hover::before {
+      width: 100%;
+    }
   
