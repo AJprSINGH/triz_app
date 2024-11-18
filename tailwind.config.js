@@ -12,12 +12,12 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       animation: {
-        scroll: 'scroll 30s linear infinite', // Animation name and duration
+        scroll: 'scroll 40s linear infinite', // Extended time for smooth scrolling
       },
       keyframes: {
         scroll: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' }, // Move the container to the left
+          '0%': { transform: 'translateX(0)' }, // Starting position
+          '100%': { transform: 'translateX(-100%)' }, // Move the entire container by 100% of the container's width
         },
       },
     },
