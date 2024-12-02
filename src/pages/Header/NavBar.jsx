@@ -5,7 +5,7 @@ import FeatureList from './FeatureList';
 import Link from 'next/link'; 
 import './header.css';
 import { useRouter } from 'next/router';
-
+import NV1 from './Navbar_new';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
@@ -34,14 +34,15 @@ function NavBar() {
 
   return (
     <>
-      <header className="flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full max-md:px-5 max-md:max-w-full bg-gradient-to-r from-green-200 to-green-400">
+      {/* Large Screens (lg) */}
+      <header className="hidden lg:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-green-200 to-green-400">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/d81f651477a8ed310482ed81dfc64acfc3018cb20cf04e3989f524cbb10ffa51?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
           alt=""
           className="object-contain shrink-0 w-28 max-w-full aspect-[2.67]"
         />
-        <nav className="flex flex-wrap gap-10 items-center my-auto max-md:max-w-full">
+        <nav className="flex flex-wrap gap-10 items-center my-auto">
           {navItems.map((item) => (
             item.href ? (
               <Link key={item.layerName} href={item.href}>
@@ -69,6 +70,22 @@ function NavBar() {
           </button>
         </nav>
       </header>
+
+      {/* Medium Screens (md) */}
+      <header className="lg:hidden md:flex overflow-hidden">
+        {/* Future content for medium screens (md) */}
+        <NV1 />
+        <div className="hidden"> {/* Placeholder or future header content for md screens */} </div>
+      </header>
+
+      {/* Small Screens (sm)
+      <header className="lg:hidden md:hidden sm:flex overflow-hidden">
+        Future content for small screens (sm)
+        <NV1 />
+        <div className="hidden"> Placeholder or future header content for sm screens  </div>
+      </header>
+       */}
+      {/* Dropdown Content (Products / Services) */}
       {(activeDropdown === 'products' || activeDropdown === 'services') && (
         <div
           ref={dropdownRef}
