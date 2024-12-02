@@ -30,7 +30,7 @@ function EducationChallenges() {
       <h1 className="text-3xl font-bold text-center text-amber-500 mb-10">
         Revolutionizing education with personalized learning solutions to unlock every student&apos;s potential.
       </h1>
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-8 px-16">
         <div className="md:w-1/3">
           <h2 className="text-2xl font-bold text-sky-500 mb-6">
             Global Educational Challenges

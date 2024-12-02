@@ -135,7 +135,7 @@ function ImageComponent() {
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets%2F170cbe9c02a2485986a6dc949bdc8ad3%2F12405dbf109945dba2ed90bc845e9448"
       alt="Gallery image"
-      className="box-border object-cover overflow-hidden shrink-0 w-full h-[490px] min-w-[20px] mt-[px]"
+      className="box-border object-cover overflow-hidden shrink-0 lg:w-full lg:h-[490px] min-w-[20px] mt-[px] sm:w-full sm:h-auto md:w-full md:h-auto"
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
