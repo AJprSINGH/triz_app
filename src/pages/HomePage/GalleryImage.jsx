@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export default function GalleryImage({ src, className, aspectRatio, alt }) {
+function GalleryImage({ src, className, aspectRatio, alt }) {
   return (
     <img
       loading="lazy"
@@ -10,3 +10,5 @@ export default function GalleryImage({ src, className, aspectRatio, alt }) {
     />
   );
 }
+
+export default GalleryImage;

@@ -2,7 +2,7 @@ import React from 'react';
 import EducationChallenges from './EducationalChallenges';
 import RevolutionarySystem from './RevolutionarySystem';
 import PersonalizedLearning from './PersonalizedLearning';
-import { GalleryImage } from "./GalleryImage";
+import GalleryImage from "./GalleryImage";
 const galleryImages = [
   {
     src: "https://cdn.builder.io/api/v1/image/assets%2F170cbe9c02a2485986a6dc949bdc8ad3%2F6ee99432fa6540c3806389414f37bb46",
