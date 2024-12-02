@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -116,7 +116,18 @@ const data = [
 const Index = () => {
   const classes = useStyles();
   const [active, setActive] = useState(false);
+  useEffect(() => {
+    if (active) {
+      document.body.style.overflow = "hidden"; // Disable scrolling
+    } else {
+      document.body.style.overflow = "unset"; // Enable scrolling
+    }
 
+    // Cleanup function to reset overflow on unmount
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [active]);
   return (
     <div className={classes.main}>
       <div className={classes.container}>
