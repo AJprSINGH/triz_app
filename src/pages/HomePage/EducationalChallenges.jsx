@@ -26,19 +26,19 @@ const challenges = [
 
 function EducationChallenges() {
   return (
-    <div className="flex flex-col rounded-md px-4 py-8 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-bold text-center text-amber-500 mb-10">
+    <div className="flex flex-col rounded-md px-4 py-4 md:py-8 max-w-7xl mx-auto">
+      <h1 className="text-3xl md:text-4xl font-bold text-center text-amber-500 mb-6 md:mb-10">
         Revolutionizing education with personalized learning solutions to unlock every student&apos;s potential.
       </h1>
-      <div className="flex flex-col md:flex-row gap-8 px-16">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-8 px-4 md:px-16">
         <div className="md:w-1/3">
-          <h2 className="text-2xl font-bold text-sky-500 mb-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-sky-500 mb-4 md:mb-6">
             Global Educational Challenges
           </h2>
-          <p className="text-xl mb-6">
+          <p className="text-lg md:text-xl mb-4 md:mb-6">
             Schools around the world are grappling with the same outdated systems, leaving students without the personalized tools they need to thrive in the modern world.
           </p>
-          <p className="text-xl">
+          <p className="text-lg md:text-xl">
             The one-size-fits-all education approach limits personalized learning and prevents effective tracking of job-ready skills. Teachers struggle to align with modern curricula, and students often lack proper career counseling. Outdated assessments further fail to adapt to individual learning paces, hindering accurate progress measurement.
           </p>
         </div>
