@@ -3,9 +3,12 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     container: {
-      background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)",
-      zIndex: 1,
-    },
+    width: "100%", // Ensure the container takes the full width
+    margin: 0, // Remove default margin
+    padding: 0, // Remove default padding
+    background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)", // Background color
+    zIndex:999,
+  },
     wrapper: {
       padding: "20px 40px",
       display: "flex",
@@ -154,10 +157,9 @@ const useStyles = makeStyles((theme) => ({
         background: "rgba(33, 46, 65, 1)",
         display: "block", // Keep this for the default state
         maxHeight: "0", // Initially set to 0
-        overflowY: "auto    ", // Prevent overflow when closed
+        height:"auto",
         opacity: 0, // Start with opacity 0
         transition: "max-height 0.5s ease-in-out, opacity 0.5s ease-in-out", // Transition for max-height and opacity
-        position: "absolute",
         left: 0,
         width: "100%",
         zIndex: 10,
