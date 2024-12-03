@@ -2,162 +2,167 @@ import React, { useState , useEffect} from "react";
 import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
-  container: {
-    background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)",
-    zIndex: 1,
-  },
-  wrapper: {
-    padding: "20px 40px",
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-  },
-  img: {
-    width: "40px",
-  },
-  hamburber: {
-    width: "30px",
-    height: "3px",
-    background: "#fff",
-    borderRadius: "5px",
-    boxShadow: "0 2px 5px rgb(255, 101, 47, 0.2)",
-    transition: "all 0.5s ease-in-out",
-    position: "relative",
-    "&::before": {
-      content: "''",
-      position: "absolute",
+    container: {
+      background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)",
+      zIndex: 1,
+    },
+    wrapper: {
+      padding: "20px 40px",
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+    },
+    img: {
+      width: "40px",
+    },
+    hamburber: {
       width: "30px",
       height: "3px",
       background: "#fff",
       borderRadius: "5px",
+      boxShadow: "0 2px 5px rgb(255, 101, 47, 0.2)",
       transition: "all 0.5s ease-in-out",
-      transform: "translateY(-10px)",
+      position: "relative",
+      "&::before": {
+        content: "''",
+        position: "absolute",
+        width: "30px",
+        height: "3px",
+        background: "#fff",
+        borderRadius: "5px",
+        transition: "all 0.5s ease-in-out",
+        transform: "translateY(-10px)",
+      },
+      "&::after": {
+        content: "''",
+        position: "absolute",
+        width: "30px",
+        height: "3px",
+        background: "#fff",
+        borderRadius: "5px",
+        transition: "all 0.5s ease-in-out",
+        transform: "translateY(10px)",
+      },
     },
-    "&::after": {
-      content: "''",
-      position: "absolute",
+    activeHamburger: {
       width: "30px",
       height: "3px",
-      background: "#fff",
       borderRadius: "5px",
+      transform: "translateX(-50px)",
+      background: "transparent",
       transition: "all 0.5s ease-in-out",
-      transform: "translateY(10px)",
+      "&::before": {
+        content: "''",
+        position: "absolute",
+        width: "30px",
+        height: "3px",
+        background: "#fff",
+        borderRadius: "5px",
+        transition: "all 0.5s ease-in-out",
+        transform: "rotate(45deg) translate(35px, -35px)",
+      },
+      "&::after": {
+        content: "''",
+        position: "absolute",
+        width: "30px",
+        height: "3px",
+        background: "#fff",
+        borderRadius: "5px",
+        transition: "all 0.5s ease-in-out",
+        transform: "rotate(-45deg) translate(35px, 35px)",
+      },
     },
-  },
-  activeHamburger: {
-    width: "30px",
-    height: "3px",
-    borderRadius: "5px",
-    transform: "translateX(-50px)",
-    background: "transparent",
-    transition: "all 0.5s ease-in-out",
-    "&::before": {
-      content: "''",
-      position: "absolute",
-      width: "30px",
-      height: "3px",
-      background: "#fff",
-      borderRadius: "5px",
-      transition: "all 0.5s ease-in-out",
-      transform: "rotate(45deg) translate(35px, -35px)",
+    sidenav: {
+      position: "fixed",
+      width: "50%",
+      height: "100vh",
+      background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",
+      transform: "translateX(100%)",
+      transition: "transform 0.5s ease-in-out",
+      right:0,
     },
-    "&::after": {
-      content: "''",
-      position: "absolute",
-      width: "30px",
-      height: "3px",
-      background: "#fff",
-      borderRadius: "5px",
-      transition: "all 0.5s ease-in-out",
-      transform: "rotate(-45deg) translate(35px, 35px)",
+    activeSidenav: {
+      position: "fixed",
+      width: "50%",
+      overflowY: "auto",
+      height: "90vh",
+      background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",  // Change background when menu is active
+      transform: "translateX(0)",
+      transition: "transform 0.5s ease-in-out",
+      zIndex: 10000,  // Higher than the menu
+      right: 0,
     },
-  },
-  sidenav: {
-    position: "fixed",
-    width: "50%",
-    height: "100vh",
-    background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",
-    transform: "translateX(100%)",
-    transition: "transform 0.5s ease-in-out",
-    right:0,
-  },
-  activeSidenav: {
-    position: "fixed",
-    width: "50%",
-    height: "100vh",
-    background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",  // Change background when menu is active
-    transform: "translateX(0)",
-    transition: "transform 0.5s ease-in-out",
-    zIndex: 10000,  // Higher than the menu
-    right: 0,
-  },
-  ul: {
-    listStyleType: "none",
-    paddingTop: "100px",
-    textAlign: "center",  // Center menu items in the sidebar
-    "& li": {
-      padding: "20px 0",
-    },
-  },
-  a: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "5px 20px",
-    color: "#fff",
-    cursor: "pointer",
-    transition: "background 0.3s",
-    "&:hover": {
-      background: "rgba(255, 255, 255, 0.1)",
-    },
-  },
-  dropdownWrapper: {
-    position: "relative",
-  },
-  label: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "15px 20px",
-    color: "#fff",
-    cursor: "pointer",
-    transition: "background 0.3s",
-    "&:hover": {
-      background: "rgba(255, 255, 255, 0.1)",
-    },
-  },
-  arrow: {
-    width: "10px",
-    height: "10px",
-    borderTop: "2px solid #fff",
-    borderRight: "2px solid #fff",
-    transform: "rotate(45deg)",
-    transition: "transform 0.3s",
-  },
-  arrowOpen: {
-    transform: "rotate(135deg)",
-  },
-  dropdownContent: {
-    background: "rgba(0, 0, 0, 0.7)",
-    display: "none",
-    padding: "10px 20px",
-    "& ul": {
-      listStyle: "none",
-      margin: 0,
+    ul: {
+      listStyleType: "none",
+      paddingTop: "100px",
+      textAlign: "center",  // Center menu items in the sidebar
       "& li": {
-        padding: "10px 0",
-        color: "#fff",
-        cursor: "pointer",
-        "&:hover": {
-          background: "rgba(255, 255, 255, 0.1)",
+        padding: "20px 0",
+      },
+    },
+    a: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      padding: "5px 20px",
+      color: "#fff",
+      cursor: "pointer",
+      transition: "background 0.3s",
+      "&:hover": {
+        background: "rgba(255, 255, 255, 0.1)",
+      },
+    },
+    dropdownWrapper: {
+      position: "relative",
+    },
+    label: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      padding: "15px 20px",
+      color: "#fff",
+      cursor: "pointer",
+      transition: "background 0.3s",
+      "&:hover": {
+        background: "rgba(255, 255, 255, 0.1)",
+      },
+    },
+    arrow: {
+      width: "10px",
+      height: "10px",
+      borderTop: "2px solid #fff",
+      borderRight: "2px solid #fff",
+      transform: "rotate(45deg)",
+      transition: "transform 0.3s",
+    },
+    arrowOpen: {
+      transform: "rotate(135deg)",
+    },
+    dropdownContent: {
+      background: "rgba(0, 0, 0, 0.7)",
+      display: "none",
+      padding: "10px 20px",
+      maxHeight: "400px",
+      height: "auto",
+      transition:"all 0.5s ease-in-out",
+      borderBottom: "1px solid rgb(33, 46, 65)",
+      "& ul": {
+        listStyle: "none",
+        margin: 0,
+        "& li": {
+          padding: "10px 0",
+          color: "#fff",
+          cursor: "pointer",
+          "&:hover": {
+            background: "rgba(255, 255, 255, 0.1)",
+          },
         },
       },
     },
-  },
-  dropdownContentOpen: {
-    display: "block",
-  },
-}));
+    dropdownContentOpen: {
+      display: "block",
+    },
+  }));
 
 const data = [
   { name: "HOME", link: "/" },
@@ -189,7 +194,7 @@ const Index = () => {
   const classes = useStyles();
   const [active, setActive] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
-
+  
   useEffect(() => {
     document.body.style.overflow = active ? "hidden" : "unset";
   }, [active]);
