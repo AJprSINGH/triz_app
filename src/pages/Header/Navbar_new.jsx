@@ -3,6 +3,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     container: {
+        position: "relative",
     width: "100%", // Ensure the container takes the full width
     margin: 0, // Remove default margin
     padding: 0, // Remove default padding
@@ -215,7 +216,11 @@ const Index = () => {
   const classes = useStyles();
   const [active, setActive] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
-  
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true); // Set to true after the first render
+  }, []);
   useEffect(() => {
     document.body.style.overflow = active ? "hidden" : "unset";
   }, [active]);
