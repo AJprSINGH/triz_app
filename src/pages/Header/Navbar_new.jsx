@@ -86,6 +86,8 @@ const useStyles = makeStyles((theme) => ({
       width: "50%",
       overflowY: "auto",
       height: "90vh",
+      fontWeight: 500,
+      fontSize: '15px',
       background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",  // Change background when menu is active
       transform: "translateX(0)",
       transition: "transform 0.5s ease-in-out",
@@ -124,8 +126,16 @@ const useStyles = makeStyles((theme) => ({
       cursor: "pointer",
       transition: "background 0.3s",
       "&:hover": {
-        background: "rgba(255, 255, 255, 0.1)",
+        background: "rgba(255, 255, 255, 0.9)", // Background turns white
+        color: "rgb(33, 46, 65)", // Text color changes
+        borderLeft: "4px solid rgb(33, 46, 65)", // Left border appears
       },
+      "&.active": {
+      background: "rgba(255, 255, 255, 1)", // Keep the background white when active
+      color: "rgb(33, 46, 65)", // Keep text color when active
+      borderLeft: "4px solid rgb(33, 46, 65)", // Keep left border when active
+      transition: "transform 0.3s",
+    },
     },
     arrow: {
       width: "10px",
@@ -137,15 +147,20 @@ const useStyles = makeStyles((theme) => ({
     },
     arrowOpen: {
       transform: "rotate(135deg)",
+      borderTop: "2px solid rgb(33, 46, 65)",
+      borderRight: "2px solid rgb(33, 46, 65)",
     },
     dropdownContent: {
-      background: "rgba(0, 0, 0, 0.7)",
-      display: "none",
-      padding: "10px 20px",
-      maxHeight: "400px",
-      height: "auto",
-      transition:"all 0.5s ease-in-out",
-      borderBottom: "1px solid rgb(33, 46, 65)",
+        background: "rgba(33, 46, 65, 1)",
+        display: "block", // Keep this for the default state
+        maxHeight: "0", // Initially set to 0
+        overflowY: "auto    ", // Prevent overflow when closed
+        opacity: 0, // Start with opacity 0
+        transition: "max-height 0.5s ease-in-out, opacity 0.5s ease-in-out", // Transition for max-height and opacity
+        position: "absolute",
+        left: 0,
+        width: "100%",
+        zIndex: 10,
       "& ul": {
         listStyle: "none",
         margin: 0,
@@ -160,8 +175,12 @@ const useStyles = makeStyles((theme) => ({
       },
     },
     dropdownContentOpen: {
-      display: "block",
-    },
+        maxHeight: "400px", // Set to a value that accommodates your content
+        opacity: 1, // Change opacity to 1 when open
+    },  
+    dropdownLink : {
+        
+    } 
   }));
 
 const data = [
@@ -232,7 +251,7 @@ const Index = () => {
             <li key={key} className={classes.dropdownWrapper}>
               <div
                 onClick={() => toggleDropdown(key)}
-                className={classes.label}
+                className={`${classes.label} ${openDropdown === key ? 'active' : ''}`}
               >
                 {key}
                 <div
