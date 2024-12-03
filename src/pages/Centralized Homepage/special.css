@@ -1,0 +1,16 @@
+@keyframes blink {
+    0% {
+      background-color: #68d391; /* Light green */
+    }
+    50% {
+      background-color: #38a169; /* Dark green */
+    }
+    100% {
+      background-color: #68d391; /* Light green */
+    }
+  }
+  
+  .animate-blink {
+    animation: blink 2s infinite;
+  }
+  
