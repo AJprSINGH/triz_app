@@ -1,7 +1,6 @@
   .aboutus-container {
     position: relative;
     height: 600px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -39,9 +38,7 @@
   }
 
   .aboutus-container-new {
-    position: relative;
     min-height: 100vh; /* Ensure the container covers the full viewport height */
-    padding: 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;

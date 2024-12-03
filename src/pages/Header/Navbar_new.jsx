@@ -3,7 +3,6 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        position: "relative",
     width: "100%", // Ensure the container takes the full width
     margin: 0, // Remove default margin
     padding: 0, // Remove default padding
