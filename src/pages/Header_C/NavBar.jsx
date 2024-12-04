@@ -5,7 +5,7 @@ import FeatureList from './FeatureList';
 import Link from 'next/link'; 
 import './header.css';
 import { useRouter } from 'next/router';
-import NV1 from './Navbar_new';
+import NV1 from './Header/Navbar_new';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },

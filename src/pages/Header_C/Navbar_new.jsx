@@ -233,7 +233,7 @@ const Index = () => {
       <div className={classes.container}>
         <div className={classes.wrapper}>
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d81f651477a8ed310482ed81dfc64acfc3018cb20cf04e3989f524cbb10ffa51"
+            src="/center_home_images/Group 190 (1).png"
             alt="logo"
             className="object-contain shrink-0 w-28 max-w-full aspect-[2.67]"
           />
