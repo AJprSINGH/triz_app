@@ -201,6 +201,14 @@ const dropdownData = {
       { label: "Analytics", href: "/analyticservice" },
       { label: "Integration", href: "/integration" },
     ],
+    SERVICES: [
+      { label: "Integration", href: "/integration" },
+      { label: "Services supports", href: "/supportservice" },
+      { label: "Mobile app", href: "/mobileservices" },
+      { label: "Quality improvement", href: "/pione" },
+      { label: "Process improvement", href: "/pitwo" },
+      { label: "Rolewise solutions", href: "/pithree" },
+    ],
   };
 
 const Index = () => {
@@ -225,7 +233,7 @@ const Index = () => {
       <div className={classes.container}>
         <div className={classes.wrapper}>
           <img
-            src="/center_home_images/Group 190 (1).png"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/d81f651477a8ed310482ed81dfc64acfc3018cb20cf04e3989f524cbb10ffa51"
             alt="logo"
             className="object-contain shrink-0 w-28 max-w-full aspect-[2.67]"
           />
