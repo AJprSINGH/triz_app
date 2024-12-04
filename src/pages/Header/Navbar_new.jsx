@@ -238,7 +238,7 @@ const Index = ({ dropdownDataType }) => {
   const toggleDropdown = (key) => {
     setOpenDropdown((prev) => (prev === key ? null : key));
   };
-  const dropdownData = dropdownDataOptions[dropdownDataType];
+  const dropdownData = dropdownDataOptions[dropdownDataType] || {}; 
   return (
     <div className={classes.main}>
       <div className={classes.container}>

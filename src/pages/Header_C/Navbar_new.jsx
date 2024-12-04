@@ -217,7 +217,7 @@ const Index = () => {
   const toggleDropdown = (key) => {
     setOpenDropdown((prev) => (prev === key ? null : key));
   };
-  const dropdownData = dropdownDataOptions[dropdownDataType] || {};
+
   return (
     <div className={classes.main}>
       <div className={classes.container}>
@@ -247,7 +247,7 @@ const Index = () => {
             <li key={key} className={classes.dropdownWrapper}>
               <div
                 onClick={() => toggleDropdown(key)}
-                className={`${classes.label} ${openDropdown === key ? "active" : ""}`}
+                className={`${classes.label} ${openDropdown === key ? 'active' : ''}`}
               >
                 {key}
                 <div
