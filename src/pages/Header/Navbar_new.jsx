@@ -88,7 +88,7 @@ const useStyles = makeStyles((theme) => ({
       position: "fixed",
       width: "50%",
       overflowY: "auto",
-      height: "90vh",
+      height: "100vh",
       fontWeight: 500,
       fontSize: '15px',
       background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",  // Change background when menu is active

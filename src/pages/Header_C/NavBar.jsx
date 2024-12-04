@@ -9,11 +9,16 @@ import NV1 from './Navbar_new';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
-  { label: 'SERVICES', layerName: 'services' },
   { label: 'ABOUTUS', layerName: 'aboutus', href: '/aboutus' },
   { label: 'COMPANY', layerName: 'company' },
 ];
-
+const dropdownData = {
+  PRODUCTS: [
+    { label: "K12", href: "/" },
+    { label: "Higher Studies", href: "/lmsservice" },
+    { label: "Corporate", href: "/ccservice" },
+  ],
+};
 function NavBar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const buttonRefs = useRef({});
@@ -86,27 +91,32 @@ function NavBar() {
       </header>
        */}
       {/* Dropdown Content (Products / Services) */}
-      {(activeDropdown === 'products' || activeDropdown === 'services') && (
+      {(activeDropdown === 'products') && (
         <div
-          ref={dropdownRef}
-          className="ps-item absolute bg-white p-5 rounded-t-lg shadow-lg"
-          style={{
-            top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY,
-            left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
-            zIndex: 1000,  // Ensure dropdown is above other content
-          }}
-        >
-          {activeDropdown === 'products' && (
-            <div onMouseLeave={handleMouseLeaveDropdown}>
-              <Menu />
-            </div>
-          )}
-          {activeDropdown === 'services' && (
-            <div onMouseLeave={handleMouseLeaveDropdown}>
-              <FeatureList />
-            </div>
-          )}
-        </div>
+        ref={dropdownRef}
+        className="ps-item absolute bg-white p-5 justify-center align-items-center   rounded-t-lg shadow-lg"
+        style={{
+          top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+10,
+          left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
+          zIndex: 1000,  // Ensure dropdown is above other content
+        }}
+      >
+        {activeDropdown === 'products' && (
+          <div onMouseLeave={handleMouseLeaveDropdown}>
+            <div className="dropdown-menu-wrapper">
+                    <ul className="dropdown-menu">
+                      {dropdownData.PRODUCTS.map((product) => (
+                        <li key={product.label}>
+                          <Link href={product.href} className="dropdown-item">
+                            {product.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+          </div>
+        )}
+      </div>
       )}
     </>
   );

@@ -38,7 +38,7 @@ const SolutionCard1 = () => {
               <div className="flex gap-5 max-md:flex-col">
                 <div className="flex flex-col w-[26%] max-md:ml-0 max-md:w-full">
                   <a
-                    href="https://triz-app.vercel.app/integration"
+                    href="/"
                     className="flex gap-2.5 justify-center items-center self-center py-2.5 pr-5 pl-5 mt-11 max-w-[150px] text-white rounded-xl pointer-events-auto min-h-[50px] shadow-[0px_17px_33px_rgba(51,32,0,0.8)] w-[200px] max-md:px-5 max-md:mt-10 bg-green-400 transition-all duration-300 transform hover:scale-105 hover:bg-green-500 animate-blink font-bold"
                     target="_blank"
                     rel="noopener noreferrer"

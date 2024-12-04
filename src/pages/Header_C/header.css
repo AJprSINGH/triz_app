@@ -64,6 +64,8 @@ nav button {
     /* Hover effect for nav links */
     .ps-item:hover {
       color: #5abe41;
+      background: rgba(#444,#444,#444,0.1);
+
     }
     
     /* Create a line under the nav item */
@@ -83,4 +85,5 @@ nav button {
     .ps-item:hover::before {
       width: 100%;
     }
+    
   

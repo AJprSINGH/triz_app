@@ -128,14 +128,15 @@
 
 // export default HeroSection;
 import * as React from "react";
-
+import Service from "./ServicesSection";
 function ImageComponent() {
   return (
+    <>
     <img
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets%2F170cbe9c02a2485986a6dc949bdc8ad3%2Ff6979ed98c4843369e65ddb0f2b1e92c"
       alt="Gallery image"
-      className="box-border object-cover overflow-hidden shrink-0 mt-2 w-full aspect-[2.2] min-h-[20px] min-w-[20px]"
+      className="object-cover overflow-hidden shrink-0 mt-2 w-full aspect-[2.2] min-h-[20px] min-w-[20px]"
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -145,6 +146,9 @@ function ImageComponent() {
       tabIndex={0}
       role="img"
     />
+    <Service />
+    </>
+    
   );
 }
 
