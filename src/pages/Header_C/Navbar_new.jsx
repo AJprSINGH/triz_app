@@ -192,23 +192,11 @@ const data = [
 ];
 
 const dropdownData = {
-    PRODUCTS: [
-      { label: "ERP", href: "/erpservice" },
-      { label: "LMS", href: "/lmsservice" },
-      { label: "Career Counselling", href: "/ccservice" },
-      { label: "Education Ai", href: "/aiservice" },
-      { label: "Communication", href: "/commservice" },
-      { label: "Analytics", href: "/analyticservice" },
-      { label: "Integration", href: "/integration" },
-    ],
-    SERVICES: [
-      { label: "Integration", href: "/integration" },
-      { label: "Services supports", href: "/supportservice" },
-      { label: "Mobile app", href: "/mobileservices" },
-      { label: "Quality improvement", href: "/pione" },
-      { label: "Process improvement", href: "/pitwo" },
-      { label: "Rolewise solutions", href: "/pithree" },
-    ],
+  PRODUCTS: [
+    { label: "K12", href: "/" },
+    { label: "Higher Studies", href: "/lmsservice" },
+    { label: "Corporate", href: "/ccservice" },
+  ],
   };
 
 const Index = () => {

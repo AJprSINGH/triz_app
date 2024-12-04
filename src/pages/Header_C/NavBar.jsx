@@ -40,7 +40,7 @@ function NavBar() {
   return (
     <>
       {/* Large Screens (lg) */}
-      <header className="hidden lg:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
+      <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
         <img
           loading="lazy"
           src="/center_home_images/Group 190 (1).png"
@@ -77,7 +77,7 @@ function NavBar() {
       </header>
 
       {/* Medium Screens (md) */}
-      <header className="lg:hidden md:flex overflow-hidden">
+      <header className="lg:hidden md:hidden sm:flex overflow-hidden">
         {/* Future content for medium screens (md) */}
         <NV1 />
         <div className="hidden"> {/* Placeholder or future header content for md screens */} </div>
