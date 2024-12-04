@@ -19,7 +19,7 @@ const AboutMain = () => {
   }, []);
 
   return (
-    <>
+    <div className="flex flex-col w-full max-w-full mx-auto overflow-x-hidden">
       <main className='font-bold text-xl'>
       <Header />
       </main>
@@ -55,7 +55,7 @@ const AboutMain = () => {
     <Journey />
     <br/>
     <Footer />
-    </>
+    </div>
   );
 };
 
