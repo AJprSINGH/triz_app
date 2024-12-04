@@ -5,7 +5,7 @@ import FeatureList from './FeatureList';
 import Link from 'next/link'; 
 import './header.css';
 import { useRouter } from 'next/router';
-import NV1 from '../Header/Navbar_new';
+import NV1 from './Navbar_new';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
@@ -94,10 +94,10 @@ function NavBar() {
       {(activeDropdown === 'products') && (
         <div
         ref={dropdownRef}
-        className="ps-item absolute bg-white p-5 justify-center align-items-center   rounded-t-lg shadow-lg"
+        className={`ps-item absolute bg-gradient-to-r text-white text-[15px] from-[rgb(42,62,92)] to-[rgb(42,62,92)] p-5 shadow-lg transition-all duration-300 ease-in-out fade-in`}
         style={{
           top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+10,
-          left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
+          left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-1,
           zIndex: 1000,  // Ensure dropdown is above other content
         }}
       >
