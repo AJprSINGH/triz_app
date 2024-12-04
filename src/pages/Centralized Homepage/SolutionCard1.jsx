@@ -8,7 +8,7 @@ const images = [
   { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/d988235953d7011f0d4b7661617899319e9b2bb15c748603b8d1dd5302a0466b?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3", alt: "Educational solution feature 4" }
 ];
 
-export const SolutionCard1 = () => {
+const SolutionCard1 = () => {
   return (
     <div className="overflow-hidden self-stretch px-2.5 pt-0 pb-4 mt-0 -ml-px w-full bg-white rounded-xl shadow-2xl max-md:mt-10 max-md:max-w-full">
       <div className="flex gap-5 max-md:flex-col">
@@ -67,3 +67,5 @@ export const SolutionCard1 = () => {
     </div>
   );
 };
+
+export default SolutionCard1;

@@ -67,3 +67,4 @@ export const SolutionCard3 = () => {
     </div>
   );
 };
+export default SolutionCard3;
