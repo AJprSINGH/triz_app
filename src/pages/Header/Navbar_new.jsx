@@ -193,7 +193,8 @@ const data = [
   { name: "COMPANY", link: "/events" },
 ];
 
-const dropdownData = {
+const dropdownDataOptions = {
+  headerNavbar: {
     PRODUCTS: [
       { label: "ERP", href: "/erpservice" },
       { label: "LMS", href: "/lmsservice" },
@@ -211,9 +212,17 @@ const dropdownData = {
       { label: "Process improvement", href: "/pitwo" },
       { label: "Rolewise solutions", href: "/pithree" },
     ],
-  };
+  },
+  headerCNavbar: {
+    PRODUCTS: [
+      { label: "K12", href: "/" },
+      { label: "Higher Studies", href: "/lmsservice" },
+      { label: "Corporate", href: "/ccservice" },
+    ],
+  },
+};
 
-const Index = () => {
+const Index = ({ dropdownDataType }) => {
   const classes = useStyles();
   const [active, setActive] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
@@ -229,7 +238,7 @@ const Index = () => {
   const toggleDropdown = (key) => {
     setOpenDropdown((prev) => (prev === key ? null : key));
   };
-
+  const dropdownData = dropdownDataOptions[dropdownDataType];
   return (
     <div className={classes.main}>
       <div className={classes.container}>
