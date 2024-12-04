@@ -35,7 +35,7 @@ function NavBar() {
   return (
     <>
       {/* Large Screens (lg) */}
-      <header className="hidden lg:flex md-flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-green-200 to-green-400">
+      <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-green-200 to-green-400">
         <img
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/d81f651477a8ed310482ed81dfc64acfc3018cb20cf04e3989f524cbb10ffa51?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
@@ -72,7 +72,7 @@ function NavBar() {
       </header>
 
       {/* Medium Screens (md) */}
-      <header className="lg:hidden md:hidden sm-flex overflow-hidden">
+      <header className="lg:hidden md:hidden sm:flex overflow-hidden">
         {/* Future content for medium screens (md) */}
         <NV1 />
         <div className="hidden"> {/* Placeholder or future header content for md screens */} </div>
