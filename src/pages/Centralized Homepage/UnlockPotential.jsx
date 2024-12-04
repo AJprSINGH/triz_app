@@ -8,7 +8,7 @@ import Scroll from '../ScrollToTop/Scroll';
 import Footer from '../Footer_C/Footer';
 function UnlockPotential() {
   return (
-    <div className="w-full max-w-[1920px] mx-auto">
+    <div className="flex flex-col w-full max-w-[1920px] mx-auto overflow-x-hidden">
       <main className="font-bold text-xl">
       <Header />
       </main>

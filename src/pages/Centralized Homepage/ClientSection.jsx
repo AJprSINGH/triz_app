@@ -11,7 +11,7 @@ const ClientSection = () => {
   const containerWidth = clientWidth * clients.length; // Total width of all logos
 
   return (
-    <section className="flex overflow-hidden flex-col pt-2 pb-2 mt-10 mb-6 w-full text-3xl font-bold text-center text-amber-500 bg-blue-100 bg-opacity-80 max-md:mt-10 max-md:max-w-full">
+    <section className="flex overflow-hidden flex-col pt-2 pb-2 mt-10 mb-6 w-full text-3xl font-bold text-center text-amber-500 bg-blue-100 bg-opacity-80">
       <h2 className="self-center">Our valued clients</h2>
       <div className="mt-0 max-md:mt-10 relative w-full h-[150px]">
         {/* Image container with smooth scrolling animation */}
