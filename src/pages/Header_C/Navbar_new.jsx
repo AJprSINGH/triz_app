@@ -90,7 +90,7 @@ const useStyles = makeStyles((theme) => ({
       position: "fixed",
       width: "50%",
       overflowY: "auto",
-      height: "100vh",
+      height: "90vh",
       fontWeight: 500,
       fontSize: '15px',
       background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",  // Change background when menu is active
@@ -179,7 +179,7 @@ const useStyles = makeStyles((theme) => ({
       },
     },
     dropdownContentOpen: {
-        maxHeight: "400px", // Set to a value that accommodates your content
+        maxHeight: "500px", // Set to a value that accommodates your content
         opacity: 1, // Change opacity to 1 when open
     },  
     dropdownLink : {
