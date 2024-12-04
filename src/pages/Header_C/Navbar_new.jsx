@@ -79,6 +79,8 @@ const useStyles = makeStyles((theme) => ({
       position: "fixed",
       width: "50%",
       height: "100vh",
+      fontWeight: 500,
+      fontSize: '15px',
       background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",
       transform: "translateX(100%)",
       transition: "transform 0.5s ease-in-out",

@@ -80,6 +80,8 @@ const useStyles = makeStyles((theme) => ({
       width: "50%",
       height: "100vh",
       background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",
+      fontWeight: 500,
+      fontSize: '15px',
       transform: "translateX(100%)",
       transition: "transform 0.5s ease-in-out",
       right:0,
