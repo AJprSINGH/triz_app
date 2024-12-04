@@ -217,7 +217,7 @@ const Index = () => {
   const toggleDropdown = (key) => {
     setOpenDropdown((prev) => (prev === key ? null : key));
   };
-
+  const dropdownData = dropdownDataOptions[dropdownDataType] || {};
   return (
     <div className={classes.main}>
       <div className={classes.container}>
@@ -243,37 +243,36 @@ const Index = () => {
               </a>
             </li>
           ))}
-          const dropdownData = dropdownDataOptions[dropdownDataType] || {};
-Object.entries(dropdownData).map(([key, items]) = (
-  <li key={key} className={classes.dropdownWrapper}>
-    <div
-      onClick={() => toggleDropdown(key)}
-      className={`${classes.label} ${openDropdown === key ? 'active' : ''}`}
-    >
-      {key}
-      <div
-        className={`${classes.arrow} ${
-          openDropdown === key ? classes.arrowOpen : ""
-        }`}
-      />
-    </div>
-    <div
-      className={`${classes.dropdownContent} ${
-        openDropdown === key ? classes.dropdownContentOpen : ""
-      }`}
-    >
-      <ul>
-        {items.map((item, index) => (
-          <li key={index}>
-            <a href={item.href} className={classes.dropdownLink}>
-              {item.label}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </li>
-))
+          {Object.entries(dropdownData).map(([key, items]) => (
+            <li key={key} className={classes.dropdownWrapper}>
+              <div
+                onClick={() => toggleDropdown(key)}
+                className={`${classes.label} ${openDropdown === key ? "active" : ""}`}
+              >
+                {key}
+                <div
+                  className={`${classes.arrow} ${
+                    openDropdown === key ? classes.arrowOpen : ""
+                  }`}
+                />
+              </div>
+              <div
+                className={`${classes.dropdownContent} ${
+                  openDropdown === key ? classes.dropdownContentOpen : ""
+                }`}
+              >
+                <ul>
+                  {items.map((item, index) => (
+                    <li key={index}>
+                      <a href={item.href} className={classes.dropdownLink}>
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
