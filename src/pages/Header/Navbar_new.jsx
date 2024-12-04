@@ -78,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
     sidenav: {
       position: "fixed",
       width: "50%",
-      height: "100vh",
+      height: "88vh",
       background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",
       fontWeight: 500,
       fontSize: '15px',
@@ -90,8 +90,8 @@ const useStyles = makeStyles((theme) => ({
       position: "fixed",
       width: "50%",
       overflowY: "auto",
-      height: "90vh",
-      fontWeight: 500,
+      height: "88vh",
+      fontWeight: 500,  
       fontSize: '15px',
       background: "linear-gradient(150deg, #b1bfd8 0%, #667eaa 74%)",  // Change background when menu is active
       transform: "translateX(0)",
@@ -179,7 +179,7 @@ const useStyles = makeStyles((theme) => ({
       },
     },
     dropdownContentOpen: {
-        maxHeight: "500px", // Set to a value that accommodates your content
+        maxHeight: "400px", // Set to a value that accommodates your content
         opacity: 1, // Change opacity to 1 when open
     },  
     dropdownLink : {
