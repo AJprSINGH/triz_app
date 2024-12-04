@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ImageCard } from "./ImageCard";
+import  ImageCard  from "./ImageCard";
 
 const images = [
   { src: "https://cdn.builder.io/api/v1/image/assets/TEMP/1fd0311a3ef12d779ef13eb9a0d802b142bef8eea0c234c66082154398a75aed?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3", alt: "Educational solution feature 1" },

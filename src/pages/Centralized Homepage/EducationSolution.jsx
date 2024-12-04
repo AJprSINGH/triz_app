@@ -1,7 +1,7 @@
 import * as React from "react";
-import { SolutionCard1 } from "./SolutionCard1"; // Assuming SolutionCard component exists
-import { SolutionCard2 } from "./SolutionCard2";
-import { SolutionCard3 } from "./SolutionCard3";
+import  SolutionCard1  from "./SolutionCard1"; 
+import  SolutionCard2  from "./SolutionCard2";
+import  SolutionCard3  from "./SolutionCard3";
 
 export default function EducationSolutions() {
   // State to manage the selected solution
