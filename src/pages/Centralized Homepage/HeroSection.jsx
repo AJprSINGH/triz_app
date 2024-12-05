@@ -57,6 +57,7 @@ export default function HeroSection() {
                 className="flex gap-2.5 justify-center items-center self-center py-2.5 pr-8 pl-9 mt-11 max-w-full text-white rounded-xl pointer-events-auto min-h-[50px] shadow-[0px_17px_33px_rgba(51,32,0,0.8)] w-[200px] max-md:px-5 max-md:mt-10 bg-green-400 transition-all duration-300 transform hover:scale-105 hover:bg-green-500 animate-blink"
                 tabIndex="0"
                 role="button"
+                onClick={() => window.open('/aboutus', '_blank')}
                 onKeyPress={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                     // Handle click
