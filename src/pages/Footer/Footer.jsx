@@ -27,18 +27,18 @@ const footerColumns = [
 
 function Footer() {
   return (
-    <footer className="flex flex-col items-center px-2 py-1 max-md:px-2 bg-gradient-to-r from-green-300 to-green-500">
-      <div className="flex flex-wrap mt-10 gap-48 w-full max-w-[1760px] max-md:max-w-full">
+    <footer className="flex flex-col lg:px-2 lg:py-2 items-center bg-gradient-to-r from-green-300 to-green-500 sm:px-4 sm:py-6">
+      <div className="lg:flex lg:flex-wrap lg:mt-10 lg:gap-48 lg:w-full lg:max-w-[1760px] max-md:max-w-full">
         <div className="flex flex-col items-center font-bold">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a56b7f30c288fdbf94315759b0debfadd22be2e9a91b1b4848f1a36feab3aa4?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
-            className="object-contain max-w-full ml-20 aspect-[2.67] w-[200px]"
+            className="object-contain max-w-full ml-20 aspect-[2.67] lg:w-[200px] sm:w-[120px] sm:mb-4"
             alt="Company Logo"
           />
         </div>
-        <nav className="flex-auto my-auto">
-          <div className="flex max-md:flex-col">
+        <nav className="lg:flex md:flex lg:flex-auto lg:my-auto sm:hidden"> 
+       
             {footerColumns.map((column, index) => (
               <FooterColumn
                 key={index}
@@ -47,18 +47,59 @@ function Footer() {
                 itemRoutes={column.itemRoutes}  // Pass itemRoutes to FooterColumn
               />
             ))}
-          </div>
+
         </nav>
+<nav className="flex w-full justify-center gap-12 max-md:flex-wrap sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-6 md:hidden">
+  {footerColumns.map((column, index) => (
+    <FooterColumn
+      key={index}
+      title={column.title}
+      items={column.items}
+      itemRoutes={column.itemRoutes}  // Pass itemRoutes to FooterColumn
+    />
+  ))}
+</nav>
       </div>
 
       {/* Centered Copyright and Social Icons */}
-      <div className="flex flex-wrap justify-center items-center gap-40 mt-10 text-center">
-        <p className="text-xl font-bold text-black">
+      <div className="flex flex-wrap justify-center items-center lg:gap-40 lg:mt-10 sm:gap-10 sm:mt-2 text-center">
+        <p className="lg:text-xl lg:font-bold text-black sm:font-bold sm:text-md">
           All Rights Are Reserved By 2024 © Triz Innovation PVT LTD.
         </p>
         <SocialIcons />
       </div>
     </footer>
+  //   <footer className="flex flex-col items-center bg-gradient-to-r from-green-300 to-green-500 px-4 py-6">
+  //   {/* Logo Section */}
+  //   <div className="flex flex-col items-center sm:items-start sm:w-full">
+  //     <img
+  //       loading="lazy"
+  //       src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a56b7f30c288fdbf94315759b0debfadd22be2e9a91b1b4848f1a36feab3aa4?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
+  //       className="object-contain w-[200px] aspect-[2.67] sm:w-[120px] sm:mb-4"
+  //       alt="Company Logo"
+  //     />
+  //   </div>
+
+  //   {/* Footer Columns */}
+  //   <nav className="flex w-full justify-center gap-12 max-md:flex-wrap sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-6">
+  //     {footerColumns.map((column, index) => (
+  //       <FooterColumn
+  //         key={index}
+  //         title={column.title}
+  //         items={column.items}
+  //         itemRoutes={column.itemRoutes}
+  //       />
+  //     ))}
+  //   </nav>
+
+  //   {/* Copyright and Social Icons */}
+  //   <div className="flex flex-col items-center gap-4 mt-6 sm:mt-4">
+  //     <p className="text-sm font-semibold text-black sm:text-xs text-center">
+  //       All Rights Are Reserved By 2024 © Triz Innovation PVT LTD.
+  //     </p>
+  //     <SocialIcons />
+  //   </div>
+  // </footer>
   );
 }
 

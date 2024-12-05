@@ -10,7 +10,7 @@ const socialIcons = [
 
 function SocialIcons() {
   return (
-    <div className="flex flex-wrap flex-1 gap-10 max-md:max-w-full">
+    <div className="flex lg:gap-8 max-md:max-w-full sm:gap-4 sm:justify-center">
       {socialIcons.map((icon, index) => (
         <img
           key={index}
@@ -21,6 +21,17 @@ function SocialIcons() {
         />
       ))}
     </div>
+  //   <div className="flex gap-6 sm:gap-4 sm:justify-center">
+  //   {socialIcons.map((icon, index) => (
+  //     <img
+  //       key={index}
+  //       loading="lazy"
+  //       src={icon.src}
+  //       alt={icon.alt}
+  //       className="w-8 h-8 sm:w-6 sm:h-6"
+  //     />
+  //   ))}
+  // </div>
   );
 }
 
