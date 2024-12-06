@@ -8,10 +8,13 @@ const useStyles = makeStyles((theme) => ({
     padding: 0, // Remove default padding
     background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)", // Background color
     zIndex:999,
+    overflowX: "hidden",
+    
   },
     wrapper: {
       padding: "20px 40px",
       display: "flex",
+      overflowX: "hidden",
       justifyContent: "space-between",
       alignItems: "center",
     },
