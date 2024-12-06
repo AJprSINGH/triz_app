@@ -5,7 +5,7 @@ function FooterColumn({ title, items = [], itemRoutes = [] }) {
   return (
     <div className="flex flex-col w-[22%] max-md:w-full max-md:mb-4 sm:w-[45%] sm:mb-2">
       <div className="flex flex-col grow text-sm mt-6 items-start text-black">
-        <h4 className="lg:text-xl font-bold mb-3 sm:text-base sm:mb-2">{title}</h4>
+        <h4 className="lg:text-xl font-bold sm:text-base">{title}</h4>
         {items.length > 0 ? (
           items.map((item, index) => (
             <Link
