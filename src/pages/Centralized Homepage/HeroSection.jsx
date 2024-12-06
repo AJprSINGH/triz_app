@@ -36,12 +36,12 @@ export default function HeroSection() {
   return (
     <div className="flex flex-col px-24 pt-16 rounded-none">
       <h1 className="z-10 self-center mt-0 text-4xl font-bold text-center text-slate-700 w-[1043px] max-md:max-w-full max-md:text-4xl">
-        Empowering Education, Elevating Careers, Transforming Futures
+        Empowering Education, Elevating Careers,  <br></br>Transforming Futures
       </h1>
       <div className="mt-10 w-full max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col self-stretch my-auto w-full text-lg font-bold max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-col self-stretch my-auto w-full text-sm font-bold max-md:mt-10 max-md:max-w-full">
             <div className="text-black max-md:max-w-full text-justify leading-relaxed">
                 Scholar Clone is an all-in-one platform designed for schools,
                 higher education institutions, and the corporate sector,
@@ -54,10 +54,14 @@ export default function HeroSection() {
                 future readiness and endless opportunities.
             </div>
             <div
-                className="flex gap-2.5 justify-center items-center self-center py-2.5 pr-8 pl-9 mt-11 max-w-full text-white rounded-xl pointer-events-auto min-h-[50px] shadow-[0px_17px_33px_rgba(51,32,0,0.8)] w-[200px] max-md:px-5 max-md:mt-10 bg-green-400 transition-all duration-300 transform hover:scale-105 hover:bg-green-500 animate-blink"
+                className="flex gap-2.5 justify-center items-center self-center py-2.5 mt-11 max-w-full text-white text-md rounded-xl pointer-events-auto min-h-[50px] w-[180px] max-md:px-5 max-md:mt-10 bg-green-400 transition-all duration-300 transform hover:scale-105 hover:bg-green-500 animate-blink"
                 tabIndex="0"
                 role="button"
                 onClick={() => window.open('/aboutus', '_blank')}
+                style={{
+                  boxShadow: '0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset', // Adding inset shadow for bottom side
+                  fontFamily: 'Merriweather-Bold, serif',
+                }}
                 onKeyPress={(e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                     // Handle click
@@ -68,7 +72,7 @@ export default function HeroSection() {
             </div>
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-7/12 max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col ml-5 w-7/12 max-md:ml-0 max-md:w-full backdrop-blur-[200px]">
             <div className="grow max-md:mt-10 max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col">
                 <div className="flex flex-col w-[45%] max-md:ml-0 max-md:w-full">

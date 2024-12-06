@@ -14,10 +14,10 @@ export default function EducationSolutions() {
 
   return (
     <div className="flex flex-col items-center px-20 mt-10">
-      <div className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-xl font-merriweather">
-        Find a Way to Your Success
+      <div className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-xl" style={{ fontFamily: 'Merriweather-Bold, serif' }}>
+        Find a Way to your Success
     </div>
-      <div className="flex flex-wrap gap-5 justify-between mt-16 max-w-full text-2xl font-semibold text-black w-[744px] max-md:mt-10">
+      <div className="flex flex-wrap gap-[-100px] justify-between mt-16 max-w-full text-xl font-semibold text-black w-[444px] max-md:mt-10 font-roboto">
         {/* K-12 Option */}
         <div className="flex flex-col text-center cursor-pointer" onClick={() => handleSolutionSelect('k12')}>
           <div>K-12</div>
