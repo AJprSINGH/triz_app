@@ -27,8 +27,8 @@ const footerColumns = [
 
 function Footer() {
   return (
-    <footer className="flex flex-col lg:px-2 lg:py-2 items-center bg-gradient-to-r from-green-300 to-green-500 sm:px-4 sm:py-6">
-      <div className="lg:flex lg:flex-wrap lg:mt-10 lg:gap-48 lg:w-full lg:max-w-[1760px] max-md:max-w-full">
+    <footer className="flex flex-col lg:px-0 lg:py-2 md:px-0 md:py-0 items-center bg-gradient-to-r from-green-300 to-green-500 sm:px-4 sm:py-6">
+      <div className="lg:flex lg:flex-wrap lg:mt-2 lg:gap-48 lg:w-full lg:max-w-[1760px] max-md:max-w-full">
         <div className="flex flex-col items-center font-bold">
           <img
             loading="lazy"

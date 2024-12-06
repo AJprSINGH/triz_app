@@ -6,8 +6,11 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+
     extend: {
-      screens: { 'sm': { 'min': '639px' , 'max': '640px'} },
+      screens: { 
+        'sm': { 'min': '640px', 'max': '766px' } // Added max width
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
