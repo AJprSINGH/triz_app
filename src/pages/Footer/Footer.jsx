@@ -49,7 +49,7 @@ function Footer() {
             ))}
 
         </nav>
-<nav className="flex w-full justify-center gap-12 max-md:flex-wrap sm:grid sm:grid-cols-2 sm:gap-x-4 sm:gap-y-6 md:hidden">
+<nav className="flex w-full justify-center gap-12 max-md:flex-wrap sm:grid sm:grid-cols-4 sm:gap-x-4 sm:gap-y-6 md:hidden lg:hidden">
   {footerColumns.map((column, index) => (
     <FooterColumn
       key={index}
