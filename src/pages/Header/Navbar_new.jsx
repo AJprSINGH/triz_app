@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     container: {
-    width: "200%", // Ensure the container takes the full width
+    width: "100%", // Ensure the container takes the full width
     margin: 0, // Remove default margin
     padding: 0, // Remove default padding
     background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)", // Background color
