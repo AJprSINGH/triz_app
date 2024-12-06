@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 function FooterColumn({ title, items = [], itemRoutes = [] }) {
   return (
-    <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-      <div className="flex flex-col grow text-sm mt-6 items-start text-black">
-        <h4 className="text-white text-xl font-bold">{title}</h4>
+    <div className="flex flex-col w-[22%] max-md:w-full max-md:mb-4 sm:w-[45%] sm:mb-2">
+      <div className="flex flex-col grow text-sm mt-6 items-start text-white">
+        <h4 className="lg:text-xl font-bold sm:text-base">{title}</h4>
         {items.length > 0 ? (
           items.map((item, index) => (
             <Link

@@ -77,7 +77,7 @@ function NavBar() {
       </header>
 
       {/* Medium Screens (md) */}
-      <header className="lg:hidden md:hidden sm:flex overflow-hidden">
+      <header className="lg:hidden md:hidden sm2:flex overflow-hidden">
         {/* Future content for medium screens (md) */}
         <NV1 dropdownDataType="headerCNavbar" />
         <div className="hidden"> {/* Placeholder or future header content for md screens */} </div>
