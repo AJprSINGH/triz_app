@@ -3,18 +3,15 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
     container: {
-    width: "100%", // Ensure the container takes the full width
+    width: "180%", // Ensure the container takes the full width
     margin: 0, // Remove default margin
     padding: 0, // Remove default padding
     background: "linear-gradient(315deg, #b1bfd8 0%, #667eaa 74%)", // Background color
     zIndex:999,
-    overflowX: "hidden",
-    
   },
     wrapper: {
       padding: "20px 40px",
       display: "flex",
-      overflowX: "hidden",
       justifyContent: "space-between",
       alignItems: "center",
     },
