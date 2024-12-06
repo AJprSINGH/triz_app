@@ -9,7 +9,8 @@ module.exports = {
 
     extend: {
       screens: { 
-        'sm': { 'min': '207px'} // Added max width
+        'sm': { 'min': '207px'}, // Added max width
+        'sm2': { 'min':'207','max': '640px' }
       },
       colors: {
         background: "var(--background)",
