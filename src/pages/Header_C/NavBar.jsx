@@ -7,7 +7,7 @@ import './header.css';
 import { useRouter } from 'next/router';
 import NV1 from '../Header/Navbar_new';
 const navItems = [
-  { label: 'HOME', layerName: 'home', href: '/' },
+  { label: 'HOME', layerName: 'home', href: '/center_home' },
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'ABOUTUS', layerName: 'aboutus', href: '/aboutus' },
   { label: 'COMPANY', layerName: 'company' },
