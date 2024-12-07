@@ -31,7 +31,7 @@ export const SolutionCard2 = () => {
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/a94971d1342021f66b6bdb99e08e0eed39a3fe4d94ea0070e3f43ce9f0466bb5?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
             alt="K-12 Solution Overview"
-            className="box-border object-cover overflow-hidden shrink-0 mt-12 ml-6 w-full aspect-square max-w-[479px] min-h-[20px] min-w-[20px]"
+            className="box-border object-cover overflow-visible shrink-0 mt-12 ml-6 w-full aspect-square max-w-[479px] min-h-[20px] min-w-[20px]"
           />
         </div>
         <div className="flex flex-col ml-5 w-[68%] max-md:ml-0 max-md:w-full">

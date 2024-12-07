@@ -17,7 +17,7 @@ export const SolutionCard3 = () => {
           <img
             loading="lazy"
             src="/center_home_images/Frame 251 (1).png"
-            className="box-border object-cover overflow-hidden shrink-0 mt-12 ml-6 w-full aspect-square max-w-[479px] min-h-[20px] min-w-[20px]"
+            className="box-border object-cover overflow-visible shrink-0 mt-12 ml-6 w-full aspect-square max-w-[479px] min-h-[20px] min-w-[20px]"
           />
         </div>
         <div className="flex flex-col ml-5 w-[68%] max-md:ml-0 max-md:w-full">
