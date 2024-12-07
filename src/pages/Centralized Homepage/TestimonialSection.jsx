@@ -32,7 +32,7 @@ function TestimonialSection() {
   return (
     <div className="flex flex-col items-center rounded-none mt-20">
       <h1 className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-2xl">
-        Our Client's Review
+        Our Client&apos;s Review
       </h1>
       <div className="flex items-center justify-center gap-10 mt-16 w-full relative px-10">
         
