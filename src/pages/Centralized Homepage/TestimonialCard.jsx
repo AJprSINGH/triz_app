@@ -14,10 +14,10 @@ function TestimonialCard({ image, name, review }) {
         </div>
         <div className="flex flex-col ml-5 w-4/5 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col text-white max-md:mt-10 max-md:max-w-full">
-            <div className="self-start text-4xl font-bold">
+            <div className="self-start text-2xl font-bold">
               {name}
             </div>
-            <div className="mt-6 text-2xl max-md:max-w-full">
+            <div className="mt-6 text-xl max-md:max-w-full">
               {review}
             </div>
           </div>
