@@ -6,6 +6,7 @@ import Client from './ClientSection';
 import Contact from '../Contact/ContactCard';
 import Scroll from '../ScrollToTop/Scroll';
 import Footer from '../Footer/Footer';
+import TestimonialsSection from './TestimonialsSection';
 function UnlockPotential() {
   return (
     <div className="flex flex-col w-full max-w-full mx-auto overflow-x-hidden">
@@ -14,6 +15,7 @@ function UnlockPotential() {
       </main>
       <Newone />
       <MainContent />
+      <TestimonialsSection />
       <Client />
       {/* Contact Us Section */}
       <div className="contact-us w-full mt-10">
