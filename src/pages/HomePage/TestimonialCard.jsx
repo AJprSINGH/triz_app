@@ -19,7 +19,7 @@ export default function TestimonialCard({ name, school, testimonial }) {
               </div>
             </div>
             <div className="flex flex-col ml-5 w-1/5 max-md:ml-0 max-md:w-full">
-              <div className="flex shrink-0 mx-auto mt-14 bg-green-600 rounded-full border-blue-100 border-solid border-[10px] h-[110px] w-[110px] max-md:mt-10" />
+              <div className="flex shrink-0 mx-auto mt-14 bg-green-600 rounded-full border-blue-100 border-solid border-[10px] h-[110px] w-[110px] -mb-2.5 -mr-2 max-md:mt-0" />
             </div>
           </div>
         </div>
