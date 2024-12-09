@@ -10,7 +10,6 @@ const menuItems = [
   { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/303074fac57b8331680cc908fd72d94606ce919e4845dcb87f032088d7b2a23c?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3", label: "Education Ai", href: "/aiservice" },
   { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/824ed1fac0236d9ec6653d56c0bff2832669a81baa22ae5f576a08a883e5ed84?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3", label: "Communication", href: "/commservice" },
   { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/a8bfba8153d971bf805da67f7f74fb9b3fb33f8a10416ff0c7d9e04d01836e12?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3", label: "Analytics", href: "/analyticservice" },
-  { icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/1cae688cd453284a63c8e56f4bb2a9549f46ac5043181942c5b49f5045dfd878?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3", label: "Integration", href: "/integration" }
 ];
 
 const Menu = () => (

@@ -51,7 +51,7 @@ const AboutMain = () => {
       <div className={styles['aboutus-container']}>
         <Content />
       </div>
-    <Members />
+    {/* <Members /> */}
     <Journey />
     <br/>
     <Footer />
