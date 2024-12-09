@@ -31,7 +31,7 @@ function TestimonialSection() {
 
   return (
     <div className="flex flex-col items-center rounded-none mt-20">
-      <h1 className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-2xl">
+      <h1 className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-2xl font-noto">
         Our Client&apos;s Review
       </h1>
       <div className="flex items-center justify-center gap-10 mt-16 w-full relative px-10">
@@ -61,7 +61,7 @@ function TestimonialSection() {
         />
       </div>
 
-      <h2 className="mt-20 text-4xl font-bold text-slate-700 max-md:mt-10 max-md:max-w-full max-md:text-3xl">
+      <h2 className="mt-20 text-4xl font-bold font-noto text-slate-700 max-md:mt-10 max-md:max-w-full max-md:text-3xl">
         Our Latest Blogs & Articles
       </h2>
     </div>

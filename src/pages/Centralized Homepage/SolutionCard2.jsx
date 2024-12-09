@@ -36,10 +36,10 @@ export const SolutionCard2 = () => {
         </div>
         <div className="flex flex-col ml-5 w-[68%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col mt-4 w-full max-md:mt-10 max-md:max-w-full">
-            <div className="self-start mt-12 text-2xl font-bold text-black font-noto-sans">
+            <div className="self-start mt-12 text-2xl font-bold text-black font-noto">
             Solution For Higher Education
             </div>
-            <div className="mt-10 text-xl font-bold text-black max-md:max-w-full font-merriweather text-justify leading-relaxed">
+            <div className="mt-10 text-xl font-bold text-black max-md:max-w-full font-roboto text-justify leading-relaxed">
             Scholar Clone transforms higher education with its AI-driven, all-in-one solution, streamlining campus operations, enhancing student engagement, and delivering personalized learning. From advanced analytics to career-focused resources, it empowers institutions to prepare globally competitive graduates and achieve academic excellence.
             </div>
             <div className="mt-3.5 w-full max-md:mr-1.5 max-md:max-w-full">
@@ -54,7 +54,7 @@ export const SolutionCard2 = () => {
                     tabIndex="0"
                     style={{
                       boxShadow: '0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset', // Adding inset shadow for bottom side
-                      fontFamily: 'Merriweather-Bold, serif',
+                      fontFamily: 'merriweather',
                     }}
                     >
                     Know More

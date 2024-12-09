@@ -14,7 +14,7 @@ export default function EducationSolutions() {
 
   return (
     <div className="flex flex-col items-center px-20 mt-10">
-      <div className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-xl" style={{ fontFamily: 'Merriweather-Bold, serif' }}>
+      <div className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-xl font-merriweather">
         Find a Way to your Success
     </div>
       <div className="flex flex-wrap gap-[-100px] justify-between mt-16 max-w-full text-xl font-semibold text-black w-[444px] max-md:mt-10 font-roboto">

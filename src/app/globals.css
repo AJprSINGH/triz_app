@@ -18,22 +18,30 @@
   }
 }
 @font-face {
-  font-family: 'Merriweather-Bold';
-  font-weight: 400;
+  font-family: 'Merriweather';
+  src: url('/fonts/merriweather-bold.woff2') format('woff2'),
+       url('/fonts/merriweather-bold.woff') format('woff'),
+       url('/fonts/merriweather-bold.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
-  src: url('/fonts/Merriweather-Bold.ttf') format('ttf'),
+}
+
+/* Roboto font */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-bold.woff2') format('woff2'),
+       url('/fonts/roboto-bold.woff') format('woff'),
+       url('/fonts/roboto-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto-Bold';
-  font-weight: 400;
+  font-family: 'NotoSans';
+  src: url('/fonts/Noto-Sans-700.woff2') format('woff2'),
+  url('/fonts/Noto-Sans-700.woff') format('woff'),
+  url('/fonts/Noto-Sans-700.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
-  src: url('/fonts/Roboto-Bold.ttf') format('ttf'),
-}
-@font-face {
-  font-family: 'NotoSans-Bold';
-  font-weight: 400;
-  font-style: normal;
-  src: url('/fonts/NotoSans-Bold.ttf') format('ttf'),
 }
 html, body {
   margin: 0;

@@ -6,7 +6,11 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-
+    fontFamily: {
+      roboto: ['Roboto', 'serif'], // Roboto font stack
+      merriweather: ['Merriweather', 'serif'], // Merriweather font stack
+      noto: ['NotoSans', 'serif'], // Merriweather font stack
+    },
     extend: {
       screens: { 
         'sm': { 'min': '207px'}, // Added max width

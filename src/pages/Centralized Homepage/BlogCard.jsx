@@ -13,7 +13,7 @@ const BlogCard = ({ imageSrc, title, imageClassName }) => {
           className={imageClassName}
         />
       </div>
-      <div className="mt-6 text-sm font-bold text-center text-black">
+      <div className="mt-6 text-sm font-bold font-noto text-center text-black">
         {title}
       </div>
     </div>

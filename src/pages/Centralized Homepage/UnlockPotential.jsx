@@ -21,7 +21,7 @@ function UnlockPotential() {
       <Client />
       {/* Contact Us Section */}
       <div className="contact-us w-full mt-10">
-        <h1 className="text-4xl font-bold text-center text-sky-500 mb-12">
+        <h1 className="text-4xl font-bold font-noto text-center text-sky-500 mb-12">
         Contact Us
       </h1> 
         <Contact />
