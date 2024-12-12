@@ -1,7 +1,7 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 
 function MyComponent() {
-  // New array for the fourth section
+    const [visible, setVisible] = useState(false);
   const featuresData = [
     {
       imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d981de9461c0de9797a5ff3f68b1045987f9a007d3f8f72c73883ae521eb5793?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3",
@@ -52,9 +52,19 @@ function MyComponent() {
         link: "https://example.com/academic-excellence"
       },         
   ];
+  useEffect(() => {
+    // Fade in effect when the component mounts
+    setVisible(true);
+    
+    // Optional: Fade out effect after a certain time (e.g., 5 seconds)
+    const timer = setTimeout(() => {
+      setVisible(false);
+    }, 5000); // Adjust duration as needed
 
+    return () => clearTimeout(timer); // Clean up the timer on unmount
+  }, []);
   return (
-    <div className="flex overflow-hidden flex-col items-center px-6 pt-5 pb-8 m-4 bg-white rounded-xl shadow-sm max-md:px-3 max-md:pb-10"style={{
+    <div className={`flex overflow-hidden flex-col items-center px-6 pt-5 pb-8 m-4 bg-white rounded-xl shadow-sm max-md:px-3 max-md:pb-10 transition-opacity duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`} style={{
         boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)', // custom shadow style
       }}>
       <div className="w-full max-w-[1450px] max-md:max-w-full">
