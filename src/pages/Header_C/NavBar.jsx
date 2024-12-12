@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef,useEffect } from 'react';
 import NavItem from './NavItem';
 import Menu from './Menu';
 import FeatureList from './FeatureList';
@@ -6,6 +6,7 @@ import Link from 'next/link';
 import './header.css';
 import { useRouter } from 'next/router';
 import NV1 from '../Header/Navbar_new';
+import MyComponent from './MyComponent';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/center_home' },
   { label: 'PRODUCTS', layerName: 'products' },
@@ -24,7 +25,16 @@ function NavBar() {
   const buttonRefs = useRef({});
   const dropdownRef = useRef(null);
   const router = useRouter();
+  const [dropdownDimensions, setDropdownDimensions] = useState({ width: 0, height: 0 });
 
+useEffect(() => {
+  if (dropdownRef.current) {
+    setDropdownDimensions({
+      width: dropdownRef.current.offsetWidth,
+      height: dropdownRef.current.offsetHeight,
+    });
+  }
+}, [activeDropdown]);
   const handleClick = () => {
     router.push('/contactGlobal');
   };
@@ -40,7 +50,7 @@ function NavBar() {
   return (
     <>
       {/* Large Screens (lg) */}
-      <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
+      <header className="relative hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
         <img
           loading="lazy"
           src="/center_home_images/Group 190 (1).png"
@@ -94,26 +104,17 @@ function NavBar() {
       {(activeDropdown === 'products') && (
         <div
         ref={dropdownRef}
-        className={`ps-item absolute bg-gradient-to-r text-white text-[15px] from-[rgb(42,62,92)] to-[rgb(42,62,92)] p-5 shadow-lg transition-all duration-300 ease-in-out fade-in`}
+        className={`ps-item absolute transition-all duration-300 ease-in-out fade-in`}
         style={{
-          top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+10,
-          left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-1,
-          zIndex: 1000,  // Ensure dropdown is above other content
+          top: 50,
+          left: '0%', 
+          transform: 'translateX(-0%)', 
+          zIndex: 1000,
         }}
       >
         {activeDropdown === 'products' && (
           <div onMouseLeave={handleMouseLeaveDropdown}>
-            <div className="dropdown-menu-wrapper">
-                    <ul className="dropdown-menu">
-                      {dropdownData.PRODUCTS.map((product) => (
-                        <li key={product.label}>
-                          <Link href={product.href} className="dropdown-item">
-                            {product.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                  <MyComponent />
           </div>
         )}
       </div>
@@ -123,3 +124,14 @@ function NavBar() {
 }
 
 export default NavBar;
+{/* <div className="dropdown-menu-wrapper">
+                    <ul className="dropdown-menu">
+                      {dropdownData.PRODUCTS.map((product) => (
+                        <li key={product.label}>
+                          <Link href={product.href} className="dropdown-item">
+                            {product.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div> */}

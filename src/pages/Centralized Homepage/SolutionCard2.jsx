@@ -46,7 +46,7 @@ export const SolutionCard2 = () => {
               <div className="flex gap-5 max-md:flex-col">
                 <div className="flex flex-col w-[26%] max-md:ml-0 max-md:w-full">
                   <a
-                    href="/"
+                    href="triz-apphigher-education.vercel.app/"
                     className="flex gap-2.5 justify-center text-lg items-center self-center py-2.5 pr-5 pl-5 mt-6 max-w-[150px] text-white rounded-lg pointer-events-auto min-h-[10px] shadow-[0px_17px_33px_rgba(51,32,0,0.8)] w-[200px] max-md:px-5 max-md:mt-10 bg-[rgb(122, 194, 68)] transition-all duration-300 transform hover:scale-105 hover:bg-rgb(122, 194, 68) animate-blink font-bold"
                     target="_blank"
                     rel="noopener noreferrer"
