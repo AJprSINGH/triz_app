@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import Link from 'next/link';
 function MyComponent() {
     const [visible, setVisible] = useState(false);
   const featuresData = [
@@ -56,12 +56,7 @@ function MyComponent() {
     // Fade in effect when the component mounts
     setVisible(true);
     
-    // Optional: Fade out effect after a certain time (e.g., 5 seconds)
-    const timer = setTimeout(() => {
-      setVisible(false);
-    }, 5000); // Adjust duration as needed
 
-    return () => clearTimeout(timer); // Clean up the timer on unmount
   }, []);
   return (
     <div className={`flex overflow-hidden flex-col items-center px-6 pt-5 pb-8 m-4 bg-white rounded-xl shadow-sm max-md:px-3 max-md:pb-10 transition-opacity duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`} style={{
@@ -71,32 +66,32 @@ function MyComponent() {
         <div className="flex gap-5 max-md:flex-col">
           {/* First Section with clickable images */}
           <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-            <a href="/" className="flex overflow-hidden flex-col py-0.5 pr-5 w-full text-center rounded-lg max-md:mt-5">
+            <Link href="/" className="flex overflow-hidden flex-col py-0.5 pr-5 w-full text-center rounded-lg max-md:mt-5">
               <img
                 loading="lazy"
                 src="/center_home_images/Group 242.png"
               />
-            </a>
+            </Link >
           </div>
 
           {/* Second Section with clickable images */}
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-            <a href="https://triz-apphigher-education.vercel.app/" className="flex overflow-hidden flex-col grow py-0.5 pr-5 w-full text-center rounded-lg max-md:mt-5">
+            <Link href="https://triz-apphigher-education.vercel.app/" className="flex overflow-hidden flex-col grow py-0.5 pr-5 w-full text-center rounded-lg max-md:mt-5">
               <img
                 loading="lazy"
                 src="/center_home_images/Group 243.png"
               />
-            </a>
+            </Link>
           </div>
 
           {/* Third Section with clickable images */}
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
-            <a href="https://example.com/corporate" className="flex overflow-hidden flex-col grow py-0.5 pr-5 w-full text-center rounded-lg max-md:mt-5">
+            <Link href="https://example.com/corporate" className="flex overflow-hidden flex-col grow py-0.5 pr-5 w-full text-center rounded-lg max-md:mt-5">
               <img
                 loading="lazy"
                 src="/center_home_images/Group 244.png"
               />
-            </a>
+            </Link >
           </div>
         </div>
 
@@ -117,7 +112,7 @@ function MyComponent() {
     {/* Map through the featuresData array to create grid items */}
     {featuresData.map((feature, index) => (
       <div key={index} className="flex flex-1 flex-auto gap-3"> {/* Adjusted gap here as well */}
-        <a href={feature.link} className="flex flex-1 flex-auto gap-3 items-start"> {/* Adjusted gap here as well */}
+        <Link href={feature.link} className="flex flex-1 flex-auto gap-3 items-start"> {/* Adjusted gap here as well */}
           <img
             loading="lazy"
             src={feature.imgSrc}
@@ -131,7 +126,7 @@ function MyComponent() {
               {feature.description}
             </div>
           </div>
-        </a>
+        </Link >
       </div>
     ))}
   </div>
