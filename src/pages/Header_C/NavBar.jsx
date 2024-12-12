@@ -107,8 +107,8 @@ useEffect(() => {
         className={`ps-item absolute transition-all duration-300 ease-in-out fade-in`}
         style={{
           top: 50,
-          left: '0%', 
-          transform: 'translateX(-0%)', 
+          left: '8%', 
+          transform: 'translateX(-4%)', 
           zIndex: 1000,
         }}
       >

@@ -59,7 +59,7 @@ function MyComponent() {
 
   }, []);
   return (
-    <div className={`flex overflow-hidden flex-col items-center px-6 pt-5 pb-8 m-4 bg-white rounded-xl shadow-sm max-md:px-3 max-md:pb-10 transition-opacity duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`} style={{
+    <div className={`flex overflow-hidden flex-col items-center px-6 pt-5 pb-4 m-4 bg-white rounded-xl shadow-sm max-md:px-3 max-md:pb-10 transition-opacity duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`} style={{
         boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)', // custom shadow style
       }}>
       <div className="w-full max-w-[1450px] max-md:max-w-full">
@@ -85,7 +85,7 @@ function MyComponent() {
           </div>
 
           {/* Third Section with clickable images */}
-          <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col ml-5 mr-[-18px] w-[33%] max-md:ml-0 max-md:w-full">
             <Link href="https://example.com/corporate" className="flex overflow-hidden flex-col grow py-0.5 pr-5 w-full text-center rounded-lg max-md:mt-5">
               <img
                 loading="lazy"
