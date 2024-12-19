@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export function CareersHero() {
+export default function CareersHero() {
   return (
     <div className="relative w-full">
     <img
