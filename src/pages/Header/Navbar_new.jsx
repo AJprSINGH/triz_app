@@ -190,7 +190,7 @@ const useStyles = makeStyles((theme) => ({
 const data = [
   { name: "HOME", link: "/" },
   { name: "ABOUT US", link: "/aboutus" },
-  { name: "COMPANY", link: "/events" },
+  { name: "COMPANY", link: "/career" },
 ];
 
 const dropdownDataOptions = {
@@ -216,7 +216,7 @@ const dropdownDataOptions = {
   headerCNavbar: {
     PRODUCTS: [
       { label: "K12", href: "/" },
-      { label: "Higher Studies", href: "/lmsservice" },
+      { label: "Higher Studies", href: "https://triz-apphigher-education.vercel.app/" },
       { label: "Corporate", href: "/ccservice" },
     ],
   },

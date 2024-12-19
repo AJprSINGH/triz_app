@@ -11,7 +11,7 @@ const navItems = [
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'SERVICES', layerName: 'services' },
   { label: 'ABOUTUS', layerName: 'aboutus', href: '/aboutus' },
-  { label: 'COMPANY', layerName: 'company' },
+  { label: 'COMPANY', layerName: 'company' , href: '/career' },
 ];
 
 function NavBar() {

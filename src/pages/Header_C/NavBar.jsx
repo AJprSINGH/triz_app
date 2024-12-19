@@ -11,7 +11,7 @@ const navItems = [
   { label: 'HOME', layerName: 'home', href: '/center_home' },
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'ABOUTUS', layerName: 'aboutus', href: '/aboutus' },
-  { label: 'COMPANY', layerName: 'company' },
+  { label: 'COMPANY', layerName: 'company', href: '/career' },
 ];
 const dropdownData = {
   PRODUCTS: [
