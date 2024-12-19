@@ -10,7 +10,7 @@ export function JobCard({ title, imageSrc }) {
           className="object-contain self-stretch w-full rounded-lg aspect-[2.5] max-w-xs"
           alt={`${title} position`}
         />
-        <div className="mt-2 text-md text-center text-black">
+        <div className="mt-2 text-lg text-center text-black">
           {title}
         </div>
         <button 
