@@ -6,53 +6,47 @@ import { leftMenuItems, rightMenuItems } from "./menuItems";
 export default function FeatureLayout() {
   const [hoveredLeftMenuId, setHoveredLeftMenuId] = React.useState(null);
   const [visible, setVisible] = useState(false);
-
-  // Helper function to filter right-side menu items based on hovered left item
   const filteredRightMenuItems = (hoveredId) => {
-    if (!hoveredId) return []; // Return empty if nothing is hovered
+    if (!hoveredId) return []; 
     switch (hoveredId) {
-      case 1: // "Enterprise Resource Planning"
-        return rightMenuItems.slice(0, 1); // Show the first right-side menu item
-      case 2: // "Learning Management System"
-        return rightMenuItems.slice(1, 2); // Show the second right-side menu item
-      case 3: // "Career Counseling"
-        return rightMenuItems.slice(2, 3); // Show the third right-side menu item
-      case 4: // "Education AI"
-        return rightMenuItems.slice(3, 4); // Show the fourth right-side menu item
+      case 1: 
+        return rightMenuItems.slice(0, 1);
+      case 2: 
+        return rightMenuItems.slice(1, 2); 
+      case 3: 
+        return rightMenuItems.slice(2, 3); 
+      case 4: 
+        return rightMenuItems.slice(3, 4);
       default:
         return [];
     }
   };
 
   useEffect(() => {
-    // Fade in effect when the component mounts
-    console.log("Component mounted, setting visible to true");
+    
     setVisible(true);
   }, []);
 
   return (
     <div
-      className={`overflow-hidden bg-gray-200 rounded-2xl transition-opacity duration-500 ${
-        visible ? "opacity-100" : "opacity-0"
-      }`}
+      className={`overflow-hidden bg-gray-200 rounded-2xl shadow-sm ${visible ? "opacity-100" : "opacity-0"}`}
       style={{
-        boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)', // custom shadow style
+        opacity: visible ? 1 : 0,  
+        transition: 'opacity 0.5s ease-in-out',  
+        boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)', 
       }}
     >
       <div className="relative flex h-full transition-all duration-300 ease-in-out">
         <div
-          className={`flex h-full transition-all duration-300 ease-in-out transition-opacity duration-500 ${
-            visible ? "opacity-100" : "opacity-0"
-          }`}
+          className={`flex h-full`}
           style={{
             width: hoveredLeftMenuId ? "calc(100% + 800px)" : "100%", // Expands to accommodate both right menu and extra content
           }}
         >
-          {/* Left Menu (Initially occupies 100% of the width) */}
-          <div
+        <div
             className={`flex flex-col transition-all duration-300 ease-in-out bg-white`}
             style={{
-              width: hoveredLeftMenuId ? "calc(100% - 800px)" : "100%", // Shrink left menu on hover
+              width: hoveredLeftMenuId ? "calc(100% - 800px)" : "100%",
             }}
           >
             <div className="flex flex-col px-5 pt-24 pb-60 w-full text-sm font-semibold leading-none text-sky-500 shadow-sm max-md:px-5 max-md:pb-24">
@@ -103,19 +97,19 @@ export default function FeatureLayout() {
             }}
           >
             <div className="px-6 py-6 -mt-10">
-            <div>Front Desk Management</div>
-            <div className="flex gap-8 mt-3.5 ml-3.5 text-[12px] text-neutral-500 max-md:ml-2.5">
-              <div className="basis-auto">Know Features</div>
-              <div>Know Benifits</div>
+              <div>Front Desk Management</div>
+              <div className="flex gap-8 mt-3.5 ml-3.5 text-[12px] text-neutral-500 max-md:ml-2.5">
+                <div className="basis-auto">Know Features</div>
+                <div>Know Benifits</div>
+              </div>
+              <div className="mt-10">User/Teacher Management</div>
+              <div className="mt-10">Task Management</div>
+              <div className="mt-10">Complaint Management</div>
+              <div className="mt-10">Discipline Tracking</div>
+              <div className="mt-10">Visitor Management</div>
+              <div className="mt-10">Digital Records</div>
+              <div className="self-stretch mt-10">Inventory & Store Management</div>
             </div>
-            <div className="mt-10">User/Teacher Management</div>
-            <div className="mt-10">Task Management</div>
-            <div className="mt-10">Complaint Management</div>
-            <div className="mt-10">Discipline Tracking</div>
-            <div className="mt-10">Visitor Management</div>
-            <div className="mt-10">Digital Records</div>
-            <div className="self-stretch mt-10">Inventory & Store Management</div>
-          </div>
           </div>
         </div>
       </div>

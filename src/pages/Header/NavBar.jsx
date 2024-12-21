@@ -90,7 +90,7 @@ function NavBar() {
       {(activeDropdown === 'products' || activeDropdown === 'services') && (
         <div
           ref={dropdownRef}
-          className="ps-item absolute transition-all duration-300 ease-in-out fade-in rounded-t-lg shadow-lg"
+          className="ps-item absolute rounded-t-lg shadow-lg"
           style={{
             // top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY,
             // left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,

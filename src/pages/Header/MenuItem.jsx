@@ -24,7 +24,7 @@ export function RightMenuItem({ icon, title, description }) {
         className="object-contain shrink-0 my-auto aspect-square w-[50px]"
       />
       <div className="flex flex-col grow shrink-0 basis-0 w-fit">
-        <div className="mr-8 text-sm leading-none text-blue-500 max-md:mr-2.5">
+        <div className="mr-8 text-sm leading-none text-sky-500 max-md:mr-2.5">
           {title}
         </div>
         <div className="mt-2.5 text-[12px] leading-4 text-sky-500 text-opacity-50">
