@@ -6,6 +6,7 @@ import Link from 'next/link';
 import './header.css';
 import { useRouter } from 'next/router';
 import NV1 from './Navbar_new';
+import FeatureLayout from './FeatureLayout';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
@@ -19,7 +20,7 @@ function NavBar() {
   const buttonRefs = useRef({});
   const dropdownRef = useRef(null);
   const router = useRouter();
-
+  
   const handleClick = () => {
     router.push('/contactGlobal');
   };
@@ -89,16 +90,20 @@ function NavBar() {
       {(activeDropdown === 'products' || activeDropdown === 'services') && (
         <div
           ref={dropdownRef}
-          className="ps-item absolute bg-white p-5 rounded-t-lg shadow-lg"
+          className="ps-item absolute transition-all duration-300 ease-in-out fade-in rounded-t-lg shadow-lg"
           style={{
-            top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY,
-            left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
-            zIndex: 1000,  // Ensure dropdown is above other content
+            // top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY,
+            // left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
+            // zIndex: 1000,  // Ensure dropdown is above other content
+            top: 50,
+            left: '10%', 
+            transform: 'translateX(-4%)', 
+            zIndex: 1000,
           }}
         >
           {activeDropdown === 'products' && (
             <div onMouseLeave={handleMouseLeaveDropdown}>
-              <Menu />
+              <FeatureLayout />
             </div>
           )}
           {activeDropdown === 'services' && (
