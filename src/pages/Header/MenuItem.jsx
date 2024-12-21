@@ -1,4 +1,4 @@
-export function LeftMenuItem({ icon, title }) {
+export default function LeftMenuItem({ icon, title }) {
   return (
     <div className="flex gap-4">
       <img
@@ -14,7 +14,7 @@ export function LeftMenuItem({ icon, title }) {
   );
 }
 
-export function RightMenuItem({ icon, title, description }) {
+export default function RightMenuItem({ icon, title, description }) {
   return (
     <div className="flex flex-wrap gap-10 px-4 py-5 bg-white rounded-md">
       <img
