@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export function JobCard({ title, imageSrc }) {
+export default function JobCard({ title, imageSrc }) {
   return (
     <div className="flex flex-col w-full lg:pl-16 lg:pr-16 sm:w-[45%] md:w-[30%] max-md:w-full">
       <div className="flex flex-col items-center px-4 py-6 w-full font-semibold rounded-lg bg-neutral-100 max-md:mt-8">
