@@ -7,6 +7,7 @@ import './header.css';
 import { useRouter } from 'next/router';
 import NV1 from './Navbar_new';
 import FeatureLayout from './FeatureLayout';
+import zIndex from '@mui/material/styles/zIndex';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
@@ -20,7 +21,12 @@ function NavBar() {
   const buttonRefs = useRef({});
   const dropdownRef = useRef(null);
   const router = useRouter();
-  
+  const [dropdownPosition, setDropdownPosition] = useState({
+    top: 50,
+    left: "45%",
+    transform: "translateX(-4%)",
+    zIndex:1000
+  });
   const handleClick = () => {
     router.push('/contactGlobal');
   };
@@ -31,6 +37,29 @@ function NavBar() {
 
   const handleMouseLeaveDropdown = () => {
     setActiveDropdown(null); // Close dropdown when leaving the dropdown content
+    setDropdownPosition({
+      top: 50,
+      left: "46%",
+      transform: "translateX(-4%)",
+      zIndex:1000
+    });
+  };
+  const handleLeftMenuHover = (id) => {
+    if (id === 1 || id === 2 || id === 3 || id === 4 || id === 5 || id === 6) {
+      setDropdownPosition({
+        top: 50,
+        left: "10%",
+        transform: "translateX(-4%)",
+        zIndex:1000
+      });
+    } else {
+      setDropdownPosition({
+        top: 50,
+        left: "46%",
+        transform: "translateX(-4%)",
+        zIndex:1000
+      });
+    }
   };
 
   return (
@@ -90,25 +119,17 @@ function NavBar() {
       {(activeDropdown === 'products' || activeDropdown === 'services') && (
         <div
           ref={dropdownRef}
-          className="ps-item absolute rounded-t-lg shadow-lg"
-          style={{
-            // top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY,
-            // left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
-            // zIndex: 1000,  // Ensure dropdown is above other content
-            top: 50,
-            left: '10%', 
-            transform: 'translateX(-4%)', 
-            zIndex: 1000,
-          }}
+          className="ps-item absolute transition-all duration-300 ease-in-out fade-in"
+          style={dropdownPosition}
         >
           {activeDropdown === 'products' && (
             <div onMouseLeave={handleMouseLeaveDropdown}>
-              <FeatureLayout />
+              <FeatureLayout onLeftMenuHover={handleLeftMenuHover} />
             </div>
           )}
           {activeDropdown === 'services' && (
             <div onMouseLeave={handleMouseLeaveDropdown}>
-              <FeatureList />
+              {/* <FeatureList /> */}
             </div>
           )}
         </div>
