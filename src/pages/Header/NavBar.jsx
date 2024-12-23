@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import NavItem from './NavItem';
 import Menu from './Menu';
 import FeatureList from './FeatureList';
@@ -8,6 +8,7 @@ import { useRouter } from 'next/router';
 import NV1 from './Navbar_new';
 import FeatureLayout from './FeatureLayout';
 import zIndex from '@mui/material/styles/zIndex';
+import FeatureLayoutNew from '../../SComponents/FeatureLayout';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
@@ -22,29 +23,59 @@ function NavBar() {
   const dropdownRef = useRef(null);
   const router = useRouter();
   const [dropdownPosition, setDropdownPosition] = useState({
-    top: 50,
-    left: "45%",
-    transform: "translateX(-4%)",
-    zIndex:1000
+    top: 0,
+    left: 0,
+    zIndex: 1000,
   });
+
+  useEffect(() => {
+    // Only access window object on the client side
+    if (typeof window !== 'undefined') {
+      setDropdownPosition({
+        top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+10,
+        left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-100,
+        zIndex: 1000,
+      });
+    }
+  }, [activeDropdown]); // Only run when `activeDropdown` changes
+
   const handleClick = () => {
     router.push('/contactGlobal');
   };
 
   const handleDropdownToggle = (layerName) => {
-    setActiveDropdown(layerName); // Set active dropdown on hover
+    setActiveDropdown(layerName);
   };
 
   const handleMouseLeaveDropdown = () => {
-    setActiveDropdown(null); // Close dropdown when leaving the dropdown content
+    setActiveDropdown(null);
     setDropdownPosition({
-      top: 50,
-      left: "46%",
+      top: 0,
+      left: 0,
+      zIndex: 1000,
       transform: "translateX(-4%)",
-      zIndex:1000
     });
   };
   const handleLeftMenuHover = (id) => {
+    if (id === 1 || id === 2 || id === 3 || id === 4 || id === 5 || id === 6) {
+      setDropdownPosition({
+        top: 50,
+        left: "11%",
+        transform: "translateX(-4%)",
+        zIndex:1000
+      });
+    } else {
+      if (typeof window !== 'undefined') {
+        setDropdownPosition({
+          top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY,
+          left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX,
+          zIndex: 1000,
+          transform: "translateX(-4%)",
+        });
+      }
+    }
+  };
+  const handleLeftMenuHoverNew = (id) => {
     if (id === 1 || id === 2 || id === 3 || id === 4 || id === 5 || id === 6) {
       setDropdownPosition({
         top: 50,
@@ -61,7 +92,6 @@ function NavBar() {
       });
     }
   };
-
   return (
     <>
       {/* Large Screens (lg) */}
@@ -129,7 +159,7 @@ function NavBar() {
           )}
           {activeDropdown === 'services' && (
             <div onMouseLeave={handleMouseLeaveDropdown}>
-              {/* <FeatureList /> */}
+              <FeatureLayoutNew onLeftMenuHover={handleLeftMenuHoverNew} />
             </div>
           )}
         </div>
