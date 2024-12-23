@@ -182,53 +182,410 @@ const rightMenuForCommunication = [
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url:"/analyticsservice"
     },
-    // Add more specific items for LMS if needed
   ];
-// Additional content for each left-side menu item with "Know Features" and "Know Benefits"
-const additionalContentForERP = (
-  <div>
-    <div>Enterprise Resource Planning Features</div>
-    <div className="mt-10">Financial Tracking</div>
-    <div className="mt-10">Supply Chain Management</div>
-    <div className="mt-10">
-      <a href="/erp/features" className="text-sky-500">Know Features</a>
-    </div>
-    <div className="mt-10">
-      <a href="/erp/benefits" className="text-sky-500">Know Benefits</a>
-    </div>
-  </div>
-);
+const additionalContentForERP = [
+ [   
+  {
+    id: 1,
+    title: "Front Desk Management",
+    url1: "/erpservice/front-desk",  
+    url2: "/erpservice/front-desk-benefits"  
+    },
+    {
+    id: 2,
+    title: "User/Teacher Management",
+    url1: "/erpservice/user-teacher",  
+    url2: "/erpservice/user-teacher-benefits"  
+    },
+    {
+    id: 3,
+    title: "Task Management",
+    url1: "/erpservice/task",  
+    url2: "/erpservice/task-benefits"  
+    },
+    {
+    id: 4,
+    title: "Complaint Management",
+    url1: "/erpservice/complaint",  
+    url2: "/erpservice/complaint-benefits"  
+    },
+    {
+    id: 5,
+    title: "Discipline Tracking",
+    url1: "/erpservice/discipline",  
+    url2: "/erpservice/discipline-benefits"  
+    },
+    {
+    id: 6,
+    title: "Visitor Management",
+    url1: "/erpservice/visitor",  
+    url2: "/erpservice/visitor-benefits"  
+    },
+    {
+    id: 7,
+    title: "Digital Records",
+    url1: "/erpservice/digital-records",  
+    url2: "/erpservice/digital-records-benefits"  
+    },
+    {
+    id: 8,
+    title: "Inventory & Store Management",
+    url1: "/erpservice/inventory",  
+    url2: "/erpservice/inventory-benefits"  
+    }
+  ],
+  [
+    {
+      id: 9,
+      title: "Finance & Petty Cash Management",
+      url1: "/erpservice/finance-petty-cash",  
+      url2: "/erpservice/finance-petty-cash-benefits"
+    },
+    {
+      id: 10,
+      title: "Student Fees Management",
+      url1: "/erpservice/student-fees",  
+      url2: "/erpservice/student-fees-benefits"
+    },
+    {
+      id: 11,
+      title: "Library Management",
+      url1: "/erpservice/library",  
+      url2: "/erpservice/library-benefits"
+    },
+    {
+      id: 12,
+      title: "Payment Processing",
+      url1: "/erpservice/payment-processing",  
+      url2: "/erpservice/payment-processing-benefits"
+    }
+  ],
+  
+  // New Subarray for Student & Academic Management
+  [
+    {
+      id: 13,
+      title: "Education CRM",
+      url1: "/erpservice/education-crm",  
+      url2: "/erpservice/education-crm-benefits"
+    },
+    {
+      id: 14,
+      title: "Student Profiles & Management",
+      url1: "/erpservice/student-profiles",  
+      url2: "/erpservice/student-profiles-benefits"
+    },
+    {
+      id: 15,
+      title: "Attendance Tracking",
+      url1: "/erpservice/attendance",  
+      url2: "/erpservice/attendance-benefits"
+    },
+    {
+      id: 16,
+      title: "Gradebook",
+      url1: "/erpservice/gradebook",  
+      url2: "/erpservice/gradebook-benefits"
+    },
+    {
+      id: 17,
+      title: "Certificate Generation",
+      url1: "/erpservice/certificate-generation",  
+      url2: "/erpservice/certificate-generation-benefits"
+    },
+    {
+      id: 18,
+      title: "I-Cards",
+      url1: "/erpservice/icards",  
+      url2: "/erpservice/icards-benefits"
+    },
+    {
+      id: 19,
+      title: "Hostel Management",
+      url1: "/erpservice/hostel",  
+      url2: "/erpservice/hostel-benefits"
+    }
+  ],
+  
+  // New Subarray for Engagement & Communication
+  [
+    {
+      id: 20,
+      title: "Communication Tools (Email, SMS, Notifications, etc.)",
+      url1: "/erpservice/communication-tools",  
+      url2: "/erpservice/communication-tools-benefits"
+    },
+    {
+      id: 21,
+      title: "Parental Engagement",
+      url1: "/erpservice/parental-engagement",  
+      url2: "/erpservice/parental-engagement-benefits"
+    },
+    {
+      id: 22,
+      title: "Complaint & Feedback System",
+      url1: "/erpservice/complaint-feedback",  
+      url2: "/erpservice/complaint-feedback-benefits"
+    },
+    {
+      id: 23,
+      title: "Student Performance Tracking",
+      url1: "/erpservice/student-performance",  
+      url2: "/erpservice/student-performance-benefits"
+    }
+  ]
+];
 
-const additionalContentForLMS = (
-  <div>
-    <div>Learning Management System Features</div>
-    <div className="mt-10">Course Management</div>
-    <div className="mt-10">Student Progress Tracking</div>
-    <div className="mt-10">
-      <a href="/lms/features" className="text-sky-500">Know Features</a>
-    </div>
-    <div className="mt-10">
-      <a href="/lms/benefits" className="text-sky-500">Know Benefits</a>
-    </div>
-  </div>
-);
+const additionalContentForLMS = [
+  [
+    {
+      id: 1,
+      title: "Learning Management System (LMS)",
+      url1: "/lmsservice/lms",  
+      url2: "/lmsservice/lms-benefits"
+    },
+    {
+      id: 2,
+      title: "Teaching Tools",
+      url1: "/lmsservice/teaching-tools",  
+      url2: "/lmsservice/teaching-tools-benefits"
+    },
+    {
+      id: 3,
+      title: "Learning Tools",
+      url1: "/lmsservice/learning-tools",  
+      url2: "/lmsservice/learning-tools-benefits"
+    },
+    {
+      id: 4,
+      title: "Curriculum Planning",
+      url1: "/lmsservice/curriculum-planning",  
+      url2: "/lmsservice/curriculum-planning-benefits"
+    }
+  ],
+  [
+    {
+      id: 5,
+      title: "Assessment Tools",
+      url1: "/lmsservice/assessment-tools",  
+      url2: "/lmsservice/assessment-tools-benefits"
+    },
+    {
+      id: 6,
+      title: "MTSS (Multi-Tiered System of Support)",
+      url1: "/lmsservice/mtss",  
+      url2: "/lmsservice/mtss-benefits"
+    }
+  ],
+  [
+    {
+      id: 7,
+      title: "Administration Tools",
+      url1: "/lmsservice/administration-tools",  
+      url2: "/lmsservice/administration-tools-benefits"
+    },
+    {
+      id: 8,
+      title: "Engagement Tools",
+      url1: "/lmsservice/engagement-tools",  
+      url2: "/lmsservice/engagement-tools-benefits"
+    }
+  ],
+  [
+    {
+      id: 9,
+      title: "Student Engagement",
+      url1: "/lmsservice/student-engagement",  
+      url2: "/lmsservice/student-engagement-benefits"
+    },
+    {
+      id: 10,
+      title: "Performance & Feedback Tracking",
+      url1: "/lmsservice/performance-feedback",  
+      url2: "/lmsservice/performance-feedback-benefits"
+    }
+  ]
+];
 
-const additionalContentForCareerCounselling = (
-  <div>
-    <div>Career Counselling Features</div>
-    <div className="mt-10">Student Career Guidance</div>
-    <div className="mt-10">Job Placement Services</div>
-    <div className="mt-10">
-      <a href="/career-counselling/features" className="text-sky-500">Know Features</a>
-    </div>
-    <div className="mt-10">
-      <a href="/career-counselling/benefits" className="text-sky-500">Know Benefits</a>
-    </div>
-  </div>
-);
+
+const additionalContentForCareerCounselling = [
+  [
+    {
+      id: 1,
+      title: "Career Counseling",
+      url1: "/career-counselling/career-counseling",  
+      url2: "/career-counselling/career-counseling-benefits"
+    },
+    {
+      id: 2,
+      title: "Guidance",
+      url1: "/career-counselling/guidance",  
+      url2: "/career-counselling/guidance-benefits"
+    }
+  ],
+  [
+    {
+      id: 3,
+      title: "Assessment",
+      url1: "/career-counselling/assessment",  
+      url2: "/career-counselling/assessment-benefits"
+    }
+  ],
+  [
+    {
+      id: 4,
+      title: "Counseling",
+      url1: "/career-counselling/counseling",  
+      url2: "/career-counselling/counseling-benefits"
+    }
+  ],
+  [
+    {
+      id: 5,
+      title: "Connect/Explore",
+      url1: "/career-counselling/connect-explore",  
+      url2: "/career-counselling/connect-explore-benefits"
+    }
+  ]
+];
+
+
+const additionalContentForEducationAI = [
+  [
+    {
+      id: 1,
+      title: "PAL (Personalized Adaptive Learning)",
+      url1: "/ai/pal",  
+      url2: "/ai/pal-benefits"
+    },
+    {
+      id: 2,
+      title: "Generative AI",
+      url1: "/ai/generative-ai",  
+      url2: "/ai/generative-ai-benefits"
+    }
+  ],
+  [
+    {
+      id: 3,
+      title: "Automatic Grading",
+      url1: "/ai/automatic-grading",  
+      url2: "/ai/automatic-grading-benefits"
+    },
+    {
+      id: 4,
+      title: "Time Table Automation",
+      url1: "/ai/time-table-automation",  
+      url2: "/ai/time-table-automation-benefits"
+    }
+  ],
+  [
+    {
+      id: 5,
+      title: "Chat Bot",
+      url1: "/ai/chat-bot",  
+      url2: "/ai/chat-bot-benefits"
+    }
+  ]
+];
+
+const additionalContentForCommunication = [
+  [
+    {
+      id: 1,
+      title: "PTM (Parent-Teacher Meetings)",
+      url1: "/communication/ptm",  
+      url2: "/communication/ptm-benefits"
+    },
+    {
+      id: 2,
+      title: "Circulars",
+      url1: "/communication/circulars",  
+      url2: "/communication/circulars-benefits"
+    }
+  ],
+  [
+    {
+      id: 3,
+      title: "Teacher Diary",
+      url1: "/communication/teacher-diary",  
+      url2: "/communication/teacher-diary-benefits"
+    }
+  ],
+  [
+    {
+      id: 4,
+      title: "Email",
+      url1: "/communication/email",  
+      url2: "/communication/email-benefits"
+    },
+    {
+      id: 5,
+      title: "SMS",
+      url1: "/communication/sms",  
+      url2: "/communication/sms-benefits"
+    },
+    {
+      id: 6,
+      title: "WhatsApp",
+      url1: "/communication/whatsapp",  
+      url2: "/communication/whatsapp-benefits"
+    }
+  ],
+  [
+    {
+      id: 7,
+      title: "IVRS (Interactive Voice Response System)",
+      url1: "/communication/ivrs",  
+      url2: "/communication/ivrs-benefits"
+    }
+  ]
+];
+
+const additionalContentForAnalytics = [
+  [
+    {
+      id: 1,
+      title: "Student Performance",
+      url1: "/analytics/student-performance",  
+      url2: "/analytics/student-performance-benefits"
+    },
+    {
+      id: 2,
+      title: "Teacher Performance",
+      url1: "/analytics/teacher-performance",  
+      url2: "/analytics/teacher-performance-benefits"
+    }
+  ],
+  [
+    {
+      id: 3,
+      title: "Reports",
+      url1: "/analytics/reports",  
+      url2: "/analytics/reports-benefits"
+    }
+  ],
+  [
+    {
+      id: 4,
+      title: "Prediction",
+      url1: "/analytics/prediction",  
+      url2: "/analytics/prediction-benefits"
+    }
+  ],
+  [
+    {
+      id: 5,
+      title: "CBSE Result Analyzer",
+      url1: "/analytics/cbse-result-analyzer",  
+      url2: "/analytics/cbse-result-analyzer-benefits"
+    }
+  ]
+];
 
 export default function FeatureLayout({ onLeftMenuHover }) {
   const [hoveredLeftMenuId, setHoveredLeftMenuId] = React.useState(null);
+  const [hoveredRightMenuId, setHoveredRightMenuId] = React.useState(null);
   const [visible, setVisible] = useState(false);
 
   // Logic for handling the right menu items
@@ -246,25 +603,96 @@ export default function FeatureLayout({ onLeftMenuHover }) {
         return rightMenuForCommunication;
     case 6:
         return rightMenuForAnalytics;
-      // You can add more cases for other left-side menu items if needed
       default:
         return [];
     }
   };
-
-  // Logic for handling additional content
-  const getAdditionalContent = (id) => {
-    switch (id) {
+  const getAdditionalContent = (leftId,rightId) => {
+    if(leftId == 1){
+    switch (rightId) {
       case 1:
-        return additionalContentForERP;
+        return additionalContentForERP[0];
       case 2:
-        return additionalContentForLMS;
+        return additionalContentForERP[1];
       case 3:
-        return additionalContentForCareerCounselling;
-      // You can add more cases for other left-side menu items if needed
+        return additionalContentForERP[2];
+      case 4:
+        return additionalContentForERP[3];
       default:
-        return null;
+        return [];
     }
+  }
+  else if(leftId == 2){
+    switch (rightId) {
+      case 1:
+        return additionalContentForLMS[0];
+      case 2:
+        return additionalContentForLMS[1];
+      case 3:
+        return additionalContentForLMS[2];
+      case 4:
+        return additionalContentForLMS[3];
+      default:
+        return [];
+    }
+  }
+  else if(leftId == 3){
+    switch (rightId) {
+      case 1:
+        return additionalContentForCareerCounselling[0];
+      case 2:
+        return additionalContentForCareerCounselling[1];
+      case 3:
+        return additionalContentForCareerCounselling[2];
+      case 4:
+        return additionalContentForCareerCounselling[3];
+      default:
+        return [];
+    }
+  }
+  else if(leftId == 4){
+    switch (rightId) {
+      case 1:
+        return additionalContentForEducationAI[0];
+      case 2:
+        return additionalContentForEducationAI[1];
+      case 3:
+        return additionalContentForEducationAI[2];
+      default:
+        return [];
+    }
+  }
+  else if(leftId == 5){
+    switch (rightId) {
+      case 1:
+        return additionalContentForCommunication[0];
+      case 2:
+        return additionalContentForCommunication[1];
+      case 3:
+        return additionalContentForCommunication[2];
+      case 4:
+        return additionalContentForCommunication[3];
+      default:
+        return [];
+    }
+  }
+  else if(leftId == 6){
+    switch (rightId) {
+      case 1:
+        return additionalContentForAnalytics[0];
+      case 2:
+        return additionalContentForAnalytics[1];
+      case 3:
+        return additionalContentForAnalytics[2];
+      case 4:
+        return additionalContentForAnalytics[3];
+      default:
+        return [];
+    }
+  }
+  if(!leftId){
+    return [];
+  }
   };
 
   useEffect(() => {
@@ -279,7 +707,14 @@ export default function FeatureLayout({ onLeftMenuHover }) {
       onLeftMenuHover(id);
     }
   };
+  const handleMouseEnterRight = (id) => {
+    setHoveredRightMenuId(id);
+  };
+  const [hoveredItem, setHoveredItem] = useState(null);
 
+  const handleMouseEnterNew = (item) => {
+    setHoveredItem(item);
+  };
   return (
     <div
       className={`overflow-hidden bg-gray-200 rounded-2xl shadow-sm ${visible ? "opacity-100" : "opacity-0"}`}
@@ -329,7 +764,10 @@ export default function FeatureLayout({ onLeftMenuHover }) {
           >
             <div className="flex flex-col pt-28 pb-24 mx-auto font-semibold size-full max-md:py-24 max-md:max-w-full">
               {getRightMenuItems(hoveredLeftMenuId).map((item) => (
-                <div key={item.id} className="mt-5 first:mt-0">
+                <div key={item.id} 
+                     className="mt-5 first:mt-0"
+                     onMouseEnter={() => handleMouseEnterRight(item.id)}
+                >
                   <a href={item.url} className="flex items-center">
                     <RightMenuItem
                       icon={item.icon}
@@ -353,20 +791,23 @@ export default function FeatureLayout({ onLeftMenuHover }) {
               pointerEvents: hoveredLeftMenuId ? "auto" : "none", // Enable/disable pointer events
             }}
           >
-            <div className="px-6 py-6 -mt-10">
-              <div>Front Desk Management</div>
-              <div className="flex gap-8 mt-3.5 ml-3.5 text-[12px] text-neutral-500 max-md:ml-2.5">
-                <div className="basis-auto">Know Features</div>
-                <div>Know Benifits</div>
+            <div className="px-6 py-6 -mt-16">
+            {getAdditionalContent(hoveredLeftMenuId,hoveredRightMenuId).map((item) => (
+              <div 
+                key={item.id}
+                className="mt-10"
+                onMouseEnter={() => handleMouseEnterNew(item)}
+              >
+                {item.title}
+                {hoveredItem === item && (
+                  <div className="flex gap-8 mt-3.5 ml-3.5 text-[12px] text-neutral-500 max-md:ml-2.5">
+                    <a href={item.url1} className="basis-auto">Know Features</a>
+                    <a href={item.url2}>Know Benefits</a>
+                  </div>
+                )}
               </div>
-              <div className="mt-10">User/Teacher Management</div>
-              <div className="mt-10">Task Management</div>
-              <div className="mt-10">Complaint Management</div>
-              <div className="mt-10">Discipline Tracking</div>
-              <div className="mt-10">Visitor Management</div>
-              <div className="mt-10">Digital Records</div>
-              <div className="self-stretch mt-10">Inventory & Store Management</div>
-            </div>
+            ))}
+          </div>
           </div>
         </div>
       </div>
