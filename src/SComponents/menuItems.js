@@ -36,5 +36,4 @@ export const leftMenuItems = [
       url: "/pithree"
     }
   ];
-
   export default {leftMenuItems};

@@ -43,6 +43,12 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Medium.woff') format('woff');
+  font-weight:medium;
+  font-style: normal;
+}
 html, body {
   margin: 0;
   padding: 0;
