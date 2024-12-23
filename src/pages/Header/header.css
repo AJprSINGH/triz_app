@@ -31,7 +31,7 @@ nav button {
   
   /* Hover effect for nav links */
   nav button:hover {
-    color: #000;
+    color: #e9e7e7;
   }
   
   /* Create a line under the nav item */
@@ -39,7 +39,7 @@ nav button {
     content: '';
     display: block;
     height: 5px;
-    background-color: #444;
+    background-color: #ffffff;
     position: absolute;
     top: 100%; /* Position the line below the text */
     left: 0;
@@ -54,7 +54,7 @@ nav button {
   
   /* Exclude 'Contact Us' from the hover effect */
   nav .contact-button {
-    color: #444; /* Keep the default color */
+    color: #ffffff; /* Keep the default color */
   }
   
   nav .contact-button:hover::before {

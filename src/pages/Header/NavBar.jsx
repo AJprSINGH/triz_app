@@ -95,21 +95,21 @@ function NavBar() {
   return (
     <>
       {/* Large Screens (lg) */}
-      <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-green-200 to-green-400">
+      <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/d81f651477a8ed310482ed81dfc64acfc3018cb20cf04e3989f524cbb10ffa51?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
+          src="/center_home_images/Group 190 (1).png"
           alt=""
           className="object-contain shrink-0 w-28 max-w-full aspect-[2.67]"
         />
-        <nav className="flex flex-wrap gap-10 items-center my-auto">
+        <nav className="flex flex-wrap gap-10 items-center my-auto text-white">
           {navItems.map((item) => (
             item.href ? (
               <Link key={item.layerName} href={item.href}>
                 <button
                   ref={(el) => (buttonRefs.current[item.layerName] = el)}
                   onMouseEnter={() => handleDropdownToggle(item.layerName)}
-                  className="relative z-10 font-bold"
+                  className="relative z-10 font-bold text-white"
                 >
                   <NavItem label={item.label} layerName={item.layerName} />
                 </button>
@@ -119,7 +119,7 @@ function NavBar() {
                 key={item.layerName}
                 ref={(el) => (buttonRefs.current[item.layerName] = el)}
                 onMouseEnter={() => handleDropdownToggle(item.layerName)}
-                className="relative z-10 font-bold"
+                className="relative z-10 font-bold text-white"
               >
                 <NavItem label={item.label} layerName={item.layerName} />
               </button>

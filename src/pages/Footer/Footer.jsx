@@ -27,12 +27,12 @@ const footerColumns = [
 
 function Footer() {
   return (
-    <footer className="flex flex-col lg:px-0 lg:py-2 md:px-0 md:py-0 items-center bg-gradient-to-r from-green-300 to-green-500 sm:px-4 sm:py-6">
+    <footer className="flex flex-col lg:px-0 lg:py-2 md:px-0 md:py-0 items-center bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)] sm:px-4 sm:py-6">
       <div className="lg:flex lg:flex-wrap lg:mt-2 lg:gap-48 lg:w-full lg:max-w-[1760px] max-md:max-w-full">
         <div className="flex flex-col items-center font-bold">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a56b7f30c288fdbf94315759b0debfadd22be2e9a91b1b4848f1a36feab3aa4?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
+            src="/footer_c_images/Group 232.png"
             className="object-contain max-w-full lg:ml-20 aspect-[2.67] lg:w-[200px] sm:w-[120px] sm:mb-0"
             alt="Company Logo"
           />
@@ -63,7 +63,7 @@ function Footer() {
 
       {/* Centered Copyright and Social Icons */}
       <div className="flex flex-wrap justify-center items-center lg:gap-40 lg:mt-10 sm:gap-10 sm:mt-2 text-center">
-        <p className="lg:text-xl lg:font-bold text-black sm:font-bold sm:mb-[-20px] sm:text-md">
+        <p className="lg:text-xl lg:font-bold text-white sm:font-bold sm:mb-[-20px] sm:text-md">
           All Rights Are Reserved By 2024 © Triz Innovation PVT LTD.
         </p>
         <SocialIcons />
