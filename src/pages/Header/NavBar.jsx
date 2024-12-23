@@ -95,7 +95,9 @@ function NavBar() {
   return (
     <>
       {/* Large Screens (lg) */}
-      <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
+      <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]" style={{
+      boxShadow: '0 8px 10px 0px rgba(42, 62, 92, 0.5)', // custom shadow style
+    }}>
         <img
           loading="lazy"
           src="/center_home_images/Group 190 (1).png"
