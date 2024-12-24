@@ -11,7 +11,7 @@ import zIndex from '@mui/material/styles/zIndex';
 import FeatureLayoutNew from '../../SComponents/FeatureLayout';
 import FeatureLayoutMax from '../../CComponents/FeatureLayout';
 const navItems = [
-  { label: 'HOME', layerName: 'home', href: '/' },
+  { label: 'HOME', layerName: 'home', href: '/center_home' },
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'SERVICES', layerName: 'services' },
   { label: 'PRICING', layerName: 'aboutus', href: '/pricing' },
