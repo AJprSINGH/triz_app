@@ -737,7 +737,11 @@ export default function FeatureLayout({ onLeftMenuHover }) {
               width: hoveredLeftMenuId ? "calc(100% - 800px)" : "100%", // Shrink left menu on hover
             }}
           >
-            <div className="flex flex-col px-5 pt-24 pb-24 w-full text-sm font-semibold leading-none text-sky-500 shadow-sm max-md:px-5 max-md:pb-24">
+            <div className="flex flex-col px-5 w-full text-sm font-semibold leading-none text-sky-500 shadow-sm max-md:px-5 max-md:pb-24" style={{
+              paddingTop: hoveredLeftMenuId ? "26%" : "10%",
+              paddingBottom: hoveredLeftMenuId ? "26%" : "10%",
+            }}
+          >
               {leftMenuItems.map((item) => (
                 <div
                   key={item.id}

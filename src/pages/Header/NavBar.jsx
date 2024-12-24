@@ -9,6 +9,7 @@ import NV1 from './Navbar_new';
 import FeatureLayout from './FeatureLayout';
 import zIndex from '@mui/material/styles/zIndex';
 import FeatureLayoutNew from '../../SComponents/FeatureLayout';
+import FeatureLayoutMax from '../../CComponents/FeatureLayout';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
@@ -38,8 +39,8 @@ function NavBar() {
     // Only access window object on the client side
     if (typeof window !== 'undefined') {
       setDropdownPosition({
-        top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+10,
-        left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-100,
+        top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+15,
+        left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-50,
         zIndex: 1000,
       });
     }
@@ -154,7 +155,7 @@ function NavBar() {
       </header>
        */}
       {/* Dropdown Content (Products / Services) */}
-      {(activeDropdown === 'products' || activeDropdown === 'services') && (
+      {(activeDropdown === 'products' || activeDropdown === 'services' || activeDropdown === 'company') && (
         <div
           ref={dropdownRef}
           className="absolute transition-all duration-300 ease-in-out fade-in"
@@ -170,35 +171,12 @@ function NavBar() {
               <FeatureLayoutNew onLeftMenuHover={handleLeftMenuHoverNew} />
             </div>
           )}
+          {activeDropdown === 'company' && (
+            <div onMouseLeave={handleMouseLeaveDropdown}>
+              <FeatureLayoutMax/>
+            </div>
+          )}
         </div>
-      )}
-      {(activeDropdown === 'company') && (
-        <div
-        ref={dropdownRef}
-        className={`ps-item absolute bg-gradient-to-r text-white text-[15px] from-[rgb(42,62,92)] to-[rgb(42,62,92)] p-5 shadow-lg transition-all duration-300 ease-in-out fade-in`}
-        style={{
-          top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+10,
-          left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-1,
-          zIndex: 1000,
-          boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)',
-        }}
-      >
-        {activeDropdown === 'company' && (
-          <div onMouseLeave={handleMouseLeaveDropdown}>
-            <div className="dropdown-menu-wrapper">
-                    <ul className="dropdown-menu">
-                      {dropdownData.PRODUCTS.map((product) => (
-                        <li key={product.label}>
-                          <Link href={product.href} className="dropdown-item font-noto">
-                            {product.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-          </div>
-        )}
-      </div>
       )}
     </>
   );
