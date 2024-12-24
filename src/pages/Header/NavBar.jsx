@@ -13,10 +13,16 @@ const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'SERVICES', layerName: 'services' },
-  { label: 'ABOUTUS', layerName: 'aboutus', href: '/aboutus' },
-  { label: 'COMPANY', layerName: 'company' , href: '/career' },
+  { label: 'PRICING', layerName: 'aboutus', href: '/pricing' },
+  { label: 'COMPANY', layerName: 'company' },
 ];
-
+const dropdownData = {
+  PRODUCTS: [
+  { label: "Career", href: "/career" },
+  { label: "About Us", href: "/aboutus" },
+  { label: "Resources", href: "/resources" },
+  ],
+};
 function NavBar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const buttonRefs = useRef({});
@@ -151,7 +157,7 @@ function NavBar() {
       {(activeDropdown === 'products' || activeDropdown === 'services') && (
         <div
           ref={dropdownRef}
-          className="ps-item absolute transition-all duration-300 ease-in-out fade-in"
+          className="absolute transition-all duration-300 ease-in-out fade-in"
           style={dropdownPosition}
         >
           {activeDropdown === 'products' && (
@@ -165,6 +171,34 @@ function NavBar() {
             </div>
           )}
         </div>
+      )}
+      {(activeDropdown === 'company') && (
+        <div
+        ref={dropdownRef}
+        className={`ps-item absolute bg-gradient-to-r text-white text-[15px] from-[rgb(42,62,92)] to-[rgb(42,62,92)] p-5 shadow-lg transition-all duration-300 ease-in-out fade-in`}
+        style={{
+          top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+10,
+          left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-1,
+          zIndex: 1000,
+          boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)',
+        }}
+      >
+        {activeDropdown === 'company' && (
+          <div onMouseLeave={handleMouseLeaveDropdown}>
+            <div className="dropdown-menu-wrapper">
+                    <ul className="dropdown-menu">
+                      {dropdownData.PRODUCTS.map((product) => (
+                        <li key={product.label}>
+                          <Link href={product.href} className="dropdown-item font-noto">
+                            {product.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+          </div>
+        )}
+      </div>
       )}
     </>
   );

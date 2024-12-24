@@ -189,8 +189,7 @@ const useStyles = makeStyles((theme) => ({
 
 const data = [
   { name: "HOME", link: "/" },
-  { name: "ABOUT US", link: "/aboutus" },
-  { name: "COMPANY", link: "/career" },
+  { name: "PRICING", link: "/pricing"},
 ];
 
 const dropdownDataOptions = {
@@ -212,12 +211,22 @@ const dropdownDataOptions = {
       { label: "Process improvement", href: "/pitwo" },
       { label: "Rolewise solutions", href: "/pithree" },
     ],
+    COMPANY: [
+      { label: "Career", href: "/career" },
+      { label: "About Us", href: "/aboutus" },
+      { label: "Resources", href: "/resources" },
+    ],
   },
   headerCNavbar: {
     PRODUCTS: [
       { label: "K12", href: "/" },
       { label: "Higher Studies", href: "https://triz-apphigher-education.vercel.app/" },
       { label: "Corporate", href: "/ccservice" },
+    ],
+    COMPANY: [
+      { label: "Career", href: "/career" },
+      { label: "About Us", href: "/aboutus" },
+      { label: "Resources", href: "/resources" },
     ],
   },
 };
