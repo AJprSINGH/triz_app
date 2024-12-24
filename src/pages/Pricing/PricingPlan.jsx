@@ -1,7 +1,7 @@
 import * as React from "react";
 import PricingFeature from "./PricingFeature";
 
-const PricingPlan = ({ price, title, description, features, buttonColor = "bg-emerald-500", textColor = "text-slate-700",featureTextColor = "text-slate-700" }) => (
+const PricingPlan = ({ price, title, description, features, buttonColor = "bg-emerald-500", textColor = "text-slate-700",featureTextColor = "text-slate-700" ,descriptiontTextColor = "text-slate-700"}) => (
     <div className="flex flex-col items-start w-full max-md:mt-10">
       <div className="flex gap-3 whitespace-nowrap">
         <div className={`text-4xl font-bold font-poppins leading-none ${textColor}`}>
@@ -22,7 +22,9 @@ const PricingPlan = ({ price, title, description, features, buttonColor = "bg-em
           key={index}
           icon={feature.icon}
           text={feature.text}
+          description={feature.description} 
           featureTextColor={featureTextColor}
+          descriptiontTextColor={descriptiontTextColor}
         />
       ))}
     </div>
