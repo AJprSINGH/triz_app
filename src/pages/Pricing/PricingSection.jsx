@@ -2,6 +2,7 @@ import * as React from "react";
 import PricingPlan from "./PricingPlan";
 import Header from "../Header/NavBar";
 import Footer from "../Footer/Footer";
+import Card from "../../PricingComp/NavigationBar";
 const essentialFeatures = [
   { 
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/00a7c91fc5b4a2515351adda853d175b24723c4c3c6aadbfbcfa0b78d201484c?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323", 
@@ -145,10 +146,17 @@ function PricingSection() {
     <>
     <Header />
     <div className="flex flex-col mx-28 mt-20 mb-20">
-      <div className="self-center text-4xl font-bold font-merriweather text-center text-slate-500 max-md:max-w-full max-md:text-4xl">
+      <div className="self-center text-4xl font-bold font-merriweather text-center text-slate-500 max-md:max-w-full max-md:text-4xl" style={{
+        color: "rgba(120, 120, 171, 1)"
+      }}>
         Smart Plans for Every Need, Perfect Value for Everyone
       </div>
-      <div className="px-9 pb-2.5 mt-16 w-full rounded-3xl bg-slate-700 bg-opacity-10 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="self-center mt-10 ">
+        <Card />
+      </div>
+      <div className="px-9 pb-2.5 mt-16 w-full rounded-3xl bg-sky-700 bg-opacity-20 max-md:px-5 max-md:mt-10 max-md:max-w-full" style={{
+        boxShadow: '0 0 4px 4px rgba(0, 0, 0, 0.25)', // custom shadow style
+      }}>
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-[64%] max-md:ml-0 max-md:w-full">
             <div className="flex z-10 flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
@@ -161,7 +169,11 @@ function PricingSection() {
                       description="Unleash the power of automation."
                       features={essentialFeatures}
                     />
-                    <button className="px-10 py-2.5 mt-2.5 text-white font-poppins bg-emerald-500 rounded-3xl bg-blend-normal max-md:px-5">
+                    <button className="px-10 py-2.5 mt-2.5 text-white font-poppins bg-emerald-500 rounded-3xl bg-blend-normal max-md:px-5" style={{
+                   background: "rgba(36, 174, 139, 1)",
+                   color: "rgba(37, 36, 48, 1)"
+                  }}
+                  >
                   Choose plan
                 </button>
                   </div>
@@ -172,7 +184,11 @@ function PricingSection() {
                       description="Includes all modules from the Essential Package, plus:"
                       features={advancedFeatures}
                     />
-                  <button className="px-10 py-2.5 mt-10 text-white font-poppins bg-emerald-500 rounded-3xl bg-blend-normal max-md:px-5">
+                  <button className="px-10 py-2.5 mt-10 font-poppins rounded-3xl bg-blend-normal max-md:px-5" style={{
+                   background: "rgba(36, 174, 139, 1)",
+                   color: "rgba(37, 36, 48, 1)"
+                  }}
+                  >
                   Choose plan
                   </button>
                   </div>

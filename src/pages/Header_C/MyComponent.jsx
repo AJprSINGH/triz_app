@@ -60,7 +60,7 @@ function MyComponent() {
   }, []);
   return (
     <div className={`flex overflow-hidden flex-col items-center px-6 pt-5 pb-4 m-4 bg-white rounded-xl shadow-sm max-md:px-3 max-md:pb-10 transition-opacity duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`} style={{
-        boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)', // custom shadow style
+        boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)',
       }}>
       <div className="w-full max-w-[1450px] max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
