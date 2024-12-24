@@ -10,14 +10,12 @@ import MyComponent from './MyComponent';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/center_home' },
   { label: 'PRODUCTS', layerName: 'products' },
-  { label: 'PRICING', layerName: 'aboutus', href: '/pricing' },
   { label: 'COMPANY', layerName: 'company' },
 ];
 const dropdownData = {
   PRODUCTS: [
     { label: "Career", href: "/career" },
     { label: "About Us", href: "/aboutus" },
-    { label: "Resources", href: "/resources" },
     ],
 };
 function NavBar() {

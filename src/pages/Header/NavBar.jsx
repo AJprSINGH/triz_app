@@ -15,7 +15,7 @@ const navItems = [
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'SERVICES', layerName: 'services' },
   { label: 'PRICING', layerName: 'aboutus', href: '/pricing' },
-  { label: 'COMPANY', layerName: 'company' },
+  { label: 'RESOURCES', layerName: 'resources', href: '/resources' },
 ];
 const dropdownData = {
   PRODUCTS: [
