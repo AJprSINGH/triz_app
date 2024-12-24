@@ -38,28 +38,28 @@ const rightMenuForERP = [
 const rightMenuForLMS = [
   {
     id: 1,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    title: " Teaching & Learning",
+    icon: "/home_images/Megamenu/LMS/1.png",
+    title: "Teaching & Learning",
     description: "Finance & Operations Systems manage budgets and daily operations.",
     url: "/lmsservice"  // Add a clickable URL
   },
   {
     id: 2,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    title: "Assessment & Evaluation",
+    icon: "/home_images/Megamenu/LMS/2.png",
+    title: "Measuring Learning & Growth",
     description: "Student & Academic Management Systems organize student data and streamline academic processes.",
     url: "/lmsservice"  // Add a clickable URL
   },
   {
     id: 3,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "/home_images/Megamenu/LMS/3.png",
     title: "Administration & Management",
     description: "Student & Academic Management Systems organize student data and streamline academic processes.",
     url: "/lmsservice"  // Add a clickable URL
   },
   {
     id: 4,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "/home_images/Megamenu/LMS/4.png",
     title: "Student Support & Engagement",
     description: "Student & Academic Management Systems organize student data and streamline academic processes.",
     url: "/lmsservice" // Add a clickable URL
@@ -70,28 +70,28 @@ const rightMenuForLMS = [
 const rightMenuForCareerCounselling = [
     {
         id: 1,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/45345495e38b9b587ce08cc3fa065620d70b6dfb2473bbbdd2a9bfe8c0d08443?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "/home_images/Megamenu/CC/1.png",
         title: "Career Development",
         description: "Administrative & Management Solutions streamline organizational operations.",
         url: "ccservice"  // Add a clickable URL
       },
       {
         id: 2,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "/home_images/Megamenu/CC/2.png",
         title: "Assessment & Evaluation",
         description: "Finance & Operations Systems manage budgets and daily operations.",
         url: "ccservice" // Add a clickable URL
       },
       {
         id: 3,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "/home_images/Megamenu/CC/3.png",
         title: "Counseling & Support",
         description: "Student & Academic Management Systems organize student data and streamline academic processes.",
         url: "ccservice"  // Add a clickable URL
       },
       {
         id: 4,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/7761a4f206fe520a1e55f00f92df761110e10203a3c23ce604102b1a3f70ec56?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "/home_images/Megamenu/CC/4.png",
         title: "Exploration & Connectivity",
         description: "Engagement & Communication Systems enhance interaction and information sharing.",
         url: "ccservice"
@@ -100,21 +100,21 @@ const rightMenuForCareerCounselling = [
 const rightMenuForEducationAI = [
     {
         id: 1,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/45345495e38b9b587ce08cc3fa065620d70b6dfb2473bbbdd2a9bfe8c0d08443?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "/home_images/Megamenu/EAI/1.png",
         title: "AI-Powered Learning Tools",
         description: "Administrative & Management Solutions streamline organizational operations.",
         url: "/aiservice"  // Add a clickable URL
       },
       {
         id: 2,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "/home_images/Megamenu/EAI/2.png",
         title: "Automation & Efficiency",
         description: "Finance & Operations Systems manage budgets and daily operations.",
         url: "/aiservice"  // Add a clickable URL
       },
       {
         id: 3,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "/home_images/Megamenu/EAI/3.png",
         title: "AI-Driven Communication",
         description: "Student & Academic Management Systems organize student data and streamline academic processes.",
         url: "/aiservice"  // Add a clickable URL
@@ -124,28 +124,28 @@ const rightMenuForEducationAI = [
 const rightMenuForCommunication = [
     {
       id: 1,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/COMM/1.png",
       title: "Parental Engagement",
       description: "Finance & Operations Systems manage budgets and daily operations.",
       url: "/commservice"  // Add a clickable URL
     },
     {
       id: 2,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/COMM/2.png",
       title: "Teacher Communication & Coordinations",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url:"/commservice"// Add a clickable URL
     },
     {
       id: 3,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/COMM/3.png",
       title: "Messaging & Notifications",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url:"/commservice" // Add a clickable URL
     },
     {
       id: 4,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/COMM/4.png",
       title: "Automated Communication",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url:"/commservice"
@@ -156,28 +156,28 @@ const rightMenuForCommunication = [
   const rightMenuForAnalytics = [
     {
       id: 1,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/ANALYTICS/1.png",
       title: "Performance Analytics",
       description: "Finance & Operations Systems manage budgets and daily operations.",
       url: "/analyticsservice"  // Add a clickable URL
     },
     {
       id: 2,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/ANALYTICS/2.png",
       title: "Reporting & Insights",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url: "/analyticsservice"  // Add a clickable URL
     },
     {
       id: 3,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/ANALYTICS/3.png",
       title: "Predictive Analytics",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url: "/analyticsservice" // Add a clickable URL
     },
     {
       id: 4,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "/home_images/Megamenu/ANALYTICS/4.png",
       title: "Exam & Results Analysis",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url:"/analyticsservice"

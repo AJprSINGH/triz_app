@@ -144,47 +144,47 @@ function PricingSection() {
   return (
     <>
     <Header />
-    <div className="flex flex-col mx-10 mt-20 mb-20">
+    <div className="flex flex-col mx-28 mt-20 mb-20">
       <div className="self-center text-4xl font-bold font-merriweather text-center text-slate-500 max-md:max-w-full max-md:text-4xl">
         Smart Plans for Every Need, Perfect Value for Everyone
       </div>
-      <div className="px-9 pb-2.5 mt-20 w-full rounded-3xl bg-slate-700 bg-opacity-10 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="px-9 pb-2.5 mt-16 w-full rounded-3xl bg-slate-700 bg-opacity-10 max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-[64%] max-md:ml-0 max-md:w-full">
             <div className="flex z-10 flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
               <div className="max-md:max-w-full">
                 <div className="flex gap-5 max-md:flex-col">
-                  <div className="flex flex-col w-[43%] max-md:ml-0 max-md:w-full">
+                  <div className="w-[43%] max-md:ml-0 max-md:w-full">
                     <PricingPlan
                       price="20"
                       title="Essential Package"
                       description="Unleash the power of automation."
                       features={essentialFeatures}
                     />
+                    <button className="px-10 py-2.5 mt-2.5 text-white font-poppins bg-emerald-500 rounded-3xl bg-blend-normal max-md:px-5">
+                  Choose plan
+                </button>
                   </div>
-                  <div className="flex flex-col ml-5 w-[57%] max-md:ml-0 max-md:w-full">
+                  <div className="ml-5 w-[57%] max-md:ml-0 max-md:w-full">
                     <PricingPlan
                       price="45"
                       title="Advanced Package"
                       description="Includes all modules from the Essential Package, plus:"
                       features={advancedFeatures}
                     />
+                  <button className="px-10 py-2.5 mt-10 text-white font-poppins bg-emerald-500 rounded-3xl bg-blend-normal max-md:px-5">
+                  Choose plan
+                  </button>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-wrap gap-24 items-start mt-10 max-w-full text-lg font-medium font-poppins text-center w-[759px]">
-                <button className="px-16 py-6 mt-2.5 text-white bg-emerald-500 rounded-3xl bg-blend-normal max-md:px-5">
-                  Choose plan
-                </button>
-                <button className="px-16 py-6 mt-2.5 text-white bg-emerald-500 rounded-3xl bg-blend-normal max-md:px-5">
-                  Choose plan
-                </button>
+              <div className="flex flex-wrap justify-between mt-2 max-w-full text-lg font-medium font-poppins text-center w-[759px]">
               </div>
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-[36%] -mt-10 max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col ml-5 w-[32%] -mt-10 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow pt-5 pb-16 mt-0 w-full text-white bg-teal-800 rounded-3xl shadow-[0px_42px_34px_rgba(82,67,194,0.296)] max-md:mt-1.5 max-md:max-w-full">
-              <div className="self-end px-4 py-1.5 mr-20 text-xs font-extrabold font-poppins tracking-wider text-center rounded-2xl bg-slate-700 max-md:mr-2.5">
+              <div className="self-end px-4 py-1.5 mr-14 text-xs font-extrabold font-poppins tracking-wider text-center rounded-2xl bg-slate-700 max-md:mr-2.5">
                 MOST POPULAR
               </div>
               <div className="flex flex-col items-start px-10 mt-6 w-full max-md:px-5 max-md:max-w-full">
@@ -198,7 +198,7 @@ function PricingSection() {
                   featureTextColor = "text-white"
                   descriptionTextColor = "text-white"
                 />  
-                <button className="px-16 py-6 mt-2.5 max-w-full text-base font-medium font-poppins text-center text-white rounded-3xl bg-slate-700 w-[300px] max-md:px-5 max-md:mt-10">
+                <button className="px-10 py-2.5 mt-2.5 max-w-full text-base font-medium font-poppins text-center text-white rounded-3xl bg-slate-700 w-[200px] max-md:px-5 max-md:mt-10">
                   Choose plan
                 </button>
               </div>

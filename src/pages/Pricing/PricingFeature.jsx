@@ -9,13 +9,13 @@ const PricingFeature = ({ icon, text, description, featureTextColor ,description
   };
 
   return (
-    <div className={`flex flex-col gap-2.5 mt-2.5 text-lg font-semibold font-poppins ${featureTextColor}`}>
+    <div className={`flex flex-col gap-1.5 mt-1.5 text-sm font-semibold font-poppins ${featureTextColor}`}>
       <div className="flex items-center gap-2">
         <img
           loading="lazy"
           src={icon}
           alt=""
-          className="object-contain shrink-0 aspect-square w-[25px] cursor-pointer"
+          className="object-contain shrink-0 aspect-square w-[15px] cursor-pointer"
           onClick={toggleDescription}
         />
         <div className="basis-auto">{text}</div>
@@ -24,9 +24,9 @@ const PricingFeature = ({ icon, text, description, featureTextColor ,description
         className={`${
           isOpen ? 'max-h-40' : 'max-h-0'
         } overflow-hidden transition-all duration-300 ease-in-out mt-2`} 
-        style={{ marginTop: isOpen ? "10px" : "0" }} 
+        style={{ marginTop: isOpen ? "0px" : "0" }} 
       >
-        <p className={`text-sm ${descriptionTextColor}`}>{description}</p>
+        <p className={`text-xs ${descriptionTextColor}`}>{description}</p>
       </div>
     </div>
   );
