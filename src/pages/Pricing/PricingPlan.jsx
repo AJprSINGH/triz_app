@@ -17,7 +17,7 @@ const PricingPlan = ({ price, title, description, features, buttonColor = "bg-em
       <div className={`mt-1.5 text-lg font-semibold font-poppins ${textColor}`}>
         {description}
       </div>
-      {features.map((feature, index) => (
+      {features?.map((feature, index) => (
         <PricingFeature
           key={index}
           icon={feature.icon}
