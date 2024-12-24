@@ -11,7 +11,8 @@ module.exports = {
       roboto: ['Roboto', 'serif'], // Roboto font stack
       merriweather: ['Merriweather', 'serif'], // Merriweather font stack
       noto: ['NotoSans', 'serif'], // Merriweather font stack
-      poppins: ['Poppins','serif']
+      poppins: ['Poppins','serif'],
+      inter: ['Inter','serif']
     },
     extend: {
       screens: { 

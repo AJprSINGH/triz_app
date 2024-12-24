@@ -127,15 +127,66 @@
 // };
 
 // export default HeroSection;
+
+//THIS BELOW CODE WAS REMOVED ON 24 DEC'24 06:25 PM
+// import * as React from "react";
+
+// function ImageComponent() {
+//   return (
+//     <img
+//       loading="lazy"
+//       src="https://cdn.builder.io/api/v1/image/assets%2F170cbe9c02a2485986a6dc949bdc8ad3%2F12405dbf109945dba2ed90bc845e9448"
+//       alt="Gallery image"
+//       className="object-cover lg:w-full lg:h-[490px] min-w-[200px] sm:w-full sm:h-auto md:w-full md:h-auto"
+//       onKeyDown={(e) => {
+//         if (e.key === 'Enter' || e.key === ' ') {
+//           e.preventDefault();
+//           e.currentTarget.click();
+//         }
+//       }}
+//       tabIndex={0}
+//       role="img"
+//     />
+//   );
+// }
+
+// export default ImageComponent;
+
 import * as React from "react";
 
 function ImageComponent() {
   return (
+    <>
+    <div className="relative mt-10 mx-10">
+      {/* The Image */}
+      <img
+        loading="lazy"
+        src="/home_images/Hero Section.png"
+        alt="Gallery image"
+        className="object-contain lg:w-auto lg:h-auto sm:w-auto sm:h-auto md:w-auto md:h-auto"
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            e.currentTarget.click();
+          }
+        }}
+        tabIndex={0}
+        role="img"
+      />
+      {/* The Button */}
+      <div className="absolute top-[370px] left-[120px] transform -translate-x-1/2 -translate-y-1/2">
+        <button className="lg:flex md:hidden sm:hidden bg-blue-500 text-white py-2 px-6 rounded-2xl font-inter shadow-lg hover:bg-blue-600">
+          Get Started
+        </button>
+      </div>
+    </div>
+    <div className="relative mt-20 mx-10">
+    {/* The Image */}
     <img
       loading="lazy"
-      src="https://cdn.builder.io/api/v1/image/assets%2F170cbe9c02a2485986a6dc949bdc8ad3%2F12405dbf109945dba2ed90bc845e9448"
+      src="/home_images/Group 290.png"
       alt="Gallery image"
-      className="object-cover lg:w-full lg:h-[490px] min-w-[200px] sm:w-full sm:h-auto md:w-full md:h-auto"
+      className="object-contain lg:w-auto lg:h-auto sm:w-auto sm:h-auto md:w-auto md:h-auto"
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -145,6 +196,32 @@ function ImageComponent() {
       tabIndex={0}
       role="img"
     />
+    {/* The Button */}
+    <div className="absolute top-[353px] left-[1163px] transform -translate-x-1/2 -translate-y-1/2">
+      <button className="lg:flex md:hidden sm:hidden bg-slate-600 text-white py-2 px-[20px] w-[140px] h-[35px] rounded-xl text-xs font-inter shadow-lg hover:bg-slate-700">
+        Get a Free Demo
+      </button>
+    </div>
+  </div>
+
+  <div className="relative mt-20 mx-10">
+    {/* The Image */}
+    <img
+      loading="lazy"
+      src="/home_images/Group 270.png"
+      alt="Gallery image"
+      className="object-contain lg:w-auto lg:h-auto sm:w-auto sm:h-auto md:w-auto md:h-auto"
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          e.currentTarget.click();
+        }
+      }}
+      tabIndex={0}
+      role="img"
+    />
+  </div>
+  </>
   );
 }
 

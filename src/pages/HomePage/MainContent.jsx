@@ -25,7 +25,7 @@ function MainContent() {
   
   return (
     <main>
-      <section className="min-h-screen flex flex-col items-center justify-center bg-white-50 py-16">
+      {/* <section className="min-h-screen flex flex-col items-center justify-center bg-white-50 py-16">
         <EducationChallenges />
       </section>
 
@@ -49,8 +49,10 @@ function MainContent() {
     </div>
       </section>
 
-      <RevolutionarySystem />
+      <RevolutionarySystem /> */}
+      <div className="mt-20">
       <PersonalizedLearning />
+      </div>
     </main>
   );
 }
