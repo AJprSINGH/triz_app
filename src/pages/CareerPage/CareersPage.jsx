@@ -2,7 +2,7 @@ import * as React from "react";
 import CareersHero from "./CareersHero";
 import JobCard from "./JobCard";
 import Header from "../Header_C/NavBar";
-import Footer from "../Footer_c/Footer";
+import Footer from "../Footer_C/Footer";
 
 const jobListings = [
   {
