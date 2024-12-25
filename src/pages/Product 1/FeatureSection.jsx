@@ -7,28 +7,44 @@ const features = [
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/227de1a81194327dadc68ea982974c4da555caf9be06a82a9142ea07345472c1?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     title: "User Management",
-    description: `Comprehensive user profiles for teachers, students, and parents.
-      Role-based access controls for secure and efficient management.
-      Bulk user creation and imports for streamlined onboarding.`
+    description: (
+        <ul className="list-disc pl-4">
+          <li>Comprehensive user profiles for teachers, students, and parents.</li>
+          <li>Role-based access controls for secure and efficient management.</li>
+          <li>Bulk user creation and imports for streamlined onboarding.</li>
+        </ul>
+      )
   },
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/bb99ce25f2bb43cbbcbea469a1e9c0ec14b2ff34fbabc65ea8cebd2178140316?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     title: "Student Attendance \nManagement",
-    description: `Real-time attendance tracking with automated notifications.
-      Detailed attendance reports for classes and individuals.
-      Biometric and RFID integration for accurate tracking.`
+    description: (
+        <ul className="list-disc pl-4">
+            <li>Real-time attendance tracking with automated notifications.</li>
+            <li>Detailed attendance reports for classes and individuals.</li>
+            <li>Biometric and RFID integration for accurate tracking.</li>
+      </ul>
+    )
   },
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/a30eae674798ec432caf252e9b7bdc3b33db65f566107f24528ff6460682eb59?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     title: "Exam Management",
-    description: `Simplified marks entry for exams and co-scholastic activities.
-      Result uploads and higher-performance class (HPC) tracking.`
+    description:(
+        <ul className="list-disc pl-4">
+            <li>Simplified marks entry for exams and co-scholastic activities.</li>
+            <li>Result uploads and higher-performance class (HPC) tracking.</li>
+        </ul>
+    )
   },
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/47b32b639f621fa6fd7e7ba04829af1dd3c6c7580eea1667265e30fec743cefa?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     title: "Learning Outcomes \nManagement",
-    description: `Define and analyze learning outcomes for each subject.
-      Visualize performance trends with learning outcome graphs.`
+    description:(
+        <ul className="list-disc pl-4">
+            <li>Define and analyze learning outcomes for each subject.</li>
+            <li>Visualize performance trends with learning outcome graphs.</li>
+            </ul>
+    )
   }
 ];
 

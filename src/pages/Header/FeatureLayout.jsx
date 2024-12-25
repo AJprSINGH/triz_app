@@ -194,8 +194,8 @@ const additionalContentForERP = [
     {
     id: 2,
     title: "User/Teacher Management",
-    url1: "/erpservice/user-teacher",  
-    url2: "/erpservice/user-teacher-benefits"  
+    url1: "/erpfeature-one",  
+    url2: "/erpfeature-one"  
     },
     {
     id: 3,

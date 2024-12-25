@@ -7,9 +7,9 @@ export default function FeatureCard({ icon, title, description }) {
         loading="lazy"
         src={icon}
         alt={`${title} feature icon`}
-        className="object-contain w-10 aspect-square max-md:ml-2.5"
+        className="object-contain w-12 aspect-square max-md:ml-2.5"
       />
-      <div className="mt-2 font-bold text-sm max-md:ml-2.5">
+      <div className="mt-2 font-bold text-md max-md:ml-2.5">
         {title}
       </div>
       <div className="self-stretch mt-2 text-xs max-md:max-w-full">

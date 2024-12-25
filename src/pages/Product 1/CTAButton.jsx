@@ -1,6 +1,14 @@
 import * as React from "react";
+import { useRouter } from "next/router";  
 
 export function CTAButton({ text, className }) {
+  const router = useRouter(); 
+
+ 
+  const handleClick = () => {
+    router.push("/contactGlobal"); 
+  };
+
   return (
     <button 
       className={className}
@@ -10,6 +18,7 @@ export function CTAButton({ text, className }) {
       style={{
         background: 'rgba(61, 96, 149, 1)'
       }}
+      onClick={handleClick} 
     >
       {text}
     </button>

@@ -48,7 +48,9 @@ function NavBar() {
   const handleClick = () => {
     router.push('/contactGlobal');
   };
-
+  const handleClickHome = () => {
+      router.push("/"); 
+    };
   const handleDropdownToggle = (layerName) => {
     setActiveDropdown(layerName);
   };
@@ -98,6 +100,7 @@ function NavBar() {
       });
     }
   };
+  
   return (
     <>
       {/* Large Screens (lg) */}
@@ -109,6 +112,7 @@ function NavBar() {
           src="/center_home_images/Group 190 (1).png"
           alt=""
           className="object-contain shrink-0 w-28 max-w-full aspect-[2.67]"
+          onClick={handleClickHome}
         />
         <nav className="flex flex-wrap gap-10 items-center my-auto text-white">
           {navItems.map((item) => (
