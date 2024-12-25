@@ -11,11 +11,5 @@ export const leftMenuItems = [
       title: "Career",
       url: "/career"
     },
-    {
-      id: 3,
-      icon: "/home_images/Megamenu/resource.png",
-      title: "Resources",
-      url: "/resources"
-    },
   ];
   export default {leftMenuItems};
