@@ -53,7 +53,7 @@ function PricingSection() {
       </div>
       <div className="z-10 self-center -mt-[300px] ml-4 mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full">
         <div className="flex gap-10 justify-center  items-center w-full min-h-screen">
-          {pricingData.map((plan, index) => (
+          {pricingData?.map((plan, index) => (
             <PricingCard key={index} {...plan} />
           ))}
         </div>
