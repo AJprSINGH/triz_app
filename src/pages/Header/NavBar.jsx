@@ -36,7 +36,6 @@ function NavBar() {
   });
 
   useEffect(() => {
-    // Only access window object on the client side
     if (typeof window !== 'undefined') {
       setDropdownPosition({
         top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+15,
@@ -44,7 +43,7 @@ function NavBar() {
         zIndex: 1000,
       });
     }
-  }, [activeDropdown]); // Only run when `activeDropdown` changes
+  }, [activeDropdown]);
 
   const handleClick = () => {
     router.push('/contactGlobal');
@@ -103,7 +102,7 @@ function NavBar() {
     <>
       {/* Large Screens (lg) */}
       <header className="hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]" style={{
-      boxShadow: '0 8px 10px 0px rgba(42, 62, 92, 0.5)', // custom shadow style
+      boxShadow: '0 8px 10px 0px rgba(42, 62, 92, 0.5)',
     }}>
         <img
           loading="lazy"

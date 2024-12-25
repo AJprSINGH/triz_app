@@ -136,9 +136,9 @@ const useStyles = makeStyles((theme) => ({
         borderLeft: "4px solid rgb(33, 46, 65)", // Left border appears
       },
       "&.active": {
-      background: "rgba(255, 255, 255, 1)", // Keep the background white when active
-      color: "rgb(33, 46, 65)", // Keep text color when active
-      borderLeft: "4px solid rgb(33, 46, 65)", // Keep left border when active
+      background: "rgba(255, 255, 255, 1)", 
+      color: "rgb(33, 46, 65)", 
+      borderLeft: "4px solid rgb(33, 46, 65)", 
       transition: "transform 0.3s",
     },
     },
@@ -187,11 +187,16 @@ const useStyles = makeStyles((theme) => ({
     } 
   }));
 
-const data = [
-  { name: "HOME", link: "/" },
-  { name: "PRICING", link: "/pricing"},
-];
-
+const data = {
+  headerNavbar: [
+    { name: "HOME", link: "/" },
+    { name: "PRICING", link: "/pricing" },
+    { name: "RESOURCES", link: "/resources" },
+  ],
+  headerCNavbar: [
+    { name: "HOME", link: "/" },
+  ],
+};    
 const dropdownDataOptions = {
   headerNavbar: {
     PRODUCTS: [
@@ -211,11 +216,6 @@ const dropdownDataOptions = {
       { label: "Process improvement", href: "/pitwo" },
       { label: "Rolewise solutions", href: "/pithree" },
     ],
-    COMPANY: [
-      { label: "Career", href: "/career" },
-      { label: "About Us", href: "/aboutus" },
-      { label: "Resources", href: "/resources" },
-    ],
   },
   headerCNavbar: {
     PRODUCTS: [
@@ -226,7 +226,6 @@ const dropdownDataOptions = {
     COMPANY: [
       { label: "Career", href: "/career" },
       { label: "About Us", href: "/aboutus" },
-      { label: "Resources", href: "/resources" },
     ],
   },
 };
@@ -238,7 +237,7 @@ const Index = ({ dropdownDataType }) => {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient(true); // Set to true after the first render
+    setIsClient(true); 
   }, []);
   useEffect(() => {
     document.body.style.overflow = active ? "hidden" : "unset";
@@ -248,6 +247,7 @@ const Index = ({ dropdownDataType }) => {
     setOpenDropdown((prev) => (prev === key ? null : key));
   };
   const dropdownData = dropdownDataOptions[dropdownDataType] || {}; 
+  const dData = data[dropdownDataType] || {}; 
   return (
     <div className={classes.main}>
       <div className={classes.container}>
@@ -266,10 +266,10 @@ const Index = ({ dropdownDataType }) => {
       </div>
       <div className={active ? classes.activeSidenav : classes.sidenav}>
         <ul className={classes.ul}>
-          {data.map((item, i) => (
-            <li key={i}>
-              <a href={item.link} className={classes.a}>
-                {item.name}
+          {Object.entries(dData).map(([key, items]) => (
+            <li key={key}>
+              <a href={items.link} className={classes.a}>
+                {items.name}
               </a>
             </li>
           ))}
