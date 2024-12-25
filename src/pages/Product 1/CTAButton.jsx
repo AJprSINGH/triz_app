@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useRouter } from "next/router";  
 
-export function CTAButton({ text, className }) {
+export default function CTAButton({ text, className }) {
   const router = useRouter(); 
 
  
