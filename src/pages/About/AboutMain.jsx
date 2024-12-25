@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Aboutus.module.css';  // Import the CSS module
 import Contact from '../Contact/ContactCard';
-import Header from '../Header/NavBar';
+import Header from '../Header_C/NavBar';
 import Members from './PotentialMembers';
 import Journey from './JourneyPath';
-import Footer from '../Footer/Footer';
+import Footer from '../Footer_C/Footer';
 import Content from './WhatWeOffer';
 const AboutMain = () => {
   const [currentLine, setCurrentLine] = useState(0);  // Manage the visible line

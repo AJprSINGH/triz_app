@@ -1,8 +1,8 @@
 import * as React from "react";
 import CareersHero from "./CareersHero";
 import JobCard from "./JobCard";
-import Header from "../Header/NavBar";
-import Footer from "../Footer/Footer";
+import Header from "../Header_C/NavBar";
+import Footer from "../Footer_c/Footer";
 
 const jobListings = [
   {
