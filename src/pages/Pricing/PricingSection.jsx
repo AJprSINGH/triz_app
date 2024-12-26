@@ -351,7 +351,7 @@ function PricingSection() {
             Unlock the perfect plan for you or your team. Take the first step
             toward effortless management today.
           </div>
-          <div className="flex overflow-hidden gap-10 px-10 py-2 mt-10 max-w-full font-inter text-md items-start justify-between font-medium bg-white border-2 border-green-600 border-solid rounded-[30px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] text-indigo-950 w-[738px] max-md:px-5 max-md:mt-10">
+          <div className="flex overflow-hidden px-10 py-0 mt-10 max-w-full font-inter text-md items-start justify-between font-medium bg-white border-2 border-green-600 border-solid rounded-[30px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] text-indigo-950 w-[600px] max-md:px-5 max-md:mt-10">
           <button
                 onClick={() => handleButtonClick("ERP")}
                 className={`py-2 px-4 rounded-full ${buttonStyle("ERP")}`}
