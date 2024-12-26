@@ -189,7 +189,7 @@ export default function FeaturesSection() {
                     Other features include ID card generation with customizable
                     templates, circular generation and distribution for school
                     communications, parent communication management, student
-                    discipline tracking, teacher transfer utility, and teacher's diary
+                    discipline tracking, teacher transfer utility, and teacher&aspos;s diary
                     management for session planning. These tools provide robust
                     support for day-to-day school operations and improve
                     administrative efficiency.
@@ -199,7 +199,7 @@ export default function FeaturesSection() {
                 </div>
                 <div className="mt-20 text-md font-medium text-center text-black max-md:mt-10 max-md:max-w-full">
         <span className="text-2xl font-inter text-amber-500">
-          Ready to transform your institution's operations?
+          Ready to transform your institution&aspos;s operations?
         </span>
         <br />
         Explore the User/Teacher Management solution by Scholar Clone ERP and
@@ -274,7 +274,7 @@ export default function FeaturesSection() {
         </span>
         <br />
         <br />
-        Don’t let inefficiencies hold your institution back. Leverage the power of an integrated system that is tailored to your needs.
+        Don&aspos;t let inefficiencies hold your institution back. Leverage the power of an integrated system that is tailored to your needs.
       </div>
       <button 
         className="overflow-hidden gap-2.5 self-stretch p-2.5 mt-6 text-md font-medium text-white rounded-xl bg-slate-500 shadow-[0px_4px_8px_rgba(0,0,0,0.25)] max-md:mt-10"
