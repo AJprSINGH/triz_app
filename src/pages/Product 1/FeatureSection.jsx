@@ -3,6 +3,7 @@ import FeatureCard from "./FeatureCard";
 import Hero from "./UserTeacherHero";
 import Header from "../Header/NavBar";
 import Footer from "../Footer/Footer";
+import "./feature.css";
 const features = [
   {
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/227de1a81194327dadc68ea982974c4da555caf9be06a82a9142ea07345472c1?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
@@ -47,7 +48,50 @@ const features = [
     )
   }
 ];
-
+const benefits = [
+    {
+      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/227de1a81194327dadc68ea982974c4da555caf9be06a82a9142ea07345472c1?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      title: "User Management",
+      description: (
+          <ul className="list-disc pl-4">
+            <li>Comprehensive user profiles for teachers, students, and parents.</li>
+            <li>Role-based access controls for secure and efficient management.</li>
+            <li>Bulk user creation and imports for streamlined onboarding.</li>
+          </ul>
+        )
+    },
+    {
+      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/bb99ce25f2bb43cbbcbea469a1e9c0ec14b2ff34fbabc65ea8cebd2178140316?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      title: "Student Attendance \nManagement",
+      description: (
+          <ul className="list-disc pl-4">
+              <li>Real-time attendance tracking with automated notifications.</li>
+              <li>Detailed attendance reports for classes and individuals.</li>
+              <li>Biometric and RFID integration for accurate tracking.</li>
+        </ul>
+      )
+    },
+    {
+      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/a30eae674798ec432caf252e9b7bdc3b33db65f566107f24528ff6460682eb59?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      title: "Exam Management",
+      description:(
+          <ul className="list-disc pl-4">
+              <li>Simplified marks entry for exams and co-scholastic activities.</li>
+              <li>Result uploads and higher-performance class (HPC) tracking.</li>
+          </ul>
+      )
+    },
+    {
+      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/47b32b639f621fa6fd7e7ba04829af1dd3c6c7580eea1667265e30fec743cefa?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      title: "Learning Outcomes \nManagement",
+      description:(
+          <ul className="list-disc pl-4">
+              <li>Define and analyze learning outcomes for each subject.</li>
+              <li>Visualize performance trends with learning outcome graphs.</li>
+              </ul>
+      )
+    }
+];
 export default function FeaturesSection() {
   return (
     <>
@@ -62,13 +106,17 @@ export default function FeaturesSection() {
           <div className="flex flex-col grow pt-44 pr-16 pl-5 mt-auto w-full text-xl font-medium text-white rounded-none rounded-tr-xl rounded-br-xl bg-opacity-80 shadow-[3px_0px_8px_rgba(0,0,0,0.25)] max-md:px-5 max-md:py-24" style={{
             background: 'rgba(34, 69, 111, 0.75)'
           }}>
-            <div>Features</div>
-            <div className="mt-12 max-md:mt-10 max-md:mr-2">Benefits</div>
+            <button className="feature-title ml-10">Features</button>
+            <button className="benefit-title mt-12 ml-10 max-md:mt-10 max-md:mr-2">Benefits</button>
           </div>
         </div>
         <div className="flex flex-col ml-1 w-[84%] max-md:ml-0 max-md:w-full">
           <div className="flex overflow-hidden flex-col justify-center items-center px-20 py-10 w-full bg-white max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col max-w-full w-[1300px]">
+            {/* <div className="flex">
+            <button className="bg-slate-500 py-2 px-4 rounded-xl text-white font-inter">Features</button>
+            <button className="bg-slate-500 py-2 px-4 rounded-xl text-white font-inter ml-4">Benefits</button>
+            </div> */}
               <h1 className="self-center ml-12 text-2xl font-medium text-amber-500 max-md:max-w-full max-md:text-xl">
                 Key Features and Modules
               </h1>

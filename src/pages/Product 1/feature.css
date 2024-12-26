@@ -1,0 +1,25 @@
+ .feature-title:hover,.benefit-title:hover {
+    color: #ec4a09;
+    transition: all ease-in-out 500ms;
+    position: relative;
+  }
+  .feature-title,.benefit-title {
+    color: #ffffff;
+  }
+  /* Create a line under the nav item */
+  .feature-title::before,.benefit-title::before {
+    content: '';
+    width: 2px;
+    background-color: #ec4a09;
+    position: absolute;
+    top: 0; 
+    left: -5px; 
+    height: 0%;
+    transition: all ease-in-out 250ms;
+  }
+  
+  /* Expand the line width on hover */
+  .feature-title:hover::before ,.benefit-title:hover::before{
+    height:100%;
+  }
+  
