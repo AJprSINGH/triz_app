@@ -45,7 +45,7 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
           </div>
         )}
         {features?.map((feature, index) => (
-          <div>
+          <div key={index}>
           <div key={index} className="flex gap-2 items-center mt-2">
             <img
               loading="lazy"
