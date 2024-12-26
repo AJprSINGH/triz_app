@@ -67,7 +67,7 @@ const benefits = [
       },
       {
         id: 3,
-        title: "Teacher's Session Planning",
+        title: `Teacher's Session Planning`,
         description: "Enable teachers to document and manage their daily lesson plans with a structured Teacher's Diary feature, ensuring accountability and consistency in teaching.",
         icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/86d4b46f7b392bdaf505d2fc5101edd57946c2f0022e2ca826e5d07c33e85e40?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
         imageAlt: "Teacher planning calendar icon"
