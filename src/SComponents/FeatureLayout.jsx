@@ -519,8 +519,8 @@ export default function FeatureLayout({ onLeftMenuHover }) {
             }}
           >
             <div className="flex flex-col px-5 pt-24 pb-24 w-full text-sm font-semibold leading-none text-sky-500 shadow-sm max-md:px-5 max-md:pb-24" style={{
-              paddingTop: hoveredLeftMenuId ? "32%" : "10%",
-              paddingBottom: hoveredLeftMenuId ? "32%" : "10%",
+              paddingTop: hoveredLeftMenuId ? "10%" : "10%",
+              paddingBottom: hoveredLeftMenuId ? "10%" : "10%",
             }}
           >
               {leftMenuItems.map((item) => (
@@ -547,7 +547,7 @@ export default function FeatureLayout({ onLeftMenuHover }) {
               opacity: hoveredLeftMenuId ? 1 : 0, // Fade in/out
             }}
           >
-            <div className="flex flex-col pt-28 pb-24 mx-auto font-semibold size-full max-md:py-24 max-md:max-w-full">
+            <div className="flex flex-col pt-14 pb-14 mx-auto font-semibold size-full max-md:py-24 max-md:max-w-full">
               {getRightMenuItems(hoveredLeftMenuId).map((item) => (
                 <div key={item.id} 
                      className="mt-5 first:mt-0"
@@ -567,7 +567,7 @@ export default function FeatureLayout({ onLeftMenuHover }) {
 
           {/* Additional Content (Appears next to the right menu) */}
           <div
-            className={`flex flex-col items-start mt-28 w-full text-sm font-semibold leading-none text-sky-500 text-opacity-80 max-md:mt-10 transition-all duration-300 ease-in-out`}
+            className={`flex flex-col items-start mt-12 w-full text-sm font-semibold leading-none text-sky-500 text-opacity-80 max-md:mt-10 transition-all duration-300 ease-in-out`}
             style={{
               width: "400px", // Fixed width for additional content
               position: hoveredLeftMenuId ? "" : "absolute",

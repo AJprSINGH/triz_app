@@ -38,7 +38,7 @@ function NavBar() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setDropdownPosition({
-        top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+15,
+        top: buttonRefs.current[activeDropdown]?.getBoundingClientRect().bottom + window.scrollY+12,
         left: buttonRefs.current[activeDropdown]?.getBoundingClientRect().left + window.scrollX-50,
         zIndex: 1000,
       });
@@ -87,7 +87,7 @@ function NavBar() {
     if (id === 1 || id === 2 || id === 3 || id === 4 || id === 5 || id === 6) {
       setDropdownPosition({
         top: 50,
-        left: "10%",
+        left: "13%",
         transform: "translateX(-4%)",
         zIndex:1000
       });
