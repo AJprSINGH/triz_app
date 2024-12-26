@@ -1,12 +1,22 @@
 import * as React from "react";
 import { useState } from "react";
 const PricingCard = ({ title, price, recommended, bestValue, buttonColor, borderColor, features,Prerequisite,featuresDescription }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  
-    const toggleDescription = () => {
-      setIsOpen(!isOpen);
-    };
-  
+  const [openFeatureIndex, setOpenFeatureIndex] = useState(null);
+  const [rotatedIndex, setRotatedIndex] = useState(null);
+  const toggleDescription = (index) => {
+    if (openFeatureIndex === index) {
+      setOpenFeatureIndex(null); 
+    } else {
+      setOpenFeatureIndex(index);
+    }
+  };
+  const toggleRotation = (index) => {
+    if (rotatedIndex === index) {
+      setRotatedIndex(null);
+    } else {
+      setRotatedIndex(index);
+    }
+  };
   return (
     <div className={`flex flex-col font-inter rounded-xl w-[30%] max-md:w-full ${recommended ? 'bg-sky-500' : bestValue ? 'bg-green-600' : ''} p-2`}>
       <div
@@ -35,24 +45,33 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
           </div>
         )}
         {features?.map((feature, index) => (
+          <div>
           <div key={index} className="flex gap-2 items-center mt-2">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/6584c070b022da334e18774febceaeef0a5298e7feeb409d64c5e4c9276cf2da?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
               alt=""
-              className="w-4 h-4"
-              onClick={toggleDescription}
+              className={`w-4 h-4 cursor-pointer transition-transform duration-300 ${
+                  rotatedIndex === index ? "rotate-90" : ""}`}
+              onClick={() => {
+                toggleDescription(index);
+                toggleRotation(index);
+              }}
             />
             <div className="text-sm">{feature}</div>
-            {/* <div
-                className={`${
-                  isOpen ? 'max-h-40' : 'max-h-0'
-                } overflow-hidden transition-all duration-300 ease-in-out mt-2`} 
-                style={{ marginTop: isOpen ? "0px" : "0" }} 
-              >
-                <p className={`text-xs `}>{featuresDescription}</p>
-           </div> */}
-          </div>
+            </div>
+            <div
+            className={`text-xs text-gray-700 overflow-hidden transition-all duration-300 ease-in-out`}
+            style={{
+              maxHeight: openFeatureIndex === index ? '200px' : '0', 
+              padding: openFeatureIndex === index ? '10px' : '0',
+            }}
+            >
+            {openFeatureIndex === index && (
+              <div>{featuresDescription[index]}</div>
+            )}
+            </div>
+            </div>
         ))}
          <button
           className={`overflow-hidden px-6 py-2 mt-6 rounded-lg border-2 border-solid text-${buttonColor} border-${borderColor} relative group`}
