@@ -18,15 +18,15 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
     }
   };
   return (
-    <div className={`flex flex-col font-inter rounded-xl w-[30%] max-md:w-full ${recommended ? 'bg-sky-500' : bestValue ? 'bg-green-600' : ''} p-2`}>
+    <div className={`flex flex-col font-inter rounded-xl w-[26%] max-md:w-full ${recommended ? 'bg-sky-500 -mt-20' : bestValue ? 'bg-green-600' : ''} p-2`}>
+      {recommended && <div className="self-center mb-0 text-white text-sm px-4 py-0 bg-sky-500 rounded">Recommended</div>}
       <div
-        className={`flex flex-col px-6 py-8 w-full text-sm font-bold text-black bg-white rounded-lg shadow-lg ${
-          recommended ? 'mt-0' : bestValue ? 'mt-0' : 'mt-10'
+        className={`flex flex-col px-6 w-full text-sm font-bold text-black bg-white rounded-lg shadow-lg ${
+          recommended ? 'mt-0 py-10' : bestValue ? 'mt-0 pt-0 pb-8' : 'mt-10 py-8'
         }`}
       >
-        {recommended && <div className="self-center mb-4 text-white text-sm px-4 py-1 bg-sky-500 rounded">Recommended</div>}
         {bestValue && (
-          <div className="self-center mb-4 text-white text-sm px-4 py-1 bg-green-600 rounded">
+          <div className="self-center mb-10 text-white text-sm px-4 py-1 bg-green-600 rounded-b">
             Best Value
           </div>
         )}
