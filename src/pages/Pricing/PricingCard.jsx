@@ -58,7 +58,12 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
                 toggleRotation(index);
               }}
             />
-            <div className="text-sm">{feature}</div>
+            <div className="text-sm cursor-pointer"
+             onClick={() => {
+              toggleDescription(index);
+              toggleRotation(index);
+            }}
+            >{feature}</div>
             </div>
             <div
             className={`text-xs text-gray-700 overflow-hidden transition-all duration-300 ease-in-out`}
