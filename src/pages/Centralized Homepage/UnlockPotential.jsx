@@ -11,7 +11,7 @@ import BlogSection from './BlogCardsSection';
 function UnlockPotential() {
   return (
     <div className="flex flex-col w-full max-w-[1920px] mx-auto overflow-x-hidden">
-      <main className="font-bold text-xl">
+      <main className="text-xl">
       <Header />
       </main>
       <Newone />

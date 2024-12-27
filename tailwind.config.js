@@ -8,15 +8,21 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      roboto: ['Roboto', 'serif'], // Roboto font stack
-      merriweather: ['Merriweather', 'serif'], // Merriweather font stack
-      noto: ['NotoSans', 'serif'], // Merriweather font stack
+      roboto: ['Roboto', 'serif'], 
+      merriweather: ['Merriweather', 'serif'], 
+      noto: ['NotoSans', 'serif'], 
       poppins: ['Poppins','serif'],
-      inter: ['Inter','serif']
+      inter: ['Inter','serif'],
+      intermedium: ['InterMedium','serif'],
+      interregular: ['InterRegular','serif'],
+      osbold: ['OSBold','serif'],
+      osmedium: ['OSMedium','serif'],
+      osregular: ['OSRegular','serif'],
+      ossemibold: ['OSSemiBold','serif']
     },
     extend: {
       screens: { 
-        'sm': { 'min': '207px'}, // Added max width
+        'sm': { 'min': '207px'}, 
         'sm2': { 'min':'207','max': '640px' }
       },
       colors: {
@@ -24,12 +30,12 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       animation: {
-        scroll: 'scroll 40s linear infinite', // Extended time for smooth scrolling
+        scroll: 'scroll 40s linear infinite', 
       },
       keyframes: {
         scroll: {
-          '0%': { transform: 'translateX(0)' }, // Starting position
-          '100%': { transform: 'translateX(-100%)' }, // Move the entire container by 100% of the container's width
+          '0%': { transform: 'translateX(0)' }, 
+          '100%': { transform: 'translateX(-100%)' },
         },
       },
     },

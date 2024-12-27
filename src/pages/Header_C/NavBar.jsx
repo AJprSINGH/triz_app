@@ -49,7 +49,7 @@ useEffect(() => {
   return (
     <>
       {/* Large Screens (lg) */}
-      <header className="relative hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
+      <header className="relative hidden lg:flex md:flex overflow-hidden flex-wrap gap-5 font-intermedium justify-between px-16 py-1 w-full bg-gradient-to-r from-[rgb(42,62,92)] to-[rgb(42,62,92)]">
         <img
           loading="lazy"
           src="/center_home_images/Group 190 (1).png"
@@ -63,7 +63,7 @@ useEffect(() => {
                 <button
                   ref={(el) => (buttonRefs.current[item.layerName] = el)}
                   onMouseEnter={() => handleDropdownToggle(item.layerName)}
-                  className="relative z-10 font-bold text-white"
+                  className="relative z-10 text-white"
                 >
                   <NavItem label={item.label} layerName={item.layerName} />
                 </button>
@@ -73,13 +73,13 @@ useEffect(() => {
                 key={item.layerName}
                 ref={(el) => (buttonRefs.current[item.layerName] = el)}
                 onMouseEnter={() => handleDropdownToggle(item.layerName)}
-                className="relative z-10 font-bold text-white"
+                className="relative z-10 text-white"
               >
                 <NavItem label={item.label} layerName={item.layerName} />
               </button>
             )
           ))}
-          <button className="contact-button gap-2 self-stretch px-1 py-1 font-bold text-white bg-sky-500 rounded-xl min-h-[10px]" onClick={handleClick}>
+          <button className="contact-button gap-2 self-stretch px-1 py-1 text-white bg-sky-500 rounded-xl min-h-[10px]" onClick={handleClick}>
             Contact Us
           </button>
         </nav>

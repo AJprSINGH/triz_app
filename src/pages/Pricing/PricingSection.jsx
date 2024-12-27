@@ -250,7 +250,9 @@ function PricingSection() {
   };
   return (
     <>
+    <div className="text-xl">
     <Header />
+    </div>
     <div className="flex flex-col rounded-none">
       <div className="flex overflow-hidden flex-col items-center px-20 pt-20 pb-56 w-full text-white bg-slate-700 max-md:px-5 max-md:py-24 max-md:max-w-full">
         <div className="flex flex-col items-center mb-0 max-w-full w-[full] max-md:mb-2.5">

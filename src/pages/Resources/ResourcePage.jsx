@@ -17,7 +17,7 @@ const resourceTypes = [
 
 function ResourcePage() {
   return (
-    <main className="flex flex-col text-xl font-bold rounded-none">
+    <main className="flex flex-col text-xl rounded-none">
      <Header />
       <img
         loading="lazy"
@@ -25,7 +25,7 @@ function ResourcePage() {
         alt="Resource page header"
         className="object-contain w-full aspect-[2.6] max-md:max-w-full"
       />
-      <section className="flex z-6 flex-col self-center mt-12  w-full max-w-full max-md:mt-4 max-md:max-w-full">
+      <section className="flex z-6 flex-col self-center mt-12 font-bold  w-full max-w-full max-md:mt-4 max-md:max-w-full">
         <div className="flex flex-wrap gap-3 justify-center items-center w-full text-lg text-white max-md:gap-2 max-md:max-w-full">
           {resourceTypes.map((type, index) => (
             <ResourceButton key={index} text={type} className="px-3 py-2 bg-blue-600 rounded-md text-sm max-md:text-xs" />

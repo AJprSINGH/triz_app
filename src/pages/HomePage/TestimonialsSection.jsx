@@ -32,7 +32,7 @@ export default function TestimonialsSection() {
       </style>
     <div className="w-full max-w-[1528px] mx-auto mb-4">
       {/* Title Section */}
-      <div className="text-2xl font-bold text-center text-amber-500">
+      <div className="text-2xl font-inter text-center text-amber-500">
         Real Voices, Real Impact: Discover How Scholar Clone Transforms Education
       </div>
       <img

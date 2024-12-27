@@ -55,6 +55,39 @@
   font-weight:bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'InterMedium';
+  src: url('/fonts/Inter_18pt-Medium.woff') format('woff');
+  font-weight:medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'InterRegular';
+  src: url('/fonts/Inter_18pt-Regular.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OSRegular';
+  src: url('/fonts/OpenSans-Regular.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OSMedium';
+  src: url('/fonts/OpenSans-Medium.woff') format('woff');
+  font-weight:medium;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OSBold';
+  src: url('/fonts/OpenSans-Bold.woff') format('woff');
+  font-weight:bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OSSemibold';
+  src: url('/fonts/OpenSans-SemiBold.woff') format('woff');
+  font-style: normal;
+}
 html, body {
   margin: 0;
   padding: 0;

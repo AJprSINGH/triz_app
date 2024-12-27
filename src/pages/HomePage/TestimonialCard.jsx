@@ -7,14 +7,14 @@ export default function TestimonialCard({ name, school, testimonial }) {
         <div className="flex gap-6 self-start font-bold text-center text-black">
           <div className="flex shrink-0 rounded-full bg-zinc-300 h-[100px] w-[100px]" />
           <div className="flex flex-col my-auto">
-            <div className="self-start text-2xl">{name}</div>
-            <div className="text-xl">{school}</div>
+            <div className="self-start text-2xl font-inter">{name}</div>
+            <div className="text-xl font-inter">{school}</div>
           </div>
         </div>
         <div className="self-end mt-3.5 max-w-full w-[539px]">
           <div className="flex gap-5 max-md:flex-col">
             <div className="flex flex-col w-4/5 max-md:ml-0 max-md:w-full">
-              <div className="z-10 text-xl font-medium text-black max-md:-mr-3.5 max-md:max-w-full">
+              <div className="z-10 text-xl font-medium font-intermedium text-black max-md:-mr-3.5 max-md:max-w-full">
                 {testimonial}
               </div>
             </div>
