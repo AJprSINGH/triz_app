@@ -63,7 +63,7 @@ function Footer() {
 
       {/* Centered Copyright and Social Icons */}
       <div className="flex flex-wrap justify-center items-center lg:gap-40 lg:mt-10 sm:gap-10 sm:mt-2 text-center">
-        <p className="lg:text-md lg:font-bold text-white font-interregular sm:font-bold sm:mb-[-20px] sm:text-md">
+        <p className="lg:text-md lg:font-bold text-white font-interregular sm:font-bold sm:mb-[-20px] md:mb-[0px] sm:text-sm">
           All Rights Are Reserved By 2024 © Triz Innovation PVT LTD.
         </p>
         <SocialIcons />
