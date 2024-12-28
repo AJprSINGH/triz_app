@@ -11,9 +11,13 @@ const services = [
 function Services() {
   return (
     <section className="flex flex-col items-center pt-10 mt-0">
-      <div className="flex flex-col justify-center items-center self-stretch px-10 py-10 mt-2 w-full max-md:px-5 max-md:mt-2 max-md:max-w-full bg-gradient-to-r from-green-300 to-green-500">
+      <div className="flex flex-col justify-center items-center self-stretch px-10 py-10 mt-2 w-full max-md:px-5 max-md:mt-2 max-md:max-w-full"style={{
+        background:'rgba(220, 255, 229, 1)',
+      }}>
         <div className="flex flex-col w-full max-w-[1554px] max-md:max-w-full">
-          <h2 className="text-4xl font-bold text-center text-cyan-900 max-md:max-w-full max-md:text-3xl">
+          <h2 className="text-4xl font-bold text-center text-cyan-900 max-md:max-w-full max-md:text-3xl"style={{
+        color: 'rgba(61, 96, 149, 1)',
+      }}>
             Empower Your School with Seamless Integration, Tailored Solutions, and Advanced Tools for Every Role
           </h2>
           <div className="mt-12 mr-4 ml-4 max-md:mt-8 max-md:mr-2 max-md:max-w-full">

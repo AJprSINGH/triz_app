@@ -14,7 +14,7 @@ function ContactForm() {
     <div className="flex flex-col rounded-none">
       <header className="flex overflow-hidden flex-col w-full bg-sky-950 bg-opacity-60 max-md:max-w-full">
         <div className="flex relative flex-col items-end px-10 ml-px w-full max-w-[1500px] h-[10px] pt-[390px] max-md:pt-24 max-md:pl-5 max-md:max-w-full">
-          <img loading="lazy" src="/contactGlobal_images/image.png" alt="" className="object-cover absolute inset-0 h-10px" />
+          <img loading="lazy" src="/contactGlobal_images/image (8).png" alt="" className="object-cover absolute inset-0 h-10px" />
         </div>
       </header>
       <main className="overflow-hidden self-center pl-6 mt-10 max-w-full bg-white rounded-3xl border-blue-500 border-solid shadow-sm border-[5px] w-[950px] max-md:pl-5 max-md:mt-8">
