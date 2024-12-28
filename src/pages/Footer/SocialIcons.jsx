@@ -17,7 +17,7 @@ function SocialIcons() {
           loading="lazy"
           src={icon.src}
           alt={icon.alt}
-          className="object-contain shrink-0 aspect-square lg:w-[50px] sm:w-[30px]"
+          className="object-contain shrink-0 aspect-square lg:w-[30px] sm:w-[20px]"
         />
       ))}
     </div>
