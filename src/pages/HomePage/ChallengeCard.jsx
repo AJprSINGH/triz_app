@@ -13,7 +13,12 @@ function ChallengeCard({ title, image, fullWidth = false }) {
     <div className={cardClasses}>
       <div className={containerClasses}>
         <img loading="lazy" src={image} alt={title} className="object-cover absolute inset-0 size-full" />
-        <div className="relative z-10">{title}</div>
+        <div className="relative z-10"
+        style={{
+          background: 'rgba(245, 245, 250, 1)',
+          boxShadow: 'inset 0 4px 6px rgba(170, 170, 204, 0.5), inset 0 -4px 6px rgba(255, 255, 255, 1), inset 4px 0 6px rgba(170, 170, 204, 0.5), inset -4px 0 6px rgba(255, 255, 255, 0.5)',
+        }}
+        >{title}</div>
       </div>
     </div>
   );
