@@ -40,117 +40,115 @@ const rightMenuForLMS = [
     id: 1,
     icon: "/home_images/Megamenu/LMS/1.png",
     title: "Teaching & Learning",
-    description: "Finance & Operations Systems manage budgets and daily operations.",
-    url: "/lmsservice"  // Add a clickable URL
+    description: "Effective tools and platforms for managing and delivering educational content and fostering student engagement.",
+    url: "/lmsservice"
   },
   {
     id: 2,
     icon: "/home_images/Megamenu/LMS/2.png",
     title: "Measuring Learning & Growth",
-    description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-    url: "/lmsservice"  // Add a clickable URL
+    description: "Tools to assess student performance, track progress, and measure educational outcomes for growth.",
+    url: "/lmsservice"
   },
   {
     id: 3,
     icon: "/home_images/Megamenu/LMS/3.png",
     title: "Administration & Management",
-    description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-    url: "/lmsservice"  // Add a clickable URL
+    description: "Systems to handle school or institution administration, course management, and scheduling.",
+    url: "/lmsservice"
   },
   {
     id: 4,
     icon: "/home_images/Megamenu/LMS/4.png",
     title: "Student Support & Engagement",
-    description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-    url: "/lmsservice" // Add a clickable URL
-  },
-  // Add more specific items for LMS if needed
+    description: "Resources and solutions to provide ongoing support, engagement, and guidance to students throughout their learning journey.",
+    url: "/lmsservice"
+  }
 ];
 
 const rightMenuForCareerCounselling = [
-    {
-        id: 1,
-        icon: "/home_images/Megamenu/CC/1.png",
-        title: "Career Development",
-        description: "Administrative & Management Solutions streamline organizational operations.",
-        url: "ccservice"  // Add a clickable URL
-      },
-      {
-        id: 2,
-        icon: "/home_images/Megamenu/CC/2.png",
-        title: "Assessment & Evaluation",
-        description: "Finance & Operations Systems manage budgets and daily operations.",
-        url: "ccservice" // Add a clickable URL
-      },
-      {
-        id: 3,
-        icon: "/home_images/Megamenu/CC/3.png",
-        title: "Counseling & Support",
-        description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-        url: "ccservice"  // Add a clickable URL
-      },
-      {
-        id: 4,
-        icon: "/home_images/Megamenu/CC/4.png",
-        title: "Exploration & Connectivity",
-        description: "Engagement & Communication Systems enhance interaction and information sharing.",
-        url: "ccservice"
-      }
+  {
+    id: 1,
+    icon: "/home_images/Megamenu/CC/1.png",
+    title: "Career Development",
+    description: "Tools and programs aimed at helping students explore career paths and develop the necessary skills for success.",
+    url: "ccservice"
+  },
+  {
+    id: 2,
+    icon: "/home_images/Megamenu/CC/2.png",
+    title: "Assessment & Evaluation",
+    description: "Assessment tools for evaluating students' interests, skills, and readiness for career paths and higher education.",
+    url: "ccservice"
+  },
+  {
+    id: 3,
+    icon: "/home_images/Megamenu/CC/3.png",
+    title: "Counseling & Support",
+    description: "Counseling services designed to provide emotional support and guide students in their career or academic decisions.",
+    url: "ccservice"
+  },
+  {
+    id: 4,
+    icon: "/home_images/Megamenu/CC/4.png",
+    title: "Exploration & Connectivity",
+    description: "Platforms to connect students with industry professionals, mentors, and networking opportunities for career exploration.",
+    url: "ccservice"
+  }
 ];
 const rightMenuForEducationAI = [
-    {
-        id: 1,
-        icon: "/home_images/Megamenu/EAI/1.png",
-        title: "AI-Powered Learning Tools",
-        description: "Administrative & Management Solutions streamline organizational operations.",
-        url: "/aiservice"  // Add a clickable URL
-      },
-      {
-        id: 2,
-        icon: "/home_images/Megamenu/EAI/2.png",
-        title: "Automation & Efficiency",
-        description: "Finance & Operations Systems manage budgets and daily operations.",
-        url: "/aiservice"  // Add a clickable URL
-      },
-      {
-        id: 3,
-        icon: "/home_images/Megamenu/EAI/3.png",
-        title: "AI-Driven Communication",
-        description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-        url: "/aiservice"  // Add a clickable URL
-      },
+  {
+    id: 1,
+    icon: "/home_images/Megamenu/EAI/1.png",
+    title: "AI-Powered Learning Tools",
+    description: "Artificial intelligence tools that enhance the learning experience, providing personalized content and feedback.",
+    url: "/aiservice"
+  },
+  {
+    id: 2,
+    icon: "/home_images/Megamenu/EAI/2.png",
+    title: "Automation & Efficiency",
+    description: "AI-driven solutions that automate administrative tasks and enhance operational efficiency in educational institutions.",
+    url: "/aiservice"
+  },
+  {
+    id: 3,
+    icon: "/home_images/Megamenu/EAI/3.png",
+    title: "AI-Driven Communication",
+    description: "AI-powered communication tools that improve interaction between students, teachers, and administrators.",
+    url: "/aiservice"
+  }
 ];
 
 const rightMenuForCommunication = [
-    {
-      id: 1,
-      icon: "/home_images/Megamenu/COMM/1.png",
-      title: "Parental Engagement",
-      description: "Finance & Operations Systems manage budgets and daily operations.",
-      url: "/commservice"  // Add a clickable URL
-    },
-    {
-      id: 2,
-      icon: "/home_images/Megamenu/COMM/2.png",
-      title: "Teacher Communication & Coordinations",
-      description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-      url:"/commservice"// Add a clickable URL
-    },
-    {
-      id: 3,
-      icon: "/home_images/Megamenu/COMM/3.png",
-      title: "Messaging & Notifications",
-      description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-      url:"/commservice" // Add a clickable URL
-    },
-    {
-      id: 4,
-      icon: "/home_images/Megamenu/COMM/4.png",
-      title: "Automated Communication",
-      description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-      url:"/commservice"
-    },
-    // Add more specific items for LMS if needed
+  {
+    id: 1,
+    icon: "/home_images/Megamenu/COMM/1.png",
+    title: "Parental Engagement",
+    description: "Tools and platforms designed to enhance communication and collaboration between schools and parents.",
+    url: "/commservice"
+  },
+  {
+    id: 2,
+    icon: "/home_images/Megamenu/COMM/2.png",
+    title: "Teacher Communication & Coordinations",
+    description: "Solutions for facilitating communication and collaboration between teachers, students, and parents.",
+    url: "/commservice"
+  },
+  {
+    id: 3,
+    icon: "/home_images/Megamenu/COMM/3.png",
+    title: "Messaging & Notifications",
+    description: "Automated systems for sending important messages, notifications, and reminders to students, parents, and faculty.",
+    url: "/commservice"
+  },
+  {
+    id: 4,
+    icon: "/home_images/Megamenu/COMM/4.png",
+    title: "Automated Communication",
+    description: "Automated communication systems to streamline interactions across various stakeholders in the education ecosystem.",
+    url: "/commservice"
+  }
   ];
 
   const rightMenuForAnalytics = [
@@ -158,30 +156,30 @@ const rightMenuForCommunication = [
       id: 1,
       icon: "/home_images/Megamenu/ANALYTICS/1.png",
       title: "Performance Analytics",
-      description: "Finance & Operations Systems manage budgets and daily operations.",
-      url: "/analyticsservice"  // Add a clickable URL
+      description: "Analytics solutions to track and assess the performance of students, educators, and institutions over time.",
+      url: "/analyticsservice"
     },
     {
       id: 2,
       icon: "/home_images/Megamenu/ANALYTICS/2.png",
       title: "Reporting & Insights",
-      description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-      url: "/analyticsservice"  // Add a clickable URL
+      description: "Generate detailed reports and gain insights into student performance, attendance, and more.",
+      url: "/analyticsservice"
     },
     {
       id: 3,
       icon: "/home_images/Megamenu/ANALYTICS/3.png",
       title: "Predictive Analytics",
-      description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-      url: "/analyticsservice" // Add a clickable URL
+      description: "AI-powered analytics tools to forecast student outcomes and provide proactive interventions.",
+      url: "/analyticsservice"
     },
     {
       id: 4,
       icon: "/home_images/Megamenu/ANALYTICS/4.png",
       title: "Exam & Results Analysis",
-      description: "Student & Academic Management Systems organize student data and streamline academic processes.",
-      url:"/analyticsservice"
-    },
+      description: "Tools to analyze exam results, identify trends, and make data-driven decisions to improve educational practices.",
+      url: "/analyticsservice"
+    }
   ];
 const additionalContentForERP = [
  [   
