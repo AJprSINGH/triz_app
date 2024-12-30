@@ -38,50 +38,55 @@ const valueData = [
 
 function WhatWeOffer() {
   return (
-    <main className="flex flex-col items-center p-24">
-    <section className="image-container mt-[390px]">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/011b67d6c908201d1d22f9afa63229d42faa9b489934fcb61f4b437fe10cea8d?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
-        alt="Descriptive image content"
-        loading="lazy"
-        className="object-contain w-[100px] aspect-square"
-      />
-    </section>
-     <section className="flex flex-col items-center bg-gray-100 pl-32 pr-32 pt-8 pb-8 mb-[500px]">
-      <h1 className="text-3xl font-bold text-amber-500 max-md:text-4xl">
-        What We Offer
-      </h1>
-      <p className="self-stretch mt-10 ml-3 text-xl text-black max-md:max-w-full">
-        Scholar Clone is a forward-thinking company dedicated to transforming educational experiences through innovative solutions. We specialize in providing a comprehensive school management system that streamlines administrative tasks, enhances communication, and improves operational efficiency. Our Learning Management System (LMS) empowers educators and students with tools for interactive learning, assessment, and progress tracking, tailored to modern educational needs. In addition, our career counseling services guide students toward fulfilling their academic and professional aspirations, ensuring they make informed decisions about their future. At Scholar Clone, we are committed to fostering an environment where education and technology come together to create meaningful impacts on student&apos;s lives.
-      </p>
-      <section className="mt-2 max-w-full w-[1088px] max-md:mt-10">
-        <div className="flex gap-2 max-md:flex-col">
-          {offeringData.map((offering, index) => (
-            <OfferingColumn key={index} imageSrc={offering.imageSrc} title={offering.title} />
-          ))}
-        </div>
+    <main className="flex flex-col items-center lg:pt-24 lg:p-[-200px] sm:p-4">
+      <section className="image-container mt-[100px] md:mt-[390px]">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/011b67d6c908201d1d22f9afa63229d42faa9b489934fcb61f4b437fe10cea8d?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3"
+          alt="Descriptive image content"
+          loading="lazy"
+          className="object-contain w-[50px] sm:w-[100px] md:w-[150px] lg:w-[100px] aspect-square"
+        />
       </section>
+
+      <section className="flex flex-col items-center bg-gray-100 px-4 py-8 md:px-32 md:py-8 mb-[500px]">
+        <h1 className="lg:text-3xl sm:text-2xl md:text-3xl font-bold text-amber-500">
+          What We Offer
+        </h1>
+        <p className="self-stretch mt-4 sm:mt-6 text-xs sm:text-sm md:text-lg text-black max-w-full">
+          Scholar Clone is a forward-thinking company dedicated to transforming educational experiences through innovative solutions. We specialize in providing a comprehensive school management system that streamlines administrative tasks, enhances communication, and improves operational efficiency. Our Learning Management System (LMS) empowers educators and students with tools for interactive learning, assessment, and progress tracking, tailored to modern educational needs. In addition, our career counseling services guide students toward fulfilling their academic and professional aspirations, ensuring they make informed decisions about their future. At Scholar Clone, we are committed to fostering an environment where education and technology come together to create meaningful impacts on students' lives.
+        </p>
+
+        <section className="mt-4 md:mt-10 w-full">
+          <div className="flex gap-4 sm:flex-col sm:items-center lg:flex-row lg:items-start">
+            {offeringData.map((offering, index) => (
+              <OfferingColumn key={index} imageSrc={offering.imageSrc} title={offering.title} />
+            ))}
+          </div>
+        </section>
       </section>
-      <section className="flex flex-col items-center bg-gray-100 pl-32 pr-32 pt-8 pb-8">
-      <h2 className="mt-14 text-3xl font-bold text-amber-500 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-        The Value You Unlock
-      </h2>
-      <ul className="self-start mt-16 text-xl text-black max-md:mt-10 max-md:max-w-full">
-        <li>Automating daily tasks reduces administrative burden and saves valuable time for staff and management.</li>
-        <li>Tracking student progress with real-time data and personalized learning tools improves performance through targeted interventions.</li>
-        <li>Streamlined communication channels strengthen connections between parents, teachers, and management.</li>
-        <li>Detailed analytics help make informed decisions that enhance both educational outcomes and operational efficiency.</li>
-        <li>Equipping students with modern tools and resources prepares them to thrive in a competitive academic and career landscape.</li>
-        <li>Automation and centralized management reduce overhead costs, freeing up the budget for essential growth areas.</li>
-        <li>Supporting academic success alongside career planning ensures students are ready for future challenges.</li>
-      </ul>
-      <section className="mt-2 w-full max-w-[1477px] max-md:mt-10 max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col">
-          {valueData.map((value, index) => (
-            <ValueColumn key={index} imageSrc={value.imageSrc} title={value.title} />
-          ))}
-        </div>
-      </section>
+
+      <section className="flex flex-col items-center bg-gray-100 px-4 py-8 md:px-32 md:py-8">
+        <h2 className="mt-6 sm:mt-10 text-xl sm:text-2xl md:text-3xl font-bold text-amber-500">
+          The Value You Unlock
+        </h2>
+        
+        <ul className="self-start mt-6 sm:mt-10 text-xs sm:text-sm md:text-xl text-black">
+          <li>Automating daily tasks reduces administrative burden and saves valuable time for staff and management.</li>
+          <li>Tracking student progress with real-time data and personalized learning tools improves performance through targeted interventions.</li>
+          <li>Streamlined communication channels strengthen connections between parents, teachers, and management.</li>
+          <li>Detailed analytics help make informed decisions that enhance both educational outcomes and operational efficiency.</li>
+          <li>Equipping students with modern tools and resources prepares them to thrive in a competitive academic and career landscape.</li>
+          <li>Automation and centralized management reduce overhead costs, freeing up the budget for essential growth areas.</li>
+          <li>Supporting academic success alongside career planning ensures students are ready for future challenges.</li>
+        </ul>
+
+        <section className="mt-4 md:mt-10 w-full">
+          <div className="flex gap-4 sm:flex-col sm:items-center lg:flex-row lg:items-start">
+            {valueData.map((value, index) => (
+              <ValueColumn key={index} imageSrc={value.imageSrc} title={value.title} />
+            ))}
+          </div>
+        </section>
       </section>
     </main>
   );

@@ -2,15 +2,13 @@ import React from 'react';
 
 function ValueColumn({ imageSrc, title }) {
   return (
-    <div className="flex flex-col w-[36%] max-md:ml-0 max-md:w-full">
-      <div className="flex flex-col grow max-md:mt-10">
-        <div className="flex flex-col justify-center self-center p-12 max-w-full rounded-full bg-sky-500 shadow-[4px_4px_8px_rgba(0,0,0,0.25)] w-[200px] max-md:px-5">
-          <img loading="lazy" src={imageSrc} alt={title} className="object-contain w-[100px] aspect-square" />
+    <div className="flex flex-col w-[36%] sm:w-[80%] md:w-[36%] lg:w-[30%] mb-6 sm:mb-3 items-center">
+      <div className="flex flex-col justify-center items-center p-4 sm:p-2 md:p-6">
+        <div className="flex justify-center items-center p-4 sm:p-2 bg-sky-500 rounded-full shadow-lg lg:w-[200px] sm:w-[150px]">
+          <img loading="lazy" src={imageSrc} alt={title} className="object-contain lg:w-[150px] sm:w-[70px] md:w-[100px]" />
         </div>
-        <h3 className="justify-center self-center mt-6 text-xl font-semibold text-amber-500">
-          {title}
-        </h3>
       </div>
+      <h3 className="mt-4 sm:mt-2 lg:text-lg sm:text-sm md:text-xl font-semibold text-amber-500">{title}</h3>
     </div>
   );
 }
