@@ -1,37 +1,37 @@
 export const leftMenuItems = [
     {
       id: 1,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/288bf28ed71b3635134d700536827acc5d49087d9228b83beb4adfba04ae0862?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fdc74ba74ed7e48a6a4023c8784e6c9cb",
       title: "Integration",
       url: "/integration"
     },
     {
       id: 2,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/36d457f91443c3bc2362191a45cb119c8dbead3dca54d4b221dd7f4e8bc411ac?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fac3b55cf49224b199c83135747491e7b",
       title: "Services supports",
       url: "/supportservice"
     },
     {
       id: 3,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/b4888bb28e159f0f1e6857dd9bafc8e7a97b350ad01cb84b0769cc022cdd82d8?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F1a533aed30c74f35b3c4e8e24bbc93a6",
       title: "Mobile app",
       url: "/mobileservices"
     },
     {
       id: 4,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/4b7fce4112e6d72e95cb43ae968f5cbd9e4997a8a40509af443af3aca1a8bcbe?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F059f21fcb5ba423a8c435ad3460423fc",
       title: "Quality improvement",
       url: "/pione"
     },
     {
       id: 5,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/8c1c7a10bec5b2792007fac6a75469b4be553d2e3cf7e25022ab813eefcec8ee?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F0bcf946aa62e4806b287376e8ad17ca6",
       title: "Process improvement",
       url: "/pitwo"
     },
     {
       id: 6,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/645673d639d99ff104e9e8f90c49ff6415794a14a79e9ac26f11e2bf3e931770?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fdba3c2531bb04783b0ef5a121fceb77d",
       title: "Rolewise solutions",
       url: "/pithree"
     }

@@ -5,22 +5,22 @@ import FooterColumn from './FooterColumn';
 const footerColumns = [
   {
     title: 'Home',
-    items: ['Home', 'About Us', 'Who We Serve', 'Changes and Benefits', 'Blogs and Brochures', 'Contact Us', 'Request a Free Demo'],
-    itemRoutes: ['/', '/aboutus', '/who-we-serve', '/changes-and-benefits', '/blogs-and-brochures', '/contactus', '/request-demo'] // Example paths
+    items: ['Home', 'About Us', 'Who We Serve', 'Blogs and Brochures', 'Contact Us', 'Request a Free Demo'],
+    itemRoutes: ['/center_home', '/aboutus', '/who-we-serve', '/blogs-and-brochures', '/contactGlobal', '/request-demo'] // Example paths
   },
   {
     title: 'K-12 Solution',
-    items: ['Home', 'About Us', 'Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
-    itemRoutes: ['/', '/aboutus', '/erpservice', '/supportservice', '/resources', '/contactGlobal', '/book-demo'] // Example paths
+    items: ['Home','Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
+    itemRoutes: ['/', '/erpservice', '/supportservice', '/resources', '/contactGlobal', '/book-demo'] // Example paths
   },
   {
     title: 'Higher Education',
-    items: ['Home', 'About Us', 'Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
-    itemRoutes: ['/', '/aboutus', '/products', '/services', '/resources-blogs', '/contactus', '/book-demo'] // Example paths
+    items: ['Home','Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
+    itemRoutes: ['https://triz-apphigher-education.vercel.app/','https://triz-apphigher-education.vercel.app/product-one', 'https://triz-apphigher-education.vercel.app/product-six', 'https://triz-apphigher-education.vercel.app/resources', 'https://triz-apphigher-education.vercel.app/contactGlobal', '/book-demo'] // Example paths
   },
   {
     title: 'Corporate Solution',
-    items: ['Home', 'About Us', 'Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
+    items: ['Home', 'Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
     itemRoutes: ['/', '/aboutus', '/products', '/services', '/resources-blogs', '/contactus', '/book-demo'] // Example paths
   }
 ];

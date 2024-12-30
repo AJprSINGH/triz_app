@@ -6,28 +6,28 @@ import { leftMenuItems } from "./menuItems";
 const rightMenuForERP = [
   {
     id: 1,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/45345495e38b9b587ce08cc3fa065620d70b6dfb2473bbbdd2a9bfe8c0d08443?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F2cb4d2ca67904af2bd2ef3eadd317aa7",
     title: "Attendance & Tracking Solutions",
     description: "Administrative & Management Solutions streamline organizational operations.",
     url: "/integration"  
   },
   {
     id: 2,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fc952c20564be459388dd31190902d2d8",
     title: "Communication & Collaboration",
     description: "Finance & Operations Systems manage budgets and daily operations.",
     url: "/integration" 
   },
   {
     id: 3,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F53a043a3788042bcbbd394dd0c49d8d9", 
     title: "Financial Integrations",
     description: "Student & Academic Management Systems organize student data and streamline academic processes.",
     url: "/integration" 
   },
   {
     id: 4,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/7761a4f206fe520a1e55f00f92df761110e10203a3c23ce604102b1a3f70ec56?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F928d71ef6d294cc58c25064b01aa5e58",
     title: "API & System Integrations",
     description: "Engagement & Communication Systems enhance interaction and information sharing.",
     url: "/integration" 
@@ -37,7 +37,7 @@ const rightMenuForERP = [
 const rightMenuForLMS = [
   {
     id: 1,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fec0863f1c0a3457787f3af9aa1e53e02",
     title: "Template management",
     description: "Finance & Operations Systems manage budgets and daily operations.",
     url: "/supportservice"  
@@ -51,7 +51,7 @@ const rightMenuForLMS = [
   },
   {
     id: 3,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fbe47e60772e6499eb2fc54cb119f6679",
     title: "Onboarding",
     description: "Student & Academic Management Systems organize student data and streamline academic processes.",
     url: "/supportservice"  
@@ -61,21 +61,21 @@ const rightMenuForLMS = [
 const rightMenuForCareerCounselling = [
     {
         id: 1,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/45345495e38b9b587ce08cc3fa065620d70b6dfb2473bbbdd2a9bfe8c0d08443?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fa3a2321c00be44e4962b0579382a2032",
         title: "Parents App",
         description: "Administrative & Management Solutions streamline organizational operations.",
         url: "mobileservices"
       },
       {
         id: 2,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Ffba3dbdba24f49d6bbf4b3110326ea71",
         title: "User/Teacher App",
         description: "Finance & Operations Systems manage budgets and daily operations.",
         url: "mobileservices"
       },
       {
         id: 3,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F912ae317300349dfab795aeb67619a91",
         title: "Management App",
         description: "Student & Academic Management Systems organize student data and streamline academic processes.",
         url: "mobileservices"
@@ -84,7 +84,7 @@ const rightMenuForCareerCounselling = [
 const rightMenuForEducationAI = [
     {
         id: 1,
-        icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/45345495e38b9b587ce08cc3fa065620d70b6dfb2473bbbdd2a9bfe8c0d08443?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+        icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F29f06911f14b46339300dcaf70b818a5",
         title: "SQAA",
         description: "Administrative & Management Solutions streamline organizational operations.",
         url: "/pione"
@@ -94,7 +94,7 @@ const rightMenuForEducationAI = [
 const rightMenuForCommunication = [
     {
       id: 1,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F626b3a07b43d42be935277528eb75100",
       title: "Access & Permissions Management",
       description: "Finance & Operations Systems manage budgets and daily operations.",
       url: "/pitwo"
@@ -108,7 +108,7 @@ const rightMenuForCommunication = [
     },
     {
       id: 3,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F10208af32d0243b1b40b29ebfcf13c83",
       title: "Mapping & Visualization",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url: "/pitwo"
@@ -118,28 +118,28 @@ const rightMenuForCommunication = [
   const rightMenuForAnalytics = [
     {
       id: 1,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/c6e01ba0320aa0eaa980d365161f82833c212ccd234a493a831bc6d50fcda4af?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fa3a2321c00be44e4962b0579382a2032",
       title: "Student & Parent Solutions",
       description: "Finance & Operations Systems manage budgets and daily operations.",
       url: "/pithree"
     },
     {
       id: 2,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fb5714328efc94631922051de6c89106a",
       title: "Teaching & Educational Management",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url: "/pithree"
     },
     {
       id: 3,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F53a043a3788042bcbbd394dd0c49d8d9",
       title: "Finance & Administrative Solutions",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url: "/pithree"
     },
     {
       id: 4,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Ff9e0c50dc66f4503b4b24cbfb2440603",
       title: "Human Resource & Staff Management",
       description: "Student & Academic Management Systems organize student data and streamline academic processes.",
       url: "/pithree"
