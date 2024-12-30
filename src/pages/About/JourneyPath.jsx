@@ -59,8 +59,8 @@ const JourneyPath = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center space-y-16">
-      <h2 className="text-4xl font-bold text-orange-500">Our Success Journey</h2>
+    <div className="flex flex-col items-center space-y-16 mb-20">
+      <h2 className="lg:text-4xl sm:text-2xl font-bold text-orange-500">Our Success Journey</h2>
       <div className="relative w-full max-w-2xl">
         {/* Map Pin Icon at the Start of the Timeline */}
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-6 text-red-500">
@@ -75,19 +75,29 @@ const JourneyPath = () => {
             key={index}
             ref={(el) => (milestoneRefs.current[index] = el)}
             data-index={index}
-            className={`transition-opacity duration-1000 ease-in-out transform ${
+            className={`transition-opacity duration-1000 lg:px-0 sm:px-4 ease-in-out transform ${
               visibleMilestones.includes(index) ? 'opacity-100 translate-x-0' : 'opacity-0 translate-y-10'
             } flex ${index % 2 === 0 ? 'justify-end' : 'justify-start'} w-full py-4`}
           >
             <div
-              className="p-6 bg-white shadow-lg rounded-lg max-w-md"
+              className="lg:block sm:hidden p-4 bg-white shadow-lg rounded-lg max-w-md"
               style={{
                 marginLeft: index % 2 === 0 ? '20px' : '350px',
                 marginRight: index % 2 === 1 ? '20px' : '350px',
               }}
             >
-              <h3 className="text-xl font-bold text-blue-500">{milestone.year}</h3>
-              <p className="text-gray-700 mt-2">{milestone.description}</p>
+              <h3 className="text-xl font-bold text-blue-500 sm:text-2xl">{milestone.year}</h3>
+              <p className="text-gray-700 mt-4 sm:mt-4 sm:text-lg">{milestone.description}</p>
+              </div>
+              <div
+              className="lg:hidden sm:block p-6 bg-white shadow-lg rounded-lg max-w-sm"
+              style={{
+                marginLeft: index % 2 === 0 ? '0' : 'auto',
+                marginRight: index % 2 === 1 ? '0' : 'auto',
+              }}
+            >
+              <h3 className="text-xl font-bold text-blue-500 sm:text-2xl">{milestone.year}</h3>
+              <p className="text-gray-700 mt-2 sm:mt-4 sm:text-lg">{milestone.description}</p>
             </div>
           </div>
         ))}

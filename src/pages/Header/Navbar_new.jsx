@@ -1,6 +1,6 @@
 import React, { useState , useEffect} from "react";
 import { makeStyles } from "@mui/styles";
-
+import { useRouter } from 'next/router';
 const useStyles = makeStyles((theme) => ({
     container: {
     width: "100%", // Ensure the container takes the full width
@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     zIndex:999,
   },
     wrapper: {
-      padding: "20px 40px",
+      padding: "5px 20px",
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
@@ -189,7 +189,7 @@ const useStyles = makeStyles((theme) => ({
 
 const data = {
   headerNavbar: [
-    { name: "HOME", link: "/" },
+    { name: "HOME", link: "/center_home" },
     { name: "PRICING", link: "/pricing" },
     { name: "RESOURCES", link: "/resources" },
   ],
@@ -235,6 +235,7 @@ const Index = ({ dropdownDataType }) => {
   const [active, setActive] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [isClient, setIsClient] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     setIsClient(true); 
@@ -242,7 +243,9 @@ const Index = ({ dropdownDataType }) => {
   useEffect(() => {
     document.body.style.overflow = active ? "hidden" : "unset";
   }, [active]);
-
+  const handleClickHome = () => {
+    router.push("/"); 
+  };
   const toggleDropdown = (key) => {
     setOpenDropdown((prev) => (prev === key ? null : key));
   };
@@ -256,6 +259,7 @@ const Index = ({ dropdownDataType }) => {
             src="/center_home_images/Group 190 (1).png"
             alt="logo"
             className="object-contain shrink-0 w-28 max-w-full aspect-[2.67]"
+            onClick={handleClickHome}
           />
           <div onClick={() => setActive(!active)}>
             <div
