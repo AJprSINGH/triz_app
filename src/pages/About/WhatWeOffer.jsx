@@ -52,12 +52,12 @@ function WhatWeOffer() {
         <h1 className="lg:text-3xl sm:text-2xl md:text-3xl font-bold text-amber-500">
           What We Offer
         </h1>
-        <p className="justify-content mt-4 sm:mt-6 text-xs sm:text-sm md:text-lg text-black max-w-full text-justify">
+        <p className="self-start mt-4 sm:mt-6 text-xs sm:text-sm md:text-lg text-black max-w-full text-justify">
           Scholar Clone is a forward-thinking company dedicated to transforming educational experiences through innovative solutions. We specialize in providing a comprehensive school management system that streamlines administrative tasks, enhances communication, and improves operational efficiency. Our Learning Management System (LMS) empowers educators and students with tools for interactive learning, assessment, and progress tracking, tailored to modern educational needs. In addition, our career counseling services guide students toward fulfilling their academic and professional aspirations, ensuring they make informed decisions about their future. At Scholar Clone, we are committed to fostering an environment where education and technology come together to create meaningful impacts on students&apos; lives.
         </p>
 
         <section className="mt-4 md:mt-10 w-full">
-          <div className="flex gap-4 sm:flex-col sm:items-center lg:flex-row lg:items-start">
+          <div className="flex gap-20 sm:flex-col sm:items-center lg:flex-row lg:items-start">
             {offeringData.map((offering, index) => (
               <OfferingColumn key={index} imageSrc={offering.imageSrc} title={offering.title} />
             ))}
