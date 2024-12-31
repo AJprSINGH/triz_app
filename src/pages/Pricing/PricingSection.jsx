@@ -249,21 +249,20 @@ function PricingSection() {
       : "bg-white text-indigo-950 border-green-600";
   };
   return (
-    <>
+    <div className="flex flex-col w-full max-w-full mx-auto overflow-x-hidden">
     <div className="text-xl">
     <Header />
     </div>
     <div className="flex flex-col rounded-none">
-      <div className="flex overflow-hidden flex-col items-center px-20 pt-20 pb-56 w-full text-white bg-slate-700 max-md:px-5 max-md:py-24 max-md:max-w-full">
-        <div className="flex flex-col items-center mb-0 max-w-full w-[full] max-md:mb-2.5">
-          <h1 className="text-3xl font-bold font-merriweather max-md:max-w-full max-md:text-4xl">
+      <div className="flex overflow-hidden flex-col items-center lg:px-20 lg:pt-20 lg:pb-56 sm:px-10 sm:pt-10 sm:pb-10 w-full text-white bg-slate-700 max-md:px-5 max-md:py-24 max-md:max-w-full">
+        <div className="lg:flex lg:flex-col lg:items-center sm:flex sm:flex-col sm:items-center mb-0 max-w-full w-[full] max-md:mb-2.5">
+          <h1 className="lg:text-3xl sm:text-xl sm:items-center font-bold font-merriweather max-md:max-w-full max-md:text-4xl">
             Explore & find your perfect fit!
           </h1>
-          <div className="self-center mt-6 text-sm font-merriweather max-md:max-w-full">
-            Unlock the perfect plan for you or your team. Take the first step
-            toward effortless management today.
+         <div className="lg:flex lg:flex-col lg:items-center sm:flex sm:flex-col sm:items-center mt-6 lg:text-sm sm:text-xs sm:text-center font-merriweather max-md:max-w-full">
+            Unlock the perfect plan for you or your team. Take the first step toward effortless management today.
           </div>
-          <div className="flex overflow-hidden px-10 py-0 mt-10 max-w-full font-inter text-md items-start justify-between font-medium bg-white border-2 border-green-600 border-solid rounded-[30px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] text-indigo-950 w-[600px] max-md:px-5 max-md:mt-10">
+          <div className="lg:flex overflow-hidden lg:px-10 lg:py-0 mt-10 max-w-full font-inter lg:text-[16px] lg:items-start lg:justify-between font-medium bg-white border-2 border-green-600 border-solid lg:rounded-[30px] sm:rounded-[15px] shadow-[0px_4px_4px_rgba(0,0,0,0.25)] text-indigo-950 lg:w-[600px] max-md:px-5 max-md:mt-10 sm:text-[10px] sm:w-full sm:px-4 sm:py-0 sm:flex sm:justify-center">
           <button
                 onClick={() => handleButtonClick("ERP")}
                 className={`py-2 px-4 rounded-full ${buttonStyle("ERP")}`}
@@ -295,16 +294,16 @@ function PricingSection() {
           </div>
         </div>
       </div>
-      <div className="z-10 self-center -mt-[244px] ml-4 mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full">
-        <div className="flex gap-10 justify-center  items-center w-full min-h-screen">
-        {pricingData[selectedCategory]?.map((plan, index) => (
+      <div className="z-10 self-center lg:-mt-[244px] lg:ml-4 lg:mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full sm:mt-0 sm:ml-0 sm:mr-0 sm:mb-10">
+          <div className="lg:flex lg:gap-10 justify-center items-center lg:w-full lg:min-h-screen sm:block sm:w-full sm:px-4 sm:gap-4">
+            {pricingData[selectedCategory]?.map((plan, index) => (
               <PricingCard key={index} {...plan} />
-            ))}  
+            ))}
+          </div>
         </div>
-      </div>
     </div>
     <Footer />
-    </>
+    </div>
   );
 }
 
