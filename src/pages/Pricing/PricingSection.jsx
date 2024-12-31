@@ -295,7 +295,7 @@ function PricingSection() {
         </div>
       </div>
       <div className="z-10 self-center lg:-mt-[244px] lg:ml-4 lg:mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full sm:mt-0 sm:ml-0 sm:mr-0 sm:mb-10">
-          <div className="lg:flex lg:gap-10 justify-center items-center lg:w-full lg:min-h-screen sm:block sm:w-full sm:px-4 sm:gap-4">
+          <div className="lg:flex lg:gap-10 lg:px-0 justify-center items-center lg:w-full lg:min-h-screen sm:block sm:w-full sm:px-4 sm:gap-4">
             {pricingData[selectedCategory]?.map((plan, index) => (
               <PricingCard key={index} {...plan} />
             ))}
