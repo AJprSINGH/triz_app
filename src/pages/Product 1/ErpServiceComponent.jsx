@@ -114,15 +114,14 @@ const ErpServiceComponent = () => {
             {features[selectedFeatureIndex].serviceComponent}
           </div>
         </div>
-
-        {/* Contact Us Section */}
-        <div className="contact-us w-full mt-16">
+      </div>
+      {/* Contact Us Section */}
+      <div className="contact-us w-full mt-16">
           <h1 className="lg:text-4xl sm:text-2xl font-bold text-center text-sky-500 mb-12">
             Contact Us
           </h1>
           <Contact />
         </div>
-      </div>
       <ScrollToTop />
       <Footer />
     </section>

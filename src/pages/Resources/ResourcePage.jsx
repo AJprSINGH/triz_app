@@ -34,14 +34,14 @@ function ResourcePage() {
         <div className="flex overflow-hidden flex-col lg:px-12 lg:py-4 sm:px-6 sm:py-2 lg:mt-24 sm:mt-20 sm:mx-10 lg:ml-40 sm:items-center max-w-full text-black whitespace-nowrap rounded-2xl border-sky-500 lg:border-solid lg:border-[5px] sm:border-solid sm:border-[2px] lg:w-[310px] sm:w-[90%] max-md:px-5 max-md:mt-10">
                 <img loading="lazy" src="/resources/Group 125.png" alt="Group 125" className="lg:w-full sm:w-[200px] h-auto object-contain" />
         </div>
-        {/* Contact Us Section */}
-        <div className="contact-us w-full mt-16">
+      </section>
+      {/* Contact Us Section */}
+      <div className="contact-us w-full mt-16">
           <h1 className="lg:text-4xl sm:text-2xl font-bold text-center text-sky-500 mb-12">
             Contact Us
           </h1>
           <Contact />
         </div>
-      </section>
       <Scroll />
       <Footer />
     </main>
