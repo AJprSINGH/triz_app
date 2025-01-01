@@ -12,7 +12,7 @@ export default function TeacherManagement() {
       id: 1,
       title: "Communication Tools",
       description:
-        "Scholar Clone&apos;s Communication Tools feature bridges the gap between teachers, students, and parents, enabling seamless, real-time interaction through messages, announcements, and alerts. With options for group or individual communication, schools can instantly share updates on assignments, events, or emergencies. This feature fosters a connected school community, ensuring everyone stays informed, engaged, and supported at every step of the educational journey.",
+        "Scholar Clone’s Communication Tools feature bridges the gap between teachers, students, and parents, enabling seamless, real-time interaction through messages, announcements, and alerts. With options for group or individual communication, schools can instantly share updates on assignments, events, or emergencies. This feature fosters a connected school community, ensuring everyone stays informed, engaged, and supported at every step of the educational journey.",
       image: "/erpservice_images/feature4/Group 355.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
@@ -22,7 +22,7 @@ export default function TeacherManagement() {
       id: 2,
       title: "Parental Engagement",
       description:
-        "Scholar Clone&apos;s Parental Engagement feature empowers parents to stay actively involved in their child&apos;s educational journey. With real-time access to grades, attendance, and progress updates, parents can monitor academic growth and support their child&apos;s needs. Seamless communication tools allow instant messaging with teachers and alerts for school events, creating a collaborative environment where parents, teachers, and students work together toward success.",
+        "Scholar Clone’s Parental Engagement feature empowers parents to stay actively involved in their child’s educational journey. With real-time access to grades, attendance, and progress updates, parents can monitor academic growth and support their child’s needs. Seamless communication tools allow instant messaging with teachers and alerts for school events, creating a collaborative environment where parents, teachers, and students work together toward success.",
       image: "/erpservice_images/feature4/Group 356.png",
       url1: "#feature-1",
       url2: "#feature-2",
@@ -32,7 +32,7 @@ export default function TeacherManagement() {
       id: 3,
       title: "Complaint & Feedback System",
       description:
-        "Scholar Clone&apos;s Complaint & Feedback System fosters a transparent and responsive school environment by allowing students, parents, and staff to share concerns or suggestions effortlessly. With a secure, user-friendly platform for submitting feedback and tracking resolution progress, it ensures voices are heard and issues are addressed promptly. This feature strengthens trust and enhances school improvement by promoting open communication and continuous feedback.",
+        "Scholar Clone’s Complaint & Feedback System fosters a transparent and responsive school environment by allowing students, parents, and staff to share concerns or suggestions effortlessly. With a secure, user-friendly platform for submitting feedback and tracking resolution progress, it ensures voices are heard and issues are addressed promptly. This feature strengthens trust and enhances school improvement by promoting open communication and continuous feedback.",
       image: "/erpservice_images/feature4/Group 357.png",
       url1: "#contact-us",
       url2: "#feedback",
@@ -42,7 +42,7 @@ export default function TeacherManagement() {
       id: 4,
       title: "Student Performance Tracking",
       description:
-        "Scholar Clone&apos;s Student Performance Tracking system provides a comprehensive view of each student&apos;s academic journey, making it easy for teachers and parents to monitor progress, identify strengths, and address areas for improvement. With detailed reports, visual analytics, and real-time updates, this feature empowers educators and families to support students in achieving their fullest potential, fostering a culture of growth and excellence.",
+        "Scholar Clone’s Student Performance Tracking system provides a comprehensive view of each student’s academic journey, making it easy for teachers and parents to monitor progress, identify strengths, and address areas for improvement. With detailed reports, visual analytics, and real-time updates, this feature empowers educators and families to support students in achieving their fullest potential, fostering a culture of growth and excellence.",
       image: "/erpservice_images/feature4/Group 358.png",
       url1: "#contact-us",
       url2: "#feedback",
