@@ -62,7 +62,7 @@ export default function TeacherManagement() {
       id: 6,
       title: "Complaint Management",
       description:
-        "complaint Management empowers your institution to turn challenges into opportunities for growth. This module streamlines the entire complaint process—from submission to resolution—ensuring every concern is addressed promptly and efficiently. With insightful tracking and reporting features, you can identify trends, enhance service quality, and foster a culture of continuous improvement. Transform feedback into action and elevate your institution&aspos;s responsiveness!",
+        "complaint Management empowers your institution to turn challenges into opportunities for growth. This module streamlines the entire complaint process—from submission to resolution—ensuring every concern is addressed promptly and efficiently. With insightful tracking and reporting features, you can identify trends, enhance service quality, and foster a culture of continuous improvement. Transform feedback into action and elevate your institution's responsiveness!",
       image: "/erpservice_images/Group 341.png",
       url1: "#contact-us",
       url2: "#feedback",

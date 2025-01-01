@@ -32,7 +32,7 @@ export default function TeacherManagement() {
       id: 3,
       title: "Attendance Tracking",
       description:
-        "Transform learning with Scholar Clone&apos;s Digital Classroom System, offering interactive multimedia lessons, real-time collaboration, and automated attendance tracking. Manage assignments and assessments digitally, providing instant feedback, while seamless communication keeps teachers, students, and parents connected. Boost student engagement and streamline teaching with flexible, accessible tools designed for modern education.....",
+        "Transform learning with Scholar Clone’s Digital Classroom System, offering interactive multimedia lessons, real-time collaboration, and automated attendance tracking. Manage assignments and assessments digitally, providing instant feedback, while seamless communication keeps teachers, students, and parents connected. Boost student engagement and streamline teaching with flexible, accessible tools designed for modern education.....",
       image: "/erpservice_images/feature3/Group 349.png",
       url1: "#contact-us",
       url2: "#feedback",
@@ -42,7 +42,7 @@ export default function TeacherManagement() {
       id: 4,
       title: "Gradebook",
       description:
-        "The Grade Book feature in Scholar Clone&apos;s ERP system streamlines grading and assessment for K-12 schools, allowing teachers to record, track, and analyze student performance effortlessly. With easy access to scores and progress reports, educators and parents stay informed and engaged in students' academic journeys.",
+        "The Grade Book feature in Scholar Clone’s ERP system streamlines grading and assessment for K-12 schools, allowing teachers to record, track, and analyze student performance effortlessly. With easy access to scores and progress reports, educators and parents stay informed and engaged in students' academic journeys.",
       image: "/erpservice_images/feature3/Group 350.png",
       url1: "#contact-us",
       url2: "#feedback",
@@ -52,7 +52,7 @@ export default function TeacherManagement() {
       id: 5,
       title: "Certificate Generation",
       description:
-        "With an intuitive grading system, teachers can easily track progress, identify areas for improvement, and keep parents informed. The Certificate Generation tool adds a personal touch, allowing schools to create custom certificates that recognize each student&apos;s unique accomplishments, transforming milestones into memorable keepsakes and enhancing student motivation!",
+        "With an intuitive grading system, teachers can easily track progress, identify areas for improvement, and keep parents informed. The Certificate Generation tool adds a personal touch, allowing schools to create custom certificates that recognize each student’s unique accomplishments, transforming milestones into memorable keepsakes and enhancing student motivation!",
       image: "/erpservice_images/feature3/Group 351.png",
       url1: "#contact-us",
       url2: "#feedback",
@@ -62,7 +62,7 @@ export default function TeacherManagement() {
       id: 6,
       title: "I-Cards Generation system",
       description:
-        "Scholar Clone&apos;s I-Card Generation system provides schools with a fast, efficient way to create professional, customized ID cards for students, staff, and faculty. With essential details and high-quality design, this feature strengthens school security, simplifies identification, and fosters a sense of belonging and pride within the school community—making it a must-have for modern K-12 institutions.",
+        "Scholar Clone’s I-Card Generation system provides schools with a fast, efficient way to create professional, customized ID cards for students, staff, and faculty. With essential details and high-quality design, this feature strengthens school security, simplifies identification, and fosters a sense of belonging and pride within the school community—making it a must-have for modern K-12 institutions.",
       image: "/erpservice_images/feature3/Group 352.png",
       url1: "#contact-us",
       url2: "#feedback",
@@ -72,7 +72,7 @@ export default function TeacherManagement() {
       id: 7,
       title: "Hostel Management",
       description:
-        "Scholar Clone&apos;s Hostel Management feature offers a complete solution for managing student accommodations with ease and efficiency. From streamlined room assignments and hassle-free check-ins to automated fee tracking and real-time occupancy monitoring, it simplifies every aspect of hostel life. By enhancing safety, organization, and convenience, this feature creates a welcoming, well-organized home away from home that students and parents can trust.",
+        "Scholar Clone’s Hostel Management feature offers a complete solution for managing student accommodations with ease and efficiency. From streamlined room assignments and hassle-free check-ins to automated fee tracking and real-time occupancy monitoring, it simplifies every aspect of hostel life. By enhancing safety, organization, and convenience, this feature creates a welcoming, well-organized home away from home that students and parents can trust.",
       image: "/erpservice_images/feature3/Group 353.png",
       url1: "#contact-us",
       url2: "#feedback",
