@@ -17,27 +17,27 @@ import S4 from "./Feature 4/IntegrationServices";
 // Feature array with associated components
 const features = [
   {
-    title: 'Streamline Success',
+    title: 'Administrative & Management Solutions',
     image: featureImage1,
     description: 'Streamline your school management process with our efficient tools designed to simplify attendance, timetabling, and much more.',
     serviceComponent: <S1 />,
   },
   {
-    title: 'Financial Clarity',
+    title: 'Finance & Operations',
     image: featureImage2,
     description: 'Gain full control over finances, including fees, payroll, and budgeting, with clear and intuitive tools.',
     serviceComponent: <S2 />, // You can replace this with a different component if needed
     
   },
   {
-    title: 'Empower Learning',
+    title: ' Student & Academic Management',
     image: featureImage3,
     description: 'Provide personalized learning experiences to your students with powerful LMS and content management tools.',
     serviceComponent: <S3 />, // You can replace this with a different component if needed
     
   },
   {
-    title: 'Stay Connected',
+    title: ' Engagement & Communication',
     image: featureImage4,
     description: 'Enhance communication between teachers, students, and parents with integrated messaging and notification systems.',
     serviceComponent: <S4 />, // You can replace this with a different component if needed
@@ -99,7 +99,7 @@ const ErpServiceComponent = () => {
                   index === selectedFeatureIndex ? 'border-green-500' : 'border-blue-500'
                 }`}
               >
-                <h3 className="lg:text-xl sm:text-sm font-semibold text-center mb-4">{feature.title}</h3>
+                <h3 className="lg:text-lg sm:text-xs font-semibold text-center mb-4">{feature.title}</h3>
                 <Image src={feature.image} alt={`Feature ${index + 1}`} width={150} height={100} className="object-cover w-full h-32" />
                 {index === selectedFeatureIndex && <hr className="w-full border-green-500 my-2" />}
               </div>

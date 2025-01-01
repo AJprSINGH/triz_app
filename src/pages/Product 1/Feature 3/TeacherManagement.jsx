@@ -10,70 +10,80 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "User/Teacher Management System",
+      title: "Education CRM",
       description:
-        "User/Teacher Management System offers a complete solution to manage staff data, roles, and permissions with ease. This module allows administrators to track teacher performance, attendance, and assignments, ensuring seamless staff coordination. With powerful tools for communication and reporting, it simplifies daily management tasks, helping foster an organized and productive learning environment.",
-      image: "/erpservice_images/Group 157.png",
+        "Our Attendance Management System revolutionizes the way schools track and manage student attendance. With real-time data capture, automated alerts, and detailed reporting, it ensures seamless monitoring and reduces manual effort. Teachers and administrators can access comprehensive attendance records at a glance, while parents stay informed through instant notifications, fostering accountability and promoting student punctuality and engagement.....",
+      image: "/erpservice_images/feature3/Group 346.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Task management System",
+      title: "Student Profiles & Management",
       description:
-        "Task Management System is your ultimate organizational ally, designed to streamline workflows and boost productivity. With intuitive task assignment, real-time progress tracking, and collaborative tools, this module ensures everyone stays on the same page and deadlines are met with ease. Transform chaos into clarity and empower your team to achieve their goals efficiently, all within one integrated platform.",
-      image: "/erpservice_images/Group 336.png",
+        "Simplify your exam process with Scholar Clone's Exam Management System. Easily schedule exams, manage question banks, conduct online and offline assessments, and automate grading for faster results. Gain valuable insights with detailed performance reports, while ensuring secure, compliant exam administration. Save time, reduce errors, and improve outcomes with an all-in-one solution designed for modern schools.....",
+      image: "/erpservice_images/feature3/Group 348.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"
     },
     {
       id: 3,
-      title: " Inventory & Store Management",
+      title: "Attendance Tracking",
       description:
-        "Inventory & Store Management brings precision and control to your resource handling, ensuring that every item is accounted for with ease. This module offers real-time tracking, automated stock alerts, and streamlined procurement processes, allowing you to manage supplies efficiently and reduce waste. Transform your inventory management into a seamless experience, empowering your operations to run smoothly and effectively.",
-      image: "/erpservice_images/Group 337.png",
+        "Transform learning with Scholar Clone&apos;s Digital Classroom System, offering interactive multimedia lessons, real-time collaboration, and automated attendance tracking. Manage assignments and assessments digitally, providing instant feedback, while seamless communication keeps teachers, students, and parents connected. Boost student engagement and streamline teaching with flexible, accessible tools designed for modern education.....",
+      image: "/erpservice_images/feature3/Group 349.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 4,
-      title: " Front Desk Management System",
+      title: "Gradebook",
       description:
-        "Front Desk Management redefines the first point of contact for your institution, creating a welcoming and efficient experience for students and visitors alike. This module streamlines check-ins, appointment scheduling, and inquiries, ensuring every interaction is handled with professionalism. With real-time visitor tracking and insightful reporting, you can enhance service quality while keeping operations running smoothly. Elevate your front desk experience and make a lasting impression!",
-      image: "/erpservice_images/Group 338.png",
+        "The Grade Book feature in Scholar Clone&apos;s ERP system streamlines grading and assessment for K-12 schools, allowing teachers to record, track, and analyze student performance effortlessly. With easy access to scores and progress reports, educators and parents stay informed and engaged in students' academic journeys.",
+      image: "/erpservice_images/feature3/Group 350.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 5,
-      title: "Discipline Tracking",
+      title: "Certificate Generation",
       description:
-        "Discipline Tracking offers a proactive approach to maintaining a positive learning environment by monitoring student behavior effectively. This module provides real-time tracking of disciplinary actions, enabling educators to address issues promptly and fairly. With detailed analytics and reporting features, you can identify patterns and implement strategies to foster a culture of respect and accountability. Empower your institution to cultivate discipline while nurturing student success!",
-      image: "/erpservice_images/Group 339.png",
+        "With an intuitive grading system, teachers can easily track progress, identify areas for improvement, and keep parents informed. The Certificate Generation tool adds a personal touch, allowing schools to create custom certificates that recognize each student&apos;s unique accomplishments, transforming milestones into memorable keepsakes and enhancing student motivation!",
+      image: "/erpservice_images/feature3/Group 351.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 6,
-      title: "Complaint Management",
+      title: "I-Cards Generation system",
       description:
-        "complaint Management empowers your institution to turn challenges into opportunities for growth. This module streamlines the entire complaint process—from submission to resolution—ensuring every concern is addressed promptly and efficiently. With insightful tracking and reporting features, you can identify trends, enhance service quality, and foster a culture of continuous improvement. Transform feedback into action and elevate your institution&aspos;s responsiveness!",
-      image: "/erpservice_images/Group 341.png",
+        "Scholar Clone&apos;s I-Card Generation system provides schools with a fast, efficient way to create professional, customized ID cards for students, staff, and faculty. With essential details and high-quality design, this feature strengthens school security, simplifies identification, and fosters a sense of belonging and pride within the school community—making it a must-have for modern K-12 institutions.",
+      image: "/erpservice_images/feature3/Group 352.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 7,
-      title: "HR  Management System",
+      title: "Hostel Management",
       description:
-        "HR Management System redefines human resources by streamlining processes and enhancing employee engagement. This module centralizes everything from recruitment and onboarding to performance tracking and payroll management, empowering your HR team with efficient tools and insightful analytics. Foster a thriving workplace culture and optimize talent management to drive success, all while saving time and reducing administrative burdens!",
-      image: "/erpservice_images/Group 342.png",
+        "Scholar Clone&apos;s Hostel Management feature offers a complete solution for managing student accommodations with ease and efficiency. From streamlined room assignments and hassle-free check-ins to automated fee tracking and real-time occupancy monitoring, it simplifies every aspect of hostel life. By enhancing safety, organization, and convenience, this feature creates a welcoming, well-organized home away from home that students and parents can trust.",
+      image: "/erpservice_images/feature3/Group 353.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 8,
+      title: "Library Management",
+      description:
+        "Library Management transforms the way you manage resources, making it easy to track, issue, and return books with just a few clicks. From digital cataloging to real-time inventory updates, this module streamlines operations and enhances the student experience, ensuring your library is always organized, accessible, and efficient.",
+      image: "/erpservice_images/feature3/Group 354.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
