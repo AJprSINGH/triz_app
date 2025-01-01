@@ -110,7 +110,7 @@ export default function TeacherManagement() {
         <p className="self-stretch lg:mt-8 sm:mt-4 lg:text-lg sm:text-xs text-black text-justify max-md:max-w-full">
           {item.description}
         </p>
-        <div className="flex flex-wrap lg:gap-4 sm:gap-2 justify-between lg:mt-8 sm:mt-4 max-w-full lg:text-sm sm:text-xs text-white max-md:mt-10">
+        <div className="flex flex-wrap lg:gap-4 sm:gap-2 justify-between lg:mt-8 sm:mt-4 max-w-full lg:text-sm sm:text-[10px] text-white max-md:mt-10">
         {actionButtons.map((text, index) => (
                     <ActionButton key={index} url={item[`url${index + 1}`]}>
                       {text}
@@ -131,7 +131,7 @@ export default function TeacherManagement() {
         <p className="self-stretch lg:mt-8 sm:mt-4 lg:text-lg sm:text-xs text-black text-justify max-md:max-w-full">
           {item.description}
         </p>
-        <div className="flex flex-wrap lg:gap-4 sm:gap-2 justify-between lg:mt-8 sm:mt-4 max-w-full lg:text-sm sm:text-xs text-white max-md:mt-10">
+        <div className="flex flex-wrap lg:gap-4 sm:gap-2 justify-between lg:mt-8 sm:mt-4 max-w-full lg:text-sm sm:text-[10px] text-white max-md:mt-10">
         {actionButtons.map((text, index) => (
                     <ActionButton key={index} url={item[`url${index + 1}`]}>
                       {text}
@@ -155,7 +155,7 @@ function ActionButton({ children,url }) {
   return (
     <a 
       href={url}
-      className="overflow-hidden lg:gap-2.5 lg:self-stretch lg:p-2.5 sm:p-1 lg:rounded-xl sm:rounded-md shadow-[0px_4px_8px_rgba(0,0,0,0.25)] text-white"
+      className="overflow-hidden lg:gap-2.5 lg:self-stretch lg:p-2.5 sm:px-[5px] lg:rounded-xl sm:rounded-md shadow-[0px_4px_8px_rgba(0,0,0,0.25)] text-white"
       tabIndex={0}
       style={{
         background:'rgba(61, 96, 149, 1)'
