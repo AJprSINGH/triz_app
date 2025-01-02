@@ -206,15 +206,14 @@ const dropdownDataOptions = {
       { label: "Education Ai", href: "/aiservice" },
       { label: "Communication", href: "/commservice" },
       { label: "Analytics", href: "/analyticservice" },
-      { label: "Integration", href: "/integration" },
     ],
     SERVICES: [
       { label: "Integration", href: "/integration" },
       { label: "Services supports", href: "/supportservice" },
       { label: "Mobile app", href: "/mobileservices" },
-      { label: "Quality improvement", href: "/pione" },
-      { label: "Process improvement", href: "/pitwo" },
-      { label: "Rolewise solutions", href: "/pithree" },
+      { label: "Quality improvement", href: "/pithree" },
+      { label: "Process improvement", href: "/pione" },
+      { label: "Rolewise solutions", href: "/pitwo" },
     ],
   },
   headerCNavbar: {

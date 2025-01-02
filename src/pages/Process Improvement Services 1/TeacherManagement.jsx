@@ -10,40 +10,40 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Attendance & Tracking Solution",
+      title: "Role Based Rights  Management",
       description:
-        "Our Attendance & Tracking Solution offers an integrated approach to managing school attendance and ensuring student safety. With RFID technology, attendance is automated for accuracy and efficiency, reducing manual effort. Additionally, the Vehicle Tracking System (VTS) provides real-time monitoring of school transportation, giving peace of mind to both parents and administrators.",
-      image: "/integration_images/image 37.png",
+        "Scholar Clone’s Role-Based Rights Management feature provides schools with precise control over data access and permissions, ensuring security and efficiency across all levels. Administrators can assign customized access rights based on roles—whether for teachers, staff, or students—protecting sensitive information while empowering each user with the tools they need. This feature promotes a secure, well-organized environment where everyone can perform their roles effectively and confidently.",
+      image: "/PI 1/image (16).png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Communication & Collaboration",
+      title: "Mobile App Rights",
       description:
-        "Our School Management System offers seamless integration with popular online learning tools like Google Classroom, Zoom, and Google Meet. This feature allows schools to easily manage and organize virtual classes, assignments, and meetings directly within the platform. Teachers can schedule Zoom or Google Meet sessions, sync classroom assignments from Google Classroom, and track student participation—all from one central system. This integration enhances remote learning, ensuring smooth communication and collaboration between students, teachers, and administrators.",
-      image: "/integration_images/image 38.png",
+        "Scholar Clone’s Mobile App Rights Management feature gives schools robust control over mobile app access, enabling administrators to tailor permissions according to specific roles like students, teachers, and staff. With easy-to-set permissions, each user gains access only to the tools and information relevant to their responsibilities, enhancing both security and user experience. This feature helps create a secure, streamlined mobile environment where each member of the school community can stay focused, informed, and empowered—anytime, anywhere.",
+      image: "/PI 1/image (19).png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"
     },
     {
       id: 3,
-      title: "Financial Integration",
+      title: "Work Flow Management",
       description:
-        "Scholar Clone’s Financial Integration service streamlines school finances by bringing all payment processes into one secure, automated platform. From tuition fees and hostel charges to transportation and activity payments, parents can easily make transactions online, while schools gain clear financial tracking and reporting. This feature simplifies budgeting, enhances transparency, and creates a smooth, efficient financial experience for the entire school community.",
-      image: "/integration_images/image (9).png",
+        "Scholar Clone’s Workflow Management feature transforms school operations by automating key processes, from approvals and document handling to task assignments and notifications. With customizable workflows, administrators can tailor each process to fit the school’s unique needs, reducing manual tasks, minimizing errors, and ensuring timely task completion. This automation allows staff to focus on meaningful work, creating an organized, productive, and responsive school environment that supports both staff and student success.",
+      image: "/PI 1/image (18).png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 4,
-      title: "API & System Integration",
+      title: "Map Management ",
       description:
-        "Scholar Clone’s API & System Integration service connects all your school’s tools and platforms into one seamless ecosystem. With robust API capabilities, it easily integrates with third-party applications, from learning management systems to financial software, creating a unified workflow that saves time and reduces errors. This service empowers schools to customize their digital environment, enhancing productivity and ensuring smooth, connected operations across all departments.",
-      image: "/integration_images/image 45.png",
+        "Scholar Clone’s Map Management feature enhances campus navigation and safety by providing an interactive, detailed map of school facilities. From classrooms and administrative offices to dorms and recreational areas, this tool allows students, parents, and staff to easily locate key areas within the campus. With added features for event locations and emergency routes, Map Management keeps everyone informed and connected, creating a more accessible and secure school environment.",
+      image: "/PI 1/image 45 (1).png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"

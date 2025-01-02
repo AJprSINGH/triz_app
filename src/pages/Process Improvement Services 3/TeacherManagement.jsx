@@ -9,45 +9,45 @@ export default function TeacherManagement() {
   ];
   const contentArray = [
     {
-      id: 1,
-      title: "Attendance & Tracking Solution",
+      id: 2,
+      title: "School Quality Assessment and Assurance",
       description:
-        "Our Attendance & Tracking Solution offers an integrated approach to managing school attendance and ensuring student safety. With RFID technology, attendance is automated for accuracy and efficiency, reducing manual effort. Additionally, the Vehicle Tracking System (VTS) provides real-time monitoring of school transportation, giving peace of mind to both parents and administrators.",
-      image: "/integration_images/image 37.png",
+        "Our Scholar Clone ERP system includes a comprehensive School Quality Assessment and Assurance (SQAA) module, aligned with CBSE standards. This feature evaluates key areas like academic practices, infrastructure, student well-being, and leadership, helping schools maintain high-quality standards and foster excellence in education. With real-time insights and actionable reports, schools can continuously improve and ensure a well-rounded learning environment.",
+      image: "/PI 3/image (9).png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
-    {
-      id: 2,
-      title: "Communication & Collaboration",
-      description:
-        "Our School Management System offers seamless integration with popular online learning tools like Google Classroom, Zoom, and Google Meet. This feature allows schools to easily manage and organize virtual classes, assignments, and meetings directly within the platform. Teachers can schedule Zoom or Google Meet sessions, sync classroom assignments from Google Classroom, and track student participation—all from one central system. This integration enhances remote learning, ensuring smooth communication and collaboration between students, teachers, and administrators.",
-      image: "/integration_images/image 38.png",
-      url1: "#feature-1",
-      url2: "#feature-2",
-      url3: "#feature-3"
-    },
-    {
-      id: 3,
-      title: "Financial Integration",
-      description:
-        "Scholar Clone’s Financial Integration service streamlines school finances by bringing all payment processes into one secure, automated platform. From tuition fees and hostel charges to transportation and activity payments, parents can easily make transactions online, while schools gain clear financial tracking and reporting. This feature simplifies budgeting, enhances transparency, and creates a smooth, efficient financial experience for the entire school community.",
-      image: "/integration_images/image (9).png",
-      url1: "#contact-us",
-      url2: "#feedback",
-      url3: "#support"
-    },
-    {
-      id: 4,
-      title: "API & System Integration",
-      description:
-        "Scholar Clone’s API & System Integration service connects all your school’s tools and platforms into one seamless ecosystem. With robust API capabilities, it easily integrates with third-party applications, from learning management systems to financial software, creating a unified workflow that saves time and reduces errors. This service empowers schools to customize their digital environment, enhancing productivity and ensuring smooth, connected operations across all departments.",
-      image: "/integration_images/image 45.png",
-      url1: "#contact-us",
-      url2: "#feedback",
-      url3: "#support"
-    },
+    // {
+    //   id: 2,
+    //   title: "Communication & Collaboration",
+    //   description:
+    //     "Our School Management System offers seamless integration with popular online learning tools like Google Classroom, Zoom, and Google Meet. This feature allows schools to easily manage and organize virtual classes, assignments, and meetings directly within the platform. Teachers can schedule Zoom or Google Meet sessions, sync classroom assignments from Google Classroom, and track student participation—all from one central system. This integration enhances remote learning, ensuring smooth communication and collaboration between students, teachers, and administrators.",
+    //   image: "/integration_images/image 38.png",
+    //   url1: "#feature-1",
+    //   url2: "#feature-2",
+    //   url3: "#feature-3"
+    // },
+    // {
+    //   id: 3,
+    //   title: "Financial Integration",
+    //   description:
+    //     "Scholar Clone’s Financial Integration service streamlines school finances by bringing all payment processes into one secure, automated platform. From tuition fees and hostel charges to transportation and activity payments, parents can easily make transactions online, while schools gain clear financial tracking and reporting. This feature simplifies budgeting, enhances transparency, and creates a smooth, efficient financial experience for the entire school community.",
+    //   image: "/integration_images/image (9).png",
+    //   url1: "#contact-us",
+    //   url2: "#feedback",
+    //   url3: "#support"
+    // },
+    // {
+    //   id: 4,
+    //   title: "API & System Integration",
+    //   description:
+    //     "Scholar Clone’s API & System Integration service connects all your school’s tools and platforms into one seamless ecosystem. With robust API capabilities, it easily integrates with third-party applications, from learning management systems to financial software, creating a unified workflow that saves time and reduces errors. This service empowers schools to customize their digital environment, enhancing productivity and ensuring smooth, connected operations across all departments.",
+    //   image: "/integration_images/image 45.png",
+    //   url1: "#contact-us",
+    //   url2: "#feedback",
+    //   url3: "#support"
+    // },
     // {
     //   id: 5,
     //   title: "Discipline Tracking",
@@ -141,8 +141,8 @@ export default function TeacherManagement() {
           ))}
         </div>
       </div>
-      <div className="lg:flex sm:hidden flex-col flex-col lg:w-[90%] lg:mb-[-50px] sm:w-full sm:items-center">
-        <Image src={item.image} alt="Student" width={1000} height={1000} className="lg:flex sm:hidden object-contain w-full" />
+      <div className="lg:flex sm:hidden flex-col flex-col lg:w-[47%] lg:mb-[-50px] sm:w-full sm:items-center">
+        <Image src={item.image} alt="Student" width={500} height={500} className="lg:flex sm:hidden object-contain" />
       </div>
       </div>
         </>

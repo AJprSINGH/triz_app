@@ -10,40 +10,40 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Attendance & Tracking Solution",
+      title: "Template Management",
       description:
-        "Our Attendance & Tracking Solution offers an integrated approach to managing school attendance and ensuring student safety. With RFID technology, attendance is automated for accuracy and efficiency, reducing manual effort. Additionally, the Vehicle Tracking System (VTS) provides real-time monitoring of school transportation, giving peace of mind to both parents and administrators.",
-      image: "/integration_images/image 37.png",
+        "Scholar Clone’s Template Management service empowers schools to create, customize, and manage templates for reports, certificates, communications, and more—all in one easy-to-use platform. With professionally designed templates that can be tailored to your school’s unique branding and requirements, this service saves time while enhancing consistency and professionalism in every document. Transform routine tasks into polished, branded communications effortlessly with Scholar Clone.",
+      image: "/supportservice_images/image 38 (2).png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Communication & Collaboration",
+      title: "Roll Over",
       description:
-        "Our School Management System offers seamless integration with popular online learning tools like Google Classroom, Zoom, and Google Meet. This feature allows schools to easily manage and organize virtual classes, assignments, and meetings directly within the platform. Teachers can schedule Zoom or Google Meet sessions, sync classroom assignments from Google Classroom, and track student participation—all from one central system. This integration enhances remote learning, ensuring smooth communication and collaboration between students, teachers, and administrators.",
-      image: "/integration_images/image 38.png",
+        "Scholar Clone’s Roll Over service simplifies the transition from one academic year to the next by seamlessly updating student records, class assignments, and schedules. With just a few clicks, schools can roll over essential data while preserving historical records, making it easy to start each year fresh and organized. This feature streamlines annual setup, saves time, and ensures continuity—so your focus stays on education, not administration.",
+      image: "/supportservice_images/image (11).png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"
     },
+    // {
+    //   id: 3,
+    //   title: "Financial Integration",
+    //   description:
+    //     "Scholar Clone’s Financial Integration service streamlines school finances by bringing all payment processes into one secure, automated platform. From tuition fees and hostel charges to transportation and activity payments, parents can easily make transactions online, while schools gain clear financial tracking and reporting. This feature simplifies budgeting, enhances transparency, and creates a smooth, efficient financial experience for the entire school community.",
+    //   image: "/supportservice_images/image (9).png",
+    //   url1: "#contact-us",
+    //   url2: "#feedback",
+    //   url3: "#support"
+    // },
     {
       id: 3,
-      title: "Financial Integration",
+      title: "Onboarding",
       description:
-        "Scholar Clone’s Financial Integration service streamlines school finances by bringing all payment processes into one secure, automated platform. From tuition fees and hostel charges to transportation and activity payments, parents can easily make transactions online, while schools gain clear financial tracking and reporting. This feature simplifies budgeting, enhances transparency, and creates a smooth, efficient financial experience for the entire school community.",
-      image: "/integration_images/image (9).png",
-      url1: "#contact-us",
-      url2: "#feedback",
-      url3: "#support"
-    },
-    {
-      id: 4,
-      title: "API & System Integration",
-      description:
-        "Scholar Clone’s API & System Integration service connects all your school’s tools and platforms into one seamless ecosystem. With robust API capabilities, it easily integrates with third-party applications, from learning management systems to financial software, creating a unified workflow that saves time and reduces errors. This service empowers schools to customize their digital environment, enhancing productivity and ensuring smooth, connected operations across all departments.",
-      image: "/integration_images/image 45.png",
+        "Scholar Clone’s Onboarding service ensures a smooth and stress-free transition as schools adopt their new management system. Our dedicated team provides personalized training, hands-on support, and step-by-step guidance, making sure that every staff member feels confident and fully equipped to utilize all system features. With ongoing assistance and resources, Scholar Clone empowers your team to quickly master the platform, allowing the school to focus on what matters most—supporting students and achieving academic excellence from day one.",
+      image: "/supportservice_images/image (12).png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
@@ -141,8 +141,8 @@ export default function TeacherManagement() {
           ))}
         </div>
       </div>
-      <div className="lg:flex sm:hidden flex-col flex-col lg:w-[90%] lg:mb-[-50px] sm:w-full sm:items-center">
-        <Image src={item.image} alt="Student" width={1000} height={1000} className="lg:flex sm:hidden object-contain w-full" />
+      <div className="lg:flex sm:hidden flex-col flex-col lg:w-[60%] lg:mb-[-50px] sm:w-full sm:items-center">
+        <Image src={item.image} alt="Student" width={350} height={350} className="lg:flex sm:hidden object-contain" />
       </div>
       </div>
         </>
