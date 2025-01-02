@@ -6,7 +6,7 @@ function FormInput({ label }) {
   const normalizedLabel = label ? label.toLowerCase() : ''; // Fallback to empty string if `label` is undefined or invalid
 
   return (
-    <div className="flex flex-wrap gap-5 justify-between mt-5 first:mt-0 text-xl font-medium text-left text-black whitespace-nowrap max-md:max-w-full">
+    <div className="flex flex-wrap lg:gap-5 sm:gap-2 justify-between lg:mt-5 sm:mt-2 first:mt-0 lg:text-lg sm:text-sm font-intermedium text-left text-black whitespace-nowrap max-md:max-w-full">
       <label htmlFor={normalizedLabel} className="my-auto">
         {label}
       </label>
@@ -14,7 +14,7 @@ function FormInput({ label }) {
         type={normalizedLabel === 'email' ? 'email' : 'text'}
         id={normalizedLabel}
         name={normalizedLabel}
-        className="flex shrink-0 max-w-full rounded-2xl bg-blue-100 bg-opacity-80 h-[40px] w-[300px]"
+        className="flex shrink-0 max-w-full rounded-2xl bg-blue-100 bg-opacity-80 lg:h-[40px] sm:h-[30px] w-[300px]"
         aria-label={label}
       />
     </div>
