@@ -14,7 +14,7 @@ function FormInput({ label }) {
         type={normalizedLabel === 'email' ? 'email' : 'text'}
         id={normalizedLabel}
         name={normalizedLabel}
-        className="flex shrink-0 max-w-full rounded-2xl bg-blue-100 bg-opacity-80 lg:h-[40px] sm:h-[30px] w-[300px]"
+        className="flex shrink-0 max-w-full rounded-2xl bg-blue-100 bg-opacity-80 lg:h-[40px] sm:h-[30px] lg:w-[300px] sm:w-full"
         aria-label={label}
       />
     </div>

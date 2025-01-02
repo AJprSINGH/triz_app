@@ -8,16 +8,27 @@ import Head from 'next/head';
 function ContactForm() {
   return (
     <>
-    <main className="font-bold text-xl">
+    <main className="text-xl">
       <Header />
     </main>
+    <div
+        style={{
+          backgroundImage: 'url("/contactGlobal_images/image (8).png")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          backgroundRepeat: 'no-repeat',
+          height: '90vh',
+          marginTop: '-6px'
+        }}
+        className=""
+      />
     <div className="flex flex-col rounded-none">
-      <header className="flex overflow-hidden flex-col w-full bg-white-950 bg-opacity-60 max-md:max-w-full">
+      {/* <header className="flex overflow-hidden flex-col w-full bg-white-950 bg-opacity-60 max-md:max-w-full">
         <div className="flex relative flex-col items-end px-10 w-full max-w-[1500px] h-[10px] pt-[390px] max-md:pt-24 max-md:pl-5 max-md:max-w-full">
           <img loading="lazy" src="/contactGlobal_images/image (8).png" alt="" className="object-cover absolute inset-0 h-10px" />
         </div>
-      </header>
-      <main className="overflow-hidden self-center lg:pl-6 lg:mt-10 sm:-my-[250px] sm:mb-0 max-w-full  bg-white rounded-3xl border-solid shadow-sm border-[5px] lg:w-[950px] sm:w-full max-md:pl-5 max-md:mt-8" style={{
+      </header> */}
+      <main className="overflow-hidden self-center lg:pl-6 lg:mt-10 sm:mb-0 max-w-full  bg-white rounded-3xl border-solid shadow-sm border-[5px] lg:w-[950px] sm:w-full max-md:pl-5 max-md:mt-8" style={{
       borderColor:'rgba(21, 70, 120, 1)'
       }}>
         <div className="lg:flex lg:gap-5 sm:gap-0 sm:w-full max-md:flex-col">
