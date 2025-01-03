@@ -10,12 +10,13 @@ import FeatureLayout from './FeatureLayout';
 import zIndex from '@mui/material/styles/zIndex';
 import FeatureLayoutNew from '../../SComponents/FeatureLayout';
 import FeatureLayoutMax from '../../CComponents/FeatureLayout';
+import EducationDashboard from '../../RComponents/EducationDashboard';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/center_home' },
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'SERVICES', layerName: 'services' },
   { label: 'PRICING', layerName: 'aboutus', href: '/pricing' },
-  { label: 'RESOURCES', layerName: 'resources', href: '/resources' },
+  { label: 'RESOURCES', layerName: 'resources' },
 ];
 const dropdownData = {
   PRODUCTS: [
@@ -180,6 +181,24 @@ function NavBar() {
             </div>
           )}
         </div>
+      )}
+      {(activeDropdown === 'resources') && (
+        <div
+        ref={dropdownRef}
+        className={`absolute transition-all duration-300 ease-in-out fade-in`}
+        style={{
+          top: 50,
+          left: '8%', 
+          transform: 'translateX(-4%)', 
+          zIndex: 1000,
+        }}
+      >
+        {activeDropdown === 'resources' && (
+          <div onMouseLeave={handleMouseLeaveDropdown}>
+                  <EducationDashboard  />
+          </div>
+        )}
+      </div>
       )}
     </>
   );
