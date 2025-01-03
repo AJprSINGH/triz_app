@@ -56,6 +56,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'InterSemiBold';
+  src: url('/fonts/Inter_28pt-SemiBold.woff') format('woff');
+  font-weight:semibold;
+  font-style: normal;
+}
+@font-face {
   font-family: 'InterMedium';
   src: url('/fonts/Inter_18pt-Medium.woff') format('woff');
   font-weight:medium;

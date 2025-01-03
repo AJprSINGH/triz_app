@@ -18,7 +18,8 @@ module.exports = {
       osbold: ['OSBold','serif'],
       osmedium: ['OSMedium','serif'],
       osregular: ['OSRegular','serif'],
-      ossemibold: ['OSSemiBold','serif']
+      ossemibold: ['OSSemiBold','serif'],
+      intersemibold: ['InterSemiBold' , 'serif']
     },
     extend: {
       screens: { 

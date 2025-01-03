@@ -11,20 +11,20 @@ export default function HeroSection() {
     <main className='text-xl'>
     <Header />
     </main>
-    <div className="flex overflow-hidden relative flex-col items-end px-20 w-full shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:pl-5 max-md:max-w-full"style={{
+    <div className="flex overflow-hidden relative flex-col items-end w-full shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:pl-5 max-md:max-w-full"style={{
         backgroundImage: 'url("Resources_Images/Group 395 (1).png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
-        height: '90vh',
+        height: '70vh',
       }}
       >
-      <div className="flex overflow-hidden flex-col px-11 pt-24 pb-52 max-w-full bg-white text-white font-intermedium bg-opacity-0 w-[880px] max-md:px-5 max-md:pb-24">
-        <h1 className="text-6xl font-semibold text-center max-md:max-w-full max-md:text-4xl">
-          Your Partner in Innovation and Excellence
+      <div className="flex overflow-hidden flex-col pt-36 pr-4 max-w-full h-full bg-white bg-opacity-10 text-white bg-opacity-0 w-[600px] max-md:px-5 backdrop-blur-md max-md:pb-24">
+        <h1 className="text-4xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
+          Your Partner in Innovation And Excellence
         </h1>
         <button 
-      className="self-end px-5 py-2 mt-12 mr-60 mb-0 text-2xl font-bold font-inter bg-sky-500 rounded-3xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+      className="self-center px-5 py-2 mt-12 mb-0 text-lg font-inter bg-sky-500 rounded-3xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
       onClick={() => {}}
       tabIndex={0}
       aria-label="Book Your Demo Now"
