@@ -29,6 +29,7 @@ export default function EducationDashboard() {
                 <NavigationButton
                   key={item.id}
                   label={item.label}
+                  url={item.url}
                   isActive={item.id === activeHeaderId}
                   onClick={() => setActiveHeaderId(item.id)}
                 />
