@@ -76,7 +76,7 @@ export default function BlogsPage() {
       Become a Partner
     </button>
       </div>
-      <div className="flex gap-5 justify-between items-start self-end mt-32 w-full max-w-full max-md:mt-10 max-md:max-w-full">
+      <div className="flex gap-5 justify-between items-start self-end w-full max-w-full max-md:mt-10 max-md:max-w-full">
         <SearchBar />
       </div>
     </div>
