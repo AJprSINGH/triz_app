@@ -94,6 +94,21 @@
   src: url('/fonts/OpenSans-SemiBold.woff') format('woff');
   font-style: normal;
 }
+@font-face {
+  font-family: 'PJSemibold';
+  src: url('/fonts/PlusJakartaSans-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PJBold';
+  src: url('/fonts/PlusJakartaSans-Bold.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PJ';
+  src: url('/fonts/PlusJakartaSans-Regular.woff') format('woff');
+  font-style: normal;
+}
 html, body {
   margin: 0;
   padding: 0;

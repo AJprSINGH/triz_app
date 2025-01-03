@@ -5,7 +5,50 @@ import Content3 from "./blogs2/BlogsPage";
 import Content4 from "./blogs3/BlogsPage";
 import Header from "../../pages/Header/NavBar";
 import Footer from "../../pages/Footer/Footer";
+import NavigationBar from "./NavigationBar";
 export default function HeroSection() {
+  const content1Ref = React.useRef(null);
+  const content2Ref = React.useRef(null);
+  const content3Ref = React.useRef(null);
+  const content4Ref = React.useRef(null);
+  const [showScrollTopBtn, setShowScrollTopBtn] = React.useState(false);
+  const scrollToSection = (section) => {
+    switch (section) {
+      case "blogs":
+        content1Ref.current?.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "case-studies":
+        content2Ref.current?.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "faqs":
+        content3Ref.current?.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "newsletters":
+        content4Ref.current?.scrollIntoView({ behavior: "smooth" });
+        break;
+      default:
+        break;
+    }
+  }
+  React.useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setShowScrollTopBtn(true); 
+      } else {
+        setShowScrollTopBtn(false); 
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div className="flex flex-col w-full max-w-full mx-auto overflow-x-hidden">
     <main className='text-xl'>
@@ -33,11 +76,29 @@ export default function HeroSection() {
     </button>
       </div>
     </div>
-    <Content1 />
-    <Content2 />
-    <Content3 />
-    <Content4 />
+    <NavigationBar onNavigate={scrollToSection} />
+    <div ref={content1Ref}>
+      <Content1 />
+    </div>
+    <div ref={content2Ref}>
+      <Content2 />
+    </div>
+    <div ref={content3Ref}>
+      <Content3 />
+    </div>
+    <div ref={content4Ref}>
+      <Content4 />
+    </div>
     <Footer />
+    {showScrollTopBtn && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-32 right-10 mb-5 px-1 mt-8 bg-white rounded-full h-[40px] shadow-[0px_0px_15px_rgba(0,0,0,0.3)] w-[40px] max-md:mt-6 transition-all duration-300 hover:bg-sky-400"
+          aria-label="Scroll to Top"
+        >
+          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/be76f4743b073701bfb29abc287c6251dd378a6500dcd2427b7e508322a0e015?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3" alt="" className="object-contain w-full h-full aspect-[0.75]" />
+        </button>
+      )}
     </div>
   );
 }

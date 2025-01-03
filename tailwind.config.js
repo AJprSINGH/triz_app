@@ -19,7 +19,10 @@ module.exports = {
       osmedium: ['OSMedium','serif'],
       osregular: ['OSRegular','serif'],
       ossemibold: ['OSSemiBold','serif'],
-      intersemibold: ['InterSemiBold' , 'serif']
+      intersemibold: ['InterSemiBold' , 'serif'],
+      pjbold: ['PJBold','serif'],
+      pj: ['PJ','serif'],
+      pjsemibold: ['PJSemiBold','serif'],
     },
     extend: {
       screens: { 

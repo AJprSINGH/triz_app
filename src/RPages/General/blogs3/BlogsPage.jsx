@@ -69,14 +69,14 @@ export default function BlogsPage() {
     <div className="flex flex-col items-center lg:mt-10 lg:mb-10">
       <div className="flex flex-wrap gap-5 justify-between mt-9 px-20 w-full max-w-screen-2xl max-md:max-w-full">
         <div className="flex gap-2.5 items-center">
-          <div className="self-stretch my-auto text-lg font-bold capitalize text-zinc-800">
+          <div className="self-stretch my-auto text-lg font-inter capitalize text-zinc-800">
             Newsletters
           </div>
           <div className="flex flex-col justify-center self-stretch py-0.5 my-auto w-[35px]">
             <div className="shrink-0 h-0.5 border-2 border-solid bg-zinc-800 border-zinc-800" />
           </div>
         </div>
-        <div className="flex gap-3 my-auto text-lg font-bold text-right capitalize text-zinc-800 group relative">
+        <div className="flex gap-3 my-auto text-lg font-pjbold text-right capitalize text-zinc-800 group relative">
           <div className="grow transition-all duration-300 group-hover:text-sky-500" tabIndex="0" role="button">
             See All Newsletters
           </div>
