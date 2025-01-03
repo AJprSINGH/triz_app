@@ -15,7 +15,7 @@ export function NavigationBar() {
           Case Studies
         </div>
         <div className="leading-none" tabIndex="0" role="button">
-          FAQ's
+          FAQ&apos;s
         </div>
         <div
           className="leading-none"
