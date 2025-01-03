@@ -191,7 +191,6 @@ const data = {
   headerNavbar: [
     { name: "HOME", link: "/center_home" },
     { name: "PRICING", link: "/pricing" },
-    { name: "RESOURCES", link: "/resources" },
   ],
   headerCNavbar: [
     { name: "HOME", link: "/" },
@@ -214,6 +213,13 @@ const dropdownDataOptions = {
       { label: "Quality improvement", href: "/pithree" },
       { label: "Process improvement", href: "/pione" },
       { label: "Rolewise solutions", href: "/pitwo" },
+    ],
+    RESOURCES: [
+      { label: "General Resources", href:"/GR"},
+      { label: "Teacher", href:"/teacher-blogs"},
+      { label: "Student", href:"/student-blogs"},
+      { label: "Parents", href:"/parents-blogs"},
+      { label: "School Administrator", href:"/admin-blogs"},
     ],
   },
   headerCNavbar: {
