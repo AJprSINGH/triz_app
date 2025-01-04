@@ -66,19 +66,19 @@ const blogData = [
 
 export default function BlogsPage() {
   return (
-    <div className="flex flex-col items-center lg:mt-20 lg:pb-10" style={{
+    <div className="flex flex-col items-center lg:mt-20 lg:pb-10 sm:pb-10" style={{
       background:'rgba(34, 69, 111, 0.25)',
     }}>
-      <div className="flex flex-wrap gap-5 justify-between mt-9 px-20 w-full max-w-screen-2xl max-md:max-w-full">
+      <div className="flex flex-wrap gap-5 justify-between mt-9 lg:px-20 sm:px-4 w-full max-w-screen-2xl max-md:max-w-full">
         <div className="flex gap-2.5 items-center">
-          <div className="self-stretch my-auto text-lg font-inter capitalize text-zinc-800">
+          <div className="self-stretch my-auto lg:text-lg sm:text-sm font-inter capitalize text-zinc-800">
             FAQ&apos;s
           </div>
-          <div className="flex flex-col justify-center self-stretch py-0.5 my-auto w-[35px]">
+          <div className="flex flex-col justify-center self-stretch py-0.5 my-auto sm:w-[15px] lg:w-[35px]">
             <div className="shrink-0 h-0.5 border-2 border-solid bg-zinc-800 border-zinc-800" />
           </div>
         </div>
-        <div className="flex gap-3 my-auto text-lg font-pjbold text-right capitalize text-zinc-800 group relative">
+        <div className="flex gap-3 my-auto lg:text-lg sm:text-sm font-pjbold text-right capitalize text-zinc-800 group relative">
           <div className="grow transition-all duration-300 group-hover:text-sky-500" tabIndex="0" role="button">
             See All FAQ&apos;s
           </div>
@@ -86,14 +86,14 @@ export default function BlogsPage() {
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/64effff9585372e1f5c5de70cde683ea5a8cd07735d046955d0bd7d25e34e40f?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
             alt=""
-            className="object-contain shrink-0 self-start mt-1 w-5.5 aspect-[0.43] transition-all duration-300 group-hover:ml-2"
+            className="object-contain shrink-0 self-start mt-1 lg:w-5.5 sm:w-2 aspect-[0.43] transition-all duration-300 group-hover:ml-2"
           />
         </div>
       </div>
-      <div className="flex flex-wrap gap-5 justify-between mt-9 px-16 w-full max-w-screen-2xl max-md:max-w-full">
-      <div className="flex flex-wrap gap-10 w-full">
+      <div className="flex lg:flex-wrap gap-5 justify-between mt-9 px-16 w-full max-w-screen-2xl max-md:max-w-full">
+      <div className="flex lg:flex-row sm:flex-col gap-8 w-full">
         {blogData.map((blog, index) => (
-          <div key={index} className="flex-grow flex-1 h-full transition-all duration-300 transform hover:scale-105 hover:border-sky-500 hover:shadow-5xl hover:border-2 hover:border-solid hover:rounded-xl">
+          <div key={index} className="lg:flex-grow sm:flex flex-1 h-full transition-all duration-300 transform hover:scale-105 hover:shadow-5xl">
             <BlogCard {...blog} />
           </div>
         ))}

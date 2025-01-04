@@ -2,7 +2,7 @@ import React from "react";
 
 export function BlogCard({ image, title, author, date, readTime }) {
   return (
-    <div className="flex flex-col justify-between p-3 bg-white rounded-xl shadow-sm min-w-[140px] w-[210px] h-full">
+    <div className="flex flex-col justify-between p-3 bg-white rounded-xl shadow-sm min-w-[140px] w-[210px] h-full transition-all duration-300 hover:border-sky-500 hover:border-2 hover:border-solid hover:rounded-xl">
       {/* Blog Image */}
       <div className="flex flex-col text-[15px] capitalize">
         <img
