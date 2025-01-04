@@ -7,7 +7,7 @@ export function BlogCard({
   imageSrc,
   iconSrc, }) {
   return (
-    <div className="flex flex-col justify-between p-3 bg-white rounded-xl shadow-sm min-w-[200px] w-[280px] h-full"style={{
+    <div className="flex flex-col justify-between lg:p-3 sm:p-4 bg-white rounded-xl shadow-sm lg:min-w-[200px] lg:w-[280px] lg:h-full sm:w-full sm:h-full transition-all duration-300 hover:border-sky-500 hover:border-2 hover:border-solid hover:rounded-xl"style={{
       boxShadow: '0px 15px 12px 2px rgba(16, 24, 40, 0.2)'
     }}>
       <img

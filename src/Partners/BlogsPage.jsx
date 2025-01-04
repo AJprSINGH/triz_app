@@ -76,15 +76,15 @@ export default function BlogsPage() {
       Become a Partner
     </button>
       </div>
-      <div className="flex gap-5 justify-between items-start self-end w-full max-w-full max-md:mt-10 max-md:max-w-full">
+      <div className="flex gap-5 lg:justify-between sm:justify-center lg:items-start sm:items-center self-end w-full max-w-full max-md:mt-10 max-md:max-w-full">
         <SearchBar />
       </div>
     </div>
     <div className="flex flex-col items-center">
-      <div className="flex flex-wrap gap-5 justify-between mt-9 px-16 w-full max-w-screen-2xl max-md:max-w-full">
-      <div className="flex flex-wrap gap-8 w-full">
+      <div className="flex lg:flex-wrap gap-5 justify-between mt-9 lg:px-16 sm:px-10 w-full max-w-screen-2xl max-md:max-w-full">
+      <div className="flex lg:flex-row sm:flex-col gap-8 w-full">
         {blogData.map((blog, index) => (
-          <div key={index} className="flex-grow flex-1 h-full transition-all duration-300 transform hover:scale-105 hover:border-sky-500 hover:shadow-5xl hover:border-2 hover:border-solid hover:rounded-xl">
+          <div key={index} className="lg:flex-grow sm:flex flex-1 h-full transition-all duration-300 transform hover:scale-105 hover:shadow-5xl">
             <BlogCard
               key={index}
               category={blog.category}

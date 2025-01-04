@@ -3,7 +3,7 @@ import * as React from "react";
 export function SearchBar() {
   return (
     <form className="flex gap-2 mb-2 self-start max-md:max-w-full" role="search">
-      <div className="flex flex-col ml-10 text-base text-gray-500 basis-0 w-fit">
+      <div className="flex flex-col lg:ml-10 text-base text-gray-500 basis-0 w-fit">
         <div className="flex flex-col w-full">
           <div className="flex flex-col w-full">
             <div className="flex overflow-hidden gap-2 items-center px-4 py-1 w-full bg-white rounded-lg border border-black border-solid shadow-sm">
