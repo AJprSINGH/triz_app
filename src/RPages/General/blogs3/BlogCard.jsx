@@ -2,16 +2,16 @@ import React from "react";
 
 export function BlogCard({ image, title, author, date, readTime }) {
   return (
-    <div className="flex flex-col justify-between p-3 bg-white rounded-xl shadow-sm min-w-[140px] w-[210px] h-full transition-all duration-300 hover:border-sky-500 hover:border-2 hover:border-solid hover:rounded-xl">
+    <div className="flex flex-col justify-between lg:p-3 sm:p-4 sm:items-center lg:items-start bg-white rounded-xl shadow-sm lg:min-w-[140px] lg:w-[210px] lg:h-full sm:w-full transition-all duration-300 hover:border-sky-500 hover:border-2 hover:border-solid hover:rounded-xl">
       {/* Blog Image */}
-      <div className="flex flex-col text-[15px] capitalize">
+      <div className="flex flex-col sm:items-center lg:items-start text-[15px] capitalize">
         <img
           loading="lazy"
           src={image}
           alt={title}
           className="object-contain max-w-full rounded-xl aspect-[1.31] w-[260px]"
         />
-        <div className="mt-6 text-sm font-pjbold">{title}</div>
+        <div className="mt-6 text-sm sm:text-center lg:text-left font-pjbold">{title}</div>
       </div>
       
       {/* Author and Meta Information */}

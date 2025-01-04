@@ -62,7 +62,7 @@ export default function HeroSection() {
         height: '70vh',
       }}
       >
-      <div className="flex overflow-hidden flex-col pt-36 pr-4 max-w-full h-full bg-white bg-opacity-10 text-white bg-opacity-0 w-[600px] max-md:px-5 backdrop-blur-md max-md:pb-24">
+      <div className="flex overflow-hidden flex-col lg:pt-36 lg:pr-4 sm:pt-32 max-w-full h-full bg-white bg-opacity-10 text-white bg-opacity-0 lg:w-[600px] sm:w-full max-md:px-5 backdrop-blur-md max-md:pb-24">
         <h1 className="text-4xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
           Your Partner in Innovation And Excellence
         </h1>

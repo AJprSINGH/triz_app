@@ -90,7 +90,7 @@ export default function BlogsPage() {
           />
         </div>
       </div>
-      <div className="flex lg:flex-wrap gap-5 justify-between mt-9 px-16 w-full max-w-screen-2xl max-md:max-w-full">
+      <div className="flex lg:flex-wrap gap-5 justify-between mt-9 lg:px-16 sm:px-10 w-full max-w-screen-2xl max-md:max-w-full">
       <div className="flex lg:flex-row sm:flex-col gap-8 w-full">
         {blogData.map((blog, index) => (
           <div key={index} className="lg:flex-grow sm:flex flex-1 h-full transition-all duration-300 transform hover:scale-105 hover:shadow-5xl">
