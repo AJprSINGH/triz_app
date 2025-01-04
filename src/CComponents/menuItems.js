@@ -11,5 +11,11 @@ export const leftMenuItems = [
       title: "Career",
       url: "/career"
     },
+    {
+      id: 3,
+      icon: "/Partners_Images/brokerage.png",
+      title: "Partners",
+      url: "/partners"
+    }
   ];
   export default {leftMenuItems};
