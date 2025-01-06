@@ -1,8 +1,8 @@
 import React from "react";
 import { BlogCard } from "./BlogCard";
-import Header from "../pages/Header/NavBar";
+import Header from "../pages/Header_C/NavBar";
 import { SearchBar } from "./SearchBar";
-import Footer from "../pages/Footer/Footer";
+import Footer from "../pages/Footer_C/Footer";
 const blogData = [
   {
     category: "School",
