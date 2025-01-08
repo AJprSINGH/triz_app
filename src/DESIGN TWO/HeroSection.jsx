@@ -60,7 +60,7 @@ export default function BlogsPage() {
   >
   <div className="flex overflow-hidden flex-col pt-20 max-w-full h-full bg-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
     <h1 className="text-4xl font-lxe text-center max-md:max-w-full max-md:text-4xl underline decoration-[rgba(34,226,127,1)] decoration-4">
-    Simplify Your School's Inventory Management
+    Simplify Your School&rsquo;s Inventory Management
     </h1>
     <h4 className="text-lg mt-20 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(18, 20, 29, 1)'
