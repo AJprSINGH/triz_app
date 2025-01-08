@@ -65,7 +65,7 @@ export default function BlogsPage() {
     <h4 className="text-lg mt-20 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(18, 20, 29, 1)'
     }}>
-    Keep your school’s inventory organized, accessible, and efficient with the Inventory & Store Management Module from Scholar Clone. Whether it’s textbooks, uniforms, lab equipment, or event supplies, manage it all in one place with real-time tracking and advanced tools.
+    Keep your school&rsquo;s inventory organized, accessible, and efficient with the Inventory & Store Management Module from Scholar Clone. Whether it’s textbooks, uniforms, lab equipment, or event supplies, manage it all in one place with real-time tracking and advanced tools.
     </h4>
     <div className="flex flex-row gap-10 items-center justify-center">
 <button 
@@ -125,7 +125,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 mt-10 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
           <h1 className="z-10 self-start mt-0 text-3xl font-lxesemibold tracking-tighter text-zinc-900 max-md:max-w-full underline decoration-[rgba(34,226,127,1)] decoration-4">
-        Features Tailored to Your School's Needs
+        Features Tailored to Your School&rsquo;s Needs
       </h1>
       <div className="z-10 mt-4 max-md:mt-10 max-md:max-w-full">
         {features.map((feature, index) => (
@@ -147,7 +147,7 @@ export default function BlogsPage() {
     <h1 className="text-3xl mt-40 font-lxesemibold text-center max-md:max-w-full max-md:text-4xl underline decoration-[rgba(34,226,127,1)] decoration-4"style={{
         color:'rgb(10, 10, 10)'
     }}>
-    Let&apos;s Transform Your<br/> 
+    Let&rsquo;s Transform Your<br/> 
     Inventory Management
     </h1>
     <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
