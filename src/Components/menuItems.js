@@ -26,7 +26,7 @@ export const leftMenuItems = [
     {
       id: 5,
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/8c1c7a10bec5b2792007fac6a75469b4be553d2e3cf7e25022ab813eefcec8ee?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-      title: "Communication",
+      title: "HR",
       url: "/commservice"
     },
     {
