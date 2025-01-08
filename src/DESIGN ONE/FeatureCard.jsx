@@ -12,10 +12,10 @@ export default function FeatureCard({ icon, title, description }) {
           alt={`${title} feature icon`}
           className="object-contain aspect-[1.07] w-[77px]"
         />
-        <div className="mt-6 text-sm font-extrabold tracking-tight leading-none">
+        <div className="mt-6 text-sm font-inter tracking-tight leading-none">
           {title}
         </div>
-        <div className="mt-2.5 text-xs leading-6">{description}</div>
+        <div className="mt-2.5 text-xs leading-6 font-interregular">{description}</div>
       </div>
     </div>
   );

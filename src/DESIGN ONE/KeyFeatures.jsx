@@ -48,7 +48,9 @@ export default function KeyFeatures() {
             }}>
         Key Features
       </div>
-      <div className="flex flex-col items-center px-20 py-10 mt-12 w-full bg-white rounded-[48px] shadow-[-1px_-1px_5px_rgba(0,0,0,0.05)] max-md:px-5 max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-col items-center px-20 py-10 mt-6 w-full bg-white rounded-[48px] max-md:px-5 max-md:mt-10 max-md:max-w-full"style={{
+      boxShadow: '6px 6px 12px 2px rgba(16, 24, 40, 0.2)'
+    }}>
         <div className="w-full max-w-full max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col">
             {features.slice(0, 3).map((feature, index) => (
