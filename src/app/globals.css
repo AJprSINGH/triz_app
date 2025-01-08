@@ -109,6 +109,26 @@
   src: url('/fonts/PlusJakartaSans-Regular.woff') format('woff');
   font-style: normal;
 }
+@font-face {
+  font-family: 'LXBold';
+  src: url('/fonts/Lexend-Bold.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LXSemiBold';
+  src: url('/fonts/Lexend-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LXEBold';
+  src: url('/fonts/LexendExa-Bold.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LXESemiBold';
+  src: url('/fonts/LexendExa-SemiBold.woff') format('woff');
+  font-style: normal;
+}
 html, body {
   margin: 0;
   padding: 0;

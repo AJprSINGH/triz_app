@@ -23,6 +23,10 @@ module.exports = {
       pjbold: ['PJBold','serif'],
       pj: ['PJ','serif'],
       pjsemibold: ['PJSemiBold','serif'],
+      lx: ['LXBold','serif'],
+      lxsemibold: ['LXSemiBold','serif'],
+      lxe: ['LXEBold','serif'],
+      lxesemibold: ['LXESemiBold','serif'],
     },
     extend: {
       screens: { 
