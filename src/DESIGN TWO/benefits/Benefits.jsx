@@ -1,38 +1,44 @@
 import * as React from "react";
 import { BenefitCard } from "./BenefitCard";
-import { benefitsData } from "./BenefitsData";
+import { benefitsTopData, benefitsBottomData } from "./BenefitsData";
 
 export default function Benefits() {
   return (
-    <div className="flex overflow-hidden flex-col items-start px-10 pt-8 mt-20 pb-8 text-2xl font-bold bg-blue-200 max-md:px-5">
-      <div className="flex flex-col max-w-full w-full">
-        <div className="mx-auto text-4xl font-inter text-slate-500 max-md:mr-2.5 max-md:text-4xl text-center" style={{
-                color:'rgba(61, 96, 149, 1)'
-            }}>
-          Benefits
+    <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center pt-32 w-full max-w-screen-xl bg-white">
+        <h1 className="text-3xl font-lxesemibold leading-none text-center text-zinc-900 underline decoration-[rgba(34,226,127,1)] decoration-4">
+          Benefits of Our Module
+        </h1>
+
+        <div className="mt-20 w-full flex items-center justify-center max-md:mt-10">
+          <div className="flex gap-5 flex-wrap justify-center max-md:flex-col">
+            {benefitsTopData.map((benefit) => (
+              <div key={benefit.id} className="flex lg:ml-10 flex-col w-full max-w-xs">
+                <BenefitCard
+                  icon={benefit.icon}
+                  title={benefit.title}
+                  description={benefit.description}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="flex max-md:flex-col">
-        <div className="flex flex-col w-[50%] pr-20">
-        <BenefitCard
-          title={benefitsData.educationalInstitutions.title}
-          benefits={benefitsData.educationalInstitutions.benefits}
-          className="w-full max-md:px-5 max-md:mt-10 max-md:max-w-full font-inter"
-        />
-        <BenefitCard
-          title={benefitsData.studentsAndParents.title}
-          benefits={benefitsData.studentsAndParents.benefits}
-          className="w-full max-md:px-5 max-md:mt-10 ml-36 max-md:max-w-full font-inter"
-        />
+
+        <div className="mt-32 w-full flex items-center justify-center max-md:mt-10">
+          <div className="flex gap-5 flex-wrap justify-center max-md:flex-col">
+            {benefitsBottomData.map((benefit) => (
+              <div key={benefit.id} className="flex flex-col lg:ml-10 w-full max-w-xs">
+                <BenefitCard
+                  icon={benefit.icon}
+                  title={benefit.title}
+                  description={benefit.description}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-col mt-32 ml-20  w-[50%]">
-        <img
-          loading="lazy"
-          src="Design_one_images/Group 1321314639 (2).png"
-          alt="XYZ"
-          className="w-[100%]"
-        />
-        </div>
-        </div>
+
+        <div className="self-stretch mt-28 w-full border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] opacity-[0.08]" />
       </div>
     </div>
   );
