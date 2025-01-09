@@ -4,8 +4,8 @@ import { benefitsData } from "./BenefitsData";
 
 export default function Benefits() {
   return (
-    <div className="flex flex-col pb-10 pl-20 h-[120vh] bg-white overflow-hidden shadow-[0px_3px_8px_rgba(0,0,0,0.25)] max-md:pl-5">
-      <div className=" w-full max-w-full max-md:max-w-full">
+    <div className="flex flex-col pb-10 h-[110vh] bg-white overflow-hidden shadow-[0px_3px_8px_rgba(0,0,0,0.25)] max-md:pl-5">
+      <div className=" w-full pl-20 max-w-full max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-full items-center justify-center  max-md:ml-0 max-md:w-full">
             <div className="mt-10 text-3xl font-inter pl-40 text-center text-sky-800 max-md:mt-10 max-md:max-w-full">
@@ -22,52 +22,50 @@ export default function Benefits() {
         </div>
       </div>
       <div className="flex justify-center items-center mt-0 ">
-  <div className="builder-canvas relative max-w-full w-full max-md:mt-10">
+  <div className="builder-canvas relative max-w-full w-full max-md:mt-10 bg-gray-400 bg-opacity-30 rounded-2xl h-[450px] w-full mx-20 border-4 border-gray-400 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
     <div className="flex absolute shrink-0 rounded-full border-green-600 border-solid border-[25px] h-[260px] left-[125px] top-[420px] w-[260px]" />
-    <div className="border-r-2 border-gray-400 p-4">
-    <div className="absolute top-8 text-lg font-bold h-[53px] left-[246.60415649414062px] w-[253px]">
+    <div className="absolute top-8 text-lg font-inter h-[53px] left-[246.60415649414062px] w-[253px]">
       Strengthen Trust and Relationships
     </div>
-    <div className="absolute text-sm h-[107px] left-[246.60415649414062px] top-[100.33331298828125px] w-[228px]">
+    <div className="absolute text-sm font-interregular h-[107px] left-[246.60415649414062px] top-[100.33331298828125px] w-[228px]">
       Show parents, students, and staff that their voices matter. Timely
       responses foster trust and a stronger sense of community.
     </div>
-    </div>
-    <div className="absolute top-8 text-lg font-bold h-[53px] left-[530.3750305175781px] w-[253px]">
+    <div className="absolute top-8 text-lg font-inter h-[53px] left-[530.3750305175781px] w-[253px]">
       Boost Efficiency and Accountability
     </div>
-    <div className="absolute text-sm h-[107px] left-[530.3750305175781px] top-[100.33331298828125px] w-[228px]">
+    <div className="absolute text-sm font-interregular h-[107px] left-[530.3750305175781px] top-[100.33331298828125px] w-[228px]">
       Streamline complaint handling, reduce response times, and track every
       step for complete accountability.
     </div>
     
-    <div className="absolute top-8 text-lg font-bold h-[53px] left-[814.1459045410156px] w-[253px]">
+    <div className="absolute top-8 text-lg font-inter h-[53px] left-[814.1459045410156px] w-[253px]">
       Identify and Address Root Causes
     </div>
-    <div className="absolute text-sm h-[107px] left-[814.1459045410156px] top-[100.33331298828125px] w-[228px]">
+    <div className="absolute text-sm font-interregular h-[107px] left-[814.1459045410156px] top-[100.33331298828125px] w-[228px]">
       Use analytics to spot patterns and address recurring issues, improving
       overall school management.
     </div>
     
-    <div className="absolute text-lg font-bold h-[53px] left-[246.60415649414062px] top-[250px] w-[253px]">
+    <div className="absolute text-lg font-inter h-[53px] left-[246.60415649414062px] top-[250px] w-[253px]">
       Strengthen Trust and Relationships
     </div>
-    <div className="absolute text-sm h-[107px] left-[246.60415649414062px] top-[318.33331298828125px] w-[228px]">
+    <div className="absolute text-sm font-interregular h-[107px] left-[246.60415649414062px] top-[318.33331298828125px] w-[228px]">
       Show parents, students, and staff that their voices matter. Timely
       responses foster trust and a stronger sense of community.
     </div>
-    <div className="absolute text-lg font-bold h-[53px] left-[530.3750305175781px] top-[250px] w-[253px]">
+    <div className="absolute text-lg font-inter h-[53px] left-[530.3750305175781px] top-[250px] w-[253px]">
       Boost Efficiency and Accountability
     </div>
-    <div className="absolute text-sm h-[107px] left-[530.3750305175781px] top-[318.33331298828125px] w-[228px]">
+    <div className="absolute text-sm font-interregular h-[107px] left-[530.3750305175781px] top-[318.33331298828125px] w-[228px]">
       Streamline complaint handling, reduce response times, and track every
       step for complete accountability.
     </div>
     
-    <div className="absolute text-lg  font-bold h-[53px] left-[814.1459045410156px] top-[250px] w-[253px]">
+    <div className="absolute text-lg font-inter h-[53px] left-[814.1459045410156px] top-[250px] w-[253px]">
       Identify and Address Root Causes
     </div>
-    <div className="absolute text-sm h-[107px] left-[814.1459045410156px] top-[318.33331298828125px] w-[228px]">
+    <div className="absolute text-sm font-interregular h-[107px] left-[814.1459045410156px] top-[318.33331298828125px] w-[228px]">
       Use analytics to spot patterns and address recurring issues, improving
       overall school management.
     </div>
