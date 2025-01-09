@@ -274,7 +274,7 @@ export default function FeaturesSection() {
         </span>
         <br />
         <br />
-        Don&aspos;t let inefficiencies hold your institution back. Leverage the power of an integrated system that is tailored to your needs.
+        Don&apos;t let inefficiencies hold your institution back. Leverage the power of an integrated system that is tailored to your needs.
       </div>
       <button 
         className="overflow-hidden gap-2.5 self-stretch p-2.5 mt-6 text-md font-medium text-white rounded-xl bg-slate-500 shadow-[0px_4px_8px_rgba(0,0,0,0.25)] max-md:mt-10"
