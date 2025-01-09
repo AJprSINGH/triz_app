@@ -101,26 +101,80 @@ export default function BlogsPage() {
         </div>
       </div>
     </div>
-    <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
-      backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
+    <div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+      backgroundImage: 'url("Design_five_images/Group 1321314648.png")',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
       height: '105vh',
     }}
     >
-    <Features />
+    <div className="flex flex-col items-end px-16 pt-14 pb-24 max-md:px-5">
+      <div className="w-full max-w-[1541px] max-md:max-w-full">
+        <div className="flex gap-5 max-md:flex-col">
+          <div className="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c53f40fd4be0c9d338d3a806e6d4904cfde062a7cbdd2883dfe14dc85256c11f?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+              className="object-contain w-full rounded-2xl aspect-square shadow-[4px_4px_10px_rgba(0,0,0,0.25)] max-md:mt-10 max-md:max-w-full"
+            />
+          </div>
+          <div className="flex flex-col ml-5 w-3/5 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
+              <div className="text-3xl font-inter tracking-tighter text-sky-800 max-md:max-w-full">
+                Top Features of the Complain Management Module
+              </div>
+              <div className="self-start mt-10 text-lg font-interregular leading-6 text-slate-800 max-md:max-w-full">
+                Programmatically send and receive ACH, wires, real-time
+                <br />
+                payments, and even physical checks.
+              </div>
+              <div className="mt-10 mr-6 max-md:mr-2.5 max-md:max-w-full">
+                <div className="flex gap-5 max-md:flex-col">
+                  <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col items-start text-xl font-inter text-slate-800 max-md:mt-10">
+                      <div className="self-stretch">
+                        Multi-Channel Complaint Submission
+                      </div>
+                      <div className="mt-12 max-md:mt-10">
+                        Categorization and Prioritization
+                      </div>
+                      <div className="mt-12 max-md:mt-10">
+                        Timely Issue Forwarding
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col grow items-start text-xl font-inter text-slate-800 max-md:mt-10">
+                      <div className="self-stretch">
+                        Centralized Complaint Dashboard
+                      </div>
+                      <div className="mt-12 max-md:mt-10">
+                        Real-Time Status Updates
+                      </div>
+                      <div className="mt-9">
+                        Comprehensive Reports and Analytics
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
     <Benefits />
-    <h1 className="text-3xl mt-40 font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
+    <h1 className="text-3xl mt-40 font-interregular text-center max-md:max-w-full max-md:text-4xl"style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    Ready to revolutionize your admissions process?
+    Ready to Create a Better School Environment?
     </h1>
-    <h4 className="text-2xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+    <h4 className="text-4xl mt-4 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    Experience the power of Scholar Clone Education CRM today.
+    Turn Concerns into Confidence
     </h4>
     <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
     <button 
@@ -132,18 +186,7 @@ export default function BlogsPage() {
   tabIndex={0}
   aria-label="Book Your Demo Now"
 >
-  Get Free Demo
-</button>
-<button 
-  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
-  style={{
-    background: 'rgba(34, 69, 111, 1)'
-  }}
-  onClick={() => {}}
-  tabIndex={0}
-  aria-label="Book Your Demo Now"
->
-  Get Your Solution Today
+  Book a Demo
 </button>
 </div>
 <Footer />
