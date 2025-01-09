@@ -19,7 +19,7 @@ export default function BlogsPage() {
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    height: '80vh',
+    height: '92vh',
   }}
   >
   <div className="flex overflow-hidden flex-col pt-20 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
