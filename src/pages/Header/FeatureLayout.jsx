@@ -181,799 +181,798 @@ const rightMenuForCommunication = [
       url: "/analyticsservice"
     }
   ];
-const additionalContentForERP = [
- [   
-  {
-    id: 1,
-    title: "Education CRM",
-    url1: "/erpservice/front-desk",  
-    url2: "/erpservice/front-desk-benefits"  
-    },
-    {
-    id: 2,
-    title: "Inventory & Store Management",
-    url1: "/erpfeature-one",  
-    url2: "/erpfeature-one"  
-    },
-    {
-    id: 3,
-    title: "Front desk management",
-    url1: "/erpservice/task",  
-    url2: "/erpservice/task-benefits"  
-    },
-    {
-    id: 4,
-    title: "Inward-Outward (Digital Records) ",
-    url1: "/erpservice/complaint",  
-    url2: "/erpservice/complaint-benefits"  
-    },
-    {
-    id: 5,
-    title: "Complain management",
-    url1: "/erpservice/discipline",  
-    url2: "/erpservice/discipline-benefits"  
-    },
-    {
-    id: 6,
-    title: "Library management",
-    url1: "/erpservice/visitor",  
-    url2: "/erpservice/visitor-benefits"  
-    },
-    {
-    id: 7,
-    title: "Hostel Management",
-    url1: "/erpservice/digital-records",  
-    url2: "/erpservice/digital-records-benefits"  
-    },
-    {
-    id: 8,
-    title: "Task Management",
-    url1: "/erpservice/inventory",  
-    url2: "/erpservice/inventory-benefits"  
-    },
-    {
-      id: 9,
-      title: "Complaince management",
-      url1: "/erpservice/inventory",  
-      url2: "/erpservice/inventory-benefits"  
-    },
-    {
-      id: 10,
-      title: "SQAA",
-      url1: "/erpservice/inventory",  
-      url2: "/erpservice/inventory-benefits"  
-    }
-    
-  ],
-  [
-    {
-      id: 11,
-      title: "Fees collection",
-      url1: "/erpservice/finance-petty-cash",  
-      url2: "/erpservice/finance-petty-cash-benefits"
-    },
-    {
-      id: 12,
-      title: "Online fees management, NACH Fees, Online fees management",
-      url1: "/erpservice/student-fees",  
-      url2: "/erpservice/student-fees-benefits"
-    },
-    {
-      id: 13,
-      title: "Petty Cash management",
-      url1: "/erpservice/library",  
-      url2: "/erpservice/library-benefits"
-    },
-    {
-      id: 14,
-      title: "Fees Reconciliation",
-      url1: "/erpservice/payment-processing",  
-      url2: "/erpservice/payment-processing-benefits"
-    },
-    {
-      id: 15,
-      title: "Fine & discount management",
-      url1: "/erpservice/payment-processing",  
-      url2: "/erpservice/payment-processing-benefits"
-    },
-    {
-      id: 16,
-      title: "Tally, payment gateway Integration",
-      url1: "/erpservice/payment-processing",  
-      url2: "/erpservice/payment-processing-benefits"
-    },
-    {
-      id: 17,
-      title: "Multiple receipt generation",
-      url1: "/erpservice/payment-processing",  
-      url2: "/erpservice/payment-processing-benefits"
-    },
-    {
-      id: 18,
-      title: "AI driven fees predictions",
-      url1: "/erpservice/payment-processing",  
-      url2: "/erpservice/payment-processing-benefits"
-    }
-  ],
-  
-  // New Subarray for Student & Academic Management
-  [
-    {
-      id: 19,
-      title: "Exam management, Result/Report Card",
-      url1: "/erpservice/education-crm",  
-      url2: "/erpservice/education-crm-benefits"
-    },
-    {
-      id: 20,
-      title: "Student academic profile, Student Medical records, Student request, Certificate management, Discipline Tracking, Sudent Pick up/drop, Consent Management",
-      url1: "/erpservice/student-profiles",  
-      url2: "/erpservice/student-profiles-benefits"
-    },
-    {
-      id: 21,
-      title: "Student Attendance",
-      url1: "/erpservice/attendance",  
-      url2: "/erpservice/attendance-benefits"
-    },
-    {
-      id: 22,
-      title: "Transport Management",
-      url1: "/erpservice/gradebook",  
-      url2: "/erpservice/gradebook-benefits"
-    },
-    {
-      id: 23,
-      title: "Library Management",
-      url1: "/erpservice/certificate-generation",  
-      url2: "/erpservice/certificate-generation-benefits"
-    },
-    {
-      id: 24,
-      title: "Visitor Management",
-      url1: "/erpservice/icards",  
-      url2: "/erpservice/icards-benefits"
-    },
-    {
-      id: 25,
-      title: "AI driven time table",
-      url1: "/erpservice/hostel",  
-      url2: "/erpservice/hostel-benefits"
-    }
-  ],
-  
-  // New Subarray for Engagement & Communication
-  [
-    {
-      id: 26,
-      title: "Communication Solutions",
-      url1: "/erpservice/communication-tools",  
-      url2: "/erpservice/communication-tools-benefits"
-    },
-    {
-      id: 27,
-      title: "parents (PTM (Parent-Teacher Meetings)",
-      url1: "/erpservice/parental-engagement",  
-      url2: "/erpservice/parental-engagement-benefits"
-    },
-    {
-      id: 28,
-      title: "Teacher communication Circulars & Notifications, Teacher Diary",
-      url1: "/erpservice/complaint-feedback",  
-      url2: "/erpservice/complaint-feedback-benefits"
-    },
-    {
-      id: 29,
-      title: "Message & Notification('Email, SMS, WhatsApp')",
-      url1: "/erpservice/student-performance",  
-      url2: "/erpservice/student-performance-benefits"
-    },
-    {
-      id: 30,
-      title: "Automated (IVRS, grretings, reminders(fees, admission followup, book retruns))",
-      url1: "/erpservice/student-performance",  
-      url2: "/erpservice/student-performance-benefits"
-    },
-    {
-      id: 31,
-      title: "Chat-Bot",
-      url1: "/erpservice/student-performance",  
-      url2: "/erpservice/student-performance-benefits"
-    }
-
-  ]
-];
-
-const additionalContentForLMS = [
-  [
-    {
-      id: 1,
-      title: "Teaching tools Create Courses & Content, Create Standard/Subjects, Add new Chapter/topic/sub topic",
-      url1: "/lmsservice/teaching-tools",  
-      url2: "/lmsservice/teaching-tools-benefits"
-    },
-    {
-      id: 2,
-      title: "Map & Allign Skill, Blooms, LO, PO, CO",
-      url1: "/lmsservice/learning-tools",  
-      url2: "/lmsservice/learning-tools-benefits"
-    },
-    {
-      id: 3,
-      title: "Learning tools",
-      url1: "/lmsservice/curriculum-planning",  
-      url2: "/lmsservice/curriculum-planning-benefits"
-    },
-    {
-      id: 4,
-      title: "Carriculam planning",
-      url1: "/lmsservice/curriculum-planning",  
-      url2: "/lmsservice/curriculum-planning-benefits"
-    },
-    {
-      id: 5,
-      title: "Performance management",
-      url1: "/lmsservice/curriculum-planning",  
-      url2: "/lmsservice/curriculum-planning-benefits"
-    }
-  ],
-  [
-    {
-      id: 6,
-      title: "Measuring learning growth",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    },
-    {
-      id: 7,
-      title: "Homework management",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    },
-    {
-      id: 8,
-      title: "Assignment management",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    },
-    {
-      id: 9,
-      title: "Question bank, Add Question Answer/create question bank",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    },
-    {
-      id: 10,
-      title: "Question papaer generation",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    },
-    {
-      id: 11,
-      title: "Assesment tools, various type questions creation",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    },
-    {
-      id: 12,
-      title: "Eportfolio",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    },
-    {
-      id: 13,
-      title: "PAL",
-      url1: "/lmsservice/mtss",  
-      url2: "/lmsservice/mtss-benefits"
-    }
-  ],
-  [
-    {
-      id: 14,
-      title: "Main stream CBSE",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    },
-    {
-      id: 15,
-      title: "SEL",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    },
-    {
-      id: 16,
-      title: "Vocational training",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    },
-    {
-      id: 17,
-      title: "Skill",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    },
-    {
-      id: 18,
-      title: "Sports",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    },
-    {
-      id: 19,
-      title: "Steam courses",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    },
-    {
-      id: 20,
-      title: "Libraray contenet",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    },
-    {
-      id: 21,
-      title: "Career carriculam",
-      url1: "/lmsservice/engagement-tools",  
-      url2: "/lmsservice/engagement-tools-benefits"
-    }
-    
-  ],
-  [
-    {
-      id: 22,
-      title: "Student Support & engangmenet",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    },
-    {
-      id: 23,
-      title: "Notification, Chat, Messages",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    },
-    {
-      id: 24,
-      title: "Teacher dairy",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    },
-    {
-      id: 25,
-      title: "Leaderboard/gamification",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    },
-    {
-      id: 26,
-      title: "Eportfolio",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    },
-    {
-      id: 27,
-      title: "Social & coloborative learning",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    },
-    {
-      id: 28,
-      title: "Learning path",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    },
-    {
-      id: 29,
-      title: "Activity stream",
-      url1: "/lmsservice/performance-feedback",  
-      url2: "/lmsservice/performance-feedback-benefits"
-    }
-  ]
-];
-
-
-const additionalContentForCareerCounselling = [
-  [
-    {
-      id: 1,
-      title: "Career Counseling",
-      url1: "/career-counselling/career-counseling",  
-      url2: "/career-counselling/career-counseling-benefits"
-    },
-    {
-      id: 2,
-      title: "Guidance",
-      url1: "/career-counselling/guidance",  
-      url2: "/career-counselling/guidance-benefits"
-    },
-    {
-      id: 3,
-      title: "Career Awareness",
-      url1: "/career-counselling/guidance",  
-      url2: "/career-counselling/guidance-benefits"
-    },
-    {
-      id: 4,
-      title: "Institutes can design this page",
-      url1: "/career-counselling/guidance",  
-      url2: "/career-counselling/guidance-benefits"
-    },
-    {
-      id: 5,
-      title: "Create career awareness",
-      url1: "/career-counselling/guidance",  
-      url2: "/career-counselling/guidance-benefits"
-    }
-  ],
-  [
-    {
-      id: 6,
-      title: "Assessment",
-      url1: "/career-counselling/assessment",  
-      url2: "/career-counselling/assessment-benefits"
-    },
-    {
-      id: 7,
-      title: "Councelling & support",
-      url1: "/career-counselling/assessment",  
-      url2: "/career-counselling/assessment-benefits"
-    },
-    {
-      id: 8,
-      title: "Know your intrest",
-      url1: "/career-counselling/assessment",  
-      url2: "/career-counselling/assessment-benefits"
-    },
-    {
-      id: 9,
-      title: "Various other test, like, IKIGAI, MBTI, Face 2 Face Online councelling",
-      url1: "/career-counselling/assessment",  
-      url2: "/career-counselling/assessment-benefits"
-    },
-    {
-      id: 10,
-      title: "Councelling reports",
-      url1: "/career-counselling/assessment",  
-      url2: "/career-counselling/assessment-benefits"
-    }
-  ],
-  [
-    {
-      id: 11,
-      title: "Counseling",
-      url1: "/career-counselling/counseling",  
-      url2: "/career-counselling/counseling-benefits"
-    },
-    {
-      id: 12,
-      title: "Design your dream explore",
-      url1: "/career-counselling/counseling",  
-      url2: "/career-counselling/counseling-benefits"
-    },
-    {
-      id: 13,
-      title: "Explore occupation with various crietria, find mentor discuss, explore more on sector",
-      url1: "/career-counselling/counseling",  
-      url2: "/career-counselling/counseling-benefits"
-    },
-    {
-      id: 14,
-      title: "Find dream collages",
-      url1: "/career-counselling/counseling",  
-      url2: "/career-counselling/counseling-benefits"
-    },
-    {
-      id: 15,
-      title: "Find dream employer",
-      url1: "/career-counselling/counseling",  
-      url2: "/career-counselling/counseling-benefits"
-    },
-    {
-      id: 16,
-      title: "Scholarchip",
-      url1: "/career-counselling/counseling",  
-      url2: "/career-counselling/counseling-benefits"
-    },
-    {
-      id: 17,
-      title: "Competitive exam",
-      url1: "/career-counselling/counseling",  
-      url2: "/career-counselling/counseling-benefits"
-    }
-  ],
-  [
-    {
-      id: 18,
-      title: "Connect/Explore",
-      url1: "/career-counselling/connect-explore",  
-      url2: "/career-counselling/connect-explore-benefits"
-    },
-    {
-      id: 19,
-      title: "Caree preparation",
-      url1: "/career-counselling/connect-explore",  
-      url2: "/career-counselling/connect-explore-benefits"
-    },
-    {
-      id: 20,
-      title: "Career carricula",
-      url1: "/career-counselling/connect-explore",  
-      url2: "/career-counselling/connect-explore-benefits"
-    },
-    {
-      id: 21,
-      title: "Social & coloborative",
-      url1: "/career-counselling/connect-explore",  
-      url2: "/career-counselling/connect-explore-benefits"
-    },
-    {
-      id: 22,
-      title: "My strength (portfolio) ",
-      url1: "/career-counselling/connect-explore",  
-      url2: "/career-counselling/connect-explore-benefits"
-    }
-  ]
-];
-
-
-const additionalContentForEducationAI = [
-  [
-    {
-      id: 1,
-      title: "PAL (Personalized Adaptive Learning)",
-      url1: "/ai/pal",  
-      url2: "/ai/pal-benefits"
-    },
-    {
-      id: 2,
-      title: "Generative AI",
-      url1: "/ai/generative-ai",  
-      url2: "/ai/generative-ai-benefits"
-    }
-  ],
-  [
-    {
-      id: 3,
-      title: "Automatic Grading",
-      url1: "/ai/automatic-grading",  
-      url2: "/ai/automatic-grading-benefits"
-    },
-    {
-      id: 4,
-      title: "Time Table Automation",
-      url1: "/ai/time-table-automation",  
-      url2: "/ai/time-table-automation-benefits"
-    }
-  ],
-  [
-    {
-      id: 5,
-      title: "Chat Bot",
-      url1: "/ai/chat-bot",  
-      url2: "/ai/chat-bot-benefits"
-    }
-  ]
-];
-
-const additionalContentForCommunication = [
-  [
-    {
-      id: 1,
-      title: "Payroll Management",
-      url1: "/communication/ptm",  
-      url2: "/communication/ptm-benefits"
-    },
-    {
-      id: 2,
-      title: "Leave & Attendance Management",
-      url1: "/communication/circulars",  
-      url2: "/communication/circulars-benefits"
-    },
-    {
-      id: 3,
-      title: "Recruitment Platform, Job Posting & Tracking Resume Screening, Pre-Assessment ToolsInterview Management",
-      url1: "/communication/circulars",  
-      url2: "/communication/circulars-benefits"
-    },
-    {
-      id: 4,
-      title: "Employee Onboarding",
-      url1: "/communication/circulars",  
-      url2: "/communication/circulars-benefits"
-    },
-    {
-      id: 5,
-      title: "Compliance Management, HR, Govt, Industry",
-      url1: "/communication/circulars",  
-      url2: "/communication/circulars-benefits"
-    },
-    {
-      id: 6,
-      title: "Document Management System",
-      url1: "/communication/circulars",  
-      url2: "/communication/circulars-benefits"
-    },
-    {
-      id: 7,
-      title: "User level control/rights management",
-      url1: "/communication/circulars",  
-      url2: "/communication/circulars-benefits"
-    },
-    {
-      id: 8,
-      title: "Communication Toolst",
-      url1: "/communication/circulars",  
-      url2: "/communication/circulars-benefits"
-    }
-  ],
-  [
-    {
-      id: 9,
-      title: "CPD",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 10,
-      title: "Training Progress Tracking",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 11,
-      title: "Complaince Training",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 12,
-      title: "Certification Management",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 13,
-      title: "Reskilling/Upskilling Course Library",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 14,
-      title: "Leadership Development, Medium-Level Team Development Junior-Level Team Development",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 15,
-      title: "Knowledge Sharing & Collaboration",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 16,
-      title: "Content Library",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    },
-    {
-      id: 17,
-      title: "Mobile Apps",
-      url1: "/communication/teacher-diary",  
-      url2: "/communication/teacher-diary-benefits"
-    }
-  ],
-  [
-    {
-      id: 18,
-      title: "Organizational Structure Management Add Organization Details (Branches, Units, Logo, Address)Organization Skill Library (Skill Taxonomy, Import Options)",
-      url1: "/communication/email",  
-      url2: "/communication/email-benefits"
-    },
-    {
-      id: 19,
-      title: "Department Management Add Department Details (Teams, Tasks, Skills, Settings)Department Handbook with Sharing Facility Task, Skill, and Employee Mapping (Department-Wise)",
-      url1: "/communication/sms",  
-      url2: "/communication/sms-benefits"
-    },
-    {
-      id: 20,
-      title: "Employee Skill Management, My Skills, My Certification",
-      url1: "/communication/whatsapp",  
-      url2: "/communication/whatsapp-benefits"
-    },
-    {
-      id: 21,
-      title: "WhatsPerformance Reviews & Appraisals, Succession Planning & Performance ManagementApp",
-      url1: "/communication/whatsapp",  
-      url2: "/communication/whatsapp-benefits"
-    },
-    {
-      id: 22,
-      title: "KPI & Goal Setting",
-      url1: "/communication/whatsapp",  
-      url2: "/communication/whatsapp-benefits"
-    },
-    {
-      id: 23,
-      title: " Organization Handbook",
-      url1: "/communication/whatsapp",  
-      url2: "/communication/whatsapp-benefits"
-    },
-    {
-      id: 24,
-      title: "Inventory Management",
-      url1: "/communication/whatsapp",  
-      url2: "/communication/whatsapp-benefits"
-    }
-  ],
-  [
-    {
-      id: 25,
-      title: "Organization-Wide Skill Taxonomy Framework",
-      url1: "/communication/ivrs",  
-      url2: "/communication/ivrs-benefits"
-    },
-    {
-      id: 26,
-      title: "Skill matrix creation",
-      url1: "/communication/ivrs",  
-      url2: "/communication/ivrs-benefits"
-    },
-    {
-      id: 27,
-      title: "Skill Mapping  with department and employee",
-      url1: "/communication/ivrs",  
-      url2: "/communication/ivrs-benefits"
-    },
-    {
-      id: 28,
-      title: "Skill Gap Analysis",
-      url1: "/communication/ivrs",  
-      url2: "/communication/ivrs-benefits"
-    }
-  ]
-];
-
-const additionalContentForAnalytics = [
-  [
-    {
-      id: 1,
-      title: "Student Performance",
-      url1: "/analytics/student-performance",  
-      url2: "/analytics/student-performance-benefits"
-    },
-    {
-      id: 2,
-      title: "Teacher Performance",
-      url1: "/analytics/teacher-performance",  
-      url2: "/analytics/teacher-performance-benefits"
-    }
-  ],
-  [
-    {
-      id: 3,
-      title: "Reports",
-      url1: "/analytics/reports",  
-      url2: "/analytics/reports-benefits"
-    }
-  ],
-  [
-    {
-      id: 4,
-      title: "Prediction",
-      url1: "/analytics/prediction",  
-      url2: "/analytics/prediction-benefits"
-    }
-  ],
-  [
-    {
-      id: 5,
-      title: "CBSE Result Analyzer",
-      url1: "/analytics/cbse-result-analyzer",  
-      url2: "/analytics/cbse-result-analyzer-benefits"
-    }
-  ]
-];
-
+  const additionalContentForERP = [
+    [   
+     {
+       id: 1,
+       title: "Education CRM",
+       url1: "/education_crm",  
+       url2: "/education_crm"  
+       },
+       {
+       id: 2,
+       title: "Inventory & Store Management",
+       url1: "/inventory",  
+       url2: "/inventory"  
+       },
+       {
+       id: 3,
+       title: "Front desk management",
+       url1: "/front_desk",  
+       url2: "/front_Desk"  
+       },
+       {
+       id: 4,
+       title: "Inward-Outward (Digital Records) ",
+       url1: "/inward_outward",  
+       url2: "/inward_outward"  
+       },
+       {
+       id: 5,
+       title: "Complain management",
+       url1: "/complain_management",  
+       url2: "/complain_management"  
+       },
+       {
+       id: 6,
+       title: "Library management",
+       url1: "/erpservice/visitor",  
+       url2: "/erpservice/visitor-benefits"  
+       },
+       {
+       id: 7,
+       title: "Hostel Management",
+       url1: "/erpservice/digital-records",  
+       url2: "/erpservice/digital-records-benefits"  
+       },
+       {
+       id: 8,
+       title: "Task Management",
+       url1: "/erpservice/inventory",  
+       url2: "/erpservice/inventory-benefits"  
+       },
+       {
+         id: 9,
+         title: "Complaince management",
+         url1: "/erpservice/inventory",  
+         url2: "/erpservice/inventory-benefits"  
+       },
+       {
+         id: 10,
+         title: "SQAA",
+         url1: "/erpservice/inventory",  
+         url2: "/erpservice/inventory-benefits"  
+       }
+       
+     ],
+     [
+       {
+         id: 11,
+         title: "Fees collection",
+         url1: "/erpservice/finance-petty-cash",  
+         url2: "/erpservice/finance-petty-cash-benefits"
+       },
+       {
+         id: 12,
+         title: "Online fees management",
+         url1: "/erpservice/student-fees",  
+         url2: "/erpservice/student-fees-benefits"
+       },
+       {
+         id: 13,
+         title: "Petty Cash management",
+         url1: "/erpservice/library",  
+         url2: "/erpservice/library-benefits"
+       },
+       {
+         id: 14,
+         title: "Fees Reconciliation",
+         url1: "/erpservice/payment-processing",  
+         url2: "/erpservice/payment-processing-benefits"
+       },
+       {
+         id: 15,
+         title: "Fine & discount management",
+         url1: "/erpservice/payment-processing",  
+         url2: "/erpservice/payment-processing-benefits"
+       },
+       {
+         id: 16,
+         title: "Tally, payment gateway Integration",
+         url1: "/erpservice/payment-processing",  
+         url2: "/erpservice/payment-processing-benefits"
+       },
+       {
+         id: 17,
+         title: "Multiple receipt generation",
+         url1: "/erpservice/payment-processing",  
+         url2: "/erpservice/payment-processing-benefits"
+       },
+       {
+         id: 18,
+         title: "AI driven fees predictions",
+         url1: "/erpservice/payment-processing",  
+         url2: "/erpservice/payment-processing-benefits"
+       }
+     ],
+     
+     // New Subarray for Student & Academic Management
+     [
+       {
+         id: 19,
+         title: "Exam management, Result/Report Card",
+         url1: "/erpservice/education-crm",  
+         url2: "/erpservice/education-crm-benefits"
+       },
+       {
+         id: 20,
+         title: "Student academic profile",
+         url1: "/erpservice/student-profiles",  
+         url2: "/erpservice/student-profiles-benefits"
+       },
+       {
+         id: 21,
+         title: "Student Attendance",
+         url1: "/erpservice/attendance",  
+         url2: "/erpservice/attendance-benefits"
+       },
+       {
+         id: 22,
+         title: "Transport Management",
+         url1: "/erpservice/gradebook",  
+         url2: "/erpservice/gradebook-benefits"
+       },
+       {
+         id: 23,
+         title: "Library Management",
+         url1: "/erpservice/certificate-generation",  
+         url2: "/erpservice/certificate-generation-benefits"
+       },
+       {
+         id: 24,
+         title: "Visitor Management",
+         url1: "/erpservice/icards",  
+         url2: "/erpservice/icards-benefits"
+       },
+       {
+         id: 25,
+         title: "AI driven time table",
+         url1: "/erpservice/hostel",  
+         url2: "/erpservice/hostel-benefits"
+       }
+     ],
+     
+     // New Subarray for Engagement & Communication
+     [
+       {
+         id: 26,
+         title: "Communication Solutions",
+         url1: "/erpservice/communication-tools",  
+         url2: "/erpservice/communication-tools-benefits"
+       },
+       {
+         id: 27,
+         title: "parents (PTM (Parent-Teacher Meetings)",
+         url1: "/erpservice/parental-engagement",  
+         url2: "/erpservice/parental-engagement-benefits"
+       },
+       {
+         id: 28,
+         title: "Circulars & Notifications, Teacher Diary",
+         url1: "/erpservice/complaint-feedback",  
+         url2: "/erpservice/complaint-feedback-benefits"
+       },
+       {
+         id: 29,
+         title: "Message & Notification('Email, SMS, WhatsApp')",
+         url1: "/erpservice/student-performance",  
+         url2: "/erpservice/student-performance-benefits"
+       },
+       {
+         id: 30,
+         title: "Automated ",
+         url1: "/erpservice/student-performance",  
+         url2: "/erpservice/student-performance-benefits"
+       },
+       {
+         id: 31,
+         title: "Chat-Bot",
+         url1: "/erpservice/student-performance",  
+         url2: "/erpservice/student-performance-benefits"
+       }
+   
+     ]
+   ];
+   
+   const additionalContentForLMS = [
+     [
+       {
+         id: 1,
+         title: "Teaching tools ",
+         url1: "/lmsservice/teaching-tools",  
+         url2: "/lmsservice/teaching-tools-benefits"
+       },
+       {
+         id: 2,
+         title: "Map & Allign Skill, Blooms, LO, PO, CO",
+         url1: "/lmsservice/learning-tools",  
+         url2: "/lmsservice/learning-tools-benefits"
+       },
+       {
+         id: 3,
+         title: "Learning tools",
+         url1: "/lmsservice/curriculum-planning",  
+         url2: "/lmsservice/curriculum-planning-benefits"
+       },
+       {
+         id: 4,
+         title: "Carriculam planning",
+         url1: "/lmsservice/curriculum-planning",  
+         url2: "/lmsservice/curriculum-planning-benefits"
+       },
+       {
+         id: 5,
+         title: "Performance management",
+         url1: "/lmsservice/curriculum-planning",  
+         url2: "/lmsservice/curriculum-planning-benefits"
+       }
+     ],
+     [
+       {
+         id: 6,
+         title: "Measuring learning growth",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       },
+       {
+         id: 7,
+         title: "Homework management",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       },
+       {
+         id: 8,
+         title: "Assignment management",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       },
+       {
+         id: 9,
+         title: "Question bank (create & add)",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       },
+       {
+         id: 10,
+         title: "Question papaer generation",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       },
+       {
+         id: 11,
+         title: "Assesment tools, various type questions creation",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       },
+       {
+         id: 12,
+         title: "Eportfolio",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       },
+       {
+         id: 13,
+         title: "PAL",
+         url1: "/lmsservice/mtss",  
+         url2: "/lmsservice/mtss-benefits"
+       }
+     ],
+     [
+       {
+         id: 14,
+         title: "Main stream CBSE",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       },
+       {
+         id: 15,
+         title: "SEL",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       },
+       {
+         id: 16,
+         title: "Vocational training",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       },
+       {
+         id: 17,
+         title: "Skill",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       },
+       {
+         id: 18,
+         title: "Sports",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       },
+       {
+         id: 19,
+         title: "Steam courses",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       },
+       {
+         id: 20,
+         title: "Libraray contenet",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       },
+       {
+         id: 21,
+         title: "Career carriculam",
+         url1: "/lmsservice/engagement-tools",  
+         url2: "/lmsservice/engagement-tools-benefits"
+       }
+       
+     ],
+     [
+       {
+         id: 22,
+         title: "Student Support & engangmenet",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       },
+       {
+         id: 23,
+         title: "Notification, Chat, Messages",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       },
+       {
+         id: 24,
+         title: "Teacher dairy",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       },
+       {
+         id: 25,
+         title: "Leaderboard/gamification",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       },
+       {
+         id: 26,
+         title: "Eportfolio",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       },
+       {
+         id: 27,
+         title: "Social & coloborative learning",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       },
+       {
+         id: 28,
+         title: "Learning path",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       },
+       {
+         id: 29,
+         title: "Activity stream",
+         url1: "/lmsservice/performance-feedback",  
+         url2: "/lmsservice/performance-feedback-benefits"
+       }
+     ]
+   ];
+   
+   
+   const additionalContentForCareerCounselling = [
+     [
+       {
+         id: 1,
+         title: "Career Counseling",
+         url1: "/career-counselling/career-counseling",  
+         url2: "/career-counselling/career-counseling-benefits"
+       },
+       {
+         id: 2,
+         title: "Guidance",
+         url1: "/career-counselling/guidance",  
+         url2: "/career-counselling/guidance-benefits"
+       },
+       {
+         id: 3,
+         title: "Career Awareness",
+         url1: "/career-counselling/guidance",  
+         url2: "/career-counselling/guidance-benefits"
+       },
+       {
+         id: 4,
+         title: "Institutes can design this page",
+         url1: "/career-counselling/guidance",  
+         url2: "/career-counselling/guidance-benefits"
+       },
+       {
+         id: 5,
+         title: "Create career awareness",
+         url1: "/career-counselling/guidance",  
+         url2: "/career-counselling/guidance-benefits"
+       }
+     ],
+     [
+       {
+         id: 6,
+         title: "Assessment",
+         url1: "/career-counselling/assessment",  
+         url2: "/career-counselling/assessment-benefits"
+       },
+       {
+         id: 7,
+         title: "Councelling & support",
+         url1: "/career-counselling/assessment",  
+         url2: "/career-counselling/assessment-benefits"
+       },
+       {
+         id: 8,
+         title: "Know your intrest",
+         url1: "/career-counselling/assessment",  
+         url2: "/career-counselling/assessment-benefits"
+       },
+       {
+         id: 9,
+         title: " Online  councelling",
+         url1: "/career-counselling/assessment",  
+         url2: "/career-counselling/assessment-benefits"
+       },
+       {
+         id: 10,
+         title: "Councelling reports",
+         url1: "/career-counselling/assessment",  
+         url2: "/career-counselling/assessment-benefits"
+       }
+     ],
+     [
+       {
+         id: 11,
+         title: "Counseling",
+         url1: "/career-counselling/counseling",  
+         url2: "/career-counselling/counseling-benefits"
+       },
+       {
+         id: 12,
+         title: "Design your dream explore",
+         url1: "/career-counselling/counseling",  
+         url2: "/career-counselling/counseling-benefits"
+       },
+       {
+         id: 13,
+         title: "Explore occupation with various crietria",
+         url1: "/career-counselling/counseling",  
+         url2: "/career-counselling/counseling-benefits"
+       },
+       {
+         id: 14,
+         title: "Find dream collages",
+         url1: "/career-counselling/counseling",  
+         url2: "/career-counselling/counseling-benefits"
+       },
+       {
+         id: 15,
+         title: "Find dream employer",
+         url1: "/career-counselling/counseling",  
+         url2: "/career-counselling/counseling-benefits"
+       },
+       {
+         id: 16,
+         title: "Scholarchip",
+         url1: "/career-counselling/counseling",  
+         url2: "/career-counselling/counseling-benefits"
+       },
+       {
+         id: 17,
+         title: "Competitive exam",
+         url1: "/career-counselling/counseling",  
+         url2: "/career-counselling/counseling-benefits"
+       }
+     ],
+     [
+       {
+         id: 18,
+         title: "Connect/Explore",
+         url1: "/career-counselling/connect-explore",  
+         url2: "/career-counselling/connect-explore-benefits"
+       },
+       {
+         id: 19,
+         title: "Caree preparation",
+         url1: "/career-counselling/connect-explore",  
+         url2: "/career-counselling/connect-explore-benefits"
+       },
+       {
+         id: 20,
+         title: "Career carricula",
+         url1: "/career-counselling/connect-explore",  
+         url2: "/career-counselling/connect-explore-benefits"
+       },
+       {
+         id: 21,
+         title: "Social & coloborative",
+         url1: "/career-counselling/connect-explore",  
+         url2: "/career-counselling/connect-explore-benefits"
+       },
+       {
+         id: 22,
+         title: "My strength (portfolio) ",
+         url1: "/career-counselling/connect-explore",  
+         url2: "/career-counselling/connect-explore-benefits"
+       }
+     ]
+   ];
+   
+   
+   const additionalContentForEducationAI = [
+     [
+       {
+         id: 1,
+         title: "PAL (Personalized Adaptive Learning)",
+         url1: "/ai/pal",  
+         url2: "/ai/pal-benefits"
+       },
+       {
+         id: 2,
+         title: "Generative AI",
+         url1: "/ai/generative-ai",  
+         url2: "/ai/generative-ai-benefits"
+       }
+     ],
+     [
+       {
+         id: 3,
+         title: "Automatic Grading",
+         url1: "/ai/automatic-grading",  
+         url2: "/ai/automatic-grading-benefits"
+       },
+       {
+         id: 4,
+         title: "Time Table Automation",
+         url1: "/ai/time-table-automation",  
+         url2: "/ai/time-table-automation-benefits"
+       }
+     ],
+     [
+       {
+         id: 5,
+         title: "Chat Bot",
+         url1: "/ai/chat-bot",  
+         url2: "/ai/chat-bot-benefits"
+       }
+     ]
+   ];
+   
+   const additionalContentForCommunication = [
+     [
+       {
+         id: 1,
+         title: "Payroll Management",
+         url1: "/communication/ptm",  
+         url2: "/communication/ptm-benefits"
+       },
+       {
+         id: 2,
+         title: "Leave & Attendance Management",
+         url1: "/communication/circulars",  
+         url2: "/communication/circulars-benefits"
+       },
+       {
+         id: 3,
+         title: "Pre-Assessment ToolsInterview Management",
+         url1: "/communication/circulars",  
+         url2: "/communication/circulars-benefits"
+       },
+       {
+         id: 4,
+         title: "Employee Onboarding",
+         url1: "/communication/circulars",  
+         url2: "/communication/circulars-benefits"
+       },
+       {
+         id: 5,
+         title: "Compliance Management, HR, Govt, Industry",
+         url1: "/communication/circulars",  
+         url2: "/communication/circulars-benefits"
+       },
+       {
+         id: 6,
+         title: "Document Management System",
+         url1: "/communication/circulars",  
+         url2: "/communication/circulars-benefits"
+       },
+       {
+         id: 7,
+         title: "User level control/rights management",
+         url1: "/communication/circulars",  
+         url2: "/communication/circulars-benefits"
+       },
+       {
+         id: 8,
+         title: "Communication Toolst",
+         url1: "/communication/circulars",  
+         url2: "/communication/circulars-benefits"
+       }
+     ],
+     [
+       {
+         id: 9,
+         title: "CPD",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 10,
+         title: "Training Progress Tracking",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 11,
+         title: "Complaince Training",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 12,
+         title: "Certification Management",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 13,
+         title: "Reskilling/Upskilling Course Library",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 14,
+         title: "Leadership Development (Medium &junior)",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 15,
+         title: "Knowledge Sharing & Collaboration",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 16,
+         title: "Content Library",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       },
+       {
+         id: 17,
+         title: "Mobile Apps",
+         url1: "/communication/teacher-diary",  
+         url2: "/communication/teacher-diary-benefits"
+       }
+     ],
+     [
+       {
+         id: 18,
+         title: "Organizational Structure Management  ",
+         url1: "/communication/email",  
+         url2: "/communication/email-benefits"
+       },
+       {
+         id: 19,
+         title: "Add Department Details",
+         url1: "/communication/sms",  
+         url2: "/communication/sms-benefits"
+       },
+       {
+         id: 20,
+         title: "Employee Skill Management",
+         url1: "/communication/whatsapp",  
+         url2: "/communication/whatsapp-benefits"
+       },
+       {
+         id: 21,
+         title: "Reviews & Appraisals, Succession Planning & Performance",
+         url1: "/communication/whatsapp",  
+         url2: "/communication/whatsapp-benefits"
+       },
+       {
+         id: 22,
+         title: "KPI & Goal Setting",
+         url1: "/communication/whatsapp",  
+         url2: "/communication/whatsapp-benefits"
+       },
+       {
+         id: 23,
+         title: " Organization Handbook",
+         url1: "/communication/whatsapp",  
+         url2: "/communication/whatsapp-benefits"
+       },
+       {
+         id: 24,
+         title: "Inventory Management",
+         url1: "/communication/whatsapp",  
+         url2: "/communication/whatsapp-benefits"
+       }
+     ],
+     [
+       {
+         id: 25,
+         title: "Organization-Wide Skill Taxonomy Framework",
+         url1: "/communication/ivrs",  
+         url2: "/communication/ivrs-benefits"
+       },
+       {
+         id: 26,
+         title: "Skill matrix creation",
+         url1: "/communication/ivrs",  
+         url2: "/communication/ivrs-benefits"
+       },
+       {
+         id: 27,
+         title: "Skill Mapping  with department and employee",
+         url1: "/communication/ivrs",  
+         url2: "/communication/ivrs-benefits"
+       },
+       {
+         id: 28,
+         title: "Skill Gap Analysis",
+         url1: "/communication/ivrs",  
+         url2: "/communication/ivrs-benefits"
+       }
+     ]
+   ];
+   
+   const additionalContentForAnalytics = [
+     [
+       {
+         id: 1,
+         title: "Student Performance",
+         url1: "/analytics/student-performance",  
+         url2: "/analytics/student-performance-benefits"
+       },
+       {
+         id: 2,
+         title: "Teacher Performance",
+         url1: "/analytics/teacher-performance",  
+         url2: "/analytics/teacher-performance-benefits"
+       }
+     ],
+     [
+       {
+         id: 3,
+         title: "Reports",
+         url1: "/analytics/reports",  
+         url2: "/analytics/reports-benefits"
+       }
+     ],
+     [
+       {
+         id: 4,
+         title: "Prediction",
+         url1: "/analytics/prediction",  
+         url2: "/analytics/prediction-benefits"
+       }
+     ],
+     [
+       {
+         id: 5,
+         title: "CBSE Result Analyzer",
+         url1: "/analytics/cbse-result-analyzer",  
+         url2: "/analytics/cbse-result-analyzer-benefits"
+       }
+     ]
+   ];
 export default function FeatureLayout({ onLeftMenuHover }) {
   const [hoveredLeftMenuId, setHoveredLeftMenuId] = React.useState(null);
   const [hoveredRightMenuId, setHoveredRightMenuId] = React.useState(null);
