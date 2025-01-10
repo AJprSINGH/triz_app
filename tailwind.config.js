@@ -27,6 +27,13 @@ module.exports = {
       lxsemibold: ['LXSemiBold','serif'],
       lxe: ['LXEBold','serif'],
       lxesemibold: ['LXESemiBold','serif'],
+       /* Raleway Font */
+    ralewaybold: ['RalewayBold', 'serif'],
+    ralewaysemibold: ['RalewaySemiBold', 'serif'],
+    ralewayextrabold: ['RalewayExtraBold', 'serif'],
+    /* Quicksand Font */
+    quicksandbold: ['QuicksandBold', 'serif'],
+    quicksandsemibold: ['QuicksandSemiBold', 'serif'],
     },
     extend: {
       screens: { 
