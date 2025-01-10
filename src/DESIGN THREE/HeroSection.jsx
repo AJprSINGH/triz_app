@@ -178,7 +178,7 @@ export default function BlogsPage() {
         </div>
         <div className="flex flex-col w-[78%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col w-full items-center justify-center pr-36 text-blue-800 max-md:max-w-full">
-            <div className="text-3xl font-inter max-md:max-w-full max-md:text-4xl">
+            <div className="text-[29px] font-ralewayextrabold max-md:max-w-full max-md:text-4xl">
               Take the Leap Toward an Efficient Front Desk
             </div>
             <div className="mt-8 text-2xl font-interregular max-md:mr-2.5 max-md:max-w-full">

@@ -166,21 +166,21 @@ export default function BlogsPage() {
     </div>
     </div>
     <Benefits />
-    <h1 className="text-3xl mt-40 font-interregular text-center max-md:max-w-full max-md:text-4xl"style={{
-        color:'rgba(34, 69, 111, 1)'
+    <h1 className="text-3xl mt-40 font-ralewaysemibold text-center max-md:max-w-full max-md:text-4xl"style={{
+        color:'rgba(21, 70, 120, 1)'
     }}>
     Ready to Create a Better School Environment?
     </h1>
-    <h4 className="text-4xl mt-4 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
-        color:'rgba(34, 69, 111, 1)'
+    <h4 className="text-4xl mt-4 font-quicksandbold text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgba(21, 70, 120, 1)'
     }}>
     Turn Concerns into Confidence
     </h4>
     <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
     <button 
-  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-3xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
   style={{
-    background: 'rgba(34, 69, 111, 1)'
+    background: 'rgba(17, 134, 254, 1)'
   }}
   onClick={() => {}}
   tabIndex={0}

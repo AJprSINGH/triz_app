@@ -29,7 +29,7 @@ export default function BlogsPage() {
     <h4 className="text-lg mt-6 font-interregular px-40 text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    The Inward-Outward module acts as a centralized hub for storing and managing all your school's official documents. Forget the hassle of misplaced files and tedious paperwork—everything you need is just a click away.
+    The Inward-Outward module acts as a centralized hub for storing and managing all your school&apos;s official documents. Forget the hassle of misplaced files and tedious paperwork—everything you need is just a click away.
     </h4>
     <div className="flex flex-row gap-10 items-center justify-center">
 <button 
@@ -106,7 +106,7 @@ export default function BlogsPage() {
               </div>
               <div className="mt-8 text-sm text-zinc-600">
                 Organize your correspondence into categories that match your
-                institution's workflow. From department-specific tagging to
+                institution&apos;s workflow. From department-specific tagging to
                 priority levels.
               </div>
             </div>
