@@ -81,7 +81,7 @@ export default function BlogsPage() {
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
-      height: '120vh',
+      height: '125vh',
     }}
     >
           <div className="flex flex-col rounded-lg mt-0 mx-20">

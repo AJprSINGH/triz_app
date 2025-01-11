@@ -132,7 +132,7 @@ export default function BlogsPage() {
           <div key={index} className="mb-1">
           <span className="text-lg font-inter">{feature.title}: </span>
           <ul>
-            <li className="text-sm font-intermedium text-black">
+            <li className="list-disc ml-5 text-sm font-intermedium text-black">
               {feature.description}
             </li>
           </ul>

@@ -130,7 +130,7 @@ export default function BlogsPage() {
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
-      height: '105vh',
+      height: '110vh',
     }}
     >
     <Features />

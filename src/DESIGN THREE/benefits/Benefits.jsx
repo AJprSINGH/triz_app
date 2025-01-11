@@ -7,7 +7,7 @@ export default function Benefits() {
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
-      height: '70vh',
+      height: '75vh',
     }}
     >
       {/* Title and Image */}

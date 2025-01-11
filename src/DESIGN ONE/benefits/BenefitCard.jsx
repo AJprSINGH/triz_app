@@ -9,9 +9,9 @@ export function BenefitCard({ title, benefits, className }) {
     }}
     >
       <span className="text-lg text-cyan-900">{title}</span>
-      <ol>
+      <ol className="pl-10">
         {benefits.map((benefit, index) => (
-          <li key={index}>
+          <li key={index} className="list-disc">
             <span className="text-sm text-cyan-900">{benefit}</span>
           </li>
         ))}
