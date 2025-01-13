@@ -153,73 +153,59 @@
 // export default ImageComponent;
 
 import * as React from "react";
-
+1978612
 function ImageComponent() {
   return (
     <>
     <div className="relative mt-10 mx-10">
-      {/* The Image */}
-      <img
-        loading="lazy"
-        src="/home_images/Hero Section.png"
-        alt="Gallery image"
-        className="object-contain lg:w-auto lg:h-auto sm:w-auto sm:h-auto md:w-auto md:h-auto"
-        onKeyDown={(e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            e.currentTarget.click();
-          }
-        }}
-        tabIndex={0}
-        role="img"
-      />
-      {/* The Button */}
-      <div className="absolute top-[370px] left-[120px] transform -translate-x-1/2 -translate-y-1/2">
-        <button className="lg:flex md:hidden sm:hidden bg-blue-500 text-white py-2 px-6 rounded-2xl font-inter shadow-lg hover:bg-blue-600">
-          Get Started
-        </button>
-      </div>
-    </div>
-    <div className="relative mt-20 mx-10">
-    {/* The Image */}
-    <img
-      loading="lazy"
-      src="/home_images/Group 290.png"
-      alt="Gallery image"
-      className="object-contain lg:w-auto lg:h-auto sm:w-auto sm:h-auto md:w-auto md:h-auto"
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          e.currentTarget.click();
-        }
-      }}
-      tabIndex={0}
-      role="img"
-    />
-    {/* The Button */}
-    <div className="absolute top-[353px] left-[1163px] transform -translate-x-1/2 -translate-y-1/2">
-      <button className="lg:flex md:hidden sm:hidden bg-slate-600 text-white py-2 px-[20px] w-[140px] h-[35px] rounded-xl text-xs font-inter shadow-lg hover:bg-slate-700">
-        Get a Free Demo
-      </button>
+    <div className="flex overflow-hidden flex-col justify-center rounded-3xl items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("home_images/Hero Seaction (2).png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height:'80vh'
+  }}
+  >
+  <div className="flex overflow-hidden flex-col lg:pt-[330px] px-14 max-w-full h-full bg-white text-white bg-opacity-0 w-full max-md:px-5 max-md:pb-24">
+  <div className="flex flex-row gap-10 items-start justify-start">
+    <button 
+    className="lg:flex md:hidden sm:hidden bg-blue-500 text-white py-2 px-6 rounded-2xl font-inter shadow-lg hover:bg-blue-600"
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Get Started
+</button>
+</div>
+  </div>
     </div>
   </div>
-
-  <div className="relative mt-20 mx-10">
-    {/* The Image */}
-    <img
-      loading="lazy"
-      src="/home_images/Group 270.png"
-      alt="Gallery image"
-      className="object-contain lg:w-auto lg:h-auto sm:w-auto sm:h-auto md:w-auto md:h-auto"
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          e.currentTarget.click();
-        }
-      }}
-      tabIndex={0}
-      role="img"
-    />
+    <h1 className="text-3xl font-intersemibold text-center mt-20" style={{
+      color:'rgba(17, 134, 254, 1)'
+    }}>
+    The Hidden Costs of Outdated School Systems: Is Your Institution Keeping Up?
+    </h1>
+    <div className="relative mt-10 mx-10">
+    <div className="flex min-h-screen overflow-hidden flex-col justify-center rounded-3xl items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("home_images/Group 290 (1).png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+  }}
+  >
+  <div className="flex overflow-hidden flex-col pt-[-20px] px-10 max-w-full h-full bg-white text-white bg-opacity-0 w-full max-md:px-5 max-md:pb-24">
+    <div className="flex flex-row items-end justify-end">
+    <button 
+    className="lg:flex md:hidden sm:hidden bg-slate-600 text-white py-2 px-[20px] w-[140px] h-[35px] rounded-xl text-xs font-inter shadow-lg hover:bg-slate-700"
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Get a free demo
+</button>
+</div>
+  </div>
+    </div>
   </div>
   </>
   );
