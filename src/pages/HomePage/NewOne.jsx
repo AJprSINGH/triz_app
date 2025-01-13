@@ -153,7 +153,6 @@
 // export default ImageComponent;
 
 import * as React from "react";
-1978612
 function ImageComponent() {
   return (
     <>
@@ -169,10 +168,10 @@ function ImageComponent() {
   >
 <div className="flex flex-col w-[60%] pl-10 pt-28 items-start justify-start max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-start justify-start w-full text-2xl font-medium max-md:mt-10 max-md:max-w-full">
-              <div className="text-3xl text-white font-inter max-md:max-w-full max-md:text-4xl">
+              <div className="text-4xl text-white font-inter max-md:max-w-full max-md:text-4xl">
               Empowering Tomorrow&rsquo;s Leaders Today
               </div>
-              <div className="text-lg mt-12 font-intermedium text-justify text-white pr-60 max-md:mt-10 max-md:max-w-full">
+              <div className="text-xl mt-12 font-intermedium text-justify text-white pr-60 max-md:mt-10 max-md:max-w-full">
               Unlock seamless solutions that adapt, inspire, and drive excellence where innovation meets opportunity to shape brighter outcomes.
               </div>
               <div className="text-[15px] font-interregular mt-4 text-gray-300 pr-40 max-md:mt-10 max-md:max-w-full">
