@@ -127,99 +127,71 @@
 // };
 
 // export default HeroSection;
-
-//THIS BELOW CODE WAS REMOVED ON 24 DEC'24 06:25 PM
-// import * as React from "react";
-
-// function ImageComponent() {
-//   return (
-//     <img
-//       loading="lazy"
-//       src="https://cdn.builder.io/api/v1/image/assets%2F170cbe9c02a2485986a6dc949bdc8ad3%2F12405dbf109945dba2ed90bc845e9448"
-//       alt="Gallery image"
-//       className="object-cover lg:w-full lg:h-[490px] min-w-[200px] sm:w-full sm:h-auto md:w-full md:h-auto"
-//       onKeyDown={(e) => {
-//         if (e.key === 'Enter' || e.key === ' ') {
-//           e.preventDefault();
-//           e.currentTarget.click();
-//         }
-//       }}
-//       tabIndex={0}
-//       role="img"
-//     />
-//   );
-// }
-
-// export default ImageComponent;
-
 import * as React from "react";
-function ImageComponent() {
-  return (
-    <>
-    <div className="relative mt-10 mx-10">
-    <div className="flex  overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
-    backgroundImage: 'url("home_images/Hero Seaction (3).png")',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center center',
-    backgroundRepeat: 'no-repeat',
-    height: '80vh',
-    
-  }}
-  >
-<div className="flex flex-col w-[60%] pl-10 pt-28 items-start justify-start max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col items-start justify-start w-full text-2xl font-medium max-md:mt-10 max-md:max-w-full">
-              <div className="text-4xl text-white font-inter max-md:max-w-full max-md:text-4xl">
-              Empowering Tomorrow&rsquo;s Leaders Today
-              </div>
-              <div className="text-xl mt-12 font-intermedium text-justify text-white pr-60 max-md:mt-10 max-md:max-w-full">
-              Unlock seamless solutions that adapt, inspire, and drive excellence where innovation meets opportunity to shape brighter outcomes.
-              </div>
-              <div className="text-[15px] font-interregular mt-4 text-gray-300 pr-40 max-md:mt-10 max-md:max-w-full">
-              Schedule a Demo
-              </div>
-              <div className="flex flex-row gap-10 items-start text-sm justify-start">
-              <button 
-                className="lg:flex md:hidden sm:hidden bg-blue-500 text-white py-1 px-6 rounded-2xl font-inter shadow-lg hover:bg-blue-600"
-              onClick={() => {}}
-              tabIndex={0}
-              aria-label="Book Your Demo Now"
-            >
-              Get Started
-            </button>
-              </div>
+import Service from './ServicesSection';
+const HERO_BUTTONS = [
+  { text: "Get a free Demo Now!",bgColor: 'rgba(17, 134, 254, 1)',color: 'rgb(255, 255, 255)' },
+  { text: "Explore Scholar Clone", bgColor: 'rgb(255, 255, 255)' , color: 'rgb(0, 0, 0)' }
+];
+ function ImageComponent() {
+   return (
+     <>
+     <div className="relative mt-10">
+     <div className="flex  overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
+     backgroundImage: 'url("/home_images/Group 1321314662.png")',
+     backgroundSize: 'cover',
+     backgroundPosition: 'center center',
+     backgroundRepeat: 'no-repeat',
+     height: '149vh',
+     
+   }}
+   >
+ <div className="flex flex-col w-full pt-10 items-center justify-center max-md:ml-0 max-md:w-full">
+             <div className="flex flex-col items-center justify-center w-full text-2xl font-medium max-md:mt-10 max-md:max-w-full">
+               <div className="text-7xl text-white text-center font-poppins max-md:max-w-full max-md:text-4xl">
+               One platform,<br/>Endless possibilities.
+               </div>
+               <div className="flex gap-10 mt-16 max-w-full items-center justify-center text-lg w-full max-md:mt-10">
+              {HERO_BUTTONS.map((button, index) => (
+                <button key={index}
+                 className={`gap-2.5 self-stretch px-5 py-1 bg-sky-500 font-inter rounded-3xl`}
+                 tabIndex="0"
+                 style={{
+                    background: button.bgColor,
+                    color: button.color,
+                 }}
+                >
+                  {button.text}
+                </button>
+              ))}
             </div>
-          </div>
-    </div>
-    </div>
-    <h1 className="text-3xl font-intersemibold text-center mt-20" style={{
+             </div>
+           </div>
+     </div>
+     </div>
+     <h1 className="mt-40 lg:px-80 text-center font-inter lg:text-4xl sm:text-2xl" style={{
       color:'rgba(17, 134, 254, 1)'
-    }}>
-    The Hidden Costs of Outdated School Systems: Is Your Institution Keeping Up?
-    </h1>
-    <div className="relative mt-10 mx-10">
-    <div className="flex min-h-screen overflow-hidden flex-col justify-center rounded-3xl items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
-    backgroundImage: 'url("home_images/Group 290 (1).png")',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center center',
-    backgroundRepeat: 'no-repeat',
-  }}
-  >
-  <div className="flex overflow-hidden flex-col pt-[-20px] px-10 max-w-full h-full bg-white text-white bg-opacity-0 w-full max-md:px-5 max-md:pb-24">
-    <div className="flex flex-row items-end justify-end">
-    <button 
-    className="lg:flex md:hidden sm:hidden bg-slate-600 text-white py-2 px-[20px] w-[140px] h-[35px] rounded-xl text-xs font-inter shadow-lg hover:bg-slate-700"
-  onClick={() => {}}
-  tabIndex={0}
-  aria-label="Book Your Demo Now"
->
-  Get a free demo
-</button>
-</div>
-  </div>
-    </div>
-  </div>
-  </>
-  );
-}
-
-export default ImageComponent;
+     }}>
+     Holistic Solutions for Seamless Management and Growth
+     </h1>
+     <div className="relative mt-10 mx-[200px]">
+     <div className="flex min-h-screen overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
+     backgroundImage: 'url("/home_images/00.png")',
+     backgroundSize: 'cover',
+     backgroundPosition: 'center center',
+     backgroundRepeat: 'no-repeat',
+   }}
+   ></div>
+   </div>
+   <h1 className="mt-40 lg:px-40 text-center font-inter lg:text-4xl sm:text-2xl" style={{
+      color:'rgba(17, 134, 254, 1)'
+     }}>
+   Scholar Clone in Your Pocket Mobile Apps for Everyone
+   </h1>
+   <Service />
+   </>
+   );
+ }
+ 
+ export default ImageComponent;
+ 
