@@ -34,12 +34,12 @@ export default function MyComponent() {
                 apps bring convenience and efficiency to your fingertips.
               </div>
               <div className="flex gap-10 mt-5 max-w-full text-white w-[382px] max-md:mt-10">
-                <div className="text-sm text-center gap-2.5 px-2 py-1 bg-sky-500 rounded-3xl">
+                <button className="text-sm text-center gap-2.5 font-inter px-2 py-1 bg-sky-500 rounded-3xl transition-all duration-300 transform hover:scale-105">
                   Download on Android
-                </div>
-                <div className="gap-2.5 text-sm text-center px-2 py-1 bg-sky-500 rounded-3xl">
+                </button>
+                <button className="gap-2.5 text-sm text-center font-inter px-2 py-1 bg-sky-500 rounded-3xl transition-all duration-300 transform hover:scale-105">
                   Get it on iOS
-                </div>
+                </button>
               </div>
             </div>
             <div className="mt-12 mr-10 max-md:mt-10 max-md:max-w-full">

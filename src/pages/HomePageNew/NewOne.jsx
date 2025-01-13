@@ -154,7 +154,7 @@ const HERO_BUTTONS = [
                <div className="flex gap-10 mt-16 max-w-full items-center justify-center text-lg w-full max-md:mt-10">
               {HERO_BUTTONS.map((button, index) => (
                 <button key={index}
-                 className={`gap-2.5 self-stretch px-5 py-1 bg-sky-500 font-inter rounded-3xl`}
+                 className={`gap-2.5 self-stretch px-5 py-1 bg-sky-500 font-inter rounded-3xl transition-all duration-300 transform hover:scale-105`}
                  tabIndex="0"
                  style={{
                     background: button.bgColor,
