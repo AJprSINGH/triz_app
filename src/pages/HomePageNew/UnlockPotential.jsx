@@ -17,7 +17,7 @@ function UnlockPotential() {
       <Newone />
       <TestimonialSection />
       <Client />
-      <BlogSection />
+      {/* <BlogSection /> */}
       {/* Contact Us Section */}
       <div className="contact-us w-full mt-10">
         <h1 className="text-4xl font-bold font-noto text-center text-sky-500 mb-12">
