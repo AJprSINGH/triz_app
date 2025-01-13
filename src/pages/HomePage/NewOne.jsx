@@ -158,28 +158,40 @@ function ImageComponent() {
   return (
     <>
     <div className="relative mt-10 mx-10">
-    <div className="flex overflow-hidden flex-col justify-center rounded-3xl items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
-    backgroundImage: 'url("home_images/Hero Seaction (2).png")',
+    <div className="flex  overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("home_images/Hero Seaction (3).png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    height:'80vh'
+    height: '80vh',
+    
   }}
   >
-  <div className="flex overflow-hidden flex-col lg:pt-[330px] px-14 max-w-full h-full bg-white text-white bg-opacity-0 w-full max-md:px-5 max-md:pb-24">
-  <div className="flex flex-row gap-10 items-start justify-start">
-    <button 
-    className="lg:flex md:hidden sm:hidden bg-blue-500 text-white py-2 px-6 rounded-2xl font-inter shadow-lg hover:bg-blue-600"
-  onClick={() => {}}
-  tabIndex={0}
-  aria-label="Book Your Demo Now"
->
-  Get Started
-</button>
-</div>
-  </div>
+<div className="flex flex-col w-[60%] pl-10 pt-28 items-start justify-start max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col items-start justify-start w-full text-2xl font-medium max-md:mt-10 max-md:max-w-full">
+              <div className="text-3xl text-white font-inter max-md:max-w-full max-md:text-4xl">
+              Empowering Tomorrow&rsquo;s Leaders Today
+              </div>
+              <div className="text-lg mt-12 font-intermedium text-justify text-white pr-60 max-md:mt-10 max-md:max-w-full">
+              Unlock seamless solutions that adapt, inspire, and drive excellence where innovation meets opportunity to shape brighter outcomes.
+              </div>
+              <div className="text-[15px] font-interregular mt-4 text-gray-300 pr-40 max-md:mt-10 max-md:max-w-full">
+              Schedule a Demo
+              </div>
+              <div className="flex flex-row gap-10 items-start text-sm justify-start">
+              <button 
+                className="lg:flex md:hidden sm:hidden bg-blue-500 text-white py-1 px-6 rounded-2xl font-inter shadow-lg hover:bg-blue-600"
+              onClick={() => {}}
+              tabIndex={0}
+              aria-label="Book Your Demo Now"
+            >
+              Get Started
+            </button>
+              </div>
+            </div>
+          </div>
     </div>
-  </div>
+    </div>
     <h1 className="text-3xl font-intersemibold text-center mt-20" style={{
       color:'rgba(17, 134, 254, 1)'
     }}>
