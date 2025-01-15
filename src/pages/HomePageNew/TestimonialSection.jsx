@@ -1,6 +1,7 @@
 import * as React from "react";
 import TestimonialCard from "./TestimonialCard";
 import NavigationArrow from "./NavigationArrow";
+import TestimonialList from "./TestimonialList";
 
 const testimonialData = [
   {
@@ -30,20 +31,19 @@ function TestimonialSection() {
   };
 
   return (
-    <div className="flex flex-col items-center rounded-none mt-40">
+    <>
+    {/* <div className="flex flex-col items-center rounded-none mt-40">
       <h1 className="text-4xl font-bold text-slate-700 max-md:max-w-full max-md:text-2xl font-noto">
         Our Client&apos;s Review
       </h1>
       <div className="flex items-center justify-center gap-10 mt-16 w-full relative px-10">
         
-        {/* Left Navigation Arrow */}
         <NavigationArrow 
           direction="left" 
           src="/home_images/Frame 245.png" 
           onClick={prevTestimonial} 
         />
         
-        {/* Testimonial Cards with Transition */}
         <div className="relative flex items-center justify-center w-full">
           <TestimonialCard
             image={testimonialData[currentIndex].image}
@@ -53,14 +53,24 @@ function TestimonialSection() {
           />
         </div>
 
-        {/* Right Navigation Arrow */}
         <NavigationArrow 
           direction="right" 
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/8e75f137b4fcdad276b0062bc6eed03ca72b6d41b89fe3161bf503638442405d?placeholderIfAbsent=true&apiKey=170cbe9c02a2485986a6dc949bdc8ad3" 
           onClick={nextTestimonial} 
         />
       </div>
-    </div>
+    </div> */}
+    <div className="mt-40"></div>
+    <section className="bg-blue-100 bg-opacity-80">
+    <h1 className="mt-10 lg:px-[100px] mb-10 text-center font-inter lg:text-4xl sm:text-2xl" style={{
+      color:'rgba(17, 134, 254, 1)'
+     }}>
+     Empowering Learning and Growth Across Education and Enterprise
+     </h1>
+     <TestimonialList />
+     <div className="mt-10"></div>
+     </section>
+    </>
   );
 }
 
