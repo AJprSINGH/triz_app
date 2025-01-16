@@ -19,12 +19,12 @@ function UnlockPotential() {
       <Client />
       {/* <BlogSection /> */}
       {/* Contact Us Section */}
-      <div className="contact-us w-full mt-10">
+      {/* <div className="contact-us w-full mt-10">
         <h1 className="text-4xl font-bold font-noto text-center text-sky-500 mb-12">
         Contact Us
       </h1> 
         <Contact />
-      </div>
+      </div> */}
       <Scroll />
       <Footer />
     </div>

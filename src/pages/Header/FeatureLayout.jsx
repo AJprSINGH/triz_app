@@ -1187,19 +1187,19 @@ export default function FeatureLayout({ onLeftMenuHover }) {
           >
             <div className="px-6 py-6 -mt-16">
             {getAdditionalContent(hoveredLeftMenuId,hoveredRightMenuId).map((item) => (
-              <div 
+              <a href={item.url1} 
                 key={item.id}
-                className="mt-10"
+                className="flex flex-col mt-10"
                 onMouseEnter={() => handleMouseEnterNew(item)}
               >
                 {item.title}
-                {hoveredItem === item && (
+                {/* {hoveredItem === item && (
                   <div className="flex gap-8 mt-3.5 ml-3.5 text-[12px] text-neutral-500 max-md:ml-2.5">
                     <a href={item.url1} className="basis-auto">Know Features</a>
                     <a href={item.url2}>Know Benefits</a>
                   </div>
-                )}
-              </div>
+                )} */}
+              </a>
             ))}
           </div>
           </div>
