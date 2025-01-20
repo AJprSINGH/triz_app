@@ -9,19 +9,73 @@ const pricingData = {
     title: "Basic ERP",
     price: "25000",
     features: [
-      "Student Management",
-      "Attendance",
-      "Fee Management",
-      "Timetable",
-      "Basic Reports"
+      "Admission Management",
+      "Administrative & Management Solutions",
+      "Finance & Operations",
+      "Safety and Security Solutions",
+      "Academic and exam management",
+      "Student Services Solutions",
+      "Quality & process improvement",
+      "Analytics and Reporting Tools",
+      "Engagement and Communication Tools",
+      
     ],
-    featuresDescription: [
-      "Add/edit student profiles, ID generation",
-      "Daily/period tracking",
-      "Invoice generation, payment tracking",
-      "Automated class scheduling",
-      "Exportable data for attendance, fees, and schedules"
-    ],
+    featuresDescription: {
+      "Admission Management": `
+        <ul class="list-disc pl-5">
+          <li>Admission Management</li>
+          <li class="pt-1">Inquiry management, Registration, confirmation</li>
+        </ul>
+      `,
+      "Administrative & Management Solutions": `
+        <ul class="list-disc pl-5">
+          <li>User/Teacher Management</li>
+        </ul>
+      `,
+      "Finance & Operations": `
+         <ul class="list-disc pl-5">
+          <li>Fees collection </li>
+          
+        </ul>
+      `,
+      "Safety and Security Solutions": `
+         <ul class="list-disc pl-5">
+          <li>Automated class scheduling</li>
+        </ul>
+      `,
+      "Academic and exam management": `
+         <ul class="list-disc pl-5">
+            <li>Exam management</li>
+            <li class="pt-1">Result/Report Card</li>
+            <li class="pt-1">Time table generation</li>
+            <li class="pt-1">Assign class teacher</li>
+        </ul>
+      `,
+       "Student Services Solutions":`
+        <ul class="list-disc pl-5">
+          <li>Student academic profile</li>
+          <li class="pt-1">Student Attendance</li>
+         <li class="pt-1">Certificate management</li>
+        </ul>
+       `,
+       "Quality & process improvement":`
+         <ul class="list-disc pl-5">
+          <li>Rollover Management</li>
+        </ul>
+       `,
+      "Analytics and Reporting Tools":`
+        <ul class="list-disc pl-5">
+          <li>Data Import/Export	"</li>
+        </ul>
+      `,
+      "Engagement and Communication Tools":`
+        <ul class="list-disc pl-5">
+          <li>Communication Solutions</li>
+          <li class="pt-1">Email, SMS</li>
+          <li class="pt-1">Circulars & Notifications</li>
+        </ul>
+      `,
+    },
     buttonColor: "sky-500",
     borderColor: "sky-500"
   },
@@ -31,17 +85,120 @@ const pricingData = {
     recommended: true,
     Prerequisite: "Basic ERP+",
     features: [
-      "Exam Management",
-      "Inventory Management",
-      "Campus Management",
-      "Library Management"
+      "Admission Management",
+      "Administrative & Management Solutions",
+      "Finance & Operations",
+      "Safety and Security Solutions",
+      "Academic and exam management",
+      "Student Services Solutions",
+      "Quality & process improvement",
+      "Analytics and Reporting Tools",
+      "Engagement and Communication Tools",
+      
     ],
-    featuresDescription: [
-      "Grading, results, report cards",
-      "Track assets and resources",
-      "Manage facilities, transport, and extracurriculars",
-      "Catalog books, issue/return tracking"
-    ],
+    featuresDescription: {
+      "Admission Management": `
+        <ul class="list-disc pl-5">
+          <li>Education CRM</li>
+          <li class="pt-1">Student admission marketing</li>
+          <li class="pt-1">Student Admission sales management</li>
+          <li class="pt-1">Online admission management</li>
+          <li class="pt-1">Automated roll number</li> 
+        </ul>
+      `,
+      "Administrative & Management Solutions": `
+        <ul class="list-disc pl-5">
+          <li>User/Teacher Management</li>
+          <li class="pt-1">Front desk management</li>
+          <li class="pt-1">Inward-Outward (Digital Records)</li>
+          <li class="pt-1">Complain management</li>
+          <li class="pt-1">Inventory & Store Management</li>
+          <li class="pt-1">Hostel Management</li>
+          <li class="pt-1">Task Management</li>
+        </ul>
+      `,
+      "Finance & Operations": `
+         <ul class="list-disc pl-5">
+          <li>Fees collection online/offline</li>
+          <li class="pt-1">NACH Fees</li>
+          <li class="pt-1">Imprest deposit</li>
+          <li class="pt-1">Payment gateway (UPI)</li>
+          <li class="pt-1">Petty Cash management</li>
+          <li class="pt-1">Fees Reconciliation</li>
+        </ul>
+      `,
+      "Safety and Security Solutions": `
+         <ul class="list-disc pl-5">
+          <li>Visitor Management</li>
+          <li class="pt-1">Sudent Pick up/drop</li>
+          <li class="pt-1">Consent Management</li>
+          <li class="pt-1">Transport Management</li>
+        </ul>
+      `,
+      "Academic and exam management": `
+         <ul class="list-disc pl-5">
+            <li>Exam management</li>
+            <li class="pt-1">Result/Report Card</li>
+            <li class="pt-1">Holistic Progressive Card</li>
+            <li class="pt-1">Assign class teacher</li>
+            <li class="pt-1">Teacher transfer utility</li>
+            <li class="pt-1">Proxy Management</li>
+            <li class="pt-1">Teacher Diary</li>
+        </ul>
+      `,
+       "Student Services Solutions":`
+  <ul class="list-disc pl-5">
+    <li>Student academic profile</li>
+    <li class="pt-1">Student Attendance</li>
+    <li class="pt-1">Certificate management</li>
+    <li class="pt-1">Student Medical records</li>
+    <li class="pt-1">Student Certificate</li>
+    <li class="pt-1">Transport Management</li>
+    <li class="pt-1">Student request</li>
+    <li class="pt-1">I-Card (student/teacher)</li>
+    <li class="pt-1">Parent-Teacher Meeting</li>
+    <li class="pt-1">Discipline Tracking</li>
+    <li class="pt-1">Library Management</li>
+    <li class="pt-1">Book Circulation</li>
+    <li class="pt-1">Quick Book Return</li>
+    <li class="pt-1">Book Renewal</li>
+    <li class="pt-1">Member wise Fine Detail</li>
+    <li class="pt-1">Barcode Generation</li>
+    <li class="pt-1 pb-1">Add Virtual Resource Master</li>
+  </ul>
+`,
+
+      "Quality & process improvement":`
+  <ul class="list-disc pl-5">
+    <li>Rollover Management</li>
+    <li class="pt-1">CBSE Compliance</li>
+    <li class="pt-1">State Govt Compliance</li>
+    <li class="pt-1">Central Govt Compliance</li>
+    <li class="pt-1">SQAA</li>
+    <li class="pt-1">Template Library</li>
+  </ul>
+`,
+
+     "Analytics and Reporting Tools":`
+  <ul class="list-disc pl-5">
+    <li>Data Import/Export</li>
+    <li class="pt-1">Analytics Reports</li>
+    <li class="pt-1">Graphical Reports</li>
+    <li class="pt-1">Performance Reports</li>
+    <li class="pt-1">Stakeholder wise Dashboard</li>
+  </ul>
+`,
+     "Engagement and Communication Tools":`
+  <ul class="list-disc pl-5">
+    <li>Communication Solutions</li>
+    <li class="pt-1">Dynamic forms & Fields</li>
+    <li class="pt-1">PTM (Parent-Teacher Meetings)</li>
+    <li class="pt-1">Circulars & Notifications</li>
+    <li class="pt-1">Teacher Diary</li>
+    <li class="pt-1">Email, SMS</li>
+  </ul>
+`,
+    },
     buttonColor: "sky-500",
     borderColor: "sky-500"
   },
@@ -51,17 +208,130 @@ const pricingData = {
     bestValue: true,
     Prerequisite: "Professional ERP+",
     features: [
-      "Advanced Analytics",
-      "Mobile App Access",
-      "Admissions",
-      "Hostel Management"
+      "Admission Management",
+      "Administrative & Management Solutions",
+      "Finance & Operations",
+      "Safety and Security Solutions",
+      "Academic and exam management",
+      "Student Services Solutions",
+      "Quality & process improvement",
+      "Analytics and Reporting Tools",
+      "Engagement and Communication Tools",
+      "Education AI"
     ],
-    featuresDescription: [
-      "Dashboards, predictive trends",
-      "Parent and teacher portals",
-      "Online application, review, and approval",
-      "Room allocation, mess schedules, fee tracking"
-    ],
+    featuresDescription: {
+     "Admission Management": `
+        <ul class="list-disc pl-5">
+          <li>Education CRM</li>
+          <li class="pt-1">Student admission marketing</li>
+          <li class="pt-1">Student Admission sales management</li>
+          <li class="pt-1">Online admission with exam management</li>
+          <li class="pt-1">Automated roll number</li> 
+        </ul>
+      `,
+      "Administrative & Management Solutions": `
+        <ul class="list-disc pl-5">
+          <li>User/Teacher Management</li>
+          <li class="pt-1">Front desk management</li>
+          <li class="pt-1">Inward-Outward (Digital Records)</li>
+          <li class="pt-1">Complain management</li>
+          <li class="pt-1">Inventory & Store Management</li>
+          <li class="pt-1">Hostel Management</li>
+          <li class="pt-1">Task Management</li>
+        </ul>
+      `,
+      "Finance & Operations": `
+         <ul class="list-disc pl-5">
+          <li>Fees collection online/offline</li>
+          <li class="pt-1">NACH Fees</li>
+          <li class="pt-1">Imprest deposit</li>
+          <li class="pt-1">Payment gateway (UPI)</li>
+          <li class="pt-1">Petty Cash management</li>
+          <li class="pt-1">Fees Reconciliation</li>
+        </ul>
+      `,
+      "Safety and Security Solutions": `
+         <ul class="list-disc pl-5">
+          <li>Visitor Management</li>
+          <li class="pt-1">Sudent Pick up/drop</li>
+          <li class="pt-1">Consent Management</li>
+          <li class="pt-1">Transport Management</li>
+        </ul>
+      `,
+      "Academic and exam management": `
+         <ul class="list-disc pl-5">
+            <li>Exam management</li>
+            <li class="pt-1">Result/Report Card</li>
+            <li class="pt-1">Holistic Progressive Card</li>
+            <li class="pt-1">Assign class teacher</li>
+            <li class="pt-1">Teacher transfer utility</li>
+            <li class="pt-1">Proxy Management</li>
+            <li class="pt-1">Teacher Diary</li>
+        </ul>
+      `,
+       "Student Services Solutions":`
+  <ul class="list-disc pl-5">
+    <li>Student academic profile</li>
+    <li class="pt-1">Student Attendance</li>
+    <li class="pt-1">Certificate management</li>
+    <li class="pt-1">Student Medical records</li>
+    <li class="pt-1">Student Certificate</li>
+    <li class="pt-1">Transport Management</li>
+    <li class="pt-1">Student request</li>
+    <li class="pt-1">I-Card (student/teacher)</li>
+    <li class="pt-1">Parent-Teacher Meeting</li>
+    <li class="pt-1">Discipline Tracking</li>
+    <li class="pt-1">Library Management</li>
+    <li class="pt-1">Book Circulation</li>
+    <li class="pt-1">Quick Book Return</li>
+    <li class="pt-1">Book Renewal</li>
+    <li class="pt-1">Member wise Fine Detail</li>
+    <li class="pt-1">Barcode Generation</li>
+    <li class="pt-1 pb-1">Add Virtual Resource Master</li>
+    <li class="pt-1 pb-1">Library virtual contenet</li>
+  </ul>
+`,
+"Quality & process improvement":`
+<ul class="list-disc pl-5">
+  <li>Rollover Management</li>
+  <li class="pt-1">CBSE Compliance</li>
+  <li class="pt-1">State Govt Compliance</li>
+  <li class="pt-1">Central Govt Compliance</li>
+  <li class="pt-1">SQAA</li>
+   <li class="pt-1">Template Library</li>
+    <li class="pt-1">Nomenclature change</li>
+</ul>
+`,
+
+   "Analytics and Reporting Tools":`
+<ul class="list-disc pl-5">
+  <li>Data Import/Export</li>
+  <li class="pt-1">Analytics Reports</li>
+  <li class="pt-1">Graphical Reports</li>
+  <li class="pt-1">Performance Reports</li>
+  <li class="pt-1">Stakeholder wise Dashboard</li>
+</ul>
+`,
+   "Engagement and Communication Tools":`
+<ul class="list-disc pl-5">
+  <li>Communication Solutions</li>
+  <li class="pt-1">Dynamic forms & Fields</li>
+  <li class="pt-1">PTM (Parent-Teacher Meetings)</li>
+  <li class="pt-1">Circulars & Notifications</li>
+  <li class="pt-1">Teacher Diary</li>
+  <li class="pt-1">Email, SMS</li>
+  <li class="pt-1">Whatsapp</li>
+</ul>
+`,
+      "Education AI":`
+  <ul class="list-disc pl-5">
+    <li>AI driven time table</li>
+    <li class="pt-1">AI driven fees predictions</li>
+    <li class="pt-1">Chat-Bot</li>
+  </ul>
+`,
+
+    },
     buttonColor: "green-600",
     borderColor: "green-600"
   },
@@ -294,7 +564,7 @@ function PricingSection() {
           </div>
         </div>
       </div>
-      <div className="z-10 self-center lg:-mt-[244px] lg:ml-4 lg:mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full sm:mt-0 sm:ml-0 sm:mr-0 sm:mb-10">
+      <div className="z-10 self-center lg:-mt-[120px] lg:ml-4 lg:mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full sm:mt-0 sm:ml-0 sm:mr-0 sm:mb-10">
           <div className="lg:flex lg:gap-10 lg:px-0 justify-center items-center lg:w-full lg:min-h-screen sm:block sm:w-full sm:px-4 sm:gap-4">
             {pricingData[selectedCategory]?.map((plan, index) => (
               <PricingCard key={index} {...plan} />

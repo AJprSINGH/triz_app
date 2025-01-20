@@ -18,7 +18,7 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
     }
   };
   return (
-    <div className={`flex flex-col font-inter rounded-xl lg:w-[26%] sm:w-full  max-md:w-full ${recommended ? 'bg-sky-500 lg:-mt-20 sm:mt-10' : bestValue ? 'bg-green-600 lg:mt-0 sm:mt-10' : ''} p-2`}>
+    <div className={`flex flex-col font-inter rounded-xl lg:w-[28%] sm:w-full  max-md:w-full ${recommended ? 'bg-sky-500 lg:-mt-20 sm:mt-10' : bestValue ? 'bg-green-600 lg:mt-0 sm:mt-10' : ''} p-2`}>
       {recommended && <div className="self-center mb-0 text-white text-sm px-4 py-0 bg-sky-500 rounded">Recommended</div>}
       <div
         className={`flex flex-col px-6 w-full text-sm font-bold text-black bg-white rounded-lg shadow-lg ${
@@ -68,13 +68,13 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
             <div
             className={`text-xs text-gray-700 overflow-hidden transition-all duration-300 ease-in-out`}
             style={{
-              maxHeight: openFeatureIndex === index ? '200px' : '0', 
+              maxHeight: openFeatureIndex === index ? '345px' : '0', 
               padding: openFeatureIndex === index ? '10px' : '0',
             }}
             >
             {openFeatureIndex === index && (
-              <div>{featuresDescription[index]}</div>
-            )}
+                <div dangerouslySetInnerHTML={{ __html: featuresDescription[feature] }} />
+              )}
             </div>
             </div>
         ))}

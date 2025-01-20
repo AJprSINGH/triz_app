@@ -12,7 +12,7 @@ import FeatureLayoutNew from '../../SComponents/FeatureLayout';
 import FeatureLayoutMax from '../../CComponents/FeatureLayout';
 import EducationDashboard from '../../RComponents/EducationDashboard';
 const navItems = [
-  { label: 'HOME', layerName: 'home', href: '/center_home' },
+  { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
   { label: 'SERVICES', layerName: 'services' },
   { label: 'PRICING', layerName: 'aboutus', href: '/pricing' },
@@ -50,7 +50,7 @@ function NavBar() {
     router.push('/contactGlobal');
   };
   const handleClickHome = () => {
-      router.push("/"); 
+      router.push("/center_home"); 
     };
   const handleDropdownToggle = (layerName) => {
     setActiveDropdown(layerName);
