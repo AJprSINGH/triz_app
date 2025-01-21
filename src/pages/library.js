@@ -1,5 +1,5 @@
 import React from "react";
-import ErpService from "../Library Management/HeroSection";
+import ErpService from "../Library management/HeroSection";
 
 export default function ErpServicePage() {
   return (
