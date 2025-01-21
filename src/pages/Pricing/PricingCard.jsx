@@ -68,7 +68,7 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
             <div
             className={`text-xs text-gray-700 overflow-hidden transition-all duration-300 ease-in-out`}
             style={{
-              maxHeight: openFeatureIndex === index ? '345px' : '0', 
+              maxHeight: openFeatureIndex === index ? '545px' : '0', 
               padding: openFeatureIndex === index ? '10px' : '0',
             }}
             >
