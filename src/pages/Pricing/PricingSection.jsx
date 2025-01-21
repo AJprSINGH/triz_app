@@ -6,7 +6,7 @@ import PricingCard from "./PricingCard";
 const pricingData = {
   ERP: [
   {
-    title: "Basic ERP",
+    title: "Essential ERP",
     price: "25000",
     features: [
       "Admission Management",
@@ -80,10 +80,10 @@ const pricingData = {
     borderColor: "sky-500"
   },
   {
-    title: "Professional ERP",
+    title: " Advanced  ERP",
     price: "50000",
     recommended: true,
-    Prerequisite: "Basic ERP+",
+    Prerequisite: "Essential ERP+",
     features: [
       "Admission Management",
       "Administrative & Management Solutions",
@@ -203,10 +203,10 @@ const pricingData = {
     borderColor: "sky-500"
   },
   {
-    title: "Enterprise ERP",
+    title: "Next gen ERP",
     price: "75000",
     bestValue: true,
-    Prerequisite: "Professional ERP+",
+    Prerequisite: " Advanced ERP+",
     features: [
       "Admission Management",
       "Administrative & Management Solutions",
@@ -288,7 +288,7 @@ const pricingData = {
     <li class="pt-1">Member wise Fine Detail</li>
     <li class="pt-1">Barcode Generation</li>
     <li class="pt-1 pb-1">Add Virtual Resource Master</li>
-    <li class="pt-1 pb-1">Library virtual contenet</li>
+    <li class="pt-1 pb-1">Library virtual content</li>
   </ul>
 `,
 "Quality & process improvement":`
@@ -338,60 +338,193 @@ const pricingData = {
 ],
 LMS: [
   {
-    title: "Starter LMS",
+    title: "Essential LMS",
     price: "20000",
     features: [
-      "Course Creation",
-      "Assignment Management",
-      "Basic Reporting",
-      "Lesson Plans"
+      "Teach & Learn",
+      "Test & Assessment",
+      "Engagement",
+      "LMSanalytics"
     ],
-    featuresDescription: [
-      "Upload content, organize by topics",
-      "Online submissions, grading",
-      "Student performance and course completion",
-      "Generate NCERT-aligned plans"
-    ],
+    featuresDescription: {
+      "Teach & Learn": `
+        <ul class="list-disc pl-5">
+          <li>Create Courses & Content</li>
+          <li class="pt-1">Create Standard/Subjects</li>
+          <li class="pt-1">Add new Chapter/topic/sub topic</li>
+          <li class="pt-1">map & allign Skill, Blooms, LO, PO, CO</li>
+          <li class="pt-1">Flash Card</li>
+          <li class="pt-1">Add Question Answer/create question bank</li>
+          <li class="pt-1">Manage Student Homework,</li>
+          <li class="pt-1">Notification, Chat, Messages</li>
+          <li class="pt-1">Extra carriculam learning Like SEL, STEM, vocational training</li>
+          <li class="pt-1">Sports courses creation</li>
+          <li class="pt-1">Teacher dairys</li>
+        </ul>
+      `,
+      "Test & Assessment": `
+        <ul class="list-disc pl-5">
+          <li>Home work/assignment management</li>
+          <li class="pt-1">Question bank/Questions papaer solutions</li>
+        </ul>
+      `,
+      "Engagement": `
+        <ul class="list-disc pl-5">
+          <li>Leader board gamification</li>
+          <li class="pt-1">Student Eportfolio</li>
+        </ul>
+      `,
+      "LMSanalytics": `
+        <ul class="list-disc pl-5">
+          <li>LMS report</li>
+        </ul>
+      `,
+    },
     buttonColor: "sky-500",
     borderColor: "sky-500"
   },
   {
-    title: "Advanced LMS",
+    title: "  Advanced LMS",
     price: "40000",
     recommended: true,
-    Prerequisite: "Starter LMS+",
+    Prerequisite: "Essential LMS+",
     features: [
-      "Discussion Forums",
-      "Gradebook",
-      "Quizzes",
-      "Homework Generator"
+      "Teach & Learn",
+      "Carriculam management",
+      "content library",
+      "Test & Assessment",
+      "Engagement",
+      "LMSanalytics"
     ],
-    featuresDescription: [
-      "Peer-to-peer engagement",
-      "Automated grade tracking",
-      "Timed tests, instant results",
-      "Auto-generate assignments based on topics"
-    ],
+    featuresDescription: {
+      "Teach & Learn": `
+        <ul class="list-disc pl-5">
+          <li>Create Courses & Content</li>
+          <li class="pt-1">Create Standard/Subjects</li>
+          <li class="pt-1">Add new Chapter/topic/sub topic</li>
+          <li class="pt-1">map & allign Skill, Blooms, LO, PO, CO</li>
+          <li class="pt-1">Flash Card</li>
+          <li class="pt-1">Add Question Answer/create question bank</li>
+          <li class="pt-1">Manage Student Homework,</li>
+          <li class="pt-1">Notification, Chat, Messages</li>
+          <li class="pt-1">Extra carriculam learning Like SEL, STEM, vocational training</li>
+          <li class="pt-1">Sports courses creation</li>
+          <li class="pt-1">Teacher dairys</li>
+        </ul>
+      `,
+      "Carriculam management": `
+        <ul class="list-disc pl-5">
+          <li>Carriculam planning with content</li>
+          <li class="pt-1">Syllabus management</li>
+          <li class="pt-1">Day wise lesson plan</li>
+        </ul>
+      `,
+      "content library": `
+        <ul class="list-disc pl-5">
+          <li>6 to 12 Std Digital content with teacher taining resource</li>
+          <li class="pt-1">1 to 12 Std Social emotional learning content with CASEL framework</li>
+          <li class="pt-1">1 to 12 Std Vocational training content </li>
+          <li class="pt-1">1 to 12 Std Softskill content  </li>
+          <li class="pt-1">1 to 12 Std sports content </li>
+          
+        </ul>
+      `,
+      "Test & Assessment": `
+        <ul class="list-disc pl-5">
+          <li>Home work/assignment management</li>
+          <li class="pt-1">Assignmenet anotation</li>
+          <li class="pt-1">Question bank with 5lacks questiona with wider level catagarizationquestions papaer solutions with</li>
+          <li class="pt-1">Virtual classroom </li>
+          </ul>
+      `,
+      "Engagement": `
+        <ul class="list-disc pl-5">
+          <li>Leader board gamification</li>
+          <li class="pt-1">Student Eportfolio</li>
+          <li class="pt-1">Social coloborative learning</li>
+        </ul>
+      `,
+      "LMSanalytics": `
+        <ul class="list-disc pl-5">
+          <li>LMS report</li>
+          <li class="pt-1">Teacher analysis reports</li>
+          <li class="pt-1">Student Analysis Report</li>
+        </ul>
+      `,
+    },
     buttonColor: "sky-500",
     borderColor: "sky-500"
   },
   {
-    title: "Premium LMS",
+    title: "Next gen LMS",
     price: "60000",
     bestValue: true,
     Prerequisite: "Advanced LMS+",
     features: [
-      "Gamification",
-      "PAL (Personalized Adaptive Learning)",
-      "Mobile App Access",
-      "ERP Integration"
+      "Teach & Learn",
+      "Carriculam management",
+      "content library",
+      "Test & Assessment",
+      "Engagement",
+      "LMSanalytics"
     ],
-    featuresDescription: [
-      "Badges, leaderboards, and rewards",
-      "Customized learning paths",
-      "Learning on the go",
-      "Seamless connection with ERP modules"
-    ],
+    featuresDescription: {
+      "Teach & Learn": `
+        <ul class="list-disc pl-5">
+          <li>Create Courses & Content</li>
+          <li class="pt-1">Create Standard/Subjects</li>
+          <li class="pt-1">Add new Chapter/topic/sub topic</li>
+          <li class="pt-1">map & allign Skill, Blooms, LO, PO, CO</li>
+          <li class="pt-1">Flash Card</li>
+          <li class="pt-1">Add Question Answer/create question bank</li>
+          <li class="pt-1">Manage Student Homework,</li>
+          <li class="pt-1">Notification, Chat, Messages</li>
+          <li class="pt-1">Extra carriculam learning Like SEL, STEM, vocational training</li>
+          <li class="pt-1">Sports courses creation</li>
+          <li class="pt-1">Teacher dairys</li>
+        </ul>
+      `,
+      "Carriculam management": `
+        <ul class="list-disc pl-5">
+          <li>Carriculam planning with content</li>
+          <li class="pt-1">Syllabus management</li>
+          <li class="pt-1">Day wise lesson plan</li>
+        </ul>
+      `,
+      "content library": `
+        <ul class="list-disc pl-5">
+          <li>6 to 12 Std Digital content with teacher taining resource</li>
+          <li class="pt-1">1 to 12 Std Social emotional learning content with CASEL framework</li>
+          <li class="pt-1">1 to 12 Std Vocational training content </li>
+          <li class="pt-1">1 to 12 Std Softskill content  </li>
+          <li class="pt-1">1 to 12 Std sports content </li>
+          
+        </ul>
+      `,
+      "Test & Assessment": `
+        <ul class="list-disc pl-5">
+          <li>Home work/assignment management</li>
+          <li class="pt-1">Assignmenet anotation</li>
+          <li class="pt-1">Question bank with 5lacks questiona with wider level catagarizationquestions papaer solutions with</li>
+          <li class="pt-1">AI driven PAL solutions </li>
+          <li class="pt-1">Virtual classroom </li>
+          </ul>
+      `,
+      "Engagement": `
+        <ul class="list-disc pl-5">
+          <li>Leader board gamification</li>
+          <li class="pt-1">Student Eportfolio</li>
+          <li class="pt-1">Social coloborative learning</li>
+        </ul>
+      `,
+      "LMSanalytics": `
+        <ul class="list-disc pl-5">
+          <li>LMS report</li>
+          <li class="pt-1">Teacher analysis reports</li>
+          <li class="pt-1">Student Analysis Report</li>
+        </ul>
+      `,
+    },
     buttonColor: "green-600",
     borderColor: "green-600"
   },
@@ -454,54 +587,100 @@ CareerCounselling: [
 ],
 HRMS: [
   {
-    title: "Basic HRMS",
+    title: "Essential HRMS",
     price: "30000",
     features: [
-      "Staff Attendance",
-      "Payroll Management",
-      "Leave Tracking"
+      "Organization management"
     ],
-    featuresDescription: [
-      "Track daily attendance",
-      "Salary computation, tax deductions",
-      "Apply, approve, and manage leaves"
-    ],
+    featuresDescription: {
+      "Organization management": `
+        <ul class="list-disc pl-5">
+          <li>Organization management</li>
+          <li class="pt-1">Employee roles & responsibilities</li>
+          <li class="pt-1">Payroll management</li>
+          <li class="pt-1">Leave management</li>
+          <li class="pt-1">Leave Auth. / Approval</li>
+          <li class="pt-1">AEmployee Salary Structure</li>
+          <li class="pt-1">Employee Deductions</li>
+          <li class="pt-1">Salary Certificate</li>
+          <li class="pt-1">Salary Slip Generation</li>
+          <li class="pt-1">Form-16</li>
+          <li class="pt-1">Professional Tax management</li>
+          <li class="pt-1">Import data</li>
+          <li class="pt-1">Reports & Analytics</li>
+        </ul>
+      `,
+    },
     buttonColor: "sky-500",
     borderColor: "sky-500"
   },
   {
-    title: "Professional HRMS",
+    title: "Advanced  HRMS",
     price: "50000",
     recommended: true,
-    Prerequisite: "Basic HRMS+",
+    Prerequisite: "Essential HRMS+",
     features: [
-      "Recruitment Module",
-      "Appraisals",
-      "HR Workflows"
+      "Organization management"
     ],
-    featuresDescription: [
-      "Post job openings, track applications",
-      "Evaluate employee performance",
-      "Automate routine HR tasks"
-    ],
+    featuresDescription: {
+      "Organization management": `
+        <ul class="list-disc pl-5">
+          <li>Organization management</li>
+          <li class="pt-1">Department management</li>
+          <li class="pt-1">Employee management</li>
+          <li class="pt-1">Employee/department task management</li>
+          <li class="pt-1">Employee roles & responsibilities</li>
+          <li class="pt-1">Payroll management</li>
+          <li class="pt-1">Leave management</li>
+          <li class="pt-1">Leave Auth. / Approval</li>
+          <li class="pt-1">AEmployee Salary Structure</li>
+          <li class="pt-1">Employee Deductions</li>
+          <li class="pt-1">Salary Certificate</li>
+          <li class="pt-1">Salary Slip Generation</li>
+          <li class="pt-1">Form-16</li>
+          <li class="pt-1">Professional Tax management</li>
+          <li class="pt-1">Import data</li>
+          <li class="pt-1">Reports & Analytics</li>
+        </ul>
+      `,
+    },
     buttonColor: "sky-500",
     borderColor: "sky-500"
   },
   {
-    title: "Advanced HRMS",
+    title: "Next gen HRMS",
     price: "75000",
     bestValue: true,
-    Prerequisite: "Professional HRMS+",
+    Prerequisite: "Advanced  HRMS+",
     features: [
-      "Training Modules",
-      "Self-Service Portal",
-      "Mobile HR Management"
+      "Organization management"
     ],
-    featuresDescription: [
-      "Plan and track staff training",
-      "Allow staff to manage their profiles and tasks",
-      "Access HR tools on mobile devices"
-    ],
+    featuresDescription:{
+      "Organization management": `
+        <ul class="list-disc pl-5">
+          <li>Organization management</li>
+          <li class="pt-1">Department management</li>
+          <li class="pt-1">Employee management</li>
+          <li class="pt-1">Employee/department task management</li>
+          <li class="pt-1">Employee roles & responsibilities</li>
+          <li class="pt-1">Organization Skill Master</li>
+          <li class="pt-1">Skill matrix</li>
+          <li class="pt-1">Skill taxonomy</li>
+          <li class="pt-1">Skill mapping</li>
+          <li class="pt-1">Payroll management</li>
+          <li class="pt-1">Leave management</li>
+          <li class="pt-1">Leave Auth. / Approval</li>
+          <li class="pt-1">AEmployee Salary Structure</li>
+          <li class="pt-1">Employee Deductions</li>
+          <li class="pt-1">Salary Certificate</li>
+          <li class="pt-1">Salary Slip Generation</li>
+          <li class="pt-1">Form-16</li>
+          <li class="pt-1">Professional Tax management</li>
+          <li class="pt-1">Import data</li>
+          <li class="pt-1">Reports & Analytics</li>
+        </ul>
+      `,
+    },
     buttonColor: "green-600",
     borderColor: "green-600"
   }
@@ -564,7 +743,7 @@ function PricingSection() {
           </div>
         </div>
       </div>
-      <div className="z-10 self-center lg:-mt-[120px] lg:ml-4 lg:mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full sm:mt-0 sm:ml-0 sm:mr-0 sm:mb-10">
+      <div className="z-10 self-center lg:-mt-[134px] lg:ml-4 lg:mr-6 w-full max-w-full max-md:mt-0 max-md:max-w-full sm:mt-0 sm:ml-0 sm:mr-0 sm:mb-10">
           <div className="lg:flex lg:gap-10 lg:px-0 justify-center items-center lg:w-full lg:min-h-screen sm:block sm:w-full sm:px-4 sm:gap-4">
             {pricingData[selectedCategory]?.map((plan, index) => (
               <PricingCard key={index} {...plan} />
