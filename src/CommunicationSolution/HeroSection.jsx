@@ -29,7 +29,7 @@ export default function BlogsPage() {
     <h4 className="text-lg mt-20 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    Effortlessly bridge communication gaps with Scholar Clone ERP's Communication Module. From instant SMS to WhatsApp and email notifications, ensure timely updates and seamless engagement with parents, staff, and others.
+    Effortlessly bridge communication gaps with Scholar Clone ERP&apos;s Communication Module. From instant SMS to WhatsApp and email notifications, ensure timely updates and seamless engagement with parents, staff, and others.
     </h4>
     <div className="flex flex-row gap-10 items-center justify-center">
     <button 
@@ -72,7 +72,7 @@ export default function BlogsPage() {
             <div className="text-xl font-inter text-right max-md:mr-2.5 max-md:max-w-full" style={{
                 color:'rgba(61, 96, 149, 1)'
             }}>
-              Effective communication is the backbone of any successful institution. With Scholar Clone ERP’s 
+              Effective communication is the backbone of any successful institution. With Scholar Clone ERP&rsquo;s 
               Communication Solution, managing updates, alerts, and important notifications has never been easier. 
             </div>
             <div className="flex gap-2 justify-between self-end mt-12 max-w-full text-xs w-[380px] max-md:mt-10">
@@ -109,7 +109,7 @@ export default function BlogsPage() {
     <h4 className="text-[15px] mt-20 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgb(0, 0, 0)'
     }}>
-    Say goodbye to delays and manual communication methods. Scholar Clone's Communication Module empowers you to:Send time-sensitive messages directly to parents and staff.Notify stakeholders with one click via SMS, email, and WhatsApp.Simplify operations by consolidating all communication tasks into one intuitive platform.
+    Say goodbye to delays and manual communication methods. Scholar Clone&apos;s Communication Module empowers you to:Send time-sensitive messages directly to parents and staff.Notify stakeholders with one click via SMS, email, and WhatsApp.Simplify operations by consolidating all communication tasks into one intuitive platform.
 Stay ahead with an all-in-one solution that ensures no important message is missed.
 
     </h4>
@@ -145,7 +145,7 @@ Stay ahead with an all-in-one solution that ensures no important message is miss
     <h4 className="text-2xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    Don’t let communication gaps hold your institution back. With Scholar Clone ERP’s Communication Module, ensure every message reaches the right person at the right time.
+    Don&rsquo;t let communication gaps hold your institution back. With Scholar Clone ERP&rsquo;s Communication Module, ensure every message reaches the right person at the right time.
     </h4>
     <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
     <button 

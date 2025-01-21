@@ -110,7 +110,7 @@ Get Your Own Library Management System Today!
     <h4 className="text-[15px] mt-20 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgb(0, 0, 0)'
     }}>
-    Our system streamlines library management by enabling quick sorting and handling of book inventory, effortless overdue reporting, and prioritization of maintenance and issuing tasks for maximum productivity.Whether you're managing a small library or a large institution, our tools ensure smooth and organized operations.
+    Our system streamlines library management by enabling quick sorting and handling of book inventory, effortless overdue reporting, and prioritization of maintenance and issuing tasks for maximum productivity.Whether you&apos;re managing a small library or a large institution, our tools ensure smooth and organized operations.
     </h4>
     <div className="flex flex-row gap-10 mt-10 items-center justify-center">
     <button
@@ -144,7 +144,7 @@ Get Your Own Library Management System Today!
     <h4 className="text-2xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    Start your free trial today and discover how our Library Management System can streamline your operations and enhance user engagement. Don’t miss out—unlock the future of library management now!"
+    Start your free trial today and discover how our Library Management System can streamline your operations and enhance user engagement. Don&rsquo;t miss out—unlock the future of library management now!
     </h4>
     <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
     <button 

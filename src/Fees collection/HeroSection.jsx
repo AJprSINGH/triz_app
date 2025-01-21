@@ -138,7 +138,7 @@ The Fees Collection Module streamlines financial management in educational insti
     <h1 className="text-3xl mt-40 font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    "Simplify Your Fee Management Now!"  
+    Simplify Your Fee Management Now!
     </h1>
     <h4 className="text-2xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
