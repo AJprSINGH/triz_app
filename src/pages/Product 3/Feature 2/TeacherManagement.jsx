@@ -10,10 +10,20 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Career Exploration",
+      title: "Intrest Profiler",
       description:
-        "Career Exploration is a vital feature that enables individuals to investigate various career paths aligned with their interests and aspirations. Utilizing interactive tools, assessments, and real-world insights, it encourages students to explore diverse professions and industries. By providing hands-on experiences and exposure to different roles, Career Exploration empowers learners to make informed decisions about their futures and develop a clearer vision of their professional journeys.",
-      image: "/ccservice_images/Group 371.png",
+        "The Interest Profiler is a tool designed to assess an individual's preferences and interests in various work-related activities. It helps identify careers that align with personal likes and skills. Often used in career counseling, it categorizes interests into areas like artistic, investigative, social, realistic, enterprising, and conventional, guiding people toward fulfilling professional paths.",
+      image: "/ccservice_images/Group 400.png",
+      url1: "#how-it-works",
+      url2: "#how-it-benefits-you",
+      url3: "#visualize-your-workflow"
+    },
+    {
+      id: 2,
+      title: "Know Yourself ",
+      description:
+        "Know Yourself is a concept that encourages self-awareness and introspection. It means understanding your strengths, weaknesses, emotions, values, and motivations. By reflecting on your beliefs and experiences, you gain clarity about who you are, what drives you, and how you interact with the world. This awareness fosters personal growth, better decision-making, and improved relationships.",
+      image: "/ccservice_images/Group 401.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"

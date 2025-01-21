@@ -16,25 +16,25 @@ import S4 from "./Feature 4/IntegrationServices";
 
 const features = [
   {
-    title: 'Empowered Learning Journeys',
+    title: 'Teaching & learning',
     image: featureImage1,
     description: 'Streamline your school management process with our efficient tools designed to simplify attendance, timetabling, and much more.',
     serviceComponent: <S1 />,
   },
   {
-    title: 'Data-Driven Growth & Achievement',
+    title: 'Test & Assessment',
     image: featureImage2,
     description: 'Gain full control over finances, including fees, payroll, and budgeting, with clear and intuitive tools.',
     serviceComponent: <S2 />,
   },
   {
-    title: 'Streamlined Operations for Maximum Impact',
+    title: 'Content library',
     image: featureImage3,
     serviceComponent: <S3 />,
     description: 'Provide personalized learning experiences to your students with powerful LMS and content management tools.',
   },
   {
-    title: 'Engagement that Inspires & Supports',
+    title: 'Engagement',
     image: featureImage4,
     serviceComponent: <S4 />,
     description: 'Enhance communication between teachers, students, and parents with integrated messaging and notification systems.',

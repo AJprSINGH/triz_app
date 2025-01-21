@@ -10,20 +10,80 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Assessment & Evaluation",
+      title: "Measuring learning growth",
       description:
-        "Assessment & Evaluation provides educators with robust tools to measure student learning and progress effectively. This component offers a variety of assessment types, including quizzes, tests, and assignments, along with real-time analytics to track performance. By facilitating insightful evaluations, it helps identify areas for improvement, ensuring that teaching strategies are aligned with student needs and learning objectives.",
-      image: "/lmsservice_images/feature2/Group 363.png",
+        "Measuring learning growth involves assessing a learner's progress over time. This can be done through various methods such as tests, quizzes, assignments, and observations. Key indicators include improvements in skills, knowledge retention, and the ability to apply concepts. Learning growth also considers critical thinking, creativity, and the development of emotional intelligence and problem-solving abilities.",
+      image: "/lmsservice_images/feature2/Group 371.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Multi-Tiered System of Support",
+      title: "Homework Management",
       description:
-        "The Multi-Tiered System of Support (MTSS) is an essential framework that helps educators provide targeted interventions to meet diverse student needs. By integrating academic and behavioral support at various levels, this system ensures that all learners receive the appropriate level of assistance. MTSS promotes collaboration among teachers, specialists, and families, fostering a holistic approach to student success and well-being while ensuring that no student is left behind.",
-      image: "/lmsservice_images/feature2/Group 365.png",
+        "Homework management involves organizing and prioritizing assignments effectively. It includes setting clear goals, breaking tasks into manageable parts, and using tools like planners or apps to track progress. By creating a consistent routine and avoiding procrastination, students can reduce stress, improve productivity, and ensure timely completion of homework. Time management skills are key to success.",
+      image: "/lmsservice_images/feature2/Group 372.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 3,
+      title: "Assignment Management",
+      description:
+        "Assignment management involves organizing, planning, and prioritizing tasks to ensure timely completion. It includes setting clear goals, breaking down tasks into manageable steps, and allocating sufficient time for each. Effective assignment management helps reduce stress, improve productivity, and ensures high-quality results by staying organized and focused. It often involves tracking progress and adjusting strategies as needed.",
+      image: "/lmsservice_images/feature2/Group 373.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 4,
+      title: "Question bank (create & add)",
+      description:
+        "A question bank is a collection of questions designed to assess knowledge, skills, and understanding in various subjects or topics. It serves as a valuable resource for educators, students, and professionals, helping with test preparation, quizzes, and assignments. Question banks can be tailored to different difficulty levels and formats, offering both multiple-choice and open-ended questions.",
+      image: "/lmsservice_images/feature2/Group 374.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 5,
+      title: "Question papaer generation",
+      description:
+        "Question paper generation involves creating a set of questions designed to assess students' knowledge and understanding of a particular subject. It requires careful selection of topics, appropriate difficulty levels, and question types (e.g., multiple choice, short answer, essay). The goal is to evaluate a student’s grasp of the material in a fair and comprehensive manner, promoting accurate assessment of their learning.",
+      image: "/lmsservice_images/feature2/Group 375.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 6,
+      title: "Assesment tools, various type questions creation",
+      description:
+        "Assessment tools are instruments used to evaluate knowledge, skills, and abilities. They include various types of questions such as multiple-choice, true/false, short-answer, essay, and fill-in-the-blank. Each type measures different cognitive levels, from recall to analysis and application. Effective assessment tools help instructors gauge student understanding, guide learning strategies, and provide feedback for improvement.",
+      image: "/lmsservice_images/feature2/Group 376.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 7,
+      title: "Eportfolio",
+      description:
+        "An ePortfolio is a digital collection of an individual's work, achievements, and reflections, showcasing skills, experiences, and progress over time. It can include documents, images, videos, and other multimedia to demonstrate expertise in various areas. Often used in educational and professional settings, it allows users to present their personal growth, learning outcomes, and career milestones.",
+      image: "/lmsservice_images/feature2/Group 377.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 8,
+      title: "PAL",
+      description:
+        "The term 'PAL' typically refers to 'Phase Alternating Line,'a color television broadcasting system primarily used in Europe, Asia, and parts of Africa. It was developed to overcome issues like color distortion found in older systems. PAL provides higher image quality and is widely used in analog television transmissions, offering better stability and color accuracy than other formats like NTSC.",
+      image: "/lmsservice_images/feature2/Group 378.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"

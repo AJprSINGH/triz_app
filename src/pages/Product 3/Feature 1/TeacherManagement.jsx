@@ -10,10 +10,10 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Career Awareness",
+      title: "Thinking: Career Plan ",
       description:
-        "Career Awareness is a crucial component that helps individuals explore various career options and understand industry requirements. By offering resources, workshops, and interactive tools, it empowers students to make informed decisions about their future paths. This program fosters self-discovery and encourages proactive career planning aligned with personal interests and strengths.",
-      image: "/ccservice_images/Group 370.png",
+        "To build a successful career, focus on continuous learning and skill development. Identify your strengths and passions, and align them with opportunities in growing fields. Network with industry professionals and seek mentorship. Set short-term and long-term goals, maintaining adaptability as the job market evolves. Prioritize work-life balance while striving for professional growth and stability.",
+      image: "/ccservice_images/Group 395.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"

@@ -10,80 +10,70 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Education CRM",
+      title: "Exam Management, Result/Reoprt Card",
       description:
-        "Our Attendance Management System revolutionizes the way schools track and manage student attendance. With real-time data capture, automated alerts, and detailed reporting, it ensures seamless monitoring and reduces manual effort. Teachers and administrators can access comprehensive attendance records at a glance, while parents stay informed through instant notifications, fostering accountability and promoting student punctuality and engagement.....",
-      image: "/erpservice_images/feature3/Group 346.png",
+        "Exam management involves organizing and overseeing assessments, ensuring accurate scheduling, and maintaining fair evaluation standards. Result or report cards provide detailed performance summaries, reflecting a student's achievements, strengths, and areas for improvement. These records serve as important tools for tracking progress and guiding future academic or career decisions.",
+      image: "/erpservice_images/feature3/Group 353.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Student Profiles & Management",
+      title: "Student academic Profile",
       description:
         "Simplify your exam process with Scholar Clone's Exam Management System. Easily schedule exams, manage question banks, conduct online and offline assessments, and automate grading for faster results. Gain valuable insights with detailed performance reports, while ensuring secure, compliant exam administration. Save time, reduce errors, and improve outcomes with an all-in-one solution designed for modern schools.....",
-      image: "/erpservice_images/feature3/Group 348.png",
+      image: "/erpservice_images/feature3/Group 354.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"
     },
     {
       id: 3,
-      title: "Attendance Tracking",
+      title: " Student Attendance",
       description:
         "Transform learning with Scholar Clone’s Digital Classroom System, offering interactive multimedia lessons, real-time collaboration, and automated attendance tracking. Manage assignments and assessments digitally, providing instant feedback, while seamless communication keeps teachers, students, and parents connected. Boost student engagement and streamline teaching with flexible, accessible tools designed for modern education.....",
-      image: "/erpservice_images/feature3/Group 349.png",
+      image: "/erpservice_images/feature3/Group 355.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 4,
-      title: "Gradebook",
+      title: "Transport Management",
       description:
-        "The Grade Book feature in Scholar Clone’s ERP system streamlines grading and assessment for K-12 schools, allowing teachers to record, track, and analyze student performance effortlessly. With easy access to scores and progress reports, educators and parents stay informed and engaged in students' academic journeys.",
-      image: "/erpservice_images/feature3/Group 350.png",
+        "Transport management involves planning, organizing, and optimizing the movement of goods and people. It ensures efficient logistics, cost-effective routes, timely delivery, and resource allocation. This field utilizes technology, data analysis, and coordination to improve transportation operations, reduce environmental impact, and enhance customer satisfaction in supply chains.",
+      image: "/erpservice_images/feature3/Group 356.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 5,
-      title: "Certificate Generation",
+      title: "Library Management ",
       description:
-        "With an intuitive grading system, teachers can easily track progress, identify areas for improvement, and keep parents informed. The Certificate Generation tool adds a personal touch, allowing schools to create custom certificates that recognize each student’s unique accomplishments, transforming milestones into memorable keepsakes and enhancing student motivation!",
-      image: "/erpservice_images/feature3/Group 351.png",
+        "Library management involves overseeing and organizing library resources, services, and operations. It includes tasks like cataloging, inventory management, user services, and maintaining a comfortable environment. Efficient library management ensures seamless access to books, digital resources, and educational materials, fostering learning and research within communities.",
+      image: "/erpservice_images/feature3/Group 357.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 6,
-      title: "I-Cards Generation system",
+      title: "Visitor Management",
       description:
-        "Scholar Clone’s I-Card Generation system provides schools with a fast, efficient way to create professional, customized ID cards for students, staff, and faculty. With essential details and high-quality design, this feature strengthens school security, simplifies identification, and fosters a sense of belonging and pride within the school community—making it a must-have for modern K-12 institutions.",
-      image: "/erpservice_images/feature3/Group 352.png",
+        "Visitor management is a system that tracks and monitors individuals visiting a business or facility. It ensures security, streamlines check-ins, and provides a smooth visitor experience. Typically, it involves registration, badge issuance, access control, and real-time alerts to improve efficiency and safety within the premises.",
+      image: "/erpservice_images/feature3/Group 358.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 7,
-      title: "Hostel Management",
+      title: "Ai driven time table",
       description:
-        "Scholar Clone’s Hostel Management feature offers a complete solution for managing student accommodations with ease and efficiency. From streamlined room assignments and hassle-free check-ins to automated fee tracking and real-time occupancy monitoring, it simplifies every aspect of hostel life. By enhancing safety, organization, and convenience, this feature creates a welcoming, well-organized home away from home that students and parents can trust.",
-      image: "/erpservice_images/feature3/Group 353.png",
-      url1: "#contact-us",
-      url2: "#feedback",
-      url3: "#support"
-    },
-    {
-      id: 8,
-      title: "Library Management",
-      description:
-        "Library Management transforms the way you manage resources, making it easy to track, issue, and return books with just a few clicks. From digital cataloging to real-time inventory updates, this module streamlines operations and enhances the student experience, ensuring your library is always organized, accessible, and efficient.",
-      image: "/erpservice_images/feature3/Group 354.png",
+        "AI-driven timetables use artificial intelligence to optimize scheduling by analyzing factors like availability, preferences, and priorities. These systems can automatically adjust to changing circumstances, reduce conflicts, and improve efficiency. By learning from past data, AI can suggest optimal meeting times and resource allocation, making timetables smarter and more adaptive.",
+      image: "/erpservice_images/feature3/Group 359.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"

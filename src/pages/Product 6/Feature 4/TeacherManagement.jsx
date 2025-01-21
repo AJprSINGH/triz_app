@@ -18,7 +18,6 @@ export default function TeacherManagement() {
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
-    // {
     //   id: 2,
     //   title: "Circulars",
     //   description:

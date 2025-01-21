@@ -10,20 +10,80 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Student Engagement",
+      title: "Student Support & engangmenet",
       description:
-        "Student Engagement is a key feature that focuses on fostering active participation and enthusiasm in the learning process. This component provides various interactive tools and resources that encourage students to connect with their peers and instructors, enhancing their overall educational experience. By promoting collaboration, feedback, and personalized learning paths, the Student Engagement feature helps maintain motivation and commitment, ensuring that learners remain invested in their academic success.",
-      image: "/lmsservice_images/feature4/Group 368.png",
+        "Student support and engagement are vital for academic success and personal growth. Effective support systems, including academic advising, mental health resources, and mentorship, empower students to overcome challenges. Engaging students through interactive learning, extracurricular activities, and community building fosters a sense of belonging and motivation. Together, these efforts create a holistic environment that nurtures student well-being and academic achievement.",
+      image: "/lmsservice_images/feature4/Group 387.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Performance & Feedback Tracking",
+      title: "Notification, Chat, Messages",
       description:
-        "Performance & Feedback Tracking is an essential component that enables educators to monitor student progress and provide timely, constructive feedback. This feature offers comprehensive analytics and reporting tools that highlight individual and group performance trends, helping instructors identify areas for improvement. By facilitating ongoing assessments and encouraging open communication, this system fosters a culture of continuous growth, ensuring that students receive the support they need to succeed academically.",
-      image: "/lmsservice_images/feature4/Group 369.png",
+        "Notifications, chats, and messages are essential tools for communication and staying connected. Notifications provide timely alerts about updates or events. Chats offer real-time interaction, fostering immediate exchanges between individuals or groups. Messages, whether instant or asynchronous, enable clear and efficient communication. Together, these tools enhance connectivity, collaboration, and convenience in personal, professional, and social contexts.",
+      image: "/lmsservice_images/feature4/Group 388.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 3,
+      title: "Teacher dairy",
+      description:
+        "Notifications, chats, and messages are essential tools for communication and staying connected. Notifications provide timely alerts about updates or events. Chats offer real-time interaction, fostering immediate exchanges between individuals or groups. Messages, whether instant or asynchronous, enable clear and efficient communication. Together, these tools enhance connectivity, collaboration, and convenience in personal, professional, and social contexts.",
+      image: "/lmsservice_images/feature4/Group 389.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 4,
+      title: "Leaderboard/gamification",
+      description:
+        "Leaderboard and gamification are strategies used to enhance engagement and motivation by incorporating game-like elements into non-game contexts. Leaderboards track and display user progress, ranking participants based on performance, fostering competition. Gamification introduces rewards, challenges, and levels to increase user interaction, making activities more enjoyable and encouraging desired behaviors in areas like education, fitness, and business.",
+      image: "/lmsservice_images/feature4/Group 390.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 5,
+      title: "Eportfolio",
+      description:
+        "An ePortfolio is a digital collection of an individual's work, achievements, and experiences, often used for academic, professional, or personal purposes. It showcases skills, projects, and accomplishments through multimedia elements such as text, images, videos, and links. EPortfolios help users reflect on their growth and present their capabilities to potential employers, clients, or institutions.",
+      image: "/lmsservice_images/feature4/Group 391.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 6,
+      title: "Social & coloborative learning",
+      description:
+        "Social and collaborative learning emphasize the importance of peer interaction and shared knowledge in the learning process. It fosters teamwork, communication, and problem-solving skills. By engaging with others, learners can exchange ideas, receive feedback, and deepen their understanding. This approach enhances motivation and promotes critical thinking, making learning more dynamic and interactive.",
+      image: "/lmsservice_images/feature4/Group 392.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 7,
+      title: "Learning path",
+      description:
+        "A learning path is a structured guide to acquire knowledge and skills in a specific area. It outlines the sequence of courses, resources, or milestones needed to reach a learning goal. It helps individuals progress efficiently, starting from foundational concepts and advancing to more complex topics, ensuring a clear and organized approach to personal or professional development.",
+      image: "/lmsservice_images/feature4/Group 393.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 8,
+      title: "Activity stream",
+      description:
+        "An activity stream is a real-time feed that displays recent actions or updates, often used in social media, apps, and websites. It tracks and shows user interactions, such as posts, likes, comments, and other activities. Activity streams help users stay informed about the latest events and updates within a platform, offering a dynamic and engaging experience.",
+      image: "/lmsservice_images/feature4/Group 394.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"

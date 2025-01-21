@@ -10,64 +10,64 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Communication Tools",
+      title: "Communication Solutions",
       description:
-        "Scholar Clone’s Communication Tools feature bridges the gap between teachers, students, and parents, enabling seamless, real-time interaction through messages, announcements, and alerts. With options for group or individual communication, schools can instantly share updates on assignments, events, or emergencies. This feature fosters a connected school community, ensuring everyone stays informed, engaged, and supported at every step of the educational journey.",
-      image: "/erpservice_images/feature4/Group 355.png",
+        "Scholar Clone’s Communication the tools, systems, and strategies used to facilitate effective interaction between individuals, teams, or organizations. These include technologies like email, video conferencing, messaging platforms, and collaboration tools. Effective communication solutions enhance productivity, streamline workflows, and foster better collaboration in both personal and professional settings.",
+      image: "/erpservice_images/feature4/Group 360.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Parental Engagement",
+      title: "Parents (PTM(Parent-Teacher-Meetings))",
       description:
-        "Scholar Clone’s Parental Engagement feature empowers parents to stay actively involved in their child’s educational journey. With real-time access to grades, attendance, and progress updates, parents can monitor academic growth and support their child’s needs. Seamless communication tools allow instant messaging with teachers and alerts for school events, creating a collaborative environment where parents, teachers, and students work together toward success.",
-      image: "/erpservice_images/feature4/Group 356.png",
+        "Essential for fostering communication between parents and educators. These meetings provide a platform to discuss a child's academic progress, behavior, and any challenges faced. They help build a strong partnership between school and home, ensuring that both parties work together to support the child's development and overall well-being.",
+      image: "/erpservice_images/feature4/Group 361.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"
     },
     {
       id: 3,
-      title: "Complaint & Feedback System",
+      title: "Circulars & Notification, Techer Diary",
       description:
-        "Scholar Clone’s Complaint & Feedback System fosters a transparent and responsive school environment by allowing students, parents, and staff to share concerns or suggestions effortlessly. With a secure, user-friendly platform for submitting feedback and tracking resolution progress, it ensures voices are heard and issues are addressed promptly. This feature strengthens trust and enhances school improvement by promoting open communication and continuous feedback.",
-      image: "/erpservice_images/feature4/Group 357.png",
+        "Official communications sent to inform staff or students about important updates, policies, events, or instructions in an organization or institution. A teacher's diary is a personal record for teachers to note daily lessons, activities, observations, and reflections on students' progress. Both tools help maintain organization and effective communication within educational environments.",
+      image: "/erpservice_images/feature4/Group 362.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
     {
       id: 4,
-      title: "Student Performance Tracking",
+      title: "Message & Notification(Email,SMS,WhatsApp) ",
       description:
-        "Scholar Clone’s Student Performance Tracking system provides a comprehensive view of each student’s academic journey, making it easy for teachers and parents to monitor progress, identify strengths, and address areas for improvement. With detailed reports, visual analytics, and real-time updates, this feature empowers educators and families to support students in achieving their fullest potential, fostering a culture of growth and excellence.",
-      image: "/erpservice_images/feature4/Group 358.png",
+        " Trough channels like email, SMS, and WhatsApp are vital communication tools. They allow businesses and individuals to reach their audience instantly with updates, reminders, promotions, or critical information. These methods provide an efficient way to stay connected, ensuring messages are delivered directly to users across different platforms for greater engagement and response rates.",
+      image: "/erpservice_images/feature4/Group 363.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
-    // {
-    //   id: 5,
-    //   title: "Discipline Tracking",
-    //   description:
-    //     "Discipline Tracking offers a proactive approach to maintaining a positive learning environment by monitoring student behavior effectively. This module provides real-time tracking of disciplinary actions, enabling educators to address issues promptly and fairly. With detailed analytics and reporting features, you can identify patterns and implement strategies to foster a culture of respect and accountability. Empower your institution to cultivate discipline while nurturing student success!",
-    //   image: "/erpservice_images/Group 339.png",
-    //   url1: "#contact-us",
-    //   url2: "#feedback",
-    //   url3: "#support"
-    // },
-    // {
-    //   id: 6,
-    //   title: "Complaint Management",
-    //   description:
-    //     "complaint Management empowers your institution to turn challenges into opportunities for growth. This module streamlines the entire complaint process—from submission to resolution—ensuring every concern is addressed promptly and efficiently. With insightful tracking and reporting features, you can identify trends, enhance service quality, and foster a culture of continuous improvement. Transform feedback into action and elevate your institution's responsiveness!",
-    //   image: "/erpservice_images/Group 341.png",
-    //   url1: "#contact-us",
-    //   url2: "#feedback",
-    //   url3: "#support"
-    // },
+     {
+       id: 5,
+       title: "Automated",
+       description:
+         "Automation refers to the use of technology to perform tasks with minimal human intervention. It streamlines processes, increases efficiency, and reduces human error. From manufacturing to software applications, automation has revolutionized industries by enabling faster production, consistent quality, and lower operational costs. It is crucial for enhancing productivity in sectors like healthcare, logistics, and finance.",
+       image: "/erpservice_images/feature4/Group 364.png",
+       url1: "#contact-us",
+       url2: "#feedback",
+       url3: "#support"
+     },
+     {
+      id: 6,
+       title: "Chatbot ",
+        description:
+        "complaint Management empowers your institution to turn challenges into opportunities for growth. This module streamlines the entire complaint process—from submission to resolution—ensuring every concern is addressed promptly and efficiently. With insightful tracking and reporting features, you can identify trends, enhance service quality, and foster a culture of continuous improvement. Transform feedback into action and elevate your institution's responsiveness!",
+       image: "/erpservice_images/feature4/Group 365.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+     },
     // {
     //   id: 7,
     //   title: "HR  Management System",
@@ -79,7 +79,6 @@ export default function TeacherManagement() {
     //   url3: "#support"
     // },
   ];
-
   return (
     <>
     {contentArray.map((item) => (

@@ -10,9 +10,9 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "User/Teacher Management System",
+      title: "Education CRM",
       description:
-        "User/Teacher Management System offers a complete solution to manage staff data, roles, and permissions with ease. This module allows administrators to track teacher performance, attendance, and assignments, ensuring seamless staff coordination. With powerful tools for communication and reporting, it simplifies daily management tasks, helping foster an organized and productive learning environment.",
+        "An Education CRM (Customer Relationship Management) system streamlines communication and operations for educational institutions. It manages student inquiries, enrollment processes, and alumni engagement. By centralizing data, automating workflows, and enhancing personalization, it improves recruitment, retention, and student satisfaction, fostering better relationships between institutions and their stakeholders for long-term success.",
       image: "/erpservice_images/Group 157.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
@@ -20,26 +20,16 @@ export default function TeacherManagement() {
     },
     {
       id: 2,
-      title: "Task management System",
+      title: "Inventroy & Store Management",
       description:
-        "Task Management System is your ultimate organizational ally, designed to streamline workflows and boost productivity. With intuitive task assignment, real-time progress tracking, and collaborative tools, this module ensures everyone stays on the same page and deadlines are met with ease. Transform chaos into clarity and empower your team to achieve their goals efficiently, all within one integrated platform.",
-      image: "/erpservice_images/Group 336.png",
+        "Inventory and store management involve tracking, organizing, and controlling stock levels to ensure efficient operations. It includes procurement, storage, and distribution, balancing supply and demand. Effective management minimizes costs, prevents overstocking or shortages, and enhances customer satisfaction. Tools like inventory systems and forecasting optimize processes, ensuring seamless business operations.",
+      image: "/erpservice_images/Group 337.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"
     },
     {
       id: 3,
-      title: " Inventory & Store Management",
-      description:
-        "Inventory & Store Management brings precision and control to your resource handling, ensuring that every item is accounted for with ease. This module offers real-time tracking, automated stock alerts, and streamlined procurement processes, allowing you to manage supplies efficiently and reduce waste. Transform your inventory management into a seamless experience, empowering your operations to run smoothly and effectively.",
-      image: "/erpservice_images/Group 337.png",
-      url1: "#contact-us",
-      url2: "#feedback",
-      url3: "#support"
-    },
-    {
-      id: 4,
       title: " Front Desk Management System",
       description:
         "Front Desk Management redefines the first point of contact for your institution, creating a welcoming and efficient experience for students and visitors alike. This module streamlines check-ins, appointment scheduling, and inquiries, ensuring every interaction is handled with professionalism. With real-time visitor tracking and insightful reporting, you can enhance service quality while keeping operations running smoothly. Elevate your front desk experience and make a lasting impression!",
@@ -49,10 +39,20 @@ export default function TeacherManagement() {
       url3: "#support"
     },
     {
-      id: 5,
-      title: "Discipline Tracking",
+      id: 4,
+      title: " Inward-Outward (Digital Records)",
       description:
-        "Discipline Tracking offers a proactive approach to maintaining a positive learning environment by monitoring student behavior effectively. This module provides real-time tracking of disciplinary actions, enabling educators to address issues promptly and fairly. With detailed analytics and reporting features, you can identify patterns and implement strategies to foster a culture of respect and accountability. Empower your institution to cultivate discipline while nurturing student success!",
+        "Inward-Outward digital records are systems for managing organizational communication. They track documents or correspondences entering (inward) or leaving (outward) an organization. These records ensure streamlined documentation, accountability, and quick retrieval of information. Commonly used in offices, they enhance efficiency by digitizing traditional registers for seamless management and secure record-keeping.",
+      image: "/erpservice_images/Group 340.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 5,
+      title: "Complain Management",
+      description:
+        "Complain management involves addressing and resolving customer grievances efficiently to ensure satisfaction and improve services. It requires active listening, prompt responses, and a systematic approach to identify issues and implement solutions. Effective complain management enhances trust, fosters loyalty, and strengthens the organization’s reputation by turning dissatisfaction into positive experiences.",
       image: "/erpservice_images/Group 339.png",
       url1: "#contact-us",
       url2: "#feedback",
@@ -60,9 +60,9 @@ export default function TeacherManagement() {
     },
     {
       id: 6,
-      title: "Complaint Management",
+      title: "Library Management",
       description:
-        "complaint Management empowers your institution to turn challenges into opportunities for growth. This module streamlines the entire complaint process—from submission to resolution—ensuring every concern is addressed promptly and efficiently. With insightful tracking and reporting features, you can identify trends, enhance service quality, and foster a culture of continuous improvement. Transform feedback into action and elevate your institution's responsiveness!",
+        "Library management involves organizing, maintaining, and ensuring the efficient functioning of a library. It includes cataloging books, managing resources, facilitating user access, and implementing digital tools for smooth operations. Effective library management fosters knowledge sharing, enhances user experiences, and supports education by providing a well-organized, accessible repository of information.",
       image: "/erpservice_images/Group 341.png",
       url1: "#contact-us",
       url2: "#feedback",
@@ -70,16 +70,45 @@ export default function TeacherManagement() {
     },
     {
       id: 7,
-      title: "HR  Management System",
+      title: "Hostel Management",
       description:
-        "HR Management System redefines human resources by streamlining processes and enhancing employee engagement. This module centralizes everything from recruitment and onboarding to performance tracking and payroll management, empowering your HR team with efficient tools and insightful analytics. Foster a thriving workplace culture and optimize talent management to drive success, all while saving time and reducing administrative burdens!",
+        " Hostel management involves overseeing accommodations, facilities, and services for residents, ensuring their comfort, safety, and well-being. It includes tasks like room allocation, maintenance, meal planning, enforcing rules, and addressing grievances. Effective hostel management fosters a positive living environment, promoting harmony, discipline, and a supportive atmosphere for academic and personal growth.",
       image: "/erpservice_images/Group 342.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
+    {
+      id: 8,
+      title: "Task Management",
+      description:
+        "Task management involves organizing, prioritizing, and tracking tasks to achieve goals efficiently. It includes setting deadlines, allocating resources, and monitoring progress. Effective task management boosts productivity, reduces stress, and ensures timely project completion. Tools like to-do lists, calendars, and software streamline the process, enhancing focus and accountability in personal or professional settings.",
+      image: "/erpservice_images/Group 343.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 9,
+      title: " Complaince Management",
+      description:
+        "Compliance management involves ensuring an organization adheres to laws, regulations, standards, and internal policies. It includes identifying compliance requirements, implementing controls, monitoring adherence, and addressing non-compliance. Effective compliance management minimizes risks, protects reputation, and fosters ethical practices, ensuring organizations operate lawfully and align with industry and regulatory expectations.!",
+      image: "/erpservice_images/Group 344.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 10,
+      title: " SQAA",
+      description:
+        " SQAA stands for Software Quality Assurance and Auditing. It involves systematically ensuring software meets specified quality standards. SQAA includes planning, testing, monitoring, and reporting to identify and address issues, ensuring reliability, efficiency, and user satisfaction. It plays a critical role in delivering high-quality, compliant, and defect-free software solutions.",
+      image: "/erpservice_images/Group 345.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
   ];
-
   return (
     <>
     {contentArray.map((item) => (

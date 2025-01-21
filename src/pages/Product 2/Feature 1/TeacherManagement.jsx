@@ -10,20 +10,20 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Learning Management System",
+      title: "Teaching Tools",
       description:
         "The Learning Management System (LMS) streamlines the entire educational experience by offering tools for creating, delivering, and managing courses in a user-friendly environment. It supports dynamic lessons, automated assessments, and real-time progress tracking, making it ideal for both in-person and remote learning. With features designed to enhance student engagement and simplify administrative tasks, the LMS optimizes learning outcomes for both educators and students.",
-      image: "/lmsservice_images/feature1/Group 359.png",
+      image: "/lmsservice_images/feature1/Group 366.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Teaching Tools",
+      title: "Map & Allign Skill, Blooms, LO, PO, CO",
       description:
-        "The Teaching Tools provide educators with a robust suite of features for creating engaging, customizable courses that cater to various learning styles. With multimedia integration, instructors can enhance lessons using videos and interactive simulations. These tools support both in-person and remote learning, enabling real-time collaboration in virtual classrooms and facilitating dynamic discussions. Personalized learning paths allow tailored instruction to meet individual needs, promoting active engagement and fostering an inclusive learning atmosphere.",
-      image: "/lmsservice_images/feature1/Group 360.png",
+        "Mapping and aligning skills, Bloom’s Taxonomy, Learning Outcomes (LO), Program Outcomes (PO), and Course Outcomes (CO) ensures cohesive educational goals. Bloom’s Taxonomy categorizes cognitive skills, which guide course objectives and outcomes. LO specifies individual student achievements, while PO and CO align with broader program goals, ensuring a structured, measurable approach to teaching and learning.",
+      image: "/lmsservice_images/feature1/Group 367.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"
@@ -33,7 +33,7 @@ export default function TeacherManagement() {
       title: "Learning  Tools",
       description:
         "The Learning Tools empower students by offering a range of features that enhance their educational experience. With access to interactive resources, personalized learning paths, and progress tracking, students can engage deeply with course material at their own pace. These tools support both independent study and collaborative learning, ensuring students stay motivated and on track toward their academic goals.",
-      image: "/lmsservice_images/feature1/Group 361.png",
+      image: "/lmsservice_images/feature1/Group 368.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
@@ -43,11 +43,21 @@ export default function TeacherManagement() {
       title: "Curriculum  Planning",
       description:
         "Curriculum Planning is a vital component that enables educators to design and structure effective learning experiences. With tools for creating comprehensive course outlines, aligning learning objectives, and integrating assessments, it ensures that educational content meets both academic standards and student needs. This streamlined approach allows for flexibility and adaptability, facilitating a cohesive curriculum that enhances student engagement and success.",
-      image: "/lmsservice_images/feature1/Group 362.png",
+      image: "/lmsservice_images/feature1/Group 369.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
     },
+    {
+      id: 5,
+       title: "Performance management",
+      description:
+         "Performance management is a strategic process to monitor and improve employee performance. It involves setting clear expectations, providing feedback, and offering support to help individuals meet goals. It includes regular assessments, coaching, and development opportunities to align employees' efforts with organizational objectives, fostering growth, productivity, and motivation within the workforce.",
+       image: "/lmsservice_images/feature1/Group 370.png",
+       url1: "#contact-us",
+       url2: "#feedback",
+       url3: "#support"
+     },
     // {
     //   id: 5,
     //   title: "Discipline Tracking",

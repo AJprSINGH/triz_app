@@ -10,13 +10,83 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Administration Tool",
+      title: "Main stream CBSE",
       description:
-        "The Administration Tool streamlines the management of educational institutions by offering a comprehensive suite of features for efficient operations. This tool enables administrators to handle tasks such as enrollment, scheduling, and compliance with ease, ensuring smooth communication between faculty, students, and staff. With intuitive dashboards and data management capabilities, it simplifies decision-making processes, allowing institutions to focus on enhancing the overall educational experience.",
-      image: "/lmsservice_images/feature3/Group 366.png",
+        "The Central Board of Secondary Education (CBSE) is a national education board in India, overseeing school education from primary to senior secondary levels. It designs curricula, conducts exams, and sets educational standards. CBSE emphasizes holistic learning, focusing on academic excellence, co-curricular activities, and life skills. It is widely recognized for its rigorous and structured approach to education across India and abroad.",
+      image: "/lmsservice_images/feature3/Group 379.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
+    },
+    {
+      id: 2,
+      title: "SEL",
+      description:
+        "Social-Emotional Learning (SEL) is the process of developing self-awareness, emotional regulation, empathy, and interpersonal skills. It helps individuals build strong relationships, make responsible decisions, and manage challenges effectively. SEL fosters a positive mindset and resilience, benefiting academic performance and mental health. Integrated into schools, SEL promotes holistic growth, equipping students for personal and professional success in life.",
+      image: "/lmsservice_images/feature3/Group 380.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 3,
+      title: "Vocational training",
+      description:
+        "Vocational training equips individuals with practical skills and knowledge for specific trades or professions, such as carpentry, healthcare, or IT. It bridges the gap between education and employment, focusing on hands-on experience and industry-relevant expertise. Offered through schools, apprenticeships, or specialized programs, it enhances employability and empowers people to pursue rewarding, skill-based careers tailored to market demands.",
+      image: "/lmsservice_images/feature3/Group 381.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 4,
+      title: "Skill",
+      description:
+        "Skill is the ability to perform tasks with proficiency, developed through practice and learning. It can be technical, creative, or interpersonal, ranging from coding and painting to effective communication. Skills are essential for personal and professional growth, enabling individuals to solve problems, adapt to challenges, and achieve goals. Continuous improvement of skills enhances competence and confidence in various areas of life.",
+      image: "/lmsservice_images/feature3/Group 382.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 5,
+      title: "Sports",
+      description:
+        "Sports are physical activities that promote fitness, teamwork, and entertainment. They range from individual pursuits like running to team games like soccer. Sports foster discipline, resilience, and camaraderie, providing both mental and physical benefits. They unite people across cultures, inspiring passion and competition. From casual play to professional leagues, sports are a universal celebration of human potential and determination.",
+      image: "/lmsservice_images/feature3/Group 383.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 6,
+      title: "Steam courses",
+      description:
+        "STEAM courses integrate Science, Technology, Engineering, Arts, and Mathematics to foster creativity, critical thinking, and problem-solving skills. They emphasize hands-on learning and interdisciplinary approaches, encouraging students to innovate and explore real-world challenges. These programs prepare learners for future careers in diverse fields by blending technical knowledge with artistic expression, promoting holistic development and adaptability in a rapidly evolving world.",
+      image: "/lmsservice_images/feature3/Group 384.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 7,
+      title: "Libraray content",
+      description:
+        "A library is a treasure trove of knowledge, housing books, digital resources, and multimedia materials. It fosters learning, research, and creativity while serving as a quiet retreat for readers. Libraries connect communities, offering programs, study spaces, and free access to information. From ancient manuscripts to modern e-books, libraries preserve the past and inspire future generations.",
+      image: "/lmsservice_images/feature3/Group 385.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 8,
+      title: "Career carriculam",
+      description:
+        "A career curriculum is a structured program designed to help individuals develop the skills, knowledge, and experience needed for professional growth. It includes career exploration, skill-building, mentorship, and practical experience, enabling individuals to align their education and goals with industry needs. This approach fosters lifelong learning, adaptability, and readiness for evolving job market demands.",
+      image: "/lmsservice_images/feature3/Group 386.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
     },
     // {
     //   id: 3,

@@ -10,20 +10,50 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Curriculum Planning",
+      title: "Social & Collabrative",
       description:
-        "Curriculum Planning is a crucial component that enables educators to design structured and effective learning experiences. This feature allows for the development of comprehensive course outlines, aligning learning objectives with assessments and instructional strategies. By fostering collaboration among educators, Curriculum Planning ensures that educational content is relevant, engaging, and tailored to meet the diverse needs of students, ultimately enhancing the overall quality of education.",
-      image: "/ccservice_images/Group 373.png",
+        "Social and collaborative refers to the interaction and cooperation between individuals or groups to achieve common goals. It emphasizes teamwork, sharing ideas, and leveraging diverse skills and perspectives. This approach is common in both personal and professional settings, fostering innovation, communication, and a sense of community while enhancing productivity and problem-solving capabilities.",
+      image: "/ccservice_images/Group 412.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Career Preparation",
+      title: "Portfolio",
       description:
-        "Career Preparation is a vital feature that equips individuals with the skills and knowledge needed to thrive in their chosen professions. Offering practical training, workshops, and resources, it focuses on enhancing key competencies like resume writing, interview techniques, and networking strategies. By promoting a proactive approach to career readiness, Career Preparation ensures that students are well-prepared to meet industry demands and navigate the competitive job market with confidence.",
-      image: "/ccservice_images/Group 374.png",
+        "A portfolio is a collection of work that showcases an individual’s skills, experiences, and accomplishments. It typically includes examples of projects, designs, writing, or other professional work. Portfolios can be digital or physical and are often used to demonstrate expertise, creativity, and versatility to potential clients or employers in fields like design, writing, and photography.",
+      image: "/ccservice_images/Group 413.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 3,
+      title: "Virtual Classroom",
+      description:
+        "A virtual classroom is an online learning environment where instructors and students interact in real-time or asynchronously. It provides tools like video conferencing, chat, shared documents, and multimedia resources to facilitate learning. Virtual classrooms offer flexibility, enabling learners to attend classes remotely, participate in discussions, and access materials from anywhere with an internet connection.",
+      image: "/ccservice_images/Group 414.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 4,
+      title: "Counselling Report ",
+      description:
+        "A counseling report typically includes an overview of the client's background, the issues discussed during sessions, the therapist's observations, and any progress or setbacks. It may highlight strategies used, the client's emotional responses, and specific goals set for future sessions. The report concludes with recommendations or action plans for continued therapy and support.",
+      image: "/ccservice_images/Group 415.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 5,
+      title: "Career Curricula",
+      description:
+        "Career curricula refer to structured educational programs designed to equip students with the necessary knowledge, skills, and competencies for specific careers or industries. These curricula blend theoretical learning with practical experiences, including internships, projects, and certifications, to prepare individuals for successful employment. They are typically tailored to meet the demands of the job market and employer expectations.",
+      image: "/ccservice_images/Group 416.png",
       url1: "#feature-1",
       url2: "#feature-2",
       url3: "#feature-3"

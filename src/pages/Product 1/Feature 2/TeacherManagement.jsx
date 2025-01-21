@@ -10,19 +10,19 @@ export default function TeacherManagement() {
   const contentArray = [
     {
       id: 1,
-      title: "Finance & Petty Cash Management",
+      title: "Fees Collection",
       description:
-        "Finance & Petty Cash Management simplifies your financial landscape by streamlining everything from large transactions to everyday petty expenses. With real-time tracking and smart reporting, this module ensures that every penny is accounted for, empowering you to manage budgets with confidence. Say goodbye to manual reconciliations and hello to a seamless, transparent financial flow—all while keeping your operations running smoothly and efficiently.",
-      image: "/erpservice_images/feature2/Group 343.png",
+        "Fees collection involves the systematic process of gathering payments for services, tuition, or other obligations. It ensures financial accountability and smooth operations. Effective methods include digital payment systems, reminders, and clear policies to avoid delays or disputes. Proper tracking and management are essential to maintain transparency and efficiency in transactions.",
+      image: "/erpservice_images/feature2/Group 346.png",
       url1: "#how-it-works",
       url2: "#how-it-benefits-you",
       url3: "#visualize-your-workflow"
     },
     {
       id: 2,
-      title: "Student Fees Management",
+      title: "Online Fees Management",
       description:
-        "Student Fees Management takes the hassle out of tracking and collecting fees. With automated invoicing, real-time payment updates, and customizable fee structures, this module ensures a smooth and transparent process for both students and administrators. Stay on top of finances while giving students a seamless, stress-free experience.",
+        "Online Fees Management takes the hassle out of tracking and collecting fees. With automated invoicing, real-time payment updates, and customizable fee structures, this module ensures a smooth and transparent process for both students and administrators. Stay on top of finances while giving students a seamless, stress-free experience.",
       image: "/erpservice_images/feature2/Group 344.png",
       url1: "#feature-1",
       url2: "#feature-2",
@@ -30,13 +30,63 @@ export default function TeacherManagement() {
     },
     {
       id: 3,
-      title: "Payment Processing",
+      title: "Petty Cash Management",
       description:
-        "Payment Processing makes transactions effortless with secure, fast, and flexible payment options. From tuition to fees, this module supports multiple payment methods, automates receipts, and provides real-time updates, ensuring a smooth experience for both students and administrators. Simplify payments and keep financial operations running seamlessly.",
-      image: "/erpservice_images/feature2/Group 345.png",
+        "Petty cash management involves tracking and controlling small amounts of cash used for minor business expenses. A designated custodian manages the fund, ensuring it is replenished when low. Accurate records are maintained, and expenditures are documented to prevent misuse or discrepancies, ensuring transparency and accountability in financial operations.",
+      image: "/erpservice_images/feature2/Group 347.png",
       url1: "#contact-us",
       url2: "#feedback",
       url3: "#support"
+    },
+    {
+      id: 4,
+      title: "Fees Reconcilliation",
+      description:
+        "Fee reconciliation is the process of verifying and matching fees charged with payments received. It involves reviewing invoices, payments, and accounting records to ensure accuracy, identify discrepancies, and correct errors. This practice helps maintain financial transparency, improve cash flow management, and ensure proper financial reporting for businesses or institutions.",
+      image: "/erpservice_images/feature2/Group 348.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 5,
+      title: "Fine & discount Management",
+      description:
+        "Fine and discount management involves setting and enforcing penalties for non-compliance with rules, such as late payments or contract violations, while offering discounts as incentives for early payments or loyalty. Effective management balances penalties and rewards to encourage timely behavior, improve cash flow, and maintain customer satisfaction.",
+      image: "/erpservice_images/feature2/Group 349.png",
+      url1: "#contact-us",
+      url2: "#feedback",
+      url3: "#support"
+    },
+    {
+      id: 6,
+      title: "Tally, payment gateway Integeation",
+      description:
+        "Tally payment gateway integration allows businesses to process payments directly within Tally software. This integration enables seamless financial transactions, automating payment collection, and updating records in real-time. It supports various payment methods, enhancing efficiency, reducing manual entry errors, and improving business workflows for better financial management.",
+      image: "/erpservice_images/feature2/Group 350.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
+    },
+    {
+      id: 7,
+      title: "Multiple receipt generation",
+      description:
+        "Multiple receipt generation refers to the process of creating several receipts for a single transaction or multiple transactions. This feature is commonly used in business environments where separate receipts are needed for different departments, customers, or accounting purposes, ensuring accurate tracking and documentation of payments.",
+      image: "/erpservice_images/feature3/Group 351.png",
+      url1: "#how-it-works",
+      url2: "#how-it-benefits-you",
+      url3: "#visualize-your-workflow"
+    },
+    {
+      id: 8,
+      title: "Ai driven fees predictions",
+      description:
+        "AI-driven fee predictions leverage machine learning algorithms to analyze historical data, market trends, and user behavior to forecast future fee structures. This technology helps businesses and financial institutions optimize pricing strategies, enhance revenue generation, and offer more accurate fee models tailored to consumer demand and market fluctuations.",
+      image: "/erpservice_images/feature3/Group 352.png",
+      url1: "#feature-1",
+      url2: "#feature-2",
+      url3: "#feature-3"
     },
     // {
     //   id: 4,
@@ -79,7 +129,6 @@ export default function TeacherManagement() {
     //   url3: "#support"
     // },
   ];
-
   return (
     <>
     {contentArray.map((item) => (
