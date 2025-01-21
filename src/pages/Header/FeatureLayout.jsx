@@ -216,13 +216,13 @@ const rightMenuForCommunication = [
        {
        id: 6,
        title: "Library management",
-       url1: "/erpservice/visitor",  
+       url1: "/library",  
        url2: "/erpservice/visitor-benefits"  
        },
        {
        id: 7,
        title: "Hostel Management",
-       url1: "/erpservice/digital-records",  
+       url1: "/hostelmanagment",  
        url2: "/erpservice/digital-records-benefits"  
        },
        {
@@ -249,13 +249,13 @@ const rightMenuForCommunication = [
        {
          id: 11,
          title: "Fees collection",
-         url1: "/erpservice/finance-petty-cash",  
+         url1: "/feescollection",  
          url2: "/erpservice/finance-petty-cash-benefits"
        },
        {
          id: 12,
          title: "Online fees management",
-         url1: "/erpservice/student-fees",  
+         url1: "onlinefees",  
          url2: "/erpservice/student-fees-benefits"
        },
        {
@@ -279,13 +279,13 @@ const rightMenuForCommunication = [
        {
          id: 16,
          title: "Tally, payment gateway Integration",
-         url1: "/erpservice/payment-processing",  
+         url1: "/tallyandpayment",  
          url2: "/erpservice/payment-processing-benefits"
        },
        {
          id: 17,
          title: "Multiple receipt generation",
-         url1: "/erpservice/payment-processing",  
+         url1: "multiplereceipt",  
          url2: "/erpservice/payment-processing-benefits"
        },
        {
@@ -313,7 +313,7 @@ const rightMenuForCommunication = [
        {
          id: 21,
          title: "Student Attendance",
-         url1: "/erpservice/attendance",  
+         url1: "/studentattendance",  
          url2: "/erpservice/attendance-benefits"
        },
        {
@@ -347,7 +347,7 @@ const rightMenuForCommunication = [
        {
          id: 26,
          title: "Communication Solutions",
-         url1: "/erpservice/communication-tools",  
+         url1: "communicationsolution",  
          url2: "/erpservice/communication-tools-benefits"
        },
        {
