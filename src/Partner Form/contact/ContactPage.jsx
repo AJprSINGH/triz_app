@@ -25,7 +25,7 @@ const ContactPage = () => {
           <div className="flex flex-col my-40 items-center max-md:mt-10">
             <div className="flex flex-col max-w-full text-slate-900 w-[360px]">
               <div className="text-3xl font-osbold leading-none">
-                Let's talk with us
+                Let&apos;s talk with us
               </div>
               <div className="mt-5 text-sm font-osregular leading-7">
                 Looking to collaborate with us? Complete the form below to start
