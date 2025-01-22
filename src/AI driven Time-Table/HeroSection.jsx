@@ -56,7 +56,7 @@ Simplify Scheduling Today!
               </div>
               <div className="mt-5 text-lg font-interregular leading-6 w-[571px] max-md:max-w-full">
               Timetable creation has never been easier. With the AI-Driven Timetable Generation Module, your school 
-              can enjoy a seamless, automated scheduling experience tailored to your institution's needs.
+              can enjoy a seamless, automated scheduling experience tailored to your institution&apos;s needs.
               </div>
               <div className="mt-8 text-lg leading-6 w-[601px] max-md:max-w-full">
               This module leverages advanced AI algorithms to create efficient, error-free timetables that balance teacher workloads, 

@@ -57,7 +57,7 @@ Request Your Chatbot Today
               </div>
               <div className="mt-5 text-lg font-interregular leading-6 w-[571px] max-md:max-w-full">
               Scholar Clone&rsquo;s Chatbot Module is a cutting-edge solution built to address the unique challenges 
-              of ERP navigation. Whether you're managing data, accessing reports, or simply seeking guidance, 
+              of ERP navigation. Whether you&apos;re managing data, accessing reports, or simply seeking guidance, 
               this AI-powered assistant is at your service.
               </div>
               <div className="mt-8 text-lg leading-6 w-[601px] max-md:max-w-full">
@@ -174,7 +174,7 @@ Request Your Chatbot Today
     <h4 className="text-4xl mt-4 font-quicksandbold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(21, 70, 120, 1)'
     }}>
-    Discover the unparalleled ease of Scholar Clone's Chatbot Module today.
+    Discover the unparalleled ease of Scholar Clone&apos;s Chatbot Module today.
     </h4>
     <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
     <button 

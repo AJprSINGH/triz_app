@@ -72,12 +72,12 @@ export default function BlogsPage() {
   >
   <div className="flex overflow-hidden flex-col pt-20 max-w-full h-full bg-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
     <h1 className="text-4xl font-lxe text-center max-md:max-w-full max-md:text-4xl underline decoration-[rgba(34,226,127,1)] decoration-4">
-    Revolutionize Your School's Transportation Management
+    Revolutionize Your School&apos;s Transportation Management
     </h1>
     <h4 className="text-lg mt-20 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(18, 20, 29, 1)'
     }}>
-Ensure safe and efficient transportation for your students with Scholar Clone ERP's Transportation Management Module. Track student pick-up and drop-off points, manage bus shifts, and monitor real-time schedules—all from a single dashboard. Enhance operational efficiency and ensure peace of mind for parents and administrators alike.    </h4>
+Ensure safe and efficient transportation for your students with Scholar Clone ERP&apos;s Transportation Management Module. Track student pick-up and drop-off points, manage bus shifts, and monitor real-time schedules—all from a single dashboard. Enhance operational efficiency and ensure peace of mind for parents and administrators alike.    </h4>
     <div className="flex flex-row gap-10 items-center justify-center">
 <button 
   className="self-center px-5 py-2 mt-12 mb-0 text-sm text-white font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
