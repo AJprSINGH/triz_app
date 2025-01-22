@@ -28,5 +28,5 @@ export const benefitsData = [
     title: "Encourage Feedback and Continuous Improvement",
     description:
       "Cultivate a feedback-rich culture where suggestions and complaints contribute to the school's continuous growth and excellence.",
-  },
+  },
 ];
