@@ -7,7 +7,7 @@ export default function Benefits() {
     <div className="flex items-center justify-center">
       <div className="flex flex-col items-center justify-center pt-32 w-full max-w-screen-xl bg-white">
         <h1 className="text-3xl font-lxesemibold leading-none text-center text-zinc-900 underline decoration-[rgba(34,226,127,1)] decoration-4">
-        Why Choose Scholar Clone's Transportation Management Module?
+        Why Choose Scholar Clone&apos;s Transportation Management Module?
         </h1>
 
         <div className="mt-20 w-full flex items-center justify-center max-md:mt-10">
