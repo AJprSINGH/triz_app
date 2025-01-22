@@ -56,9 +56,9 @@ while ensuring that parents, teachers, and students stay informed at every step.
     <div className="overflow-hidden">
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-[57%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col grow mt-20 text-2xl text-slate-800 max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-col grow mt-16 text-2xl text-slate-800 max-md:mt-10 max-md:max-w-full">
             <div className="flex flex-col items-start self-end px-20 max-w-full w-[733px]">
-              <div className="mt-5 text-lg font-intersemibold leading-6 w-[571px] max-md:max-w-full">
+              <div className="mt-0 text-sm font-intersemibold leading-6 w-[571px] max-md:max-w-full">
               Exams are a critical part of any school&rsquo;s academic framework, and managing them effectively requires precision. Schools often face challenges like:<br/>
 •	Complicated Scheduling: Coordinating multiple exams for different grades and sections.<br/>
 •	Result Compilation Errors: Manual result entry leading to mistakes or delays.<br/>
@@ -114,18 +114,18 @@ The Exam Management & Result/Report Card Module resolves these challenges, allow
               </div>
               <div className="mt-8 text-sm text-zinc-600">
               Record student scores and grades directly into the system.
-              Handle exams with custom grading systems, including percentages, grades, or cumulative marks.
+              Handle exams with custom grading systems, including percentages, grades.
               </div>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
           <div className="flex overflow-hidden flex-col pt-10 pr-16 pb-16 pl-8 w-full font-inter bg-white rounded-lg shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
               <div className="text-lg text-neutral-800">
-              Professional Report Card Generation
+              Professional Report Card
               </div>
               <div className="mt-8 text-sm text-zinc-600">
               Create visually appealing report cards tailored to your school&rsquo;s branding and standards.
-              Generate report cards in different languages to cater to diverse audiences.
+              Generate report cards in different languages.
               </div>
             </div>
           </div>

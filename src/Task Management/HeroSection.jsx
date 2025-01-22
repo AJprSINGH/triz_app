@@ -180,7 +180,7 @@ export default function BlogsPage() {
             Take the Stress Out of Managing Tasks
             </div>
             <div className="mt-8 text-2xl font-interregular max-md:mr-2.5 max-md:max-w-full">
-            With Scholar Clone’s Task Management Module, your school can eliminate inefficiencies, improve collaboration, and ensure every task is completed on time. Empower your team with tools that make task management a breeze.
+            With Scholar Clone’s Task Management Module, your school can eliminate inefficiencies, improve collaboration, and ensure every task is completed on time.
             </div>
             <div className="flex flex-wrap gap-10 text-white">
       <button
@@ -192,7 +192,7 @@ export default function BlogsPage() {
         tabIndex={0}
         aria-label="Book Your Demo Now"
       >
-        Start Today – Build a More Organized and Productive School!
+        Start Today
       </button>
       <button
         className="px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"

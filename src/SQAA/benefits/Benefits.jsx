@@ -21,14 +21,14 @@ export default function Benefits() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-10 mx-60">
+      <div className="flex justify-center items-center mt-6 mx-60">
         
         <div className="builder-canvas relative max-w-full w-full max-md:mt-10 bg-gray-400 bg-opacity-30 rounded-2xl p-0 border-4 border-gray-400 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
           <div className="grid grid-cols-3 gap-6">
             {benefitsData.map((benefit, index) => (
               <div
                 key={index}
-                className={`p-6 rounded-br-lg  flex flex-col items-start ${
+                className={`p-4 rounded-br-lg  flex flex-col items-start ${
                   index === benefitsData.length - 1
                     ? "bg-[rgb(17,24,38)] text-white"
                     : "text-black"

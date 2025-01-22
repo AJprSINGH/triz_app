@@ -100,8 +100,7 @@ organized, making policy management hassle-free.</p>
               </div>
               <div className="self-start mt-8 text-sm text-zinc-600">
                 Store all school policies academic, operational, safety, and HR in one secure, searchable database,
-                Quick Retrieval: Find policies instantly with advanced search and filter options,
-                Version Control: Keep track of policy updates and ensure staff always access the latest versions.
+                Quick Retrieval: Find policies instantly with advanced search and filter options.
 
               </div>
             </div>
@@ -114,7 +113,7 @@ organized, making policy management hassle-free.</p>
               <div className="mt-8 text-sm text-zinc-600">
               Assign implementation responsibilities to specific staff members or departments.
               Monitor the status of policy implementation in real time, from initiation to completion.
-              Create custom checklists to ensure every step of a policy is followed accurately.
+              
               </div>
             </div>
           </div>

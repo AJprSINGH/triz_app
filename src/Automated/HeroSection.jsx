@@ -57,7 +57,7 @@ Effective communication is the backbone of every successful school. The Automate
         <div className="flex flex-col w-[57%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow mt-20 text-2xl text-slate-800 max-md:mt-10 max-md:max-w-full">
             <div className="flex flex-col items-start self-end px-20 max-w-full w-[733px]">
-              <div className="mt-5 text-lg font-intersemibold leading-6 w-[571px] max-md:max-w-full">
+              <div className="mt-0 text-lg font-intersemibold leading-6 w-[571px] max-md:max-w-full">
               Manually managing communication can lead to:<br/>
                 •	Missed Deadlines: Important messages or follow-ups falling through the cracks.<br/>
                 •	Inefficiency: Repeating the same tasks across different audiences.<br/>
@@ -103,7 +103,7 @@ Effective communication is the backbone of every successful school. The Automate
               <div className="self-start mt-8 text-sm text-zinc-600">
                 Welcome callers with automated, customizable voice messages.
                 Communicate effectively with diverse audiences by offering multiple 
-                language options.
+                languages.
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@ Effective communication is the backbone of every successful school. The Automate
               </div>
               <div className="mt-8 text-sm text-zinc-600">
               Notify parents about upcoming fee deadlines or overdue payments.
-              Streamline follow-ups with prospective students and parents for smooth admissions.
+              Streamline follow-ups with prospective  for smooth admissions.
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ Effective communication is the backbone of every successful school. The Automate
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
-          <div className="flex overflow-hidden flex-col pt-10 pr-16 pb-20 pl-8 w-full font-inter bg-white rounded-lg shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
+          <div className="flex overflow-hidden flex-col pt-10 pr-16 pb-16 pl-8 w-full font-inter bg-white rounded-lg shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
               <div className="text-lg text-neutral-800">
               Customizable Messaging
               </div>

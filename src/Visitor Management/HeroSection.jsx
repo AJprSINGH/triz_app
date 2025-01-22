@@ -55,9 +55,9 @@ create a safe and organized environment while making a positive first impression
     <div className="overflow-hidden">
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-[57%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col grow mt-20 text-2xl text-slate-800 max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-col grow mt-16 text-2xl text-slate-800 max-md:mt-10 max-md:max-w-full">
             <div className="flex flex-col items-start self-end px-20 max-w-full w-[733px]">
-              <div className="mt-5 text-lg font-intersemibold leading-6 w-[571px] max-md:max-w-full">
+              <div className="mt-0 text-lg font-intersemibold leading-6 w-[571px] max-md:max-w-full">
               An outdated or manual visitor tracking process can lead to:<br/>
 •	Security Gaps: No clear record of who enters and exits the premises.<br/>
 •	Time Wastage: Long queues and slow manual registration processes.<br/>
@@ -143,13 +143,13 @@ The Visitor Management System eliminates these issues, ensuring a secure, fast, 
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
-          <div className="flex overflow-hidden flex-col pt-10 pr-16 pb-20 pl-8 w-full font-inter bg-white rounded-lg shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
+          <div className="flex overflow-hidden flex-col pt-10 pr-16 pb-16 pl-8 w-full font-inter bg-white rounded-lg shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
               <div className="text-lg text-neutral-800">
               Comprehensive Reports
               </div>
               <div className="mt-8 text-sm text-zinc-600">
                 Maintain detailed records of all visits for security and compliance.
-                Generate purpose of visit, or visitor type for better insights.
+                Generate purpose of visit.
               </div>
             </div>
           </div>

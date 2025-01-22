@@ -99,10 +99,10 @@ Get Started Today – Simplify Your PTM Process!
           {featureData.map((feature, index) => (
             <div key={index} className="flex flex-col w-full max-md:ml-0 max-md:w-full">
             <div className="flex overflow-hidden flex-col grow px-10 pt-8 pb-6 w-full tracking-tighter leading-9 text-center text-black bg-white rounded-lg max-md:px-5 max-md:mt-10">
-              <div className="text-2xl font-lxsemibold max-md:mr-1.5">
+              <div className="text-xl font-lxsemibold max-md:mr-1.5">
                 {feature.title}
               </div>
-              <div className="mt-2 text-[15px] font-interregular">
+              <div className="mt-2 text-[12px] font-interregular">
                 {feature.description}
               </div>
             </div>
