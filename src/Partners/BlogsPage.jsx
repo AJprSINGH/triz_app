@@ -3,6 +3,7 @@ import { BlogCard } from "./BlogCard";
 import Header from "../pages/Header_C/NavBar";
 import { SearchBar } from "./SearchBar";
 import Footer from "../pages/Footer_C/Footer";
+
 const blogData = [
   {
     category: "School",
@@ -47,6 +48,7 @@ const blogData = [
 ];
 
 export default function BlogsPage() {
+  
   return (
     <>
     <main className='text-xl'>
@@ -68,8 +70,8 @@ export default function BlogsPage() {
         Join hands with us to revolutionize learning for K-12, higher education, and corporate training. Together, we can empower institutions, educators, and learners to achieve more.
         </h4>
         <button 
-      className="self-center px-5 py-2 mt-12 mb-0 text-lg font-inter bg-sky-500 rounded-3xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
-      onClick={() => {}}
+      className="self-center px-5 py-2 mt-12 mb-0 text-lg font-inter bg-sky-500 rounded-3xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5 hover:bg-sky-600 hover:scale-105 hover:shadow-lg transition-all duration-300"
+      onClick={() => (window.location.href = "/partner_form")}
       tabIndex={0}
       aria-label="Book Your Demo Now"
     >
