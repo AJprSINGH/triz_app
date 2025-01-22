@@ -46,14 +46,14 @@ const rightMenuForLMS = [
   {
     id: 2,
     icon: "/home_images/Megamenu/LMS/2.png",
-    title: "Test & Assesment",
+    title: "Test & Assessment",
     description: "Tools to assess student performance, track progress, and measure educational outcomes for growth.",
     url: "/lmsservice"
   },
   {
     id: 3,
     icon: "/home_images/Megamenu/LMS/3.png",
-    title: "Content libraray",
+    title: "Content library",
     description: "Systems to handle school or institution administration, course management, and scheduling.",
     url: "/lmsservice"
   },
@@ -406,7 +406,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 4,
-         title: "Carriculam planning",
+         title: "Curriculum planning",
          url1: "/lmsservice/curriculum-planning",  
          url2: "/lmsservice/curriculum-planning-benefits"
        },
@@ -444,7 +444,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 10,
-         title: "Question papaer generation",
+         title: "Question paper generation",
          url1: "/lmsservice/mtss",  
          url2: "/lmsservice/mtss-benefits"
        },
@@ -500,19 +500,19 @@ const rightMenuForCommunication = [
        },
        {
          id: 19,
-         title: "Steam courses",
+         title: "STEM courses",
          url1: "/lmsservice/engagement-tools",  
          url2: "/lmsservice/engagement-tools-benefits"
        },
        {
          id: 20,
-         title: "Libraray contenet",
+         title: "Library content",
          url1: "/lmsservice/engagement-tools",  
          url2: "/lmsservice/engagement-tools-benefits"
        },
        {
          id: 21,
-         title: "Career carriculam",
+         title: "Career curriculum",
          url1: "/lmsservice/engagement-tools",  
          url2: "/lmsservice/engagement-tools-benefits"
        }
@@ -521,7 +521,7 @@ const rightMenuForCommunication = [
      [
        {
          id: 22,
-         title: "Student Support & engangmenet",
+         title: "Student Support & engagement",
          url1: "/lmsservice/performance-feedback",  
          url2: "/lmsservice/performance-feedback-benefits"
        },
@@ -533,7 +533,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 24,
-         title: "Teacher dairy",
+         title: "Teacher diary",
          url1: "/lmsservice/performance-feedback",  
          url2: "/lmsservice/performance-feedback-benefits"
        },
@@ -551,7 +551,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 27,
-         title: "Social & coloborative learning",
+         title: "Social & collaborative learning",
          url1: "/lmsservice/performance-feedback",  
          url2: "/lmsservice/performance-feedback-benefits"
        },
@@ -583,7 +583,7 @@ const rightMenuForCommunication = [
     [
       {
         id: 2,
-        title: "Intrest Profiler",
+        title: "Interest Profiler",
         url1: "/career-counselling/assessment",  
         url2: "/career-counselling/assessment-benefits"
       },
@@ -692,7 +692,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 3,
-         title: "Pre-Assessment ToolsInterview Management",
+         title: "Pre-Assessment Tools Interview Management",
          url1: "/communication/circulars",  
          url2: "/communication/circulars-benefits"
        },
@@ -704,7 +704,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 5,
-         title: "Compliance Management, HR, Govt, Industry",
+         title: "Compliance Management, HR, Govt. , Industry",
          url1: "/communication/circulars",  
          url2: "/communication/circulars-benefits"
        },
@@ -722,7 +722,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 8,
-         title: "Communication Toolst",
+         title: "Communication Tools",
          url1: "/communication/circulars",  
          url2: "/communication/circulars-benefits"
        }
@@ -742,7 +742,7 @@ const rightMenuForCommunication = [
        },
        {
          id: 11,
-         title: "Complaince Training",
+         title: "Compliance Training",
          url1: "/communication/teacher-diary",  
          url2: "/communication/teacher-diary-benefits"
        },
