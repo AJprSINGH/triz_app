@@ -21,57 +21,33 @@ export default function Benefits() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-0 ">
-  <div className="builder-canvas relative max-w-full w-full max-md:mt-10 bg-gray-400 bg-opacity-30 rounded-2xl h-[450px] w-full mr-[259px] ml-[259px] border-4 border-gray-400 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-    <div className="flex relative shrink-0 rounded-full border-green-600 border-solid border-[25px] h-[260px] left-[0px] top-[420px] w-[260px]" />
-    <div className="absolute top-8 text-lg font-inter h-[53px] left-[26.60415649414062px] w-[253px]">
-      Strengthen Trust and Relationships
-    </div>
-    <div className="absolute text-sm font-interregular h-[107px] left-[26.60415649414062px] top-[100.33331298828125px] w-[228px]">
-      Show parents, students, and staff that their voices matter. Timely
-      responses foster trust and a stronger sense of community.
-    </div>
-    <div className="absolute top-8 text-lg font-inter h-[53px] left-[300.3750305175781px] w-[253px]">
-      Boost Efficiency and Accountability
-    </div>
-    <div className="absolute text-sm font-interregular h-[107px] left-[300.3750305175781px] top-[100.33331298828125px] w-[228px]">
-      Streamline complaint handling, reduce response times, and track every
-      step for complete accountability.
-    </div>
-    
-    <div className="absolute top-8 text-lg font-inter h-[53px] left-[580.1459045410156px] w-[253px]">
-      Identify and Address Root Causes
-    </div>
-    <div className="absolute text-sm font-interregular h-[107px] left-[580.1459045410156px] top-[100.33331298828125px] w-[228px]">
-      Use analytics to spot patterns and address recurring issues, improving
-      overall school management.
-    </div>
-    
-    <div className="absolute text-lg font-inter h-[53px] left-[26.60415649414062px] top-[250px] w-[253px]">
-      Strengthen Trust and Relationships
-    </div>
-    <div className="absolute text-sm font-interregular h-[107px] left-[26.60415649414062px] top-[318.33331298828125px] w-[228px]">
-      Show parents, students, and staff that their voices matter. Timely
-      responses foster trust and a stronger sense of community.
-    </div>
-    <div className="absolute text-lg font-inter h-[53px] left-[300.3750305175781px] top-[250px] w-[253px]">
-      Boost Efficiency and Accountability
-    </div>
-    <div className="absolute text-sm font-interregular h-[107px] left-[300.3750305175781px] top-[318.33331298828125px] w-[228px]">
-      Streamline complaint handling, reduce response times, and track every
-      step for complete accountability.
-    </div>
-    <div className="flex overflow-hidden absolute flex-col grow pt-8 pr-10 pb-28 pl-4  bg-gray-900 rounded-br-xl h-[218px] left-[540.1459045410156px] top-[224px] w-[283px] max-md:pr-5 max-md:pb-24" />
-    <div className="absolute text-lg font-inter text-white h-[53px] left-[580.1459045410156px] top-[250px] w-[253px]">
-      Identify and Address Root Causes
-    </div>
-    <div className="absolute text-sm font-interregular text-white h-[107px] left-[580.1459045410156px] top-[318.33331298828125px] w-[228px]">
-      Use analytics to spot patterns and address recurring issues, improving
-      overall school management.
-    </div>
-  </div>
-</div>
-
+      <div className="flex justify-center items-center mt-0 mx-60">
+        
+        <div className="builder-canvas relative max-w-full w-full max-md:mt-10 bg-gray-400 bg-opacity-30 rounded-2xl p-0 border-4 border-gray-400 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+          <div className="grid grid-cols-3 gap-6">
+            {benefitsData.map((benefit, index) => (
+              <div
+                key={index}
+                className={`p-6 rounded-br-lg  flex flex-col items-start ${
+                  index === benefitsData.length - 1
+                    ? "bg-[rgb(17,24,38)] text-white"
+                    : "text-black"
+                }`}
+              >
+                <div className="text-xl font-inter  mb-4">
+                  {benefit.title}
+                </div>
+                <div className="text-sm font-interregular ">
+                  {benefit.description}
+                </div>
+              </div>
+            ))}
+            <div className="absolute bottom-[-220px] left-[-100px]">
+              <div className="flex relative shrink-0 rounded-full border-green-600 border-solid border-[25px] h-[260px] w-[260px]" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
