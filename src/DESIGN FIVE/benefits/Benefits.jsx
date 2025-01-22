@@ -21,7 +21,7 @@ export default function Benefits() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center mt-0 mx-60">
+      <div className="flex justify-center items-center mt-10 mx-60">
         
         <div className="builder-canvas relative max-w-full w-full max-md:mt-10 bg-gray-400 bg-opacity-30 rounded-2xl p-0 border-4 border-gray-400 shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
           <div className="grid grid-cols-3 gap-6">
@@ -42,12 +42,12 @@ export default function Benefits() {
                 </div>
               </div>
             ))}
-            <div className="absolute bottom-[-220px] left-[-100px]">
+            <div className="absolute bottom-[-250px] left-[-100px]">
               <div className="flex relative shrink-0 rounded-full border-green-600 border-solid border-[25px] h-[260px] w-[260px]" />
             </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+</div>
+);
 }
