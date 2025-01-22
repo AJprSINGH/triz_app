@@ -9,7 +9,7 @@ export default function Benefits() {
         <div className="flex gap-5 max-md:flex-col">
           <div className="flex flex-col w-full items-center justify-center  max-md:ml-0 max-md:w-full">
             <div className="mt-10 text-3xl font-inter pl-40 text-center text-sky-800 max-md:mt-10 max-md:max-w-full">
-              Why Your School Needs the Complain Management Module?
+            Why Schools Love AI-Driven Timetable Generation?
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[17%] max-md:ml-0 max-md:w-full">

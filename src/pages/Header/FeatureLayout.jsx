@@ -228,19 +228,19 @@ const rightMenuForCommunication = [
        {
        id: 8,
        title: "Task Management",
-       url1: "/erpservice/inventory",  
+       url1: "/task",  
        url2: "/erpservice/inventory-benefits"  
        },
        {
          id: 9,
          title: "Complaince management",
-         url1: "/erpservice/inventory",  
+         url1: "/compliance",  
          url2: "/erpservice/inventory-benefits"  
        },
        {
          id: 10,
          title: "SQAA",
-         url1: "/erpservice/inventory",  
+         url1: "/SQAA",  
          url2: "/erpservice/inventory-benefits"  
        }
        
@@ -261,19 +261,19 @@ const rightMenuForCommunication = [
        {
          id: 13,
          title: "Petty Cash management",
-         url1: "/erpservice/library",  
+         url1: "/pettyCash",  
          url2: "/erpservice/library-benefits"
        },
        {
          id: 14,
          title: "Fees Reconciliation",
-         url1: "/erpservice/payment-processing",  
+         url1: "/FeesReconciliation",  
          url2: "/erpservice/payment-processing-benefits"
        },
        {
          id: 15,
          title: "Fine & discount management",
-         url1: "/erpservice/payment-processing",  
+         url1: "/FineandDiscount",
          url2: "/erpservice/payment-processing-benefits"
        },
        {
@@ -291,7 +291,7 @@ const rightMenuForCommunication = [
        {
          id: 18,
          title: "AI driven fees predictions",
-         url1: "/erpservice/payment-processing",  
+         url1: "/aiDrivenFees",  
          url2: "/erpservice/payment-processing-benefits"
        }
      ],
@@ -301,13 +301,13 @@ const rightMenuForCommunication = [
        {
          id: 19,
          title: "Exam management, Result/Report Card",
-         url1: "/erpservice/education-crm",  
+         url1: "/ExamMangement",  
          url2: "/erpservice/education-crm-benefits"
        },
        {
          id: 20,
          title: "Student academic profile",
-         url1: "/erpservice/student-profiles",  
+         url1: "/StudentAcademic",  
          url2: "/erpservice/student-profiles-benefits"
        },
        {
@@ -319,25 +319,25 @@ const rightMenuForCommunication = [
        {
          id: 22,
          title: "Transport Management",
-         url1: "/erpservice/gradebook",  
+         url1: "/transportation",  
          url2: "/erpservice/gradebook-benefits"
        },
        {
          id: 23,
          title: "Library Management",
-         url1: "/erpservice/certificate-generation",  
+         url1: "/newLibraryManagement",  
          url2: "/erpservice/certificate-generation-benefits"
        },
        {
          id: 24,
          title: "Visitor Management",
-         url1: "/erpservice/icards",  
+         url1: "/VisitorManagement",  
          url2: "/erpservice/icards-benefits"
        },
        {
          id: 25,
          title: "AI driven time table",
-         url1: "/erpservice/hostel",  
+         url1: "/AiDrivenTimeTable",  
          url2: "/erpservice/hostel-benefits"
        }
      ],
@@ -353,13 +353,13 @@ const rightMenuForCommunication = [
        {
          id: 27,
          title: "parents (PTM (Parent-Teacher Meetings)",
-         url1: "/erpservice/parental-engagement",  
+         url1: "/ptm",  
          url2: "/erpservice/parental-engagement-benefits"
        },
        {
          id: 28,
          title: "Circulars & Notifications, Teacher Diary",
-         url1: "/erpservice/complaint-feedback",  
+         url1: "/CircularNotification",  
          url2: "/erpservice/complaint-feedback-benefits"
        },
        {
@@ -371,13 +371,13 @@ const rightMenuForCommunication = [
        {
          id: 30,
          title: "Automated ",
-         url1: "/erpservice/student-performance",  
+         url1: "/Automated",  
          url2: "/erpservice/student-performance-benefits"
        },
        {
          id: 31,
          title: "Chat-Bot",
-         url1: "/erpservice/student-performance",  
+         url1: "/Chatbot",  
          url2: "/erpservice/student-performance-benefits"
        }
    
