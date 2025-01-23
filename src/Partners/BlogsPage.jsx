@@ -16,7 +16,7 @@ const blogData = [
     category: "Solution Partner",
     title: "Innovative Solution Providers",
     description: "Delivering cutting-edge solutions for complex problems in education and beyond.",
-    imageSrc: "/Partners_Images/Solution Partner.jpg", // Original imageSrc
+    imageSrc: "/Partners_Images/Solution-partner.jpg", 
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
