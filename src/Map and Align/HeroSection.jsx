@@ -182,7 +182,7 @@ export default function BlogsPage() {
             Engage Your Students Like Never Before
             </div>
             <div className="mt-8 text-2xl font-interregular max-md:mr-2.5 max-md:max-w-full">
-              YoBy integrating Bloom's Taxonomy with clear Learning, Course, and Program Objectives,you can create a 
+              YoBy integrating Bloom&apos;s Taxonomy with clear Learning, Course, and Program Objectives,you can create a 
               comprehensive educational experience that challenges and inspires. 
             </div>
             <div className="flex flex-wrap gap-10 text-white">
