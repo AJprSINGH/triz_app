@@ -389,19 +389,19 @@ const rightMenuForCommunication = [
        {
          id: 1,
          title: "Teaching tools ",
-         url1: "/lmsservice/teaching-tools",  
+         url1: "/teachingtool",  
          url2: "/lmsservice/teaching-tools-benefits"
        },
        {
          id: 2,
          title: "Map & Allign Skill, Blooms, LO, PO, CO",
-         url1: "/lmsservice/learning-tools",  
+         url1: "/MapAlign",  
          url2: "/lmsservice/learning-tools-benefits"
        },
        {
          id: 3,
          title: "Learning tools",
-         url1: "/lmsservice/curriculum-planning",  
+         url1: "/learingtool",  
          url2: "/lmsservice/curriculum-planning-benefits"
        },
        {
@@ -413,7 +413,7 @@ const rightMenuForCommunication = [
        {
          id: 5,
          title: "Performance management",
-         url1: "/lmsservice/curriculum-planning",  
+         url1: "/PerformanceManagement",  
          url2: "/lmsservice/curriculum-planning-benefits"
        }
      ],
@@ -421,13 +421,13 @@ const rightMenuForCommunication = [
        {
          id: 6,
          title: "Measuring learning growth",
-         url1: "/lmsservice/mtss",  
+         url1: "/MeasuringLearning",  
          url2: "/lmsservice/mtss-benefits"
        },
        {
          id: 7,
          title: "Homework management",
-         url1: "/lmsservice/mtss",  
+         url1: "/HomeWorkManagement",  
          url2: "/lmsservice/mtss-benefits"
        },
        {
@@ -445,13 +445,13 @@ const rightMenuForCommunication = [
        {
          id: 10,
          title: "Question paper generation",
-         url1: "/lmsservice/mtss",  
+         url1: "/questionPaperGen",  
          url2: "/lmsservice/mtss-benefits"
        },
        {
          id: 11,
          title: "Assesment tools, various type questions creation",
-         url1: "/lmsservice/mtss",  
+         url1: "/AssessmentTools",  
          url2: "/lmsservice/mtss-benefits"
        },
        {
@@ -477,19 +477,19 @@ const rightMenuForCommunication = [
        {
          id: 15,
          title: "SEL",
-         url1: "/lmsservice/engagement-tools",  
+         url1: "/SEL",  
          url2: "/lmsservice/engagement-tools-benefits"
        },
        {
          id: 16,
          title: "Vocational training",
-         url1: "/lmsservice/engagement-tools",  
+         url1: "/VocationalTraining",  
          url2: "/lmsservice/engagement-tools-benefits"
        },
        {
          id: 17,
          title: "Skill",
-         url1: "/lmsservice/engagement-tools",  
+         url1: "/Skill",  
          url2: "/lmsservice/engagement-tools-benefits"
        },
        {
@@ -507,13 +507,13 @@ const rightMenuForCommunication = [
        {
          id: 20,
          title: "Library content",
-         url1: "/lmsservice/engagement-tools",  
+         url1: "/LibraryContent",  
          url2: "/lmsservice/engagement-tools-benefits"
        },
        {
          id: 21,
          title: "Career curriculum",
-         url1: "/lmsservice/engagement-tools",  
+         url1: "/Careercurriculum",  
          url2: "/lmsservice/engagement-tools-benefits"
        }
        
@@ -522,7 +522,7 @@ const rightMenuForCommunication = [
        {
          id: 22,
          title: "Student Support & engagement",
-         url1: "/lmsservice/performance-feedback",  
+         url1: "studentsupport",  
          url2: "/lmsservice/performance-feedback-benefits"
        },
        {
@@ -540,7 +540,7 @@ const rightMenuForCommunication = [
        {
          id: 25,
          title: "Leaderboard/gamification",
-         url1: "/lmsservice/performance-feedback",  
+         url1: "/Leaderboard",  
          url2: "/lmsservice/performance-feedback-benefits"
        },
        {
@@ -552,7 +552,7 @@ const rightMenuForCommunication = [
        {
          id: 27,
          title: "Social & collaborative learning",
-         url1: "/lmsservice/performance-feedback",  
+         url1: "/SocialCollaborative",  
          url2: "/lmsservice/performance-feedback-benefits"
        },
        {
