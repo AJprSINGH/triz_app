@@ -23,7 +23,7 @@ const blogData = [
     category: "Technology Partner",
     title: "Tech Advancements Leaders",
     description: "Empowering your journey with the latest technologies to ensure growth.",
-    imageSrc: "/Partners_Images/technology partner.jpg", // Original imageSrc
+    imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/516bb04816bad15fe89bd101bc071379d5a3e0ebf25247773b691989e71d3b9b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323", // Original imageSrc
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
@@ -37,7 +37,7 @@ const blogData = [
     category: "Psychologist",
     title: "Mental Health Experts",
     description: "Providing essential mental health support for a balanced and healthy mind.",
-    imageSrc: "path/to/image5.jpg", // Original imageSrc
+    imageSrc: "/Partners_Images/One.jpg", // Original imageSrc
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
@@ -85,7 +85,7 @@ export default function BlogsPage() {
       </div>
     </div>
     <div className="flex flex-col items-center">
-      <div className="flex lg:flex-wrap gap-5 justify-between mt-9 lg:px-20 sm:px-10 w-full max-w-screen-2xl max-md:max-w-full">
+      <div className="flex lg:flex-wrap gap-5 mt-9 justify-between lg:px-20 sm:px-10 w-full max-w-screen-2xl max-md:max-w-full">
       <div className="sm:flex lg:grid lg:grid-cols-4 sm:flex-col gap-8 w-full">
         {blogData.map((blog, index) => (
           <div key={index} className="lg:flex-grow sm:flex flex-1 h-full transition-all duration-300 transform hover:scale-105 hover:shadow-5xl">
