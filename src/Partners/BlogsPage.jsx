@@ -6,44 +6,46 @@ import Footer from "../pages/Footer_C/Footer";
 
 const blogData = [
   {
-    category: "School",
-    title: "School Partners",
-    description:
-      "Empowering K-12 schools with modern management and learning tools.",
-    imageSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/f094e90160c96adac0aa171e141fae8a23d20ee4fd87ea4be80ca01b8f16e3bd?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    iconSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    category: "Content Partner",
+    title: "Top-notch Content Providers",
+    description: "Collaborating with the best to deliver quality educational resources for your needs.",
+    imageSrc: "/Partners_Images/content-partners-guide-feature-image.jpg", // Original imageSrc
+    iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
-    category: "Product",
-    title: "Higher Education Partners",
-    description:
-      "Streamlining operations and enhancing learning experiences for colleges and universities.",
-    imageSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/a446e33bced972df95066ff89c6ec8ab123e5d8945f7aba41cd42bc51821fe70?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    iconSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    category: "Solution Partner",
+    title: "Innovative Solution Providers",
+    description: "Delivering cutting-edge solutions for complex problems in education and beyond.",
+    imageSrc: "/Partners_Images/Solution Partner.jpg", // Original imageSrc
+    iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
-    category: "Software Engineering",
-    title: "Corporate Partners",
-    description:
-      "Providing cutting-edge training and HRMS solutions for corporate growth.",
-    imageSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/516bb04816bad15fe89bd101bc071379d5a3e0ebf25247773b691989e71d3b9b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    iconSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    category: "Technology Partner",
+    title: "Tech Advancements Leaders",
+    description: "Empowering your journey with the latest technologies to ensure growth.",
+    imageSrc: "/Partners_Images/technology partner.jpg", // Original imageSrc
+    iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
-    category: "Sales",
-    title: "Channel Partners",
-    description:
-      "Collaborating to expand Scholar Clone's reach and impact globally.",
-    imageSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/f094e90160c96adac0aa171e141fae8a23d20ee4fd87ea4be80ca01b8f16e3bd?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    iconSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    category: "Career Counsellor",
+    title: "Expert Career Guidance",
+    description: "Helping individuals navigate and achieve their dream career paths.",
+    imageSrc: "/Partners_Images/Career-Counselling-for-Working-Professionals-in-India.jpg", // Original imageSrc
+    iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+  },
+  {
+    category: "Psychologist",
+    title: "Mental Health Experts",
+    description: "Providing essential mental health support for a balanced and healthy mind.",
+    imageSrc: "path/to/image5.jpg", // Original imageSrc
+    iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+  },
+  {
+    category: "HR Manager",
+    title: "Human Resource Experts",
+    description: "Enhancing workforce efficiency with skilled HR management practices.",
+    imageSrc: "/Partners_Images/hr.jpg", // Repeat imageSrc if needed
+    iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
 ];
 
@@ -83,8 +85,8 @@ export default function BlogsPage() {
       </div>
     </div>
     <div className="flex flex-col items-center">
-      <div className="flex lg:flex-wrap gap-5 justify-between mt-9 lg:px-16 sm:px-10 w-full max-w-screen-2xl max-md:max-w-full">
-      <div className="flex lg:flex-row sm:flex-col gap-8 w-full">
+      <div className="flex lg:flex-wrap gap-5 justify-between mt-9 lg:px-20 sm:px-10 w-full max-w-screen-2xl max-md:max-w-full">
+      <div className="sm:flex lg:grid lg:grid-cols-4 sm:flex-col gap-8 w-full">
         {blogData.map((blog, index) => (
           <div key={index} className="lg:flex-grow sm:flex flex-1 h-full transition-all duration-300 transform hover:scale-105 hover:shadow-5xl">
             <BlogCard
