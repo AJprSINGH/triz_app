@@ -74,7 +74,7 @@ export default function BlogsPage() {
     <h1 className="text-center text-3xl font-inter" style={{
       color:'rgba(28, 81, 162, 1)'
     }}>
-    Why Choose Scholar Clone's Learning Tools?
+    Why Choose Scholar Clone&apos;s Learning Tools?
     </h1>
     <div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
       backgroundImage: 'url("Design_four_images/Group 1321314651.png")',
