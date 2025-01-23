@@ -9,7 +9,7 @@ const blogData = [
     category: "Content Partner",
     title: "Top-notch Content Providers",
     description: "Collaborating with the best to deliver quality educational resources for your needs.",
-    imageSrc: "/Partners_Images/content-partners-guide-feature-image.jpg", // Original imageSrc
+    imageSrc: "/Partners_Images/content-partners-guide-feature-image.jpg", 
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
@@ -30,21 +30,21 @@ const blogData = [
     category: "Career Counsellor",
     title: "Expert Career Guidance",
     description: "Helping individuals navigate and achieve their dream career paths.",
-    imageSrc: "/Partners_Images/Career-Counselling-for-Working-Professionals-in-India.jpg", // Original imageSrc
+    imageSrc: "/Partners_Images/Career-Counselling-for-Working-Professionals-in-India.jpg", 
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
     category: "Psychologist",
     title: "Mental Health Experts",
     description: "Providing essential mental health support for a balanced and healthy mind.",
-    imageSrc: "/Partners_Images/One.jpg", // Original imageSrc
+    imageSrc: "/Partners_Images/One.jpg", 
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
   {
     category: "HR Manager",
     title: "Human Resource Experts",
     description: "Enhancing workforce efficiency with skilled HR management practices.",
-    imageSrc: "/Partners_Images/hr.jpg", // Repeat imageSrc if needed
+    imageSrc: "/Partners_Images/hr.jpg", 
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
 ];

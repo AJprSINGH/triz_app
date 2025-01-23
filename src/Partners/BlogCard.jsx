@@ -14,7 +14,7 @@ export function BlogCard({
         loading="lazy"
         src={imageSrc}
         alt={`${title} illustration`}
-        className="object-contain w-full rounded-lg aspect-[1.4]"
+        className="object-contain w-full aspect-[1.4]"
       />
       <div className="flex flex-col flex-1 justify-between mt-8 w-full">
         <div className="flex flex-col w-full">
