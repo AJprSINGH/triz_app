@@ -134,12 +134,12 @@ export default function BlogsPage() {
                   <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col items-start text-xl font-inter text-slate-800 max-md:mt-10">
                       <div className="self-stretch">
-                      Class and School-Wide Performance Analysis
+                      Performance Analytics
                       </div>
                       <div className="mt-12 max-md:mt-10">
                       Subject-Wise Analysis
                       </div>
-                      <div className="mt-12 max-md:mt-10">
+                      <div className="mt-10 max-md:mt-10">
                       Individual Student Reports
                       </div>
                     </div>
