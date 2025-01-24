@@ -501,7 +501,7 @@ const rightMenuForCommunication = [
       {
         id: 19,
         title: "STEM courses",
-        url1: "/steam",  
+        url1: "/stem",  
         url2: "/lmsservice/engagement-tools-benefits"
       },
       {
