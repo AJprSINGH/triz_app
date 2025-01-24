@@ -647,7 +647,7 @@ const rightMenuForCommunication = [
        {
          id: 2,
          title: "Generative AI",
-         url1: "/ai/generative-ai",  
+         url1: "/GenerativeAI",  
          url2: "/ai/generative-ai-benefits"
        }
      ],
@@ -655,13 +655,13 @@ const rightMenuForCommunication = [
        {
          id: 3,
          title: "Automatic Grading",
-         url1: "/ai/automatic-grading",  
+         url1: "/AutomaticGrading",  
          url2: "/ai/automatic-grading-benefits"
        },
        {
          id: 4,
          title: "Time Table Automation",
-         url1: "/ai/time-table-automation",  
+         url1: "/TimeTableAutomation",  
          url2: "/ai/time-table-automation-benefits"
        }
      ],
@@ -669,7 +669,7 @@ const rightMenuForCommunication = [
        {
          id: 5,
          title: "Chat Bot",
-         url1: "/ai/chat-bot",  
+         url1: "/ChatbotAI",  
          url2: "/ai/chat-bot-benefits"
        }
      ]
