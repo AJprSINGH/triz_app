@@ -29,7 +29,7 @@ export default function BlogsPage() {
     <h4 className="text-lg mt-6 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    Whether you're an administrator, teacher, or student, this module provides a comprehensive understanding of performance trends, strengths, and areas for improvement.
+    Whether you&apos;re an administrator, teacher, or student, this module provides a comprehensive understanding of performance trends, strengths, and areas for improvement.
     </h4>
     <div className="flex flex-row gap-10 items-center justify-center">
 <button 
