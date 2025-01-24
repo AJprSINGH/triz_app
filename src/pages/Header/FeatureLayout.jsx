@@ -407,7 +407,7 @@ const rightMenuForCommunication = [
       {
         id: 4,
         title: "Curriculum planning",
-        url1: "/lmsservice/curriculum-planning",  
+        url1: "/CurriculumPlanning",  
         url2: "/lmsservice/curriculum-planning-benefits"
       },
       {
@@ -439,7 +439,7 @@ const rightMenuForCommunication = [
       {
         id: 9,
         title: "Question bank (create & add)",
-        url1: "/lmsservice/mtss",  
+        url1: "/questionbank",  
         url2: "/lmsservice/mtss-benefits"
       },
       {
@@ -471,7 +471,7 @@ const rightMenuForCommunication = [
       {
         id: 14,
         title: "Main stream CBSE",
-        url1: "/lmsservice/engagement-tools",  
+        url1: "/MainStream",  
         url2: "/lmsservice/engagement-tools-benefits"
       },
       {
@@ -501,7 +501,7 @@ const rightMenuForCommunication = [
       {
         id: 19,
         title: "STEM courses",
-        url1: "/lmsservice/engagement-tools",  
+        url1: "/steam",  
         url2: "/lmsservice/engagement-tools-benefits"
       },
       {
@@ -534,7 +534,7 @@ const rightMenuForCommunication = [
       {
         id: 24,
         title: "Teacher diary",
-        url1: "/lmsservice/performance-feedback",  
+        url1: "/TeacherDiary",  
         url2: "/lmsservice/performance-feedback-benefits"
       },
       {
@@ -564,7 +564,7 @@ const rightMenuForCommunication = [
       {
         id: 29,
         title: "Activity stream",
-        url1: "/lmsservice/performance-feedback",  
+        url1: "/ActivityStream",  
         url2: "/lmsservice/performance-feedback-benefits"
       }
     ]
