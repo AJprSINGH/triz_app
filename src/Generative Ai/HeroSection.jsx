@@ -72,7 +72,7 @@ export default function BlogsPage() {
             <div className="text-xl font-inter text-right max-md:mr-2.5 max-md:max-w-full" style={{
                 color:'rgba(61, 96, 149, 1)'
             }}>
-              The Generative AI Module is a feature of Scholar Clone's AI-powered learning system. It uses advanced 
+              The Generative AI Module is a feature of Scholar Clone&apos;s AI-powered learning system. It uses advanced 
               algorithms to create customized learning materials, answer student questions, and adapt to individual 
               learning needs. 
             </div>

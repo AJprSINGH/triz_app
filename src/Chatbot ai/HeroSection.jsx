@@ -94,7 +94,7 @@ export default function BlogsPage() {
               </div>
               <div className="self-start mt-8 text-sm text-zinc-600">
               Ask a question, and the chatbot will instantly deliver a concise 
-              and accurate response, whether it's about managing records, 
+              and accurate response, whether it&apos;s about managing records, 
               accessing archived files.
               </div>
             </div>
