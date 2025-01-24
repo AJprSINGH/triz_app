@@ -859,13 +859,13 @@ const rightMenuForCommunication = [
        {
          id: 1,
          title: "Student Performance",
-         url1: "/analytics/student-performance",  
+         url1: "/StudentPerformance",  
          url2: "/analytics/student-performance-benefits"
        },
        {
          id: 2,
          title: "Teacher Performance",
-         url1: "/analytics/teacher-performance",  
+         url1: "/TeacherPerformance",  
          url2: "/analytics/teacher-performance-benefits"
        }
      ],
@@ -873,7 +873,7 @@ const rightMenuForCommunication = [
        {
          id: 3,
          title: "Reports",
-         url1: "/analytics/reports",  
+         url1: "/Report",  
          url2: "/analytics/reports-benefits"
        }
      ],
@@ -881,7 +881,7 @@ const rightMenuForCommunication = [
        {
          id: 4,
          title: "Prediction",
-         url1: "/analytics/prediction",  
+         url1: "/PredictionAnalysis",  
          url2: "/analytics/prediction-benefits"
        }
      ],
@@ -889,7 +889,7 @@ const rightMenuForCommunication = [
        {
          id: 5,
          title: "CBSE Result Analyzer",
-         url1: "/analytics/cbse-result-analyzer",  
+         url1: "/CBSE",  
          url2: "/analytics/cbse-result-analyzer-benefits"
        }
      ]
