@@ -216,8 +216,4 @@ export default function BlogsPage() {
 <Footer />
   </>
 );
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 3a3d2db66e4f00f3b8e6f72a1c877e02ec0d8125
