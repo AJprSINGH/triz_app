@@ -804,7 +804,7 @@ const rightMenuForCommunication = [
        {
          id: 21,
          title: "Reviews & Appraisals, Succession Planning & Performance",
-         url1: "Performance",  
+         url1: "PerformanceHR",  
          url2: "/communication/whatsapp-benefits"
        },
        {
