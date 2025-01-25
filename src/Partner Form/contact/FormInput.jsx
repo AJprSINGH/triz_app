@@ -2,7 +2,7 @@ import React from "react";
 
 const FormInput = ({ placeholder }) => {
   return (
-    <div className="flex items-center px-5 h-16 rounded-2xl border border-solid border-zinc-500 w-full max-md:px-5 max-md:max-w-full">
+    <div className="flex items-center px-5 h-12 rounded-2xl border border-solid border-zinc-500 w-full max-md:px-5 max-md:max-w-full">
       <input
         type="text"
         placeholder={placeholder}
