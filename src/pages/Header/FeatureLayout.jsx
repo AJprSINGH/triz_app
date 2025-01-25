@@ -575,7 +575,7 @@ const rightMenuForCommunication = [
       {
         id: 1,
         title: "Thinking: Career Plan ",
-        url1: "/career-counselling/career-counseling",  
+        url1: "/Thinkingplan",  
         url2: "/career-counselling/career-counseling-benefits"
       }
     ],
@@ -583,13 +583,13 @@ const rightMenuForCommunication = [
       {
         id: 2,
         title: "Interest Profiler",
-        url1: "/career-counselling/assessment",  
+        url1: "/InterestProfile",  
         url2: "/career-counselling/assessment-benefits"
       },
       {
         id: 3,
         title: "Know Yourself ",
-        url1: "/career-counselling/assessment",  
+        url1: "/KnowYourSelf",  
         url2: "/career-counselling/assessment-benefits"
       }
     ],
@@ -603,31 +603,31 @@ const rightMenuForCommunication = [
     ],
     [
       {
-        id: 18,
+        id: 5,
         title: "Social & Collabrative",
         url1: "/career-counselling/connect-explore",  
         url2: "/career-counselling/connect-explore-benefits"
       },
       {
-        id: 19,
+        id: 6,
         title: "Portfolio",
-        url1: "/career-counselling/connect-explore",  
+        url1: "/Portfolio",  
         url2: "/career-counselling/connect-explore-benefits"
       },
       {
-        id: 20,
+        id: 7,
         title: "Virtual Classroom",
-        url1: "/career-counselling/connect-explore",  
+        url1: "/VirtualClassroom",  
         url2: "/career-counselling/connect-explore-benefits"
       },
       {
-        id: 21,
+        id: 8,
         title: "Counselling Report ",
-        url1: "/career-counselling/connect-explore",  
+        url1: "/Councelling",  
         url2: "/career-counselling/connect-explore-benefits"
       },
       {
-        id: 22,
+        id: 9,
         title: "Career Curricula ",
         url1: "/career-counselling/connect-explore",  
         url2: "/career-counselling/connect-explore-benefits"
