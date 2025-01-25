@@ -680,7 +680,7 @@ const rightMenuForCommunication = [
        {
          id: 1,
          title: "Payroll Management",
-         url1: "/communication/ptm",  
+         url1: "/Payroll",  
          url2: "/communication/ptm-benefits"
        },
        {
@@ -710,7 +710,7 @@ const rightMenuForCommunication = [
        {
          id: 6,
          title: "Document Management System",
-         url1: "/communication/circulars",  
+         url1: "/DocumentManagement",  
          url2: "/communication/circulars-benefits"
        },
        {
@@ -742,7 +742,7 @@ const rightMenuForCommunication = [
        {
          id: 11,
          title: "Compliance Training",
-         url1: "/communication/teacher-diary",  
+         url1: "/ComplianceManagement",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
@@ -772,7 +772,7 @@ const rightMenuForCommunication = [
        {
          id: 16,
          title: "Content Library",
-         url1: "/communication/teacher-diary",  
+         url1: "/ContentLibrary",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
@@ -804,7 +804,7 @@ const rightMenuForCommunication = [
        {
          id: 21,
          title: "Reviews & Appraisals, Succession Planning & Performance",
-         url1: "/communication/whatsapp",  
+         url1: "PerformanceHR",  
          url2: "/communication/whatsapp-benefits"
        },
        {
@@ -842,7 +842,7 @@ const rightMenuForCommunication = [
        {
          id: 27,
          title: "Skill Mapping  with department and employee",
-         url1: "/communication/ivrs",  
+         url1: "/SkillMapping",  
          url2: "/communication/ivrs-benefits"
        },
        {
