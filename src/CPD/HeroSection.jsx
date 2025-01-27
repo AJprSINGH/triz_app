@@ -115,7 +115,7 @@ Enhance Your Workforce Today!
               Tracking and Reporting
               </div>
               <div className="mt-8 text-sm text-zinc-600">
-              Monitor employees' development progress with intuitive dashboards and generate 
+              Monitor employee&apos;s development progress with intuitive dashboards and generate 
               detailed reports to analyze participation and outcomes.
               </div>
             </div>
