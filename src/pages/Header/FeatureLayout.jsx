@@ -605,7 +605,7 @@ const rightMenuForCommunication = [
       {
         id: 5,
         title: "Social & Collabrative",
-        url1: "/Social",  
+        url1: "/SocialERP",  
         url2: "/career-counselling/connect-explore-benefits"
       },
       {
