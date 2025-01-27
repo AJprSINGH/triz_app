@@ -95,7 +95,7 @@ Start Today – Build a Smarter School Communication System!
               <div className="text-lg font-lxsemibold max-md:mr-1.5">
                 {feature.title}
               </div>
-              <div className="mt-2 text-[15px] tracking-tighter font-interregular" style={{ lineHeight: '1.2' }}>
+              <div className="mt-2 text-[15px] tracking-tighter font-interregular" style={{ lineHeight: 1.5 }}>
                 {feature.description}
               </div>
             </div>
