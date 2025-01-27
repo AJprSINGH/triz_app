@@ -29,7 +29,7 @@ export default function BlogsPage() {
     <h4 className="text-lg mt-6 font-interregular px-40 text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
-    The Leadership & Team Development Module of Scholar Clone's HR Management System is designed to cultivate leaders at all levels and build high-performing teams. Whether you're focusing on senior leaders, mid-level managers, or junior teams, this module provides tools and insights to foster growth, collaboration, and excellence within your organization.
+    The Leadership & Team Development Module of Scholar Clone&apos;s HR Management System is designed to cultivate leaders at all levels and build high-performing teams. Whether you&apos;re focusing on senior leaders, mid-level managers, or junior teams, this module provides tools and insights to foster growth, collaboration, and excellence within your organization.
     </h4>
     <div className="flex flex-row gap-10 items-center justify-center">
 <button 

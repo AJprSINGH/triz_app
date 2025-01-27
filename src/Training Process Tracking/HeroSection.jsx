@@ -55,7 +55,7 @@ export default function BlogsPage() {
               A Smarter Way to Monitor Training Progress
               </div>
               <div className="mt-5 text-lg font-interregular leading-6 w-[571px] max-md:max-w-full">
-              Whether it's tracking new hire&rsquo;s onboarding progress, assessing skill upgrade programs, 
+              Whether it&apos;s tracking new hire&rsquo;s onboarding progress, assessing skill upgrade programs, 
               or evaluating certification courses, the Training Progress Tracking Module is your all-in-one solution.
               </div>
               <div className="mt-8 text-lg leading-6 w-[601px] max-md:max-w-full">

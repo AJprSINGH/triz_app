@@ -55,7 +55,7 @@ Streamline Your Inventory Management Today!
           <div className="flex flex-col grow mt-20 text-2xl text-slate-800 max-md:mt-10 max-md:max-w-full">
             <div className="flex flex-col items-start self-end px-20 max-w-full w-[733px]">
               <div className="mt-5 text-lg font-intersemibold leading-6 w-[571px] max-md:max-w-full">
-              Managing inventory doesn't have to be a tedious process. The Inventory Management Module of Scholar Clone HRMS helps you track, allocate, and monitor resources with ease. With real-time updates, advanced tracking, and intuitive features, this module eliminates guesswork, ensuring every item is used efficiently and responsibly.
+              Managing inventory doesn&apos;t have to be a tedious process. The Inventory Management Module of Scholar Clone HRMS helps you track, allocate, and monitor resources with ease. With real-time updates, advanced tracking, and intuitive features, this module eliminates guesswork, ensuring every item is used efficiently and responsibly.
               </div>
             </div>
           </div>
