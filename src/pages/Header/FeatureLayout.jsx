@@ -597,7 +597,7 @@ const rightMenuForCommunication = [
       {
         id: 4,
         title: "Career Exploration",
-        url1: "/career-counselling/counseling",  
+        url1: "/CareerExploration",  
         url2: "/career-counselling/counseling-benefits"
       }
     ],
@@ -605,7 +605,7 @@ const rightMenuForCommunication = [
       {
         id: 5,
         title: "Social & Collabrative",
-        url1: "/career-counselling/connect-explore",  
+        url1: "/Social",  
         url2: "/career-counselling/connect-explore-benefits"
       },
       {
@@ -629,7 +629,7 @@ const rightMenuForCommunication = [
       {
         id: 9,
         title: "Career Curricula ",
-        url1: "/career-counselling/connect-explore",  
+        url1: "/CareerCurricula ",  
         url2: "/career-counselling/connect-explore-benefits"
       }
     ]
