@@ -104,7 +104,7 @@ export default function BlogsPage() {
               <div className="text-2xl font-lxsemibold max-md:mr-1.5">
                 {feature.title}
               </div>
-              <div className="mt-2 text-[15px] font-interregular">
+              <div className="mt-2 text-[15px] font-interregular" style={{lineHeight: 1.5}}>
                 {feature.description}
               </div>
             </div>

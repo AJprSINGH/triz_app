@@ -136,7 +136,7 @@ Enhance Your Workforce Today!
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
-          <div className="flex overflow-hidden flex-col pt-10 pr-16 pb-20 pl-8 w-full font-inter bg-white rounded-lg shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
+          <div className="flex overflow-hidden flex-col pt-10 pr-16 pb-16 pl-8 w-full font-inter bg-white rounded-lg shadow-sm max-md:px-5 max-md:mt-10 max-md:max-w-full">
               <div className="text-lg text-neutral-800">
               Resource Library
               </div>
