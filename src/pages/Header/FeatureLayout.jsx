@@ -433,7 +433,7 @@ const rightMenuForCommunication = [
       {
         id: 8,
         title: "Assignment management",
-        url1: "/lmsservice/mtss",  
+        url1: "/AssignmentManagement",  
         url2: "/lmsservice/mtss-benefits"
       },
       {
@@ -495,7 +495,7 @@ const rightMenuForCommunication = [
       {
         id: 18,
         title: "Sports",
-        url1: "/lmsservice/engagement-tools",  
+        url1: "/Sport",  
         url2: "/lmsservice/engagement-tools-benefits"
       },
       {
@@ -528,7 +528,7 @@ const rightMenuForCommunication = [
       {
         id: 23,
         title: "Notification, Chat, Messages",
-        url1: "/lmsservice/performance-feedback",  
+        url1: "/Notification",  
         url2: "/lmsservice/performance-feedback-benefits"
       },
       {
