@@ -686,25 +686,25 @@ const rightMenuForCommunication = [
        {
          id: 2,
          title: "Leave & Attendance Management",
-         url1: "/communication/circulars",  
+         url1: "/LeaveAttendance",  
          url2: "/communication/circulars-benefits"
        },
        {
          id: 3,
          title: "Pre-Assessment Tools Interview Management",
-         url1: "/communication/circulars",  
+         url1: "/RecruitmentPlatform",  
          url2: "/communication/circulars-benefits"
        },
        {
          id: 4,
          title: "Employee Onboarding",
-         url1: "/communication/circulars",  
+         url1: "/EmployeeOnboarding",  
          url2: "/communication/circulars-benefits"
        },
        {
          id: 5,
          title: "Compliance Management, HR, Govt. , Industry",
-         url1: "/communication/circulars",  
+         url1: "/ComplianceManagementHR",  
          url2: "/communication/circulars-benefits"
        },
        {
@@ -716,13 +716,13 @@ const rightMenuForCommunication = [
        {
          id: 7,
          title: "User level control/rights management",
-         url1: "/communication/circulars",  
+         url1: "/UserLevel",  
          url2: "/communication/circulars-benefits"
        },
        {
          id: 8,
          title: "Communication Tools",
-         url1: "/communication/circulars",  
+         url1: "/CoummunicationTools",  
          url2: "/communication/circulars-benefits"
        }
      ],
@@ -730,13 +730,13 @@ const rightMenuForCommunication = [
        {
          id: 9,
          title: "CPD",
-         url1: "/communication/teacher-diary",  
+         url1: "/CPD",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
          id: 10,
          title: "Training Progress Tracking",
-         url1: "/communication/teacher-diary",  
+         url1: "/Training",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
@@ -748,25 +748,25 @@ const rightMenuForCommunication = [
        {
          id: 12,
          title: "Certification Management",
-         url1: "/communication/teacher-diary",  
+         url1: "/CertificateManagement",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
          id: 13,
          title: "Reskilling/Upskilling Course Library",
-         url1: "/communication/teacher-diary",  
+         url1: "/Reskilling",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
          id: 14,
          title: "Leadership Development (Medium &junior)",
-         url1: "/communication/teacher-diary",  
+         url1: "/Leadership",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
          id: 15,
          title: "Knowledge Sharing & Collaboration",
-         url1: "/communication/teacher-diary",  
+         url1: "FosterCollaboration",  
          url2: "/communication/teacher-diary-benefits"
        },
        {
@@ -778,7 +778,7 @@ const rightMenuForCommunication = [
        {
          id: 17,
          title: "Mobile Apps",
-         url1: "/communication/teacher-diary",  
+         url1: "/MobileApp",  
          url2: "/communication/teacher-diary-benefits"
        }
      ],
@@ -786,19 +786,19 @@ const rightMenuForCommunication = [
        {
          id: 18,
          title: "Organizational Structure Management  ",
-         url1: "/communication/email",  
+         url1: "/OrganizationalStructureManagement",  
          url2: "/communication/email-benefits"
        },
        {
          id: 19,
          title: "Add Department Details",
-         url1: "/communication/sms",  
+         url1: "/DepartmentManagement ",  
          url2: "/communication/sms-benefits"
        },
        {
          id: 20,
          title: "Employee Skill Management",
-         url1: "/communication/whatsapp",  
+         url1: "/EmployeeSkill",  
          url2: "/communication/whatsapp-benefits"
        },
        {
@@ -810,19 +810,19 @@ const rightMenuForCommunication = [
        {
          id: 22,
          title: "KPI & Goal Setting",
-         url1: "/communication/whatsapp",  
+         url1: "/KPIGoal",  
          url2: "/communication/whatsapp-benefits"
        },
        {
          id: 23,
          title: " Organization Handbook",
-         url1: "/communication/whatsapp",  
+         url1: "/OrganizationHandbook",  
          url2: "/communication/whatsapp-benefits"
        },
        {
          id: 24,
          title: "Inventory Management",
-         url1: "/communication/whatsapp",  
+         url1: "/InventoryManagement ",  
          url2: "/communication/whatsapp-benefits"
        }
      ],
@@ -836,7 +836,7 @@ const rightMenuForCommunication = [
        {
          id: 26,
          title: "Skill matrix creation",
-         url1: "/communication/ivrs",  
+         url1: "/Skillmatrixcreation",  
          url2: "/communication/ivrs-benefits"
        },
        {
@@ -848,7 +848,7 @@ const rightMenuForCommunication = [
        {
          id: 28,
          title: "Skill Gap Analysis",
-         url1: "/communication/ivrs",  
+         url1: "/SkillGap",  
          url2: "/communication/ivrs-benefits"
        }
      ]
