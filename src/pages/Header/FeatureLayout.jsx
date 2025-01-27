@@ -454,18 +454,18 @@ const rightMenuForCommunication = [
         url1: "/AssessmentTools",  
         url2: "/lmsservice/mtss-benefits"
       },
-      {
-        id: 12,
-        title: "Eportfolio",
-        url1: "/lmsservice/mtss",  
-        url2: "/lmsservice/mtss-benefits"
-      },
-      {
-        id: 13,
-        title: "PAL",
-        url1: "/lmsservice/mtss",  
-        url2: "/lmsservice/mtss-benefits"
-      }
+      // {
+      //   id: 12,
+      //   title: "Eportfolio",
+      //   url1: "/lmsservice/mtss",  
+      //   url2: "/lmsservice/mtss-benefits"
+      // },
+      // {
+      //   id: 13,
+      //   title: "PAL",
+      //   url1: "/lmsservice/mtss",  
+      //   url2: "/lmsservice/mtss-benefits"
+      // }
     ],
     [
       {
@@ -527,7 +527,7 @@ const rightMenuForCommunication = [
       },
       {
         id: 23,
-        title: "Notification, Chat, Messages",
+        title: "Class Content",
         url1: "/Notification",  
         url2: "/lmsservice/performance-feedback-benefits"
       },
@@ -543,12 +543,12 @@ const rightMenuForCommunication = [
         url1: "/Leaderboard",  
         url2: "/lmsservice/performance-feedback-benefits"
       },
-      {
-        id: 26,
-        title: "Eportfolio",
-        url1: "/lmsservice/performance-feedback",  
-        url2: "/lmsservice/performance-feedback-benefits"
-      },
+      // {
+      //   id: 26,
+      //   title: "Eportfolio",
+      //   url1: "/lmsservice/performance-feedback",  
+      //   url2: "/lmsservice/performance-feedback-benefits"
+      // },
       {
         id: 27,
         title: "Social & collaborative learning",
@@ -638,12 +638,12 @@ const rightMenuForCommunication = [
    
    const additionalContentForEducationAI = [
      [
-       {
-         id: 1,
-         title: "PAL (Personalized Adaptive Learning)",
-         url1: "/ai/pal",  
-         url2: "/ai/pal-benefits"
-       },
+      //  {
+      //    id: 1,
+      //    title: "PAL (Personalized Adaptive Learning)",
+      //    url1: "/ai/pal",  
+      //    url2: "/ai/pal-benefits"
+      //  },
        {
          id: 2,
          title: "Generative AI",
