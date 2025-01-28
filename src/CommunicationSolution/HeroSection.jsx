@@ -62,7 +62,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 mt-12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Communications Solution Images/Image 85.png"
+            src="Communications Solution Images/image 85.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-[80%] aspect-[1.58] max-md:mt-10 max-md:max-w-full"
           />
