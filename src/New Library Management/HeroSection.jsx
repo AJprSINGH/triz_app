@@ -78,7 +78,10 @@ export default function BlogsPage() {
               Streamline Your School&apos;s Library Management
               </div>
               <div className="self-stretch text-lg mt-12 text-black max-md:mt-10 max-md:max-w-full">
-              Keep your library organized, accessible, and resourceful with Scholar Clone&apos;s Library Management Module. Whether it&apos;s tracking book inventory, managing student borrowing, or generating detailed reports, this module simplifies every aspect of library management. Transform your library into a modern, user-friendly knowledge hub. 📚✨              </div>
+              Keep your library organized, accessible, and resourceful with Scholar Clone&apos;s Library Management Module. 
+              Whether it&apos;s tracking book inventory, managing student borrowing, or generating detailed reports, this 
+              module simplifies every aspect of library management. Transform your library into a modern, user-friendly 
+              knowledge hub.             </div>
               <div className="flex flex-wrap gap-10 text-[15px] mt-12 max-w-full text-white w-[547px] max-md:mt-10">
                 {ctaButtons.map((button, index) => (
                   <button 
@@ -101,7 +104,7 @@ export default function BlogsPage() {
           <div className="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="/Design_three_images/image 85.png"
+              src="\library mangement\image 86.png"
               alt="User and teacher management interface demonstration"
               className="object-contain grow w-full aspect-[1.5] max-md:mt-9 max-md:max-w-full"
 
@@ -115,7 +118,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 pr-36 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Design_three_images/image 86.png"
+            src="\library mangement\image 85.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full rounded-2xl"
             style={{

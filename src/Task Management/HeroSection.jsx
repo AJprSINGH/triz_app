@@ -75,7 +75,7 @@ export default function BlogsPage() {
           <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-start mt-6 w-full text-2xl font-medium max-md:mt-10 max-md:max-w-full">
               <div className="text-6xl text-white font-inter max-md:max-w-full max-md:text-4xl">
-              Simplify Your School’s Operations with Smarter Task Management
+              Simplify Your School&rsquo;s Operations with Smarter Task Management
               </div>
               <div className="self-stretch text-lg mt-12 text-black max-md:mt-10 max-md:max-w-full">
               Keeping track of assignments, responsibilities, and deadlines shouldn’t be a hassle. With Scholar Clone’s Task Management Module, streamline how your school delegates and monitors tasks. From administrative goals to teacher responsibilities, ensure every task is assigned, tracked, and completed efficiently—without the chaos!              </div>
@@ -101,7 +101,7 @@ export default function BlogsPage() {
           <div className="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="/Design_three_images/image 85.png"
+              src="/task Management images/image 86.png"
               alt="User and teacher management interface demonstration"
               className="object-contain grow w-full aspect-[1.5] max-md:mt-9 max-md:max-w-full"
 
@@ -128,7 +128,7 @@ export default function BlogsPage() {
           <h1 className="z-10 self-start mt-0 text-3xl font-inter tracking-tighter max-md:max-w-full" style={{
             color:'rgba(28, 81, 161, 1)'
           }}>
-          Why Choose Scholar Clone’s Task Management Module?
+          Why Choose Scholar Clone&rsquo;s Task Management Module?
       </h1>
       <div className="z-10 mt-4 max-md:mt-10 max-md:max-w-full">
         {features.map((feature, index) => (

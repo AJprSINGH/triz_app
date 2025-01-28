@@ -31,11 +31,11 @@ export const benefitsBottomData = [
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/8cbc391299ba6cb7d73695c7534c865d5fcb02cde6aed0cf35c5fea9afa8b64d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     title: "Enable Better Decision-Making",
     description: "Leverage analytics to optimize resources and improve hostel management."
-  },
-  {
-    id: 6,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/8cbc391299ba6cb7d73695c7534c865d5fcb02cde6aed0cf35c5fea9afa8b64d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    title: "Seamless Integration",
-    description: "Connect the hostel module with other ERP features for a unified solution."
+  // },
+  // {
+  //   id: 6,
+  //   icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/8cbc391299ba6cb7d73695c7534c865d5fcb02cde6aed0cf35c5fea9afa8b64d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+  //   title: "Seamless Integration",
+  //   description: "Connect the hostel module with other ERP features for a unified solution."
   }
 ];

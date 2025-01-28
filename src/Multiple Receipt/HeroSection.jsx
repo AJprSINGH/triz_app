@@ -121,7 +121,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Design_two_images/Group 1321314643.png"
+            src="Design_two_images/Image.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full"
           />
@@ -129,7 +129,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 mt-10 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
           <h1 className="z-10 self-start mt-0 text-3xl font-lxesemibold tracking-tighter text-zinc-900 max-md:max-w-full underline decoration-[rgba(34,226,127,1)] decoration-4">
-          Key Features Tailored to Your Institution’s Needs
+          Key Features Tailored to Your Institution&rsquo;s Needs
       </h1>
       <div className="z-10 mt-4 max-md:mt-10 max-md:max-w-full">
         {features.map((feature, index) => (

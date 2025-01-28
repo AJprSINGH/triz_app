@@ -93,7 +93,7 @@ The Tally and Payment Gateway Integration module connects Tally accounting softw
       </div>
     </div>
     <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
-    backgroundImage: 'url("Design_one_images/Group 1321314639 (1).png")',
+    backgroundImage: 'url("Tally and Payment Images/Group 1321314687.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
