@@ -27,7 +27,7 @@ export default function Benefits() {
         <div className="flex flex-col mt-32 ml-20  w-[50%]">
         <img
           loading="lazy"
-          src="Student Attendance Images/Group 1321314685.png"
+          src="Student Attendance images/Group 1321314685.png"
           alt="XYZ"
           className="w-[100%]"
         />

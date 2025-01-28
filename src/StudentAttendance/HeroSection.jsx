@@ -62,7 +62,7 @@ Upgrade to Smart Attendance Today!
         <div className="flex flex-col w-6/12 mt-12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Student Attendance Images/image 85.png"
+            src="Student Attendance images/image 85.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-[80%] aspect-[1.58] max-md:mt-10 max-md:max-w-full"
           />
@@ -92,7 +92,7 @@ Upgrade to Smart Attendance Today!
       </div>
     </div>
     <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
-    backgroundImage: 'url("Student Attendance Images/Group 1321314689.png")',
+    backgroundImage: 'url("Student Attendance images/Group 1321314689.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
