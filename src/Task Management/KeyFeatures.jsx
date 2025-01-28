@@ -25,14 +25,14 @@ function FeatureList() {
       <div className="flex flex-col w-[60%] pr-20 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="task Management Images/Group 1000003969.png"
+            src="task Management images/Group 1000003969.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full rounded-2xl"
             style={{
               boxShadow: '0px 0px 8px 0px rgba(16, 24, 40, 0.25)'
             }}
           />
-        </div>
+      </div>
     <div className="flex flex-col max-w-full w-[40%] max-md:mt-10">
       {features.map((feature, index) => (
         <div key={index} className="w-full  items-center shadow-sm justify-center mt-8">
