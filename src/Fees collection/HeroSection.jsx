@@ -19,7 +19,7 @@ export default function BlogsPage() {
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    height: '80vh',
+    height: '84vh',
   }}
   >
   <div className="flex overflow-hidden flex-col pt-20 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
@@ -69,7 +69,7 @@ Get Your Own Fees Collection Module Today!
         </div>
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto w-full font-bold max-md:mt-10 max-md:max-w-full">
-            <div className="text-xl font-inter text-right max-md:mr-2.5 max-md:max-w-full" style={{
+            <div className="text-xl font-inter text-right text-justify max-md:mr-2.5 max-md:max-w-full" style={{
                 color:'rgba(61, 96, 149, 1)'
             }}>
               The Fees Collection Module of Scholar Clone ERP is a comprehensive solution for educational institutions, streamlining fee-related operations with automation, ensuring transparency.
