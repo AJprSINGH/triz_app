@@ -23,28 +23,20 @@ const HERO_BUTTONS = [
   ];
   const features = [
     {
-      title: "Room Allocation & Tracking",
-      description: "Manage room assignments, track vacancies, and monitor usage effortlessly."
+      title: "Room Allocation and Transfer",
+      description: "Provides student preferences and history for better accommodation management."
     },
     {
-      title: "Attendance Management",
-      description: "Maintain accurate records of student check-ins and check-outs."
+      title: "Paperless Student Attendance",
+      description: "Automates student check-ins and check-outs using digital methods like biometric, RFID, or mobile apps."
     },
     {
-      title: "Meal Planning & Scheduling ",
-      description: "Simplify meal menus, dietary requirements, and schedules for students."
+      title: " Visitor Management Records ",
+      description: "Maintains digital logs of visitors entering and leaving the hostel."
     },
     {
-      title: "Fee Management ",
-      description: "Automate hostel fee collections, generate invoices, and monitor payment statuses."
-    },
-    {
-      title: "Complaint & Maintenance Logs",
-      description: " Handle student complaints and maintenance needs effectively."
-    },
-    {
-      title: "Parental Notifications",
-      description: "Keep parents informed with timely updates about their ward's hostel activities."
+      title: "Hostel Reports",
+      description: "Maintenance requests and complaints"
     }
   ];
 export default function BlogsPage() {
@@ -121,7 +113,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Design_two_images/Group 1321314643.png"
+            src="\Hostel Management Images\image 85.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full"
           />
@@ -129,7 +121,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 mt-10 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
           <h1 className="z-10 self-start mt-0 text-3xl font-lxesemibold tracking-tighter text-zinc-900 max-md:max-w-full underline decoration-[rgba(34,226,127,1)] decoration-4">
-          Features Designed for Your Hostel’s Success 
+          Features Designed for Your Hostel&rsquo;s Success 
       </h1>
       <div className="z-10 mt-4 max-md:mt-10 max-md:max-w-full">
         {features.map((feature, index) => (

@@ -128,7 +128,7 @@ Ensure safe and efficient transportation for your students with Scholar Clone ER
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Design_two_images/Group 1321314643.png"
+            src="Design_two_images/School-bus.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full"
           />

@@ -30,7 +30,7 @@ function FeatureList() {
       <div className="flex flex-col w-[60%] pr-20 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Design_three_images/Group 1321314644.png"
+            src="AI Driven Images/image 84.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full rounded-2xl"
             style={{

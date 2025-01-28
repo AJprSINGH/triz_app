@@ -73,7 +73,7 @@ export default function BlogsPage() {
     <h4 className="text-lg mt-20 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(18, 20, 29, 1)'
     }}>
-    Manage your school’s fee collection process with ease using Scholar Clone’s Online Fees System. From automated payment reminders to detailed financial reports, make fee management a hassle-free experience for administrators, parents, and students.
+    Manage your school&rsquo;s fee collection process with ease using Scholar Clone&rsquo;s Online Fees System. From automated payment reminders to detailed financial reports, make fee management a hassle-free experience for administrators, parents, and students.
     </h4>
     <div className="flex flex-row gap-10 items-center justify-center">
 <button 
@@ -125,7 +125,7 @@ Get Started Today
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Design_two_images/Group 1321314643.png"
+            src="Online Fees Managment Images/image.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full"
           />
