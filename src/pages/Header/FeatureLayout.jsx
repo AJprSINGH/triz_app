@@ -558,7 +558,7 @@ const rightMenuForCommunication = [
       {
         id: 28,
         title: "Learning path",
-        url1: "/lmsservice/performance-feedback",  
+        url1: "/LearningPath",  
         url2: "/lmsservice/performance-feedback-benefits"
       },
       {
