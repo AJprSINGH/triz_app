@@ -71,7 +71,7 @@ The Visitor Management System eliminates these issues, ensuring a secure, fast, 
           <div className=" builder-canvas flex relative flex-col pt-8 max-w-[707px] min-h-[390px] max-md:pr-5 max-md:mt-10 max-md:max-w-full">
             <img
               loading="lazy"
-              src="/Design_four_images/image (10).png"
+              src="/Design_four_images/image 7.jpg"
               className="object-cover absolute rounded-2xl left-[103px] top-[6px] w-[431px]"
             />
           </div>
