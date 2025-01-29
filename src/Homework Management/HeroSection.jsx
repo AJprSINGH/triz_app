@@ -101,7 +101,7 @@ export default function BlogsPage() {
           <div className="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="/Design_three_images/image 85.png"
+              src="/lms_design_three_images/image 4.png"
               alt="User and teacher management interface demonstration"
               className="object-contain grow w-full aspect-[1.5] max-md:mt-9 max-md:max-w-full"
 
@@ -115,7 +115,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 pr-36 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Design_three_images/image 86.png"
+            src="lms_design_three_images/image 5.jpg"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full rounded-2xl"
             style={{

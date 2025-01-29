@@ -116,7 +116,7 @@ export default function BlogsPage() {
           <div className="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c53f40fd4be0c9d338d3a806e6d4904cfde062a7cbdd2883dfe14dc85256c11f?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+              src="/lms_design_five_images/image 1.png"
               className="object-contain w-full rounded-2xl aspect-square shadow-[4px_4px_10px_rgba(0,0,0,0.25)] max-md:mt-10 max-md:max-w-full"
             />
           </div>
