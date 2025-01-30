@@ -20,7 +20,7 @@ export function RightMenuItem({ icon, title, description }) {
         loading="lazy"
         src={icon}
         alt={`${title} icon`}
-        className="object-contain shrink-0 my-auto aspect-square w-[50px]"
+        className="object-contain  my-auto aspect-square w-[50px]"
       />
       <div className="flex flex-col grow shrink-0 basis-0 w-fit">
         <div className="mr-8 text-sm leading-none text-sky-500 max-md:mr-2.5">
