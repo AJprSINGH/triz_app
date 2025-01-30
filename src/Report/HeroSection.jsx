@@ -116,7 +116,7 @@ export default function BlogsPage() {
         <div className="flex flex-col w-6/12 pr-36 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="Analytics_design_one _images/image 5.png"
+            src="/Analytics_design_one_images/image 5.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-full max-md:mt-10 max-md:max-w-full rounded-2xl"
             style={{
