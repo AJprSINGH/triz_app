@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
-import { ResourceSection } from "./ResourceSection";
-import { CustomerSupport } from "./CustomerSupport";
+import  ResourceSection  from "./ResourceSection";
+import  CustomerSupport  from "./CustomerSupport";
 
 const byTypeData = [
   { title: "Blogs", url: "/GR" },

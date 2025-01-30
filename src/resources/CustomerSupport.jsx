@@ -13,7 +13,7 @@ export default function CustomerSupport() {
       <div className="mt-12 mx-10 text-center max-md:mt-10">
         Looking for additional assistance in an area not covered here? <br />
         <br />
-        We'd love to help!
+        We&apos;d love to help!
       </div>
       <button
         className="gap-2.5 self-center px-5 py-1 mt-12 font-bold text-white bg-sky-500 rounded-3xl max-md:mt-10 transition-all duration-300 transform hover:scale-105"
