@@ -92,7 +92,7 @@ export default function BlogsPage() {
             <img
               loading="lazy"
               src="/cc_design_four_images/image 5.png"
-              className="object-contain absolute rounded-2xl shadow-sm aspect-square h-[431px] left-[103px] top-[116px] w-[431px]"
+              className="object-contain absolute rounded-2xl shadow-sm aspect-square h-[420px] left-[103px] top-[116px] w-[431px]"
             />
           </div>
         </div>
