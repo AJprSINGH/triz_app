@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export function CustomerSupport() {
+export default function CustomerSupport() {
   return (
     <div className="flex overflow-hidden flex-col w-[50%] px-8 pt-24 pb-52 bg-gray-200 rounded-xl shadow-[-4px_0px_15px_rgba(175,207,255,0.25)] max-md:px-5 max-md:pb-24 max-md:max-w-full">
       <div className="self-center text-2xl font-semibold">Customer Support</div>

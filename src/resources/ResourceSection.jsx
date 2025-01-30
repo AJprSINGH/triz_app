@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export function ResourceSection({ title, items, additionalClasses = "" }) {
+export default function ResourceSection({ title, items, additionalClasses = "" }) {
   return (
     <>
       <div className={`text-xl font-bold text-sky-500 ${additionalClasses}`} style={{
