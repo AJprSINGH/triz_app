@@ -10,7 +10,8 @@ import FeatureLayout from './FeatureLayout';
 import zIndex from '@mui/material/styles/zIndex';
 import FeatureLayoutNew from '../../SComponents/FeatureLayout';
 import FeatureLayoutMax from '../../CComponents/FeatureLayout';
-import EducationDashboard from '../../RComponents/EducationDashboard';
+//import EducationDashboard from '../../RComponents/EducationDashboard';
+import EducationDashboard from '../../resources/ResourceTypes';
 const navItems = [
   { label: 'HOME', layerName: 'home', href: '/' },
   { label: 'PRODUCTS', layerName: 'products' },
