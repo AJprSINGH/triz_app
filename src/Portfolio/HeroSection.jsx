@@ -94,7 +94,7 @@ export default function BlogsPage() {
       </div>
     </div>
     <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
-    backgroundImage: 'url("Design_one_images/Group 1321314639 (1).png")',
+    backgroundImage: 'url("cc_design_one_images/image 2.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',

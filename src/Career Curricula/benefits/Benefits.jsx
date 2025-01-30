@@ -34,7 +34,7 @@ export default function Benefits() {
           <div className="flex flex-col w-6/12 ml-10 -mr-32 max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="Design_four_images/image (11).png"
+              src="cc_design_four_images/image 4.png"
               alt="Educational CRM platform interface showcase"
               className="object-cover w-[60%] max-md:mt-10 max-md:max-w-full"
             />

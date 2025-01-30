@@ -62,7 +62,7 @@ Start Your Journey Today
         <div className="flex flex-col w-6/12 mt-12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/646923812900e656fb2f158388c5da48739dc257a36637636e4e6d22e02577c1?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+            src="/cc_design_one_images/image 1.png"
             alt="Educational CRM platform interface showcase"
             className="object-contain grow w-[80%] aspect-[1.58] max-md:mt-10 max-md:max-w-full"
           />
