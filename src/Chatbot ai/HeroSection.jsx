@@ -24,7 +24,7 @@ export default function BlogsPage() {
   >
   <div className="flex overflow-hidden flex-col pt-20 max-w-full h-full bg-white bg-opacity-0 w-full px-40 max-md:px-5 max-md:pb-24">
     <h1 className="text-4xl font-lxe text-center max-md:max-w-full max-md:text-4xl">
-    I Assistant for All Your Scholar Clone Needs
+    I Assist for All Your Scholar Clone Needs
     </h1>
     <h4 className="text-lg mt-6 font-interregular px-40 text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
@@ -55,7 +55,7 @@ export default function BlogsPage() {
           <div className="flex flex-col grow mt-20 text-2xl text-slate-800 max-md:mt-10 max-md:max-w-full">
             <div className="flex flex-col items-start self-end px-20 max-w-full w-[733px]">
               <div className="mt-5 text-lg font-intersemibold leading-6 w-[571px] max-md:max-w-full">
-              The Scholar Clone Chatbot is more than just a helpdesk—it’s a smart assistant designed to simplify your journey with our platform. With intuitive responses, real-time assistance, and detailed guidance, this AI tool ensures you always have the answers you need, when you need them.
+              The Scholar Clone Chatbot is more than just a helpdesk—it&rsquo;s a smart assistant designed to simplify your journey with our platform. With intuitive responses, real-time assistance, and detailed guidance, this AI tool ensures you always have the answers you need, when you need them.
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function BlogsPage() {
           <div className=" builder-canvas flex relative flex-col pt-8 max-w-[707px] min-h-[390px] max-md:pr-5 max-md:mt-10 max-md:max-w-full">
             <img
               loading="lazy"
-              src="/Design_four_images/image (10).png"
+              src="/ai_design_images/image 7.jpeg"
               className="object-cover absolute rounded-2xl left-[103px] top-[6px] w-[431px]"
             />
           </div>
