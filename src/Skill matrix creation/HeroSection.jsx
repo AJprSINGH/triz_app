@@ -91,8 +91,8 @@ export default function BlogsPage() {
             <div className="flex absolute -left-px shrink-0 rounded-full border-green-600 border-solid border-[25px] h-[246px] top-[344px] w-[246px]" />
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c5cf48abd77a76438666f6785e601e5bfed606fda7bd4d4f851198b6786aaa19?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
-              className="object-contain absolute rounded-2xl shadow-sm aspect-square h-[431px] left-[103px] top-[116px] w-[431px]"
+              src="/hr_design_five_images/image 9.png"
+              className="object-contain absolute rounded-2xl shadow-sm aspect-square h-[426px] left-[103px] top-[116px] w-[431px]"
             />
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function BlogsPage() {
           <div className="flex flex-col w-2/5 max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/c53f40fd4be0c9d338d3a806e6d4904cfde062a7cbdd2883dfe14dc85256c11f?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+              src="/hr_design_five_images/image 10.png"
               className="object-contain w-full rounded-2xl aspect-square shadow-[4px_4px_10px_rgba(0,0,0,0.25)] max-md:mt-10 max-md:max-w-full"
             />
           </div>
