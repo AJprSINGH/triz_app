@@ -829,8 +829,8 @@ const rightMenuForCommunication = [
      [
        {
          id: 25,
-         title: "Organization-Wide Skill Taxonomy Framework",
-         url1: "/communication/ivrs",  
+         title: "Organization-Wise Skill Taxonomy Framework",
+         url1: "/skillTaxonomy",  
          url2: "/communication/ivrs-benefits"
        },
        {
