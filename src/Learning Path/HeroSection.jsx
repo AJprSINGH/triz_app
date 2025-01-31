@@ -11,7 +11,7 @@ export default function BlogsPage() {
     
     return (
 <>
-<main className='text-xl'>
+<main className='text-lg'>
     <Header />
     </main>
 <div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
