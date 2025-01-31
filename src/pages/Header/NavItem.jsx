@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavItem({ label, layerName }) {
   return (
-    <div data-layername={layerName} className="self-stretch my-auto basis-auto">
+    <div data-layername={layerName} className="self-stretch  basis-auto">
       {label}
     </div>
   );
