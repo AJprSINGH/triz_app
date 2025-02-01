@@ -362,12 +362,12 @@ const rightMenuForCommunication = [
          url1: "/CircularNotification",  
          url2: "/erpservice/complaint-feedback-benefits"
        },
-       {
-         id: 29,
-         title: "Message & Notification('Email, SMS, WhatsApp')",
-         url1: "/erpservice/student-performance",  
-         url2: "/erpservice/student-performance-benefits"
-       },
+      //  {
+      //    id: 29,
+      //    title: "Message & Notification('Email, SMS, WhatsApp')",
+      //    url1: "/erpservice/student-performance",  
+      //    url2: "/erpservice/student-performance-benefits"
+      //  },
        {
          id: 30,
          title: "Automated ",
