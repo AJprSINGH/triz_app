@@ -12,7 +12,7 @@ export default function CustomerSupport() {
         loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/b2ac133a455cba4f61a2f5b17c22ef3290f84654dba164b2040637f9c21148fc?placeholderIfAbsent=true&apiKey=694f6dd4c87e42e6b8a3be241cc17c5a"
         alt=""
-        className="object-contain mx-0 mt-3 w-[100%] aspect-[250] max-md:mx-2.5"
+        className="object-contain mx-0 mt-3 w-[100%] aspect-[220] max-md:mx-2.5"
       />
       <div className="mt-12 mx-10 text-center max-md:mt-10">
         Looking for additional assistance in an area not covered here? <br />

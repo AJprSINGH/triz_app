@@ -39,7 +39,7 @@ export default function ResourceTypes() {
         setVisible(true);
       }, []);
   return (
-    <div className={`flex overflow-hidden gap-16 font-inter pl-10 text-lg text-black bg-white rounded-xl shadow-sm max-md:pl-5 transition-opacity duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`} style={{
+    <div className={`flex overflow-hidden w-[90%]  gap-16 font-inter pl-10 text-lg text-black bg-white rounded-xl shadow-sm max-md:pl-5 transition-opacity duration-500 ${visible ? 'opacity-100' : 'opacity-0'}`} style={{
       boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)',
     }}>
       <div className="flex flex-col items-start mt-10">
@@ -56,7 +56,7 @@ export default function ResourceTypes() {
         alt=""
         className="object-contain shrink-0 my-14 w-2px aspect-[250]"
       />
-      <div className="flex flex-col items-start self-start mt-10 max-md:mt-10 pr-20">
+      <div className="flex flex-col items-start self-start mt-10 max-md:mt-10">
         <ResourceSection title="For Students" items={forStudentsData} />
         <div className="self-stretch mt-16 text-xl font-bold text-sky-500 max-md:mt-10 max-md:mr-2.5" style={{
           color:'rgba(17, 134, 254, 1)',

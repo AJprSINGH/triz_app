@@ -190,7 +190,7 @@ function NavBar() {
         className={`absolute transition-all duration-300 ease-in-out fade-in`}
         style={{
           top: 50,
-          left: '7%', 
+          left: '15%', 
           transform: 'translateX(-4%)', 
           zIndex: 1000,
         }}
