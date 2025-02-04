@@ -162,8 +162,8 @@ const rightMenuForCommunication = [
     {
       id: 2,
       icon: "/home_images/Megamenu/ANALYTICS/2.png",
-      title: "Reporting & Insights",
-      description: "Generate detailed reports and gain insights into student performance, attendance, and more.",
+      "title": "Multi-Speciality Dashboard",
+      "description": "Experience a dynamic dashboard with module-wise and user-specific views, providing tailored insights for every role.",
       url: "/analyticsservice"
     },
     {
