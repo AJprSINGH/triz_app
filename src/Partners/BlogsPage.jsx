@@ -47,6 +47,21 @@ const blogData = [
     imageSrc: "/Partners_Images/hr.jpg", 
     iconSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
   },
+  {
+    "category": "Implementation Partner",
+    "title": "Seamless Support",
+    "description": "Ensuring smooth deployment and integration of educational technologies for institutions.",
+    "imageSrc": "/Partners_Images/IP.jpg", 
+    "iconSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+},
+
+  {
+    "category": "Training Partner",
+    "title": "Expert-Led Training Solutions",
+    "description": "Providing professional development and skill-based training to educators and institutions.",
+    "imageSrc": "/Partners_Images/TP.jpg", 
+    "iconSrc": "https://cdn.builder.io/api/v1/image/assets/TEMP/d69f07ce58248e9832734d04d647a7484264b318a6af5a3b919ef1588adcfdff?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+}
 ];
 
 export default function BlogsPage() {
