@@ -128,17 +128,23 @@
 
 // export default HeroSection;
 import * as React from "react";
+import {useRouter} from "next/router";
 import Service from './ServicesSection';
 const HERO_BUTTONS = [
-  { text: "Get a free Demo Now!",bgColor: 'rgba(17, 134, 254, 1)',color: 'rgb(255, 255, 255)' },
-  { text: "Explore Scholar Clone", bgColor: 'rgb(255, 255, 255)' , color: 'rgb(0, 0, 0)' }
+  { text: "Get a free Demo Now!",bgColor: 'rgb(255, 255, 255)',color: 'rgb(0, 0, 0)' },
+  //{ text: "Explore Scholar Clone", bgColor: 'rgb(255, 255, 255)' , color: 'rgb(0, 0, 0)' }
 ];
  function ImageComponent() {
+  const router = useRouter();     
+       
+  const handleClick = () => {
+    router.push("/contactGlobal"); 
+  };
    return (
      <>
      <div className="relative mt-10">
      <div className="flex  overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
-     backgroundImage: 'url("/home_images/Group 1321314662.png")',
+     backgroundImage: 'url("/home_images/Group 1321314662 (1).png")',
      backgroundSize: 'cover',
      backgroundPosition: 'center center',
      backgroundRepeat: 'no-repeat',
@@ -160,6 +166,7 @@ const HERO_BUTTONS = [
                     background: button.bgColor,
                     color: button.color,
                  }}
+                 onClick={handleClick}
                 >
                   {button.text}
                 </button>
@@ -176,7 +183,7 @@ const HERO_BUTTONS = [
      </h1>
      <div className="relative mt-10 mx-[200px]">
      <div className="flex min-h-screen overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
-     backgroundImage: 'url("/home_images/00.png")',
+     backgroundImage: 'url("/home_images/00 (1).png")',
      backgroundSize: 'cover',
      backgroundPosition: 'center center',
      backgroundRepeat: 'no-repeat',

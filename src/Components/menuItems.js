@@ -1,16 +1,10 @@
 export const leftMenuItems = [
-    {
-      id: 1,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/288bf28ed71b3635134d700536827acc5d49087d9228b83beb4adfba04ae0862?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-      title: "Enterprise Resource Planning",
-      url: "/erpservice"
-    },
-    {
-      id: 2,
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/36d457f91443c3bc2362191a45cb119c8dbead3dca54d4b221dd7f4e8bc411ac?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-      title: "Learning Management System",
-      url: "/lmsservice"
-    },
+  {
+    id: 2,
+    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/36d457f91443c3bc2362191a45cb119c8dbead3dca54d4b221dd7f4e8bc411ac?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    title: "Learning Management System",
+    url: "/lmsservice"
+  },
     {
       id: 3,
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/b4888bb28e159f0f1e6857dd9bafc8e7a97b350ad01cb84b0769cc022cdd82d8?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
@@ -34,7 +28,13 @@ export const leftMenuItems = [
       icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/645673d639d99ff104e9e8f90c49ff6415794a14a79e9ac26f11e2bf3e931770?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
       title: "Analytics",
       url: "/analyticservice"
-    }
+    },
+    {
+      id: 1,
+      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/288bf28ed71b3635134d700536827acc5d49087d9228b83beb4adfba04ae0862?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      title: "Enterprise Resource Planning",
+      url: "/erpservice"
+    },
   ];
 
   export default {leftMenuItems};
