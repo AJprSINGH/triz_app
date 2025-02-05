@@ -112,6 +112,13 @@ const rightMenuForCommunication = [
     title: "Mapping & Visualization",
     description: "Create visual representations of data and processes for better decision-making and planning.",
     url: "/pione"
+  },
+  {
+    id: 4,
+    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F29f06911f14b46339300dcaf70b818a5",
+    title: "SQAA",
+    description: "AI-driven solutions for automating assessments, feedback, and learning progress tracking.",
+    url: "/pithree"
   }
   ];
 
@@ -306,6 +313,14 @@ const additionalContentForCommunication = [
       title: "Map",
       url1: "/permissions/map",  
       url2: "/permissions/map-benefits"
+    }
+  ],
+  [
+    {
+      id: 5,
+      title: "SQAA",
+      url1: "/ai/pal",  
+      url2: "/ai/pal-benefits"
     }
   ]
 ];

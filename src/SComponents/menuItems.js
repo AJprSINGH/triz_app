@@ -17,16 +17,16 @@ export const leftMenuItems = [
       title: "Mobile app",
       url: "/mobileservices"
     },
-    {
-      id: 4,
-      icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F059f21fcb5ba423a8c435ad3460423fc",
-      title: "Quality improvement",
-      url: "/pithree"
-    },
+    // {
+    //   id: 4,
+    //   icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F059f21fcb5ba423a8c435ad3460423fc",
+    //   title: "Quality improvement",
+    //   url: "/pithree"
+    // },
     {
       id: 5,
       icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2F0bcf946aa62e4806b287376e8ad17ca6",
-      title: "Process improvement",
+      title: "Quality & Process improvement",
       url: "/pione"
     },
     {
