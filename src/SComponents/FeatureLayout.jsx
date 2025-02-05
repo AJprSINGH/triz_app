@@ -35,29 +35,49 @@ const rightMenuForERP = [
 ];
 
 const rightMenuForLMS = [
-  {
-    id: 1,
-    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fec0863f1c0a3457787f3af9aa1e53e02",
-    title: "Template management",
-    description: "Manage and customize templates for streamlined learning management and course delivery.",
-    url: "/supportservice"
-  },
-  {
-    id: 2,
-    icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
-    title: "Roll-Over",
-    description: "Easily roll over academic records, courses, and data for a new academic year or term.",
-    url: "/supportservice"
-  },
-  {
-    id: 3,
-    icon: "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fbe47e60772e6499eb2fc54cb119f6679",
-    title: "Onboarding",
-    description: "Efficient onboarding processes for students, teachers, and administrators.",
-    url: "/supportservice"
-  }
+    {
+      "id": 1,
+      "icon": "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fec0863f1c0a3457787f3af9aa1e53e02",
+      "title": "Implementation and Configuration Services",
+      "description": "Setup and configure the system to meet institutional needs efficiently.",
+      "url": "/supportservice"
+    },
+    {
+      "id": 2,
+      "icon": "https://cdn.builder.io/api/v1/image/assets/TEMP/dea4835c79f2a7ba954ab009ffb103c2d43c17231bba87d9cb39f016b168a31d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+      "title": "System Setup and Customization",
+      "description": "Customize system settings and features to align with institutional requirements.",
+      "url": "/supportservice"
+    },
+    // {
+    //   "id": 3,
+    //   "icon": "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fbe47e60772e6499eb2fc54cb119f6679",
+    //   "title": "Data Migration",
+    //   "description": "Seamlessly transfer existing data into the new system with accuracy and security.",
+    //   "url": "/supportservice"
+    // },
+    {
+      "id": 3,
+      "icon": "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fbe47e60772e6499eb2fc54cb119f6679",
+      "title": "Training and Onboarding",
+      "description": "Comprehensive training for users to efficiently navigate and utilize the system.",
+      "url": "/supportservice"
+    },
+    // {
+    //   "id": 5,
+    //   "icon": "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fbe47e60772e6499eb2fc54cb119f6679",
+    //   "title": "Staff and Faculty Training",
+    //   "description": "Specialized training sessions tailored for faculty and administrative staff.",
+    //   "url": "/supportservice"
+    // },
+    // {
+    //   "id": 6,
+    //   "icon": "https://cdn.builder.io/api/v1/image/assets%2Faf5cfb29bb594d4e9f9e505ea3916323%2Fbe47e60772e6499eb2fc54cb119f6679",
+    //   "title": "Student Orientation",
+    //   "description": "Guided orientation programs to help students familiarize themselves with the system.",
+    //   "url": "/supportservice"
+    // }   
 ];
-
 const rightMenuForCareerCounselling = [
   {
     id: 1,
