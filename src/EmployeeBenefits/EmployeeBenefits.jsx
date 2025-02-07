@@ -67,7 +67,7 @@ function EmployeeBenefits() {
         </div>
       </div>
       <h2 className="mt-36 text-3xl font-inter text-center text-sky-800 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
-        What's in It for You?
+        What&apos;s in It for You?
       </h2>
       <div className="flex overflow-visible flex-col items-center self-stretch px-16 pb-44 mt-44 w-full bg-white shadow-[0px_-4px_15px_rgba(0,0,0,0.1)] max-md:px-5 max-md:pb-24 max-md:mt-10 max-md:max-w-full">
         <div className="z-10 -mt-20 -mb-9 w-full max-w-[1350px] max-md:mb-2.5 max-md:max-w-full" style={{
