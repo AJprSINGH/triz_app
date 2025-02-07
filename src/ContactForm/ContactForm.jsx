@@ -11,7 +11,7 @@ function ContactForm() {
   ];
 
   return (
-    <div className="overflow-visible -mt-40 mx-20 px-20 py-24 bg-white rounded-xl shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:px-5">
+    <div className="overflow-visible -mt-40 mb-20 mx-20 px-20 py-24 bg-white rounded-xl shadow-[0px_4px_4px_rgba(0,0,0,0.25)] max-md:px-5">
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
           <form className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
