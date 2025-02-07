@@ -3,7 +3,8 @@ import CareersHero from "./CareersHero";
 import JobCard from "./JobCard";
 import Header from "../Header_C/NavBar";
 import Footer from "../Footer_C/Footer";
-
+import Content from "../../EmployeeBenefits/EmployeeBenefits";
+import ContentNew from "../../ExploreOpenRoles/ExploreOpenRoles";
 const jobListings = [
   {
     title: "Fullstack Developer",
@@ -24,21 +25,9 @@ export default function CareersPage() {
     <div className="flex flex-col">
       <Header />
       <CareersHero />
-
-      {/* Center the container and make it responsive */}
-      <div className="mx-auto px-4 md:px-10 mt-20 max-w-screen-xl w-full">
-        {/* Flex container to center the items */}
-        <div className="flex gap-5 justify-center flex-wrap max-md:flex-col mb-20">
-          {jobListings.map((job, index) => (
-            <JobCard
-              key={index}
-              title={job.title}
-              imageSrc={job.imageSrc}
-            />
-          ))}
-        </div>
-      </div>
-
+      <Content />
+     
+      <ContentNew />
       <Footer />
     </div>
   );

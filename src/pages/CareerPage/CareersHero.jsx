@@ -2,10 +2,10 @@ import * as React from "react";
 
 export default function CareersHero() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full -mt-[4px]">
     <img
         loading="lazy"
-        src="/career_page_images/image (7).png"
+        src="/career_page_images/image (12).png"
         alt="Resource page header"
         className="object-cover w-full h-full"
     />
