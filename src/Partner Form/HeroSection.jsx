@@ -52,7 +52,7 @@ export default function HeroSection() {
               Empower Education, Expand Your Business
               </div>
               <div className="text-xl text-justify font-interregular leading-6 w-[571px] max-md:max-w-full">
-Join hands with Scholar Clone, the leading AI-driven School Management & Career Counseling ERP. Whether you're an EdTech company, reseller, or consultant, we offer you the tools, technology, and support to succeed.
+Join hands with Scholar Clone, the leading AI-driven School Management & Career Counseling ERP. Whether you&apos;re an EdTech company, reseller, or consultant, we offer you the tools, technology, and support to succeed.
 rusted by Schools & Institutions Worldwide AI-Powered Personalized Learning & Career GuidanceLucrative Revenue & Growth OpportunitiesDedicated Partner Support & Resources
               </div>
             </div>

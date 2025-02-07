@@ -5,6 +5,7 @@ import FormTextArea from './FormTextArea';
 import Header from '../Header/NavBar';
 import Footer from '../Footer/Footer';
 import Head from 'next/head';
+import ContactCard from '../../ContactForm/ContactForm';
 function ContactForm() {
   return (
     <>
@@ -13,7 +14,7 @@ function ContactForm() {
     </main>
     <div
         style={{
-          backgroundImage: 'url("/contactGlobal_images/image (8).png")',
+          backgroundImage: 'url("/contactGlobal_images/image (13).png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center center',
           backgroundRepeat: 'no-repeat',
@@ -28,10 +29,10 @@ function ContactForm() {
           <img loading="lazy" src="/contactGlobal_images/image (8).png" alt="" className="object-cover absolute inset-0 h-10px" />
         </div>
       </header> */}
-      <main className="overflow-hidden self-center lg:pl-6 lg:mt-10 sm:mb-0 max-w-full  bg-white rounded-3xl border-solid shadow-sm border-[5px] lg:w-[950px] sm:w-full max-md:pl-5 max-md:mt-8" style={{
+     {/* <main className="overflow-hidden self-center lg:pl-6 lg:mt-10 sm:mb-0 max-w-full  bg-white rounded-3xl border-solid shadow-sm border-[5px] lg:w-[950px] sm:w-full max-md:pl-5 max-md:mt-8" style={{
       borderColor:'rgba(21, 70, 120, 1)'
       }}>
-        <div className="lg:flex lg:gap-5 sm:gap-0 sm:w-full max-md:flex-col">
+         <div className="lg:flex lg:gap-5 sm:gap-0 sm:w-full max-md:flex-col">
           <section className="flex lg:flex-row sm:flex-col lg:w-[54%] sm:px-4 sm:pt-2 lg:px-0 lg:pt-0 sm:w-full max-md:ml-0 max-md:w-full">
             <form className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
               <FormInput label="Name" />
@@ -46,8 +47,9 @@ function ContactForm() {
             </form>
           </section>
           <ContactInfo />
-        </div>
-      </main>
+        </div> 
+      </main>*/}
+      <ContactCard />
       <br></br>
       <br></br>
       <footer>
