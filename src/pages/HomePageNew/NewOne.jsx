@@ -144,7 +144,7 @@ const HERO_BUTTONS = [
      <>
      <div className="relative mt-10">
      <div className="flex  overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
-     backgroundImage: 'url("/home_images/Group 1321314662 (1).png")',
+     backgroundImage: 'url("/home_images/Group 1321314662 (2).png")',
      backgroundSize: 'cover',
      backgroundPosition: 'center center',
      backgroundRepeat: 'no-repeat',
