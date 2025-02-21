@@ -2,14 +2,14 @@ import * as React from "react";
 
 const ServiceCard = ({ icon, title }) => {
   return (
-    <div className="flex gap-2 whitespace-nowrap">
+    <div className="flex items-center gap-3 md:gap-4 lg:gap-5">
       <img
         loading="lazy"
         src={icon}
         alt={`${title} service icon`}
-        className="object-contain shrink-0 w-10 aspect-square"
+        className="object-contain w-10 md:w-12 lg:w-14 aspect-square"
       />
-      <div className="my-auto">{title}</div>
+      <div className="text-base md:text-lg lg:text-xl font-semibold">{title}</div>
     </div>
   );
 };

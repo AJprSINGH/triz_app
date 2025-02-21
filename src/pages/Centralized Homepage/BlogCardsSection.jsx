@@ -22,9 +22,9 @@ const blogData = [
 function BlogCardsSection() {
   return (
     <div className="px-20 pt-10 rounded-xl mb-10">
-      <div className="flex gap-40 max-md:flex-col">
+      <div className="lg:flex gap-40   max-md:flex-col">
         {blogData.map((blog, index) => (
-          <div key={index} className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+          <div key={index} className="flex lg:flex-col-wrap w-[33%] w-full">
             <BlogCard
               imageSrc={blog.imageSrc}
               title={blog.title}
