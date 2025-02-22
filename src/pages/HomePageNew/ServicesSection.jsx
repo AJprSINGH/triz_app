@@ -4,26 +4,37 @@ export default function MyComponent() {
   return (
     <>
     <div className="pt-2 pb-3.5 rounded-none mt-20">
-      <div className="flex gap-5 max-md:flex-col ">
-        <div className="flex flex-col w-[44%] max-md:ml-0 max-md:w-full">
+      <div className="lg:flex gap-5 max-md:flex-col ">
+        <div className="lg:flex sm:hidden lg:flex-col lg:w-[44%] sm:w-[44%] max-md:ml-0 max-md:w-full max-md:order-2">
             <div className="flex z-10 flex-col items-start max-w-full rounded-full w-[553px] max-md:px-5 max-md:pb-24">
               <img
-                loading="lazy"
+                loading="lazy"  
                 src="/home_images/Group (1).png"
                 className="object-contain z-10 mt-0 mb-0 max-w-full w-full max-md:mb-2.5"
               />
             </div>
         </div>
-        <div className="flex flex-col ml-5 w-[56%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col mt-7 w-full max-md:mt-10 max-md:max-w-full">
-            <div className="flex flex-col pr-1 pl-5 w-full text-xl text-black max-md:max-w-full">
-              <div className="text-xl text-start text-amber-500 font-inter max-md:max-w-full">
+        <div className="sm:flex lg:hidden flex-col md:flex-row gap-10 items-center md:items-start">
+    
+    {/* Image Container */}
+    <div className="w-full md:w-[44%] flex justify-center">
+      <img
+        loading="lazy"
+        src="/home_images/Group (1).png"
+        className="object-contain max-w-full md:max-w-[553px] w-full"
+      />
+    </div>
+    </div>
+        <div className="lg:flex lg:flex-col lg:ml-5 lg:w-[56%] sm:w-full max-md:ml-0 max-md:w-full ">
+          <div className="lg:flex lg:flex-col lg:mt-7  lg:w-full max-md:mt-4 max-md:max-w-full">
+            <div className="flex flex-col pr-1 pl-5 w-full text-xl text-black max-md:max-w-full ">
+              <div className="text-xl lg:text-left sm:text-center text-start text-amber-500 font-inter max-md:max-w-full">
                 Empower Education on the Go with Scholar Clone&rsquo;s Mobile Apps
               </div>
-              <div className="self-start mt-2 text-lg font-intermedium text-center max-md:max-w-full">
+              <div className="self-start lg:text-align-left sm:text-center mt-2 text-lg font-intermedium text-center max-md:max-w-full">
                 Anytime, Anywhere Access for Parents, Students, and Admins
               </div>
-              <div className="mt-5 mr-20 text-sm font-interegular max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
+              <div className="mt-5 lg:ml-0 sm:mx-10 lg:text-max sm:text-justify text-sm font-interegular max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
                 Gone are the days when education was confined to classrooms or
                 office hours. With Scholar Clone’s feature-rich mobile
                 applications, parents, students, and administrators can stay
@@ -33,7 +44,7 @@ export default function MyComponent() {
                 matters most. Designed for ease of use and functionality, these
                 apps bring convenience and efficiency to your fingertips.
               </div>
-              <div className="flex gap-10 mt-5 max-w-full text-white w-[382px] max-md:mt-10">
+              <div className="flex lg:gap-10 sm:gap-28 mt-5 max-w-full text-white w-[382px] max-md:mt-10">
                 <button className="text-sm text-center gap-2.5 font-inter px-2 py-1 bg-sky-500 rounded-3xl transition-all duration-300 transform hover:scale-105">
                   Download on Android
                 </button>
@@ -43,8 +54,8 @@ export default function MyComponent() {
               </div>
             </div>
             <div className="mt-12 mr-10 max-md:mt-10 max-md:max-w-full">
-              <div className="flex gap-5 max-md:flex-col">
-                <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div className="lg:flex gap-5 max-md:flex-col">
+                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
                   <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
@@ -65,7 +76,7 @@ export default function MyComponent() {
                     </ul>
                   </div>
                 </div>
-                <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
                   <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
@@ -85,7 +96,7 @@ export default function MyComponent() {
                     </ul>
                   </div>
                 </div>
-                <div className="flex flex-col ml-5  w-[33%] max-md:ml-0 max-md:w-full">
+                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
                   <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
@@ -112,13 +123,13 @@ export default function MyComponent() {
         </div>
       </div>
     </div>
-    <h1 className="mt-40 lg:px-[100px] mb-20 text-center font-inter lg:text-4xl sm:text-2xl" style={{
+    <h1 className="mt-40 lg:px-[100px] mb-20 text-center font-inter lg:text-4xl sm:text-2xl lg:mx-0 sm:mx-10" style={{
       color:'rgba(17, 134, 254, 1)'
      }}>
      Empowering Learning and Growth Across Education and Enterprise
      </h1>
     <div className="rounded-3xl">
-  <div className="flex gap-5 max-md:flex-col mx-20">
+  <div className="lg:flex gap-5 max-md:flex-col lg:mx-20 sm:mx-10 ">
     {/* Each card will have the same height */}
     {[
       {
@@ -138,7 +149,7 @@ export default function MyComponent() {
         description: "Scholar Clone provides data-driven analytics and performance tracking, enabling educators and organizations to make informed decisions and improve outcomes."
       }
     ].map((item, index) => (
-      <div key={index} className="flex flex-col w-3/12 max-md:w-full">
+      <div key={index} className="flex flex-col lg:w-3/12 sm:w-full lg:mb-0 sm:mb-10 max-md:w-full">
         <div className="flex flex-col px-8 pt-20 pb-10 rounded-3xl shadow-[4px_4px_4px_rgba(0,0,0,0.25)] h-full"style={{
                     background: 'linear-gradient(180deg, #ffffff 0%, rgba(245, 245, 245, 1) 41%, rgba(153, 200, 244, 1) 100%)',
                   }}>

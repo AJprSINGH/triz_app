@@ -40,7 +40,7 @@ const pricingData = {
       `,
       "Safety and Security Solutions": `
          <ul class="list-disc pl-5">
-          <li>Automated class scheduling</li>
+          <li></li>
         </ul>
       `,
       "Academic and exam management": `
