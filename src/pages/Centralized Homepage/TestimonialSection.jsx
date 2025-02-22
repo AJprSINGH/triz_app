@@ -32,7 +32,7 @@ function TestimonialSection() {
   return (
     <div className="flex flex-col items-center rounded-none mt-20 max-md:mt-10 w-full">
   {/* Heading */}
-  <h1 className="text-4xl font-bold text-slate-700 font-noto max-md:text-2xl max-md:text-center">
+  <h1 className="lg:text-4xl sm:text-2xl font-bold text-slate-700 font-noto max-md:text-2xl max-md:text-center">
     Our Client&apos;s Review
   </h1>
 
@@ -67,7 +67,7 @@ function TestimonialSection() {
   </div>
 
   {/* Blogs & Articles Section */}
-  <h2 className="mt-20 text-4xl sm:px-4 sm:text-center font-bold font-noto text-slate-700 text-left max-md:mt-10 max-md:text-2xl max-md:text-center">
+  <h2 className="mt-20 lg:text-4xl sm:text-2xl sm:px-4 sm:text-center font-bold font-noto text-slate-700 text-left max-md:mt-10 max-md:text-2xl max-md:text-center">
     Our Latest Blogs & Articles
 </h2>
 

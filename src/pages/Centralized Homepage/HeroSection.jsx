@@ -34,9 +34,9 @@ const circleImages = [
 
 export default function HeroSection() {
   return (
-    <div className="flex flex-col px-10 md:px-24 pt-16 rounded-none">
+    <div className="flex flex-col lg:px-10 sm:px-4 md:px-24 pt-16 rounded-none">
   {/* Heading */}
-  <h1 className="z-10 self-center mt-0 text-4xl font-bold font-noto text-center text-slate-700 max-w-[1043px] max-md:max-w-full max-md:text-3xl">
+  <h1 className="z-10 self-center mt-0 lg:text-4xl sm:text-2xl font-bold font-noto text-center text-slate-700 max-w-[1043px] max-md:max-w-full max-md:text-3xl">
     Empowering Education, Elevating Careers,  
     <br /> Transforming Futures
   </h1>

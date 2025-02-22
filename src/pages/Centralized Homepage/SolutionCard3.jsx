@@ -10,7 +10,7 @@ const images = [
 export const SolutionCard3 = () => {
   return (
     <div
-  className="overflow-hidden self-stretch px-5 pt-0 pb-4 mt-0 w-full bg-white rounded-xl max-md:mt-10 max-md:max-w-full"
+  className="overflow-hidden self-stretch lg:px-5 sm:px-16 pt-0 pb-4 mt-0 w-full bg-white rounded-xl max-md:mt-10 max-md:max-w-full"
   style={{
     boxShadow: "0 0 9px 5px rgba(64, 96, 146, 0.5)", // Custom shadow style
   }}

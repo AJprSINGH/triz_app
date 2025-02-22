@@ -80,7 +80,7 @@ const ClientSection = () => {
       <div className="sm:block lg:hidden gap-5 max-md:flex-col">
         <div className="w-full max-md:ml-0 max-md:w-full">
           <div className="z-10 mr-0 w-full max-md:max-w-full">
-            <div className="text-center text-4xl font-inter text-sky-500 max-md:max-w-full max-md:text-4xl">
+            <div className="text-center text-2xl font-inter text-sky-500 max-md:max-w-full max-md:text-4xl">
               Empowering Students for Careers of Tomorrow
             </div>
             <div className="mt-0 max-md:mt-10 max-md:max-w-full">
