@@ -44,7 +44,7 @@ export default function MyComponent() {
                 matters most. Designed for ease of use and functionality, these
                 apps bring convenience and efficiency to your fingertips.
               </div>
-              <div className="flex lg:gap-10 sm:gap-28 mt-5 max-w-full text-white w-[382px] max-md:mt-10">
+              <div className="flex lg:gap-10 sm:gap-10 mt-5 max-w-full text-white w-[382px] max-md:mt-10">
                 <button className="text-sm text-center gap-2.5 font-inter px-2 py-1 bg-sky-500 rounded-3xl transition-all duration-300 transform hover:scale-105">
                   Download on Android
                 </button>
@@ -123,7 +123,7 @@ export default function MyComponent() {
         </div>
       </div>
     </div>
-    <h1 className="mt-40 lg:px-[100px] mb-20 text-center font-inter lg:text-4xl sm:text-2xl lg:mx-0 sm:mx-10" style={{
+    <h1 className="lg:mt-40 sm:mt-20 lg:px-[100px] mb-20 text-center font-inter lg:text-4xl sm:text-2xl lg:mx-0 sm:mx-10" style={{
       color:'rgba(17, 134, 254, 1)'
      }}>
      Empowering Learning and Growth Across Education and Enterprise

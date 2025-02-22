@@ -97,7 +97,7 @@ const ClientSection = () => {
                       students are prepared for the dynamic demands of the
                       future workforce.
                     </div>
-                    <div className="flex flex-wrap gap-4 mt-6 max-md:mt-10">
+                    <div className="flex gap-4 mt-6 max-md:mt-10">
                       <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/9b91d2d259bc1c9cbc31d5debfe6114ad6e614c2d1e4ee24928e5c339896f746?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
@@ -107,7 +107,7 @@ const ClientSection = () => {
                         RIASEC Profiling for Personalized Career Suggestions
                       </div>
                     </div>
-                    <div className="flex flex-wrap gap-4 mt-2">
+                    <div className="flex  gap-4 mt-2">
                       <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/2fe3fd4eb7da1df9261fd7e842e843bad6023f968f88bb6c2c63815f7adfad01?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"

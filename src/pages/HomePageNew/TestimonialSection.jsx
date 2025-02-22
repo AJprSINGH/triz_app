@@ -62,7 +62,7 @@ function TestimonialSection() {
     </div> */}
     <div className="mt-40"></div>
     <section className="bg-blue-100 bg-opacity-80">
-    <h1 className="mt-10 lg:px-[100px] mb-10 text-center font-inter lg:text-4xl sm:text-2xl" style={{
+    <h1 className="mt-10 lg:px-[100px] sm:px-10 mb-10 text-center font-inter lg:text-4xl sm:text-2xl" style={{
       color:'rgba(17, 134, 254, 1)'
      }}>
      Empowering Learning and Growth Across Education and Enterprise
