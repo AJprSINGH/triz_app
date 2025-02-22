@@ -7,7 +7,7 @@ const ServiceCard = ({ icon, title }) => {
         loading="lazy"
         src={icon}
         alt={`${title} service icon`}
-        className="object-contain w-10 md:w-12 lg:w-14 aspect-square"
+        className="object-contain lg:w-12 md:w-12 sm:w-5 aspect-square"
       />
       <div className="text-base md:text-lg lg:text-xl font-semibold">{title}</div>
     </div>

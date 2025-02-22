@@ -61,21 +61,21 @@ export default function HeroSection() {
 
           {/* "Know More" Button */}
           <div
-            className="flex gap-2.5 justify-center items-center self-center py-2.5 mt-11 max-w-full text-white text-md rounded-xl pointer-events-auto min-h-[50px] w-[180px] max-md:px-5 max-md:mt-10 bg-green-400 transition-all duration-300 transform hover:scale-105 hover:bg-green-500 font-merriweather"
-            tabIndex="0"
-            role="button"
-            onClick={() => window.open('/aboutus', '_blank')}
-            style={{
-              boxShadow: '0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset', 
-            }}
-            onKeyPress={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                window.open('/aboutus', '_blank');
-              }
-            }}
-          >
-            <span>Know More</span>
-          </div>
+                className="flex gap-2.5 justify-center items-center self-center py-2.5 mt-11 max-w-full text-white text-md rounded-xl pointer-events-auto min-h-[50px] w-[180px] max-md:px-5 max-md:mt-10 bg-green-400 transition-all duration-300 transform hover:scale-105 hover:bg-green-500 animate-blink font-merriweather"
+                tabIndex="0"
+                role="button"
+                onClick={() => window.open('/aboutus', '_blank')}
+                style={{
+                  boxShadow: '0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset', // Adding inset shadow for bottom side
+                }}
+                onKeyPress={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                    // Handle click
+                    }
+                }}
+                >
+                <span>Know More</span>
+            </div>
         </div>
       </div>
 

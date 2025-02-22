@@ -48,7 +48,7 @@ export const SolutionCard2 = () => {
         </div>
 
         {/* Description */}
-        <div className="mt-10 text-xl font-bold text-black text-left lg:text-justify leading-relaxed font-roboto">
+        <div className="mt-10 text-xl font-bold text-black text-left text-justify leading-relaxed font-roboto">
           Scholar Clone transforms higher education with its AI-driven,
           all-in-one solution, streamlining campus operations, enhancing student
           engagement, and delivering personalized learning. From advanced
@@ -62,21 +62,20 @@ export const SolutionCard2 = () => {
           <div className="flex flex-wrap gap-5 lg:flex-nowrap">
             {/* Button Section */}
             <div className="flex flex-col lg:w-1/4 w-full">
-              <a
-                href="https://triz-apphigher-education.vercel.app/"
-                className="flex gap-2.5 justify-center items-center text-lg self-center py-2.5 px-5 mt-6 text-white rounded-lg shadow-lg w-[200px] max-md:mt-10 bg-[#7ac244] transition-all duration-300 transform hover:scale-105 hover:bg-[#69b153] font-bold"
-                target="_blank"
-                rel="noopener noreferrer"
-                role="button"
-                tabIndex="0"
-                style={{
-                  boxShadow:
-                    "0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset",
-                  fontFamily: "merriweather",
-                }}
-              >
-                Know More
-              </a>
+            <a
+                    href="/"
+                    className="flex gap-2.5 lg:justify-center text-lg lg:items-center lg:self-center py-2.5 pr-5 pl-5 mt-6 max-w-[150px] text-white rounded-lg pointer-events-auto min-h-[10px] shadow-[0px_17px_33px_rgba(51,32,0,0.8)] w-[200px] max-md:px-5 max-md:mt-10 bg-[rgb(122, 194, 68)] transition-all duration-300 transform hover:scale-105 hover:bg-rgb(122, 194, 68) animate-blink font-bold"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    role="button"
+                    tabIndex="0"
+                    style={{
+                      boxShadow: '0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset', // Adding inset shadow for bottom side
+                      fontFamily: 'merriweather',
+                    }}
+                    >
+                    Know More
+                  </a>
             </div>
 
             {/* Image Gallery Section */}
