@@ -56,7 +56,7 @@ export default function MyComponent() {
             <div className="mt-12 mr-10 max-md:mt-10 max-md:max-w-full">
               <div className="lg:flex gap-5 max-md:flex-col">
                 <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">For Parents:</span>
@@ -77,7 +77,7 @@ export default function MyComponent() {
                   </div>
                 </div>
                 <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">For Students:</span>
@@ -97,7 +97,7 @@ export default function MyComponent() {
                   </div>
                 </div>
                 <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">
@@ -137,7 +137,7 @@ export default function MyComponent() {
         description: "Scholar Clone adapts to the needs of schools, universities, and corporate training programs, seamlessly growing with expanding enrollments, staff, and operational demands."
       },
       {
-        title: "AI-Driven Personalization",
+        title: "AI-Driven Personalization and Innovation",
         description: "With AI-powered learning paths tailored to individual needs, Scholar Clone enhances learning outcomes for students and professionals alike."
       },
       {
