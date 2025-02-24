@@ -53,10 +53,10 @@ export default function MyComponent() {
                 </button>
               </div>
             </div>
-            <div className="mt-12 mr-10 max-md:mt-10 max-md:max-w-full">
-              <div className="lg:flex gap-5 max-md:flex-col">
-                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+            <div className="mt-12 sm:mr-10 lg:mr-0 max-md:mt-10 max-md:max-w-full">
+              <div className="lg:flex gap-0 max-md:flex-col">
+                <div className="lg:flex lg:flex-col lg:w-[60%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
+                  <div className="overflow-hidden grow px-2 pt-8  text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">For Parents:</span>
@@ -76,8 +76,8 @@ export default function MyComponent() {
                     </ul>
                   </div>
                 </div>
-                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+                <div className="lg:flex lg:flex-col lg:w-[60%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
+                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs h-[80%] text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">For Students:</span>
@@ -96,8 +96,8 @@ export default function MyComponent() {
                     </ul>
                   </div>
                 </div>
-                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+                <div className="lg:flex lg:flex-col lg:w-[60%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
+                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs h-[80%] text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">
