@@ -11,32 +11,46 @@ export default function Benefits() {
         </h1>
 
         <div className="mt-20 w-full flex items-center justify-center max-md:mt-10">
-          <div className="flex gap-5 flex-wrap justify-center max-md:flex-col">
-            {benefitsTopData.map((benefit) => (
-              <div key={benefit.id} className="flex lg:ml-10 flex-col w-full max-w-xs">
-                <BenefitCard
-                  icon={benefit.icon}
-                  title={benefit.title}
-                  description={benefit.description}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-32 w-full flex items-center justify-center max-md:mt-10">
-          <div className="flex gap-5 flex-wrap justify-center max-md:flex-col">
-            {benefitsBottomData.map((benefit) => (
-              <div key={benefit.id} className="flex flex-col lg:ml-10 w-full max-w-xs">
-                <BenefitCard
-                  icon={benefit.icon}
-                  title={benefit.title}
-                  description={benefit.description}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+                  <div className="flex gap-5 flex-wrap justify-center max-md:flex-col">
+                    {benefitsTopData.map((benefit) => (
+                      <div key={benefit.id} className="flex lg:ml-10 flex-col w-full max-w-xs">
+                        <BenefitCard
+                          icon={benefit.icon}
+                          title={benefit.title}
+                          description={benefit.description}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+        
+                <div className="lg:mt-32 sm:mt-4 w-full flex items-center justify-center max-md:mt-10">
+                  <div className="lg:flex sm:hidden gap-5 flex-wrap justify-center max-md:flex-col">
+                    {benefitsBottomData.map((benefit) => (
+                      <div key={benefit.id} className="flex flex-col lg:ml-10 w-full max-w-xs">
+                        <BenefitCard
+                          icon={benefit.icon}
+                          title={benefit.title}
+                          description={benefit.description}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+        
+                <div className="lg:mt-32 sm:mt-4  w-full flex  items-center justify-center max-md:mt-10">
+                  <div className="sm:flex lg:hidden gap-1 flex-wrap justify-center max-md:flex-col">
+                    {benefitsBottomData.map((benefit) => (
+                      <div key={benefit.id} className="flex flex-col lg:ml-10 w-full max-w-xs">
+                        <BenefitCard
+                          icon={benefit.icon}
+                          title={benefit.title}
+                          description={benefit.description}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
 
         <div className="self-stretch mt-28 w-full border border-solid bg-neutral-800 border-neutral-800 min-h-[1px] opacity-[0.08]" />
       </div>
