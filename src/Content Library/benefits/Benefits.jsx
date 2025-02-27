@@ -11,8 +11,8 @@ export default function Benefits() {
             }}>
           Benefits
         </div>
-        <div className="flex max-md:flex-col">
-        <div className="flex flex-col w-[50%] pr-20">
+        <div className="lg:flex max-md:flex-col">
+        <div className="flex flex-col lg:w-[50%] lg:pr-20">
         <BenefitCard
           title={benefitsData.educationalInstitutions.title}
           benefits={benefitsData.educationalInstitutions.benefits}
@@ -21,10 +21,10 @@ export default function Benefits() {
         <BenefitCard
           title={benefitsData.studentsAndParents.title}
           benefits={benefitsData.studentsAndParents.benefits}
-          className="w-full max-md:px-5 max-md:mt-10 ml-36 max-md:max-w-full font-inter"
+          className="w-full max-md:px-5 max-md:mt-10 lg:ml-36 max-md:max-w-full font-inter"
         />
         </div>
-        <div className="flex flex-col mt-32 ml-20  w-[50%]">
+        <div className="flex flex-col lg:mt-32 lg:ml-20 lg:w-[50%]">
         <img
           loading="lazy"
           src="Design_one_images/Group 1321314639 (2).png"

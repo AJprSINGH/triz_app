@@ -14,7 +14,7 @@ export default function BlogsPage() {
 <main className='text-xl'>
     <Header />
     </main>
-<div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+<div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
     backgroundImage: 'url("Design_one_images/Group 1321314639.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
@@ -27,6 +27,50 @@ export default function BlogsPage() {
     Building Resilient Minds and Empathetic Hearts
     </h1>
     <h4 className="text-lg mt-20 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgba(34, 69, 111, 1)'
+    }}>
+    The Social and Emotional Learning (SEL) Module of Scholar Clone&rsquo;s LMS is designed to go beyond academics, focusing 
+    on nurturing emotional intelligence, self-awareness, and interpersonal skills in students. This module equips educators 
+    with tools to create a balanced and supportive environment where students thrive emotionally, socially, and academically.    </h4>
+    <div className="flex flex-row gap-10 items-center justify-center">
+    <button 
+  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  style={{
+    background: 'rgba(34, 69, 111, 1)'
+  }}
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Get Free Demo
+</button>
+<button 
+  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  style={{
+    background: 'rgba(34, 69, 111, 1)'
+  }}
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Get Your Solution Today
+</button>
+</div>
+  </div>
+    </div>
+<div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("Design_one_images/Group 1321314639.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height: '80vh',
+  }}
+  >
+  <div className="flex overflow-hidden flex-col pt-20 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
+    <h1 className="text-2xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
+    Building Resilient Minds and Empathetic Hearts
+    </h1>
+    <h4 className="text-sm mt-10 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
     The Social and Emotional Learning (SEL) Module of Scholar Clone&rsquo;s LMS is designed to go beyond academics, focusing 
@@ -126,7 +170,7 @@ export default function BlogsPage() {
 </div>
   </div>
     </div> */}
-    <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    <div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
       backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
@@ -136,13 +180,23 @@ export default function BlogsPage() {
     >
     <Features />
     </div>
+    <div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+      backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      height: '210vh',
+    }}
+    >
+    <Features />
+    </div>
     <Benefits />
-    <h1 className="text-3xl mt-40 font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
+    <h1 className="lg:text-3xl sm:text-2xl lg:mt-40 sm:mt-20  font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
     Empower Students to Thrive Emotionally and Academically
     </h1>
-    <h4 className="text-2xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+    <h4 className="lg:text-2xl sm:text-1xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
     Join the many institutions that trust Scholar Clone to deliver meaningful SEL experiences.

@@ -14,7 +14,7 @@ export default function BlogsPage() {
 <main className='text-xl'>
     <Header />
     </main>
-<div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+<div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
     backgroundImage: 'url("Design_one_images/Group 1321314639.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
@@ -57,19 +57,62 @@ Get Your Own Fees Collection Module Today!
 </div>
   </div>
     </div>
+<div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("Design_one_images/Group 1321314639.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height: '70vh',
+  }}
+  >
+  <div className="flex overflow-hidden flex-col pt-10 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
+    <h1 className="text-2xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
+    Simplify Financial Management with Scholar Clone ERP Fees Collection Module
+    </h1>
+    <h4 className="text-sm mt-10 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgba(34, 69, 111, 1)'
+    }}>
+    Transform how you manage fees with our Fees Collection Module, designed to make your financial processes seamless, secure, and efficient. From collecting fees to managing refunds and cancellations, everything is just a few clicks away. Save time, reduce errors, and ensure transparency with powerful tools built for educational institutions.
+    </h4>
+    <div className="flex flex-row gap-10 items-center justify-center">
+    <button 
+  className="self-center px-5 py-2 mt-12 mb-0 text-xs font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  style={{
+    background: 'rgba(34, 69, 111, 1)'
+  }}
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Get Free Demo
+</button>
+<button 
+  className="self-center px-5 py-2 mt-12 mb-0 text-xs font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  style={{
+    background: 'rgba(34, 69, 111, 1)'
+  }}
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+Get Your Own Fees Collection Module Today!
+</button>
+</div>
+  </div>
+    </div>
     <div className="rounded-none">
-      <div className="flex mx-20 max-md:flex-col">
-        <div className="flex flex-col w-6/12 mt-12 max-md:ml-0 max-md:w-full">
+      <div className="lg:flex lg:mx-20 sm:mx-10 max-md:flex-col">
+        <div className="flex flex-col lg:w-6/12 lg:mt-12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
             src="/Fees Collection/image 85.png"
             alt="Educational CRM platform interface showcase"
-            className="object-contain grow w-[80%] aspect-[1.58] max-md:mt-10 max-md:max-w-full"
+            className="object-contain grow lg:w-[80%] aspect-[1.58] max-md:mt-10 max-md:max-w-full"
           />
         </div>
-        <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+        <div className="flex flex-col lg:w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto w-full font-bold max-md:mt-10 max-md:max-w-full">
-            <div className="text-xl font-inter text-right text-justify max-md:mr-2.5 max-md:max-w-full" style={{
+            <div className="lg:text-xl sm:text-sm font-inter lg:text-right sm:text-center lg:text-justify max-md:mr-2.5 max-md:max-w-full" style={{
                 color:'rgba(61, 96, 149, 1)'
             }}>
               The Fees Collection Module of Scholar Clone ERP is a comprehensive solution for educational institutions, streamlining fee-related operations with automation, ensuring transparency.
@@ -91,7 +134,7 @@ Get Your Own Fees Collection Module Today!
         </div>
       </div>
     </div>
-    <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    <div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
     backgroundImage: 'url("Fees Collection/Group 1321314686.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
@@ -124,12 +167,55 @@ The Fees Collection Module streamlines financial management in educational insti
 </div>
   </div>
     </div>
-    <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    <div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("Fees Collection/Group 1321314686.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height: '50vh',
+  }}
+  >
+  <div className="flex overflow-hidden flex-col pt-10 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
+    <h1 className="text-1xl font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgba(34, 69, 111, 1)'
+    }}>
+    Simplify, Automate, Succeed: Your All-in-One Fees Collection Solution
+    </h1>
+    <h4 className="text-[12px] mt-10 mr-4 ml-3 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgb(0, 0, 0)'
+    }}>
+    
+The Fees Collection Module streamlines financial management in educational institutions with simplified fee collection across multiple payment modes, centralized transaction tracking, and automated processes for secure refunds, cancellations, and NACH transactions.
+    </h4>
+    <div className="flex flex-row gap-10 mt-4 items-center justify-center">
+    <button
+                 className={`gap-2.5 self-stretch px-3 py-2 font-inter bg-sky-500 rounded-3xl text-white text-xs`}
+                 tabIndex="0"
+                 style={{
+                    background:'rgba(17, 134, 254, 1)'
+                 }}
+                >
+                  Get Your Fees Collection Module Now!
+                </button>
+</div>
+  </div>
+    </div>
+    <div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
       backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
       height: '110vh',
+    }}
+    >
+    <Features />
+    </div>
+    <div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center mt-5 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+      backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      height: '240vh',
     }}
     >
     <Features />

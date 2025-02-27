@@ -8,7 +8,7 @@ export function BenefitCard({ title, benefits, className }) {
         color:'rgba(61, 96, 149, 1)'
     }}
     >
-      <span className="text-lg text-cyan-900">{title}</span>
+      <span className="text-lg  text-cyan-900">{title}</span>
       <ol className="pl-10">
         {benefits.map((benefit, index) => (
           <li key={index} className="list-disc">
