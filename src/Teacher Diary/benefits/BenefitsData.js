@@ -15,17 +15,17 @@ export const benefitsData = [
       "Leverage analytics to support personalized student learning.",
   },
   {
-    title: "•	Drive Engagement and Interaction",
+    title: "Drive Engagement and Interaction",
     description:
       "Enable teachers to interact with parents and students more effectively.",
   },
   {
-    title: "•	Enhance Accountability",
+    title: "Enhance Accountability",
     description:
       "Maintain transparent teaching logs and performance records for every class.",
   },
   {
-    title: "•	Foster Lifelong Learning",
+    title: "Foster Lifelong Learning",
     description:
       "Equip educators with resources that support their professional growth.",
   },

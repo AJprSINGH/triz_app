@@ -14,7 +14,7 @@ export default function BlogsPage() {
 <main className='text-xl'>
     <Header />
     </main>
-<div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+<div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
     backgroundImage: 'url("Design_five_images/Group.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
@@ -34,6 +34,38 @@ export default function BlogsPage() {
     <div className="flex flex-row gap-10 items-center justify-center">
 <button 
   className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  style={{
+    background: 'rgba(34, 69, 111, 1)'
+  }}
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Get Started Today
+</button>
+</div>
+  </div>
+    </div>
+<div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("Design_five_images/Group.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height: '40vh',
+  }}
+  >
+  <div className="flex overflow-hidden flex-col pt-5 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
+    <h1 className="text-2xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
+    Comprehensive School and Class Performance Reports
+    </h1>
+    <h4 className="text-sm mt-3 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgba(34, 69, 111, 1)'
+    }}>
+    Whether you&apos;re an administrator, teacher, or student, this module provides a comprehensive understanding of performance trends, strengths, and areas for improvement.
+    </h4>
+    <div className="flex flex-row gap-10 items-center justify-center">
+<button 
+  className="self-center px-5 py-2 mt-6 mb-0 text-xs font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
   style={{
     background: 'rgba(34, 69, 111, 1)'
   }}
@@ -101,7 +133,7 @@ export default function BlogsPage() {
         </div> */}
       </div>
     </div>
-    <div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    <div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
       backgroundImage: 'url("Design_five_images/Group 1321314648.png")',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
@@ -165,20 +197,84 @@ export default function BlogsPage() {
       </div>
     </div>
     </div>
+    <div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+      backgroundImage: 'url("Design_five_images/Group 1321314648.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      height: '100vh',
+    }}
+    >
+    <div className="flex flex-col items-end px-8 pt-7 pb-12 max-md:px-5">
+      <div className="w-full max-w-[1541px] max-md:max-w-full">
+        <div className="lg:flex gap-5 max-md:flex-col">
+          <div className="flex flex-col lg:w-2/5 max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              src="/Analytics_design_one_images/image 9.png"
+              className="object-contain w-full rounded-2xl aspect-square shadow-[4px_4px_10px_rgba(0,0,0,0.25)] max-md:mt-10 max-md:max-w-full"
+            />
+          </div>
+          <div className="flex flex-col lg:w-3/5 max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
+              <div className="text-2xl text-center mt-3 font-inter tracking-tighter text-sky-800 max-md:max-w-full">
+              Key Features of the CBSE Result Analyzer Module
+              </div>
+              <div className="self-start text-lg font-interregular leading-6 text-slate-800 max-md:max-w-full">
+                {/* Programmatically send and receive ACH, wires, real-time
+                <br />
+                payments, and even physical checks. */}
+              </div>
+              <div className="mt-5 mr-3 max-md:mr-2.5 max-md:max-w-full">
+                <div className="lg:flex gap-5 max-md:flex-col">
+                  <div className="flex flex-col lg:w-6/12 max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col items-start text-xs font-inter text-slate-800 max-md:mt-10">
+                      <div className="self-stretch">
+                      Performance Analytics
+                      </div>
+                      <div className="mt-3 max-md:mt-10">
+                      Subject-Wise Analysis
+                      </div>
+                      <div className="mt-3 max-md:mt-10">
+                      Individual Student Reports
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col  lg:w-6/12 max-md:ml-0 max-md:w-full">
+                    <div className="flex flex-col grow items-start text-xs font-inter text-slate-800 max-md:mt-10">
+                      <div className="mt-3 self-stretch">
+                      Comparative Analysis
+                      </div>
+                      <div className="mt-3 max-md:mt-10">
+                      Customizable Dashboards
+                      </div>
+                      <div className="mt-3">
+                      Export and Sharing Options
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
     <Benefits />
-    <h1 className="text-3xl mt-40 font-ralewaysemibold text-center max-md:max-w-full max-md:text-4xl"style={{
+    <h1 className="lg:text-3xl sm:text-2xl lg:mt-40 sm:mt-20 font-ralewaysemibold text-center max-md:max-w-full max-md:text-4xl"style={{
         color:'rgba(21, 70, 120, 1)'
     }}>
     Make Your Results Count!
     </h1>
-    <h4 className="text-4xl mt-4 font-quicksandbold text-center max-md:max-w-full max-md:text-4xl" style={{
+    <h4 className="lg:text-4xl sm:text-2xl mt-4 font-quicksandbold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(21, 70, 120, 1)'
     }}>
     Empower your institution to achieve academic excellence,<br/> one insight at a time.
     </h4>
-    <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
+    <div className="flex flex-row gap-10 lg:mb-40 sm:mb-20 text-white items-center justify-center">
     <button 
-  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-3xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  className="self-center px-5 py-2 lg:mt-12 sm:mt-6 mb-0 text-sm font-inter bg-sky-500 rounded-3xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
   style={{
     background: 'rgba(17, 134, 254, 1)'
   }}
