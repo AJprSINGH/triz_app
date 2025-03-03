@@ -42,24 +42,24 @@ const features = [
 
 export default function KeyFeatures() {
   return (
-    <div className="flex flex-col rounded-[48px] mx-40 mt-[10px]">
-      <div className="self-center text-4xl font-bold text-center text-slate-500 max-md:max-w-full max-md:text-4xl"  style={{
+    <div className="flex flex-col rounded-[48px] lg:mx-40 sm:mx-10 mt-[10px]">
+      <div className="self-center lg:text-4xl sm:text-2xl font-bold text-center text-slate-500 max-md:max-w-full max-md:text-4xl"  style={{
                 color:'rgba(61, 96, 149, 1)'
             }}>
         Key Features of the Generative AI Module
       </div>
-      <div className="flex flex-col items-center px-20 py-10 mt-6 w-full bg-white rounded-[48px] max-md:px-5 max-md:mt-10 max-md:max-w-full"style={{
+      <div className="flex flex-col items-center lg:px-20 sm:px-10 py-10 mt-6 w-full bg-white rounded-[48px] max-md:px-5 max-md:mt-10 max-md:max-w-full"style={{
       boxShadow: '6px 6px 12px 2px rgba(16, 24, 40, 0.2)'
     }}>
         <div className="w-full max-w-full max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col">
+          <div className="lg:flex gap-5 max-md:flex-col">
             {features.slice(0, 3).map((feature, index) => (
               <FeatureCard key={index} {...feature} />
             ))}
           </div>
         </div>
-        <div className="mt-10 w-full max-w-full max-md:mt-10 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col">
+        <div className="lg:mt-10 w-full max-w-full max-md:mt-10 max-md:max-w-full">
+          <div className="lg:flex gap-5 max-md:flex-col">
             {features.slice(3, 6).map((feature, index) => (
               <FeatureCard key={index + 3} {...feature} />
             ))}

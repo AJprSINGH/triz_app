@@ -1,21 +1,21 @@
 export const benefitsData = [
   {
-    title: "•	Boost Efficiency",
+    title: "Boost Efficiency",
     description:
       "Streamline question and answer management, saving time and resources.Integrate smoothly with other LMS components.",
   },
   {
-    title: "•	Enhance Learning",
+    title: "Enhance Learning",
     description:
       "Offer a diverse range of challenging questions to promote deeper understanding.Track performance and gain insights with real-time data.",
   },
   {
-    title: "•	Stay Current",
+    title: "Stay Current",
     description:
       "Keep your question bank updated with the latest curriculum changes.Ensure accuracy with easy answer management.",
   },
   {
-    title: "•	Data-Driven Decisions",
+    title: "Data-Driven Decisions",
     description:
       "Use analytics to make informed decisions that enhance the learning experience.Enjoy a smooth and intuitive experience with our modern design.",
   },

@@ -6,7 +6,7 @@ export default function Benefits() {
   return (
     <div className="flex items-center justify-center">
       <div className="flex flex-col items-center justify-center pt-32 w-full max-w-screen-xl bg-white">
-        <h1 className="text-3xl font-lxesemibold leading-none text-center text-zinc-900 underline decoration-[rgba(34,226,127,1)] decoration-4">
+        <h1 className="lg:text-3xl sm:text-1xl font-lxesemibold leading-none text-center text-zinc-900 underline decoration-[rgba(34,226,127,1)] decoration-4">
         Why Schools Love Scholar Clone’s Online Fees System
         </h1>
 
@@ -24,7 +24,7 @@ export default function Benefits() {
           </div>
         </div>
 
-        <div className="mt-32 w-full flex items-center justify-center max-md:mt-10">
+        <div className="lg:mt-32 sm:mt-6 w-full flex items-center justify-center max-md:mt-10">
           <div className="flex gap-5 flex-wrap justify-center max-md:flex-col">
             {benefitsBottomData.map((benefit) => (
               <div key={benefit.id} className="flex flex-col lg:ml-10 w-full max-w-xs">

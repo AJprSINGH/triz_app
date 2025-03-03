@@ -63,11 +63,11 @@ export default function BlogsPage() {
         router.push("/contactGlobal"); 
       };
     return (
-<>
+<div className="flex flex-col w-full max-w-full mx-auto overflow-x-hidden">
 <main className='text-xl'>
     <Header />
     </main>
-<div className="flex overflow-hidden flex-col justify-center items-start font-inter px-16 py-10 w-full max-md:px-5 max-md:py-24 max-md:max-w-full" style={{
+<div className="lg:flex sm:hidden overflow-hidden flex-col justify-center items-start font-inter px-16 py-10 w-full max-md:px-5 max-md:py-24 max-md:max-w-full" style={{
         background: 'linear-gradient(0deg, #ffffff 29%, rgba(61, 96, 149, 1) 100%)',
       }}>
       <div className="-mb-6 w-full max-w-[1668px] max-md:mb-2.5 max-md:max-w-full">
@@ -110,9 +110,52 @@ export default function BlogsPage() {
         </div>
       </div>
     </div>
+<div className="sm:flex lg:hidden overflow-hidden flex-col justify-center items-start font-inter px-16 py-10 w-full max-md:px-5 max-md:py-24 max-md:max-w-full" style={{
+        background: 'linear-gradient(0deg, #ffffff 29%, rgba(61, 96, 149, 1) 100%)',
+      }}>
+      <div className="-mb-6 w-full max-w-[1668px] max-md:mb-2.5 max-md:max-w-full">
+        <div className="lg:flex gap-5 max-md:flex-col">
+          <div className="flex flex-col lg:w-[55%] max-md:ml-0 max-md:w-full">
+            <div className="flex flex-col items-start mt-3 w-full text-2xl font-medium max-md:mt-10 max-md:max-w-full">
+              <div className="text-2xl text-white font-inter max-md:max-w-full max-md:text-4xl">
+              Unlock Predictive Insights with AI-Driven Fee Prediction
+              </div>
+              <div className="self-stretch text-sm mt-6 text-black max-md:mt-10 max-md:max-w-full">
+              Take the guesswork out of school fee management with Scholar Clone&apos;s AI-Driven Fee Prediction Module. Powered by advanced algorithms, this module analyzes your previous year&apos;s fee collection data to forecast your school&apos;s expected income for the current year. Plan ahead, optimize cash flow, and make informed financial decisions with confidence.              </div>
+              <div className="flex lg:flex-wrap gap-10 text-[12px] mt-6 max-w-full text-white lg:w-[547px] max-md:mt-10">
+                {ctaButtons.map((button, index) => (
+                  <button 
+                  key={index}
+                  className={button.className}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={button.text}
+                  style={{
+                    background: 'rgba(61, 96, 149, 1)'
+                  }}
+                  onClick={handleClick} 
+                >
+                  {button.text}
+                </button>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col lg:ml-5 lg:w-[45%] max-md:ml-0 max-md:w-full">
+            <img
+              loading="lazy"
+              src="\AI Driven Images\image 86 (1).png"
+              alt="User and teacher management interface demonstration"
+              className="object-contain grow w-full aspect-[1.5] max-md:mt-9 max-md:max-w-full"
+
+            />
+          </div>
+        </div>
+      </div>
+    </div>
     <div className="rounded-none">
-      <div className="flex mx-20 mt-24 max-md:flex-col">
-        <div className="flex flex-col w-6/12 pr-36 max-md:ml-0 max-md:w-full">
+      <div className="lg:flex lg:mx-20 sm:mx-10 lg:mt-24 max-md:flex-col">
+        <div className="lg:flex sm:hidden flex-col w-6/12 pr-36 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
             src="AI Driven Images/image 85.png"
@@ -123,7 +166,18 @@ export default function BlogsPage() {
             }}
           />
         </div>
-        <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+        {/* <div className="sm:flex lg:hidden flex-col w-6/12 pr-36 max-md:ml-0 max-md:w-full">
+          <img
+            loading="lazy"
+            src="AI Driven Images/image 85.png"
+            alt="Educational CRM platform interface showcase"
+            className="object-contain grow w-full max-md:mt-10 max-md:max-w-full rounded-2xl"
+            style={{
+              boxShadow: '0px 0px 8px 0px rgba(16, 24, 40, 0.25)'
+            }}
+          />
+        </div> */}
+        <div className="flex flex-col lg:w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
           <h1 className="z-10 self-start mt-0 text-3xl font-inter tracking-tighter max-md:max-w-full" style={{
             color:'rgba(28, 81, 161, 1)'
@@ -158,35 +212,42 @@ export default function BlogsPage() {
         </div>
       </div>
     </div>
-    <h1 className="text-4xl text-center font-intersemibold mt-40"style={{
+    <h1 className="lg:text-4xl sm:text-2xl text-center font-intersemibold lg:mt-40 sm:mt-10"style={{
             color:'rgba(28, 81, 161, 1)'
     }}>
            Key Features of the AI-Driven Fee Prediction Module
     </h1>
     <Features />
     <Benefits />
-    <div className="rounded-none mx-40 mt-20">
-      <div className="flex gap-5 max-md:flex-col">
-        <div className="flex flex-col w-[22%] max-md:ml-0 max-md:w-full">
+    <div className="rounded-none lg:mx-40 sm:mx-10 lg:mt-20 ">
+      <div className="lg:flex gap-5 max-md:flex-col">
+        <div className="lg:flex sm:hidden flex-col w-[22%] max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/28377e402529559884aaaa580e3e965cc682efca2b4743f9e17b7bb9ecac4c07?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
             className="object-contain grow shrink-0 mt-11 max-w-full aspect-[0.68] w-[274px] max-md:mt-10"
           />
         </div>
-        <div className="flex flex-col w-[78%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col w-full items-center justify-center pr-36 text-blue-800 max-md:max-w-full">
+        {/* <div className="sm:flex lg:hidden flex-col w-[22%] max-md:ml-0 max-md:w-full">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/28377e402529559884aaaa580e3e965cc682efca2b4743f9e17b7bb9ecac4c07?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+            className="object-contain grow shrink-0 mt-11 max-w-full aspect-[0.68] w-[274px] max-md:mt-10"
+          />
+        </div> */}
+        <div className="flex flex-col lg:w-[78%] max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col w-full items-center justify-center lg:pr-36 text-blue-800 max-md:max-w-full">
             <div className="text-[29px] font-ralewayextrabold max-md:max-w-full max-md:text-4xl">
             Plan Ahead, Stay Ahead
             </div>
-            <div className="mt-8 text-2xl font-interregular max-md:mr-2.5 max-md:max-w-full">
+            <div className="mt-8 lg:text-2xl font-interregular max-md:mr-2.5 max-md:max-w-full">
             Why wait for surprises in your school&apos;s finances? With Scholar Clone&apos;s AI-Driven Fee Prediction Module, 
             you gain the power to
              anticipate your income and make smarter financial decisions.
             </div>
-            <div className="flex flex-wrap gap-10 text-white">
+            <div className="flex lg:flex-wrap sm:mb-10 gap-10 text-white">
       <button
-        className="px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+        className="px-5 py-2 lg:mt-12 sm:mt-6 mb-0 lg:text-sm sm:text-xs font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
         style={{
           background: 'rgba(28, 81, 161, 1)',
         }}
@@ -197,7 +258,7 @@ export default function BlogsPage() {
        Take the Leap Today 
       </button>
       <button
-        className="px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+        className="px-5 py-2 lg:mt-12 sm:mt-6 mb-0 lg:text-sm sm:text-xs font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
         style={{
           background: 'rgba(28, 81, 161, 1)',
         }}
@@ -213,6 +274,6 @@ export default function BlogsPage() {
         </div>
       </div>
 <Footer />
-  </>
+  </div>
 );
 }

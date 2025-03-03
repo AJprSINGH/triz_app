@@ -14,7 +14,7 @@ export default function BlogsPage() {
 <main className='text-xl'>
     <Header />
     </main>
-<div className="flex overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+<div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
     backgroundImage: 'url("Design_one_images/Group 1321314639.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
@@ -57,25 +57,68 @@ export default function BlogsPage() {
 </div>
   </div>
     </div>
+<div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("Design_one_images/Group 1321314639.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height: '60vh',
+  }}
+  >
+  <div className="flex overflow-hidden flex-col pt-10 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
+    <h1 className="text-2xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
+    Stay Connected Always: The Ultimate Communication Solution
+    </h1>
+    <h4 className="text-sm mt-10 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgba(34, 69, 111, 1)'
+    }}>
+    Effortlessly bridge communication gaps with Scholar Clone ERP&apos;s Communication Module. From instant SMS to WhatsApp and email notifications, ensure timely updates and seamless engagement with parents, staff, and others.
+    </h4>
+    <div className="flex flex-row gap-10 items-center justify-center">
+    <button 
+  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  style={{
+    background: 'rgba(34, 69, 111, 1)'
+  }}
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Request to a Demo
+</button>
+<button 
+  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  style={{
+    background: 'rgba(34, 69, 111, 1)'
+  }}
+  onClick={() => {}}
+  tabIndex={0}
+  aria-label="Book Your Demo Now"
+>
+  Get Started Today
+</button>
+</div>
+  </div>
+    </div>
     <div className="rounded-none">
-      <div className="flex mx-20 max-md:flex-col">
-        <div className="flex flex-col w-6/12 mt-12 max-md:ml-0 max-md:w-full">
+      <div className="lg:flex lg:mx-20 sm:mx-10 max-md:flex-col">
+        <div className="flex flex-col lg:w-6/12 mt-12 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
             src="Communications Solution Images/image 85.png"
             alt="Educational CRM platform interface showcase"
-            className="object-contain grow w-[80%] aspect-[1.58] max-md:mt-10 max-md:max-w-full"
+            className="object-contain grow lg:w-[80%] aspect-[1.58] max-md:mt-10 max-md:max-w-full"
           />
         </div>
-        <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+        <div className="flex flex-col lg:w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch my-auto w-full font-bold max-md:mt-10 max-md:max-w-full">
-            <div className="text-xl font-inter text-right max-md:mr-2.5 max-md:max-w-full" style={{
+            <div className="text-xl font-inter lg:text-right sm:text-center max-md:mr-2.5 max-md:max-w-full" style={{
                 color:'rgba(61, 96, 149, 1)'
             }}>
               Effective communication is the backbone of any successful institution. With Scholar Clone ERP&rsquo;s 
               Communication Solution, managing updates, alerts, and important notifications has never been easier. 
             </div>
-            <div className="flex gap-2 justify-between self-end mt-12 max-w-full text-xs w-[380px] max-md:mt-10">
+            <div className="flex gap-2 justify-between self-end lg:mt-12 sm:mt-6   max-w-full text-xs w-[380px] max-md:mt-10">
               {HERO_BUTTONS.map((button, index) => (
                 <button key={index}
                  className={`gap-2.5 self-stretch px-5 py-2 bg-sky-500 font-inter rounded-3xl text-white`}
@@ -92,7 +135,7 @@ export default function BlogsPage() {
         </div>
       </div>
     </div>
-    <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    <div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
     backgroundImage: 'url("Communications Solution Images/Group 1321314690.png")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
@@ -126,7 +169,41 @@ Stay ahead with an all-in-one solution that ensures no important message is miss
 </div>
   </div>
     </div>
-    <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    <div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    backgroundImage: 'url("Communications Solution Images/Group 1321314690.png")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height: '50vh',
+  }}
+  >
+  <div className="flex overflow-hidden flex-col pt-10 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
+    <h1 className="text-1xl font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgba(34, 69, 111, 1)'
+    }}>
+    Reliable, Instant, and Versatile  
+    </h1>
+    <h4 className="text-[12px] ml-3 mr-5 mt-10 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+        color:'rgb(0, 0, 0)'
+    }}>
+    Say goodbye to delays and manual communication methods. Scholar Clone&apos;s Communication Module empowers you to:Send time-sensitive messages directly to parents and staff.Notify stakeholders with one click via SMS, email, and WhatsApp.Simplify operations by consolidating all communication tasks into one intuitive platform.
+Stay ahead with an all-in-one solution that ensures no important message is missed.
+
+    </h4>
+    <div className="flex flex-row gap-10 mt-5 items-center justify-center">
+    <button
+                 className={`gap-2.5 self-stretch px-3 py-2 font-inter bg-sky-500 rounded-3xl text-white text-xs`}
+                 tabIndex="0"
+                 style={{
+                    background:'rgba(17, 134, 254, 1)'
+                 }}
+                >
+                  Get Your CRM Now!
+                </button>
+</div>
+  </div>
+    </div>
+    <div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
       backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
@@ -136,20 +213,30 @@ Stay ahead with an all-in-one solution that ensures no important message is miss
     >
     <Features />
     </div>
+    <div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+      backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      height: '200vh',
+    }}
+    >
+    <Features />
+    </div>
     <Benefits />
-    <h1 className="text-3xl mt-40 font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
+    <h1 className="lg:text-3xl sm:text-2xl lg:mt-40 sm:mt-20 font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
     Transform How Your Institution Communicates Today
     </h1>
-    <h4 className="text-2xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+    <h4 className="lg:text-2xl sm:text-1xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
     Don&rsquo;t let communication gaps hold your institution back. With Scholar Clone ERP&rsquo;s Communication Module, ensure every message reaches the right person at the right time.
     </h4>
-    <div className="flex flex-row gap-10 mb-40 text-white items-center justify-center">
+    <div className="flex flex-row gap-10 lg:mb-40 sm:mb-20 text-white items-center justify-center">
     <button 
-  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  className="self-center px-5 py-2 lg:mt-12 sm:mt-6 mb-0 lg:text-sm sm:text-xs font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
   style={{
     background: 'rgba(34, 69, 111, 1)'
   }}
@@ -160,7 +247,7 @@ Stay ahead with an all-in-one solution that ensures no important message is miss
   Get Free Demo
 </button>
 <button 
-  className="self-center px-5 py-2 mt-12 mb-0 text-sm font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
+  className="self-center px-5 py-2 lg:mt-12 sm:mt-6 mb-0 lg:text-sm sm:text-xs font-inter bg-sky-500 rounded-xl max-md:mt-10 max-md:mr-2.5 max-md:mb-2.5"
   style={{
     background: 'rgba(34, 69, 111, 1)'
   }}

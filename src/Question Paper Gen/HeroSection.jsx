@@ -22,11 +22,12 @@ export default function BlogsPage() {
     height: '80vh',
   }}
   >
+
   <div className="flex overflow-hidden flex-col pt-20 max-w-full h-full bg-white text-white bg-opacity-0 w-[600px] max-md:px-5 max-md:pb-24">
-    <h1 className="text-4xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
+    <h1 className="lg:text-4xl sm:text-2xl font-intersemibold text-center max-md:max-w-full max-md:text-4xl">
     Simplify, Streamline, and Excel in Exam Management
     </h1>
-    <h4 className="text-lg mt-20 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
+    <h4 className="lg:text-lg sm:text-sm lg:mt-20 sm:mt-10 font-intersemibold text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
 Say goodbye to the complexities of traditional question paper creation. The Question Paper Generation Module of Scholar 
@@ -127,7 +128,7 @@ manage, and deliver question papers with ease.    </h4>
 </div>
   </div>
     </div> */}
-    <div className="flex overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+    <div className="lg:flex sm:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
       backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
@@ -137,13 +138,23 @@ manage, and deliver question papers with ease.    </h4>
     >
     <Features />
     </div>
+    <div className="sm:flex lg:hidden overflow-hidden relative flex-col justify-center mt-10 items-center items-end w-full max-md:pl-5 max-md:max-w-full"style={{
+      backgroundImage: 'url("Design_one_images/Group 1321314640.png")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      height: '190vh',
+    }}
+    >
+    <Features />
+    </div>
     <Benefits />
-    <h1 className="text-3xl mt-40 font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
+    <h1 className="lg:text-3xl sm:text-2xl lg:mt-40 sm:mt-10 font-inter text-center max-md:max-w-full max-md:text-4xl"style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
     Ready to Transform Your Exam Processes?
     </h1>
-    <h4 className="text-2xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
+    <h4 className="lg:text-2xl sm:text-1xl mt-2 font-inter text-center max-md:max-w-full max-md:text-4xl" style={{
         color:'rgba(34, 69, 111, 1)'
     }}>
     Experience the ultimate convenience and accuracy with the Scholar Clone Question Paper Generation Module.

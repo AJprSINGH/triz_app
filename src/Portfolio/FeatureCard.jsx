@@ -2,7 +2,7 @@ import * as React from "react";
 
 export default function FeatureCard({ icon, title, description }) {
   return (
-    <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+    <div className="flex flex-col lg:w-[33%] max-md:ml-0 max-md:w-full">
       <div className="flex flex-col grow items-center text-center max-md:mt-10" style={{
                 color:'rgba(61, 96, 149, 1)'
             }}>
