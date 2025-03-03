@@ -118,7 +118,7 @@ export default function Benefits() {
 
       {/* Benefits Section */}
       <div className="flex justify-center items-center mt-10 w-full max-w-screen-xl">
-        <div className="lg:flex flex-wrap gap-5 justify-center">
+        <div className="lg::flex flex-wrap gap-5 justify-center">
           {/* First Benefit */}
           <div className="flex flex-col lg:w-2/12 max-md:w-full max-md:ml-0">
             <div className="flex flex-col items-start items-center text-zinc-900 max-md:mt-10">
