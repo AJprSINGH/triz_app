@@ -44,7 +44,7 @@ export default function MyComponent() {
                 matters most. Designed for ease of use and functionality, these
                 apps bring convenience and efficiency to your fingertips.
               </div>
-              <div className="flex lg:gap-10 sm:gap-28 mt-5 max-w-full text-white w-[382px] max-md:mt-10">
+              <div className="flex lg:gap-10 sm:gap-10 mt-5 max-w-full text-white w-[382px] max-md:mt-10">
                 <button className="text-sm text-center gap-2.5 font-inter px-2 py-1 bg-sky-500 rounded-3xl transition-all duration-300 transform hover:scale-105">
                   Download on Android
                 </button>
@@ -53,10 +53,10 @@ export default function MyComponent() {
                 </button>
               </div>
             </div>
-            <div className="mt-12 mr-10 max-md:mt-10 max-md:max-w-full">
-              <div className="lg:flex gap-5 max-md:flex-col">
-                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+            <div className="mt-12 sm:mr-10 lg:mr-0 max-md:mt-10 max-md:max-w-full">
+              <div className="lg:flex gap-0 max-md:flex-col">
+                <div className="lg:flex lg:flex-col lg:w-[60%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
+                  <div className="overflow-hidden grow px-2 pt-8  text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">For Parents:</span>
@@ -76,8 +76,8 @@ export default function MyComponent() {
                     </ul>
                   </div>
                 </div>
-                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+                <div className="lg:flex lg:flex-col lg:w-[60%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
+                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs h-[80%] text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">For Students:</span>
@@ -96,8 +96,8 @@ export default function MyComponent() {
                     </ul>
                   </div>
                 </div>
-                <div className="lg:flex lg:flex-col lg:w-[33%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
-                  <div className="overflow-hidden grow px-5 pt-8 pb-6 text-xs text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
+                <div className="lg:flex lg:flex-col lg:w-[60%] sm:w-full sm:mx-6 sm:mb-10 max-md:ml-0 max-md:w-full">
+                  <div className="overflow-hidden grow px-2 pt-8 pb-6 text-xs h-[80%] text-black rounded-xl shadow-[0px_5px_8px_rgba(0,0,0,0.25)] max-md:mt-8" style={{
                     background: 'linear-gradient(518deg, #ffffff 0%, rgba(153, 200, 244, 1) 100%)',
                   }}>
                     <span className="text-sm font-inter">
@@ -123,7 +123,7 @@ export default function MyComponent() {
         </div>
       </div>
     </div>
-    <h1 className="mt-40 lg:px-[100px] mb-20 text-center font-inter lg:text-4xl sm:text-2xl lg:mx-0 sm:mx-10" style={{
+    <h1 className="lg:mt-40 sm:mt-20 lg:px-[100px] mb-20 text-center font-inter lg:text-4xl sm:text-2xl lg:mx-0 sm:mx-10" style={{
       color:'rgba(17, 134, 254, 1)'
      }}>
      Empowering Learning and Growth Across Education and Enterprise
@@ -137,7 +137,7 @@ export default function MyComponent() {
         description: "Scholar Clone adapts to the needs of schools, universities, and corporate training programs, seamlessly growing with expanding enrollments, staff, and operational demands."
       },
       {
-        title: "AI-Driven Personalization",
+        title: "AI-Driven Personalization and Innovation",
         description: "With AI-powered learning paths tailored to individual needs, Scholar Clone enhances learning outcomes for students and professionals alike."
       },
       {

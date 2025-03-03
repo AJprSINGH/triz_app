@@ -41,7 +41,7 @@ export default function EducationSolutions() {
   </div>
 
   {/* Solution Card with Transition */}
-  <div className="mt-10 w-full">
+  <div className="mt-10 w-full sm:mx-10">
     <div className={`transition-opacity duration-700 ${selectedSolution ? 'opacity-100' : 'opacity-0'}`}>
       {selectedSolution === 'k12' && <SolutionCard1 />}
       {selectedSolution === 'higherEducation' && <SolutionCard2 />}

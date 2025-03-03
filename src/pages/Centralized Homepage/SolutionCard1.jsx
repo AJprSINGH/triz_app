@@ -11,7 +11,7 @@ const images = [
 const SolutionCard1 = () => {
   return (
     <div
-  className="overflow-hidden self-stretch px-5 pt-0 pb-4 w-full bg-white rounded-xl max-md:mt-10 max-md:max-w-full"
+  className="overflow-hidden self-stretch lg:px-5 sm:px-16 pt-0 pb-4 w-full bg-white rounded-xl max-md:mt-10 max-md:max-w-full"
   style={{
     boxShadow: "0 0 9px 5px rgba(64, 96, 146, 0.5)", // Custom shadow style
   }}
@@ -36,7 +36,7 @@ const SolutionCard1 = () => {
         </div>
 
         {/* Description */}
-        <div className="mt-10 text-xl font-bold text-black text-left lg:text-justify leading-relaxed font-roboto max-md:text-lg max-md:mt-6">
+        <div className="mt-10 text-xl font-bold text-black text-left text-justify leading-relaxed font-roboto max-md:text-lg max-md:mt-6">
           Scholar Clone redefines K-12 education with its all-in-one
           future-ready solution, blending AI-powered automation, seamless
           school management, and personalized learning. From dynamic
@@ -50,21 +50,20 @@ const SolutionCard1 = () => {
           <div className="flex flex-wrap gap-5 lg:flex-nowrap">
             {/* Button Section */}
             <div className="flex flex-col lg:w-1/4 w-full">
-              <a
-                href="/"
-                className="flex gap-2.5 justify-center text-lg items-center self-center py-2.5 px-5 mt-6 text-white rounded-lg shadow-lg w-[200px] max-md:mt-6 bg-[#7ac244] transition-all duration-300 transform hover:scale-105 hover:bg-[#69b153] font-bold"
-                target="_blank"
-                rel="noopener noreferrer"
-                role="button"
-                tabIndex="0"
-                style={{
-                  boxShadow:
-                    "0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset",
-                  fontFamily: "merriweather",
-                }}
-              >
-                Know More
-              </a>
+            <a
+                    href="/"
+                    className="flex gap-2.5 lg:justify-center text-lg lg:items-center lg:self-center py-2.5 pr-5 pl-5 mt-6 max-w-[150px] text-white rounded-lg pointer-events-auto min-h-[10px] shadow-[0px_17px_33px_rgba(51,32,0,0.8)] w-[200px] max-md:px-5 max-md:mt-10 bg-[rgb(122, 194, 68)] transition-all duration-300 transform hover:scale-105 hover:bg-rgb(122, 194, 68) animate-blink font-bold"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    role="button"
+                    tabIndex="0"
+                    style={{
+                      boxShadow: '0 16.67px 33.33px rgba(33, 20, 0, 0.8), 0px -8px 10px rgba(33, 20, 0, 0.5) inset', // Adding inset shadow for bottom side
+                      fontFamily: 'merriweather',
+                    }}
+                    >
+                    Know More
+                  </a>
             </div>
 
             {/* Image Gallery Section */}
