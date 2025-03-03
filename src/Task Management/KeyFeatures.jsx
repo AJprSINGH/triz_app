@@ -21,8 +21,8 @@ const features = [
 
 function FeatureList() {
   return (
-    <div className="flex mx-20 mt-24 max-md:flex-col mb-24">
-      <div className="flex flex-col w-[60%] pr-20 max-md:ml-0 max-md:w-full">
+    <div className="lg:flex lg:mx-20 lg:mt-24 sm:mt-12 sm:ml-14 max-md:flex-col mb-24">
+      <div className="flex flex-col lg:w-[60%] pr-20 max-md:ml-0 max-md:w-full">
           <img
             loading="lazy"
             src="task Management images/Group 1000003969.png"
@@ -33,7 +33,7 @@ function FeatureList() {
             }}
           />
       </div>
-    <div className="flex flex-col max-w-full w-[40%] max-md:mt-10">
+    <div className="flex flex-col max-w-full lg:w-[40%] max-md:mt-10">
       {features.map((feature, index) => (
         <div key={index} className="w-full  items-center shadow-sm justify-center mt-8">
           <FeatureCard
