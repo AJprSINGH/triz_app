@@ -141,7 +141,7 @@ const HERO_BUTTONS = [
     router.push("/contactGlobal"); 
   };
    return (
-     <>
+     <div className="flex flex-col w-full max-w-full mx-auto overflow-x-hidden">
      <div className="relative mt-10">
      <div className="lg:flex sm:hidden overflow-hidden relative flex-col rounded-3xl w-full max-md:pl-5 max-md:max-w-full"style={{
      backgroundImage: 'url("/home_images/Group 1321314662 (2).png")',
@@ -238,7 +238,7 @@ const HERO_BUTTONS = [
    Scholar Clone in Your Pocket Mobile Apps for Everyone
    </h1>
    <Service />
-   </>
+   </div>
    );
  }
  

@@ -12,17 +12,17 @@ const footerColumns = [
     title: 'K-12 Solution',
     items: ['Home','Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
     itemRoutes: ['/', '/erpservice', '/supportservice', '/resources', '/contactGlobal', '/book-demo'] // Example paths
-  },
-  {
-    title: 'Higher Education',
-    items: ['Home','Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
-    itemRoutes: ['https://triz-apphigher-education.vercel.app/','https://triz-apphigher-education.vercel.app/product-one', 'https://triz-apphigher-education.vercel.app/product-six', 'https://triz-apphigher-education.vercel.app/resources', 'https://triz-apphigher-education.vercel.app/contactGlobal', '/book-demo'] // Example paths
-  },
-  {
-    title: 'Corporate Solution',
-    items: ['Home', 'Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
-    itemRoutes: ['/', '/aboutus', '/products', '/services', '/resources-blogs', '/contactus', '/book-demo'] // Example paths
   }
+  // {
+  //   title: 'Higher Education',
+  //   items: ['Home','Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
+  //   itemRoutes: ['https://triz-apphigher-education.vercel.app/','https://triz-apphigher-education.vercel.app/product-one', 'https://triz-apphigher-education.vercel.app/product-six', 'https://triz-apphigher-education.vercel.app/resources', 'https://triz-apphigher-education.vercel.app/contactGlobal', '/book-demo'] // Example paths
+  // },
+  // {
+  //   title: 'Corporate Solution',
+  //   items: ['Home', 'Products', 'Services', 'Resources & Blogs', 'Contact Us', 'Book Demo'],
+  //   itemRoutes: ['/', '/aboutus', '/products', '/services', '/resources-blogs', '/contactus', '/book-demo'] // Example paths
+  // }
 ];
 
 function Footer() {
@@ -64,7 +64,7 @@ function Footer() {
       {/* Centered Copyright and Social Icons */}
       <div className="flex flex-wrap justify-center items-center lg:gap-40 lg:mt-10 sm:gap-10 sm:mt-2 text-center">
         <p className="lg:text-md lg:font-bold text-white font-interregular sm:font-bold sm:mb-[-20px] md:mb-[0px] sm:text-sm">
-          All Rights Are Reserved By 2024 © Triz Innovation PVT LTD.
+          All Rights Are Reserved By 2024 © Scholar Clone.
         </p>
         <SocialIcons />
       </div>
