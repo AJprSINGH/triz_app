@@ -3,23 +3,44 @@ import TestimonialCard from "./TestimonialCardNew";
 
 const testimonials = [
   {
-    quote: `"We align our success with the success of our customers which is why our offering transcends our software"`,
-    author: "Jackline Fare",
-    authorImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/2bdf20214f8476a3bc80a6c0810190d847058a449f1e7009a14e00f52db6e190?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    quote: `"Our students and parent love whole child concept as on single platform we are getting main stream curricula, social and emotional learning ( SEL) science, technology. Engineering and math soft skill and vocational training and many more."`,
+    author: "The radiant  international school",
+    authorImage: "/client/school.png",
     ratingImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/93b2b4ce7d0590a7504a3bc2e3c85b655b2e6cb8456deda8ee8b8c2c94afe81d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     companyLogo: "https://cdn.builder.io/api/v1/image/assets/TEMP/b8ffc7676fe9fce198f93f396cbfbbd6a55d54d36fcc88fa092e03bc0f8b966b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
   },
   {
-    quote: `"The platform has transformed how we handle our business operations and customer relationships"`,
-    author: "Michael Chen",
-    authorImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/2bdf20214f8476a3bc80a6c0810190d847058a449f1e7009a14e00f52db6e190?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    quote: `"The support we received from scholar clone team is extra ordinary as government organization we expect 24x7 support when we work with scholar clone for integrated academic platform for learning out come solutions."`,
+    author: "Silvassa Government",
+    authorImage: "/client/silvasa.png",
     ratingImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/93b2b4ce7d0590a7504a3bc2e3c85b655b2e6cb8456deda8ee8b8c2c94afe81d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     companyLogo: "https://cdn.builder.io/api/v1/image/assets/TEMP/b8ffc7676fe9fce198f93f396cbfbbd6a55d54d36fcc88fa092e03bc0f8b966b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
   },
   {
-    quote: `"Outstanding support team and innovative solutions that keep us ahead in the market"`,
-    author: "Sarah Johnson",
-    authorImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/2bdf20214f8476a3bc80a6c0810190d847058a449f1e7009a14e00f52db6e190?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    quote: `"Scholar clone team provide us learning out come, learning objective and learning indicator solutions we deployed this solutions in more than 12000 schools across the state we found state of the art solutions and very good supports from Scholar clone team."`,
+    author: "Gujarat Government",
+    authorImage: "/client/gujarat.png",
+    ratingImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/93b2b4ce7d0590a7504a3bc2e3c85b655b2e6cb8456deda8ee8b8c2c94afe81d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    companyLogo: "https://cdn.builder.io/api/v1/image/assets/TEMP/b8ffc7676fe9fce198f93f396cbfbbd6a55d54d36fcc88fa092e03bc0f8b966b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+  },
+  {
+    quote: `"I have worked in academics for over 20 years. The impact of personalized learning learner learning outcome improved, engagement improved and it decrease the load of teacher to knowing each student detail data and student profile."`,
+    author: "Jayesh bane",
+    authorImage: "/client/jayesh-bane.jpeg",
+    ratingImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/93b2b4ce7d0590a7504a3bc2e3c85b655b2e6cb8456deda8ee8b8c2c94afe81d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    companyLogo: "https://cdn.builder.io/api/v1/image/assets/TEMP/b8ffc7676fe9fce198f93f396cbfbbd6a55d54d36fcc88fa092e03bc0f8b966b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+  },
+  {
+    quote: `"We are working with small kids where students and parents involvement is highly expected through teacher and student parent mobile app  we improved our foundation learning which is important pillar for student development."`,
+    author: "Farida Mam",
+    authorImage: "/client/farida-mam.jpg",
+    ratingImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/93b2b4ce7d0590a7504a3bc2e3c85b655b2e6cb8456deda8ee8b8c2c94afe81d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
+    companyLogo: "https://cdn.builder.io/api/v1/image/assets/TEMP/b8ffc7676fe9fce198f93f396cbfbbd6a55d54d36fcc88fa092e03bc0f8b966b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
+  },
+  {
+    quote: `"We are happy to work with Scholar clone as we improved student learning  in our school, the important part I observed is map and aligned content it save teacher and student time and shift from rote learning to personalized learning through data."`,
+    author: "Manisha kerkar",
+    authorImage: "/client/manisha-kerkar.jpg",
     ratingImage: "https://cdn.builder.io/api/v1/image/assets/TEMP/93b2b4ce7d0590a7504a3bc2e3c85b655b2e6cb8456deda8ee8b8c2c94afe81d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     companyLogo: "https://cdn.builder.io/api/v1/image/assets/TEMP/b8ffc7676fe9fce198f93f396cbfbbd6a55d54d36fcc88fa092e03bc0f8b966b?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323"
   }

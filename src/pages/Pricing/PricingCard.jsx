@@ -30,13 +30,13 @@ const PricingCard = ({ title, price, recommended, bestValue, buttonColor, border
             Best Value
           </div>
         )}
-        <div className="self-center text-lg">{title}</div>
+        {/* <div className="self-center text-lg">{title}</div>
         <div className="self-center mt-2 text-xl text-sky-950">
           <span className="text-sky-950">₹ {price}/</span>
           <span>Year</span>
-        </div>
-        <div className="self-center mt-2 text-sm text-zinc-600">Annual</div>
-        <div className="self-center mt-2 text-xs text-zinc-600">(Includes 1000 Users)</div>
+        </div> */}
+        {/* <div className="self-center mt-2 text-sm text-zinc-600">Annual</div> */}
+        {/* <div className="self-center mt-2 text-xs text-zinc-600">(Includes 1000 Users)</div> */}
         <div className="my-4 w-full h-px border border-gray-300" />
         {/* Render prerequisite if it exists */}
         {Prerequisite && (
