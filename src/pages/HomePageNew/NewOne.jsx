@@ -180,7 +180,7 @@ const HERO_BUTTONS = [
      backgroundSize: 'contain',
      backgroundPosition: 'center center',
      backgroundRepeat: 'no-repeat',
-     height: 'vh',
+     height: '48vh',
      
    }}
    >
