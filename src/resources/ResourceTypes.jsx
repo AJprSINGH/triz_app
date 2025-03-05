@@ -34,6 +34,7 @@ export default function ResourceTypes() {
   // const activeHeader = resourceData.find(
   //     (header) => header.id === activeHeaderId
   // );
+  //sjnihdb
   const [visible, setVisible] = useState(false);
       useEffect(() => {
         setVisible(true);
