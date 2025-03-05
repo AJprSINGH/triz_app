@@ -12,9 +12,9 @@ const byTypeData = [
 ];
 
 const forTeachersData = [
-  { title: "Lesson Plan Repository", url: "/lesson-plan-repository" },
+  { title: "Lesson Plan Repository", url: "https://masterz.vercel.app/login" },
   { title: "Classroom Management Toolkit", url: "/classroom-management-toolkit" },
-  { title: "Teachers AI", url: "/teachers-ai" },
+  { title: "Teachers AI", url: "https://masterz.vercel.app/login" },
 ];
 
 const forStudentsData = [
