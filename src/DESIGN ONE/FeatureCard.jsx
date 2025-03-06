@@ -7,7 +7,7 @@ export default function FeatureCard({ icon, title, description }) {
                 color:'rgba(61, 96, 149, 1)'
             }}>
         <img
-          loading=""
+          loading="lazy"
           src={icon}
           alt={`${title} feature icon`}
           className="object-contain aspect-[1.07] w-[77px]"
