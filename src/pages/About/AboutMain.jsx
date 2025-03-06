@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Aboutus.module.css';  // Import the CSS module
 import Contact from '../Contact/ContactCard';
-import Header from '../Header_C/NavBar';
+import Header from '../Header/NavBar';
 import Members from './PotentialMembers';
 import Journey from './JourneyPath';
 import Footer from '../Footer_C/Footer';

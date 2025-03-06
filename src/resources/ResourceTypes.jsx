@@ -46,7 +46,7 @@ export default function ResourceTypes() {
       <div className="flex flex-col items-start mt-10">
         <ResourceSection title="By Type" items={byTypeData} />
         <ResourceSection
-          title="For Teachers"
+          title="Teachers Tool Kit"
           items={forTeachersData}
           additionalClasses="mt-16 max-md:mt-10"
         />
@@ -58,19 +58,19 @@ export default function ResourceTypes() {
         className="object-contain shrink-0 my-14 w-2px aspect-[250]"
       />
       <div className="flex flex-col items-start self-start mt-10 max-md:mt-10">
-        <ResourceSection title="For Students" items={forStudentsData} />
-        <div className="self-stretch mt-16 text-xl font-bold text-sky-500 max-md:mt-10 max-md:mr-2.5" style={{
+        <ResourceSection title="Students Tools kit" items={forStudentsData} />
+        {/* <div className="self-stretch mt-16 text-xl font-bold text-sky-500 max-md:mt-10 max-md:mr-2.5" style={{
           color:'rgba(17, 134, 254, 1)',
         }}>
           For Administrators & <br />
           School Principals
-        </div>
-        {forAdminsData.map((item, index) => (
+        </div> */}
+        {/* {forAdminsData.map((item, index) => (
           <a
           href={item.url} key={index} className={`${index === 0 ? "mt-5 text-[16px]" : "mt-2.5 text-[16px]"}`}>
             {item.title}
           </a>
-        ))}
+        ))} */}
       </div>
       <CustomerSupport />
     </div>
