@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BlogCard } from "./BlogCard";
 
-const blogData = [
+const blogDataInitial = [
   {
     image: "/blog_images/blog1.webp",
     title: "Lesson plan with computational thinking",
@@ -18,7 +18,7 @@ const blogData = [
        Present a problem related to ecosystem management (e.g., controlling invasive species).
        In  groups, have students brainstorm and outline step-by-step procedures to address the problem.
        Encourage students to consider cause-and-effect relationships and potential outcomes of their algorithms.`,
-    additionalImage: "/blog_images/add2.webp", // Example additional image URL
+    additionalImage: "/blog_images/add2.webp",
   },
   {
     image: "/blog_images/blog2.webp",
@@ -69,7 +69,7 @@ const blogData = [
       2. Augmentation: Technology acts as a substitute for traditional tools but provides functional improvements. For instance, using a word processor with spell-check and formatting features or annotating an e-book with digital notes and highlights.
       3.Modification: Technology allows for significant task redesign, allowing students to complete activities that would be difficult or impossible without technology. Examples include using online collaborative tools for group projects or creating multimedia presentations to demonstrate learning.
       4. Redefinition: Technology enables the creation of entirely new tasks, previously inconceivable without the use of technology. This could involve students participating in virtual reality simulations, creating and publishing their own e-books, or participating in global collaborative projects.`,
-    additionalImage: null, // No additional image for this blog
+    additionalImage: null,
   },
   {
     image: "/blog_images/blog5.webp",
@@ -92,8 +92,23 @@ const blogData = [
 ];
 
 export default function BlogsPage() {
+  const [blogData, setBlogData] = useState(blogDataInitial);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedBlog, setSelectedBlog] = useState(null);
+  const [showBlogForm, setShowBlogForm] = useState(false);
+
+  const [newBlog, setNewBlog] = useState({
+    image: "",
+    title: "",
+    author: {
+      name: "",
+      avatar: "",
+    },
+    date: "",
+    readTime: "",
+    description: "",
+    additionalImage: null,
+  });
 
   const openModal = (blog) => {
     setSelectedBlog(blog);
@@ -104,6 +119,125 @@ export default function BlogsPage() {
     setIsModalOpen(false);
     setSelectedBlog(null);
   };
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    if (name.startsWith("author.")) {
+      setNewBlog((prevBlog) => ({
+        ...prevBlog,
+        author: {
+          ...prevBlog.author,
+          [name.split(".")[1]]: value,
+        },
+      }));
+    } else {
+      setNewBlog((prevBlog) => ({
+        ...prevBlog,
+        [name]: value,
+      }));
+    }
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setBlogData((prevBlogData) => [...prevBlogData, newBlog]);
+    setNewBlog({
+      image: "",
+      title: "",
+      author: {
+        name: "",
+        avatar: "",
+      },
+      date: "",
+      readTime: "",
+      description: "",
+      additionalImage: null,
+    });
+    setShowBlogForm(false)
+  };
+
+  const BlogForm = () => (
+    <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl mt-4">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+        <input
+          type="text"
+          name="image"
+          placeholder="Image URL"
+          value={newBlog.image}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+          required
+        />
+        <input
+          type="text"
+          name="title"
+          placeholder="Title"
+          value={newBlog.title}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+          required
+        />
+        <input
+          type="text"
+          name="author.name"
+          placeholder="Author Name"
+          value={newBlog.author.name}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+          required
+        />
+        <input
+          type="text"
+          name="author.avatar"
+          placeholder="Author Avatar URL"
+          value={newBlog.author.avatar}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+          required
+        />
+        <input
+          type="text"
+          name="date"
+          placeholder="Date"
+          value={newBlog.date}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+          required
+        />
+        <input
+          type="text"
+          name="readTime"
+          placeholder="Read Time"
+          value={newBlog.readTime}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+          required
+        />
+        <textarea
+          name="description"
+          placeholder="Description"
+          value={newBlog.description}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+          required
+        />
+        <input
+          type="text"
+          name="additionalImage"
+          placeholder="Additional Image URL (optional)"
+          value={newBlog.additionalImage || ""}
+          onChange={handleInputChange}
+          className="border border-gray-300 p-2 rounded"
+        />
+        <button
+          type="submit"
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  );
 
   return (
     <div className="flex flex-col items-center">
@@ -128,6 +262,14 @@ export default function BlogsPage() {
           />
         </div>
       </div>
+      <button
+          onClick={() => setShowBlogForm(!showBlogForm)}
+          className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 mt-4"
+        >
+          Add New Blog
+        </button>
+        {showBlogForm && <BlogForm />}
+
       <div className="flex lg:flex-wrap gap-5 justify-between mt-9 lg:px-16 sm:px-10 w-full max-w-screen-2xl max-md:max-w-full">
         <div className="flex lg:flex-row sm:flex-col gap-8 w-full">
           {blogData.map((blog, index) => (
@@ -142,7 +284,6 @@ export default function BlogsPage() {
         </div>
       </div>
 
-      {/* Modal */}
       {isModalOpen && selectedBlog && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={closeModal}>
           <div
@@ -172,13 +313,11 @@ export default function BlogsPage() {
             <p className="text-gray-600 mb-2">
               <strong>Read Time:</strong> {selectedBlog.readTime}
             </p>
-            {/* Split description into paragraphs */}
             {selectedBlog.description.split("\n").map((paragraph, index) => (
               <p key={index} className="text-gray-700 mb-4">
                 {paragraph.trim()}
               </p>
             ))}
-            {/* Additional image below description */}
             {selectedBlog.additionalImage && (
               <img
                 src={selectedBlog.additionalImage}
