@@ -63,7 +63,7 @@ const blogDataInitial = [
     description:
       `SAMR Framework for improving education technology integration in learning, teaching, and assessment:
       The SAMR Model: A Pathway to Meaningful Technology Integration
-      In today’s digital age, technology has become an integral part of education. However, simply using technology in the classroom is not enough to truly enhance learning experiences. Educators need a framework to guide them in effectively integrating technology to transform teaching and learning practices. This is where the SAMR Model comes into play.
+      Technology has become an integral part of education in today's digital age. However, simply using technology in the classroom is not enough to truly enhance learning experiences. Educators need a framework to guide them in effectively integrating technology to transform teaching and learning practices. This is where the SAMR Model comes into play.
       Developed by Dr. Ruben Puentedura, the SAMR Model provides a framework for evaluating and designing technology integration in educational settings. SAMR stands for Substitution, Augmentation, Modification, and Redefinition, representing four levels of technology integration.
       1. Substitution: At this level, technology acts as a direct substitute for traditional tools or materials without significant functional change. For example, using a word processor instead of a typewriter or reading an e-book instead of a printed book.
       2. Augmentation: Technology acts as a substitute for traditional tools but provides functional improvements. For instance, using a word processor with spell-check and formatting features or annotating an e-book with digital notes and highlights.
