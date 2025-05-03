@@ -75,7 +75,7 @@ const blogDataInitial = [
     image: "/blog_images/blog5.webp",
     title: "Schools Learning Circle as a”pedagogical taxonomy.",
     author: {
-      name: "Ajit Singh",
+      name: "Ajit Parihar",
       avatar: "/vercel.png",
     },
     date: "Jan 10, 2022",
