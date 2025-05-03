@@ -55,7 +55,7 @@ const blogDataInitial = [
     image: "/blog_images/blog4.webp",
     title: "Unlocking Technology’s Transformative Power for education: SAMR framework",
     author: {
-      name: "Vivek Gajera",
+      name: "Vivek",
       avatar: "/vercel.png",
     },
     date: "Jan 10, 2022",
