@@ -12,7 +12,7 @@ const blogDataInitial = [
     date: "Jan 10, 2022",
     readTime: "3 min",
     description:
-      `Computational thinking is “a way of solving problems, designing systems, and understanding human behavior by drawing on the concepts of computer science.” For the students it’s an approach to tackling challenging questions and ambiguous puzzles, integrate computational thinking into all of our classes with clear lesson planning.
+      `Computational thinking is “a way of creating problems, designing systems, and understanding human behavior by drawing on the concepts of computer science.” For the students it’s an approach to tackling challenging questions and ambiguous puzzles, integrate computational thinking into all of our classes with clear lesson planning.
       Students will understand and apply computational thinking concepts, including decomposition, pattern recognition, abstraction, and algorithmic thinking, to analyze and solve problems related to ecosystems across the curriculum.
       Algorithmic Thinking :
        Present a problem related to ecosystem management (e.g., controlling invasive species).
