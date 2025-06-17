@@ -10,7 +10,7 @@ import TestimonialSection from './TestimonialSection';
 import BlogSection from './BlogCardsSection';
 function UnlockPotential() {
   return (
-    <div className="flex flex-col w-full max-w-[1920px] mx-auto overflow-x-hidden">
+    <div className="flex flex-col w-full max-w-[1920px] mx-auto overflow-x-hidden bg-white">
       <main className="text-xl">
       <Header />
       </main>
