@@ -25,7 +25,7 @@ export function BlogCard({ image, title, author, date, readTime }) {
         <div className="flex flex-col self-stretch my-auto w-full">
           <div className="text-[12px] font-pjsemibold">{author.name}</div>
           <div className="text-[11px] font-pj">
-            {date} ∙ {readTime} read
+            {date} ∙
           </div>
         </div>
       </div>
