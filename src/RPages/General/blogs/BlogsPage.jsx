@@ -167,26 +167,33 @@ export default function BlogsPage() {
       {showBlogForm && <BlogForm />}
 
       {isModalOpen && selectedBlog && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={closeModal}>
-          <div className="bg-white p-6 rounded-lg shadow-lg w-12/12 max-w-2xl max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
-            <div className="flex justify-between items-center mb-4">
-              <button onClick={closeModal} className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Close</button>
-              <h2 className="text-xl font-bold">{selectedBlog.title}</h2>
-            </div>
-            <img src={selectedBlog.image} alt={selectedBlog.title} className="w-full h-48 object-cover mb-4 rounded" />
-            <p className="text-gray-600 mb-2"><strong>Author:</strong> {selectedBlog.author.name}</p>
-            <p className="text-gray-600 mb-2"><strong>Date:</strong> {selectedBlog.date}</p>
-            {selectedBlog.readTime && <p className="text-gray-600 mb-2"><strong>Read Time:</strong> {selectedBlog.readTime}</p>}
-            <div
-              className="text-gray-700 mb-4"
-              dangerouslySetInnerHTML={{ __html: selectedBlog.description }}
-            />
-            {selectedBlog.additionalImage && (
-              <img src={selectedBlog.additionalImage} alt="Additional" className="w-full mt-4 rounded" />
-            )}
-          </div>
-        </div>
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50" onClick={closeModal}>
+    <div className="bg-white p-6 rounded-lg shadow-lg w-12/12 max-w-2xl max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
+      <div className="flex justify-between items-start mb-4">
+        <h2 className="text-xl font-bold">{selectedBlog.title}</h2>
+        <button
+          onClick={closeModal}
+          className="text-gray-600 hover:text-red-600 text-2xl font-bold ml-4"
+          aria-label="Close"
+        >
+          &times;
+        </button>
+      </div>
+      <img src={selectedBlog.image} alt={selectedBlog.title} className="w-full h-48 object-cover mb-4 rounded" />
+      <p className="text-gray-600 mb-2"><strong>Author:</strong> {selectedBlog.author.name}</p>
+      <p className="text-gray-600 mb-2"><strong>Date:</strong> {selectedBlog.date}</p>
+      {selectedBlog.readTime && <p className="text-gray-600 mb-2"><strong>Read Time:</strong> {selectedBlog.readTime}</p>}
+      <div
+        className="text-gray-700 mb-4"
+        dangerouslySetInnerHTML={{ __html: selectedBlog.description }}
+      />
+      {selectedBlog.additionalImage && (
+        <img src={selectedBlog.additionalImage} alt="Additional" className="w-full mt-4 rounded" />
       )}
+    </div>
+  </div>
+)}
+
     </div>
   );
 }
