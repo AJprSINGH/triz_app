@@ -24,7 +24,6 @@ const blogData = [
         "https://cdn.builder.io/api/v1/image/assets/TEMP/aeae475007c0885aa991a3859f3870e6e23f1b6024a8cf2a3464469884d6840d?placeholderIfAbsent=true&apiKey=af5cfb29bb594d4e9f9e505ea3916323",
     },
     date: "Jan 10, 2022",
-    readTime: "3 min",
   },
   {
     image:
