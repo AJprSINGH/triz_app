@@ -45,7 +45,7 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       animation: {
-        scroll: 'scroll 40s linear infinite', 
+        scroll: 'scroll 100s linear infinite', 
       },
       keyframes: {
         scroll: {
