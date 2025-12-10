@@ -1,4 +1,4 @@
-
+"use client"
 import * as React from "react";
 import { useRouter } from "next/router";
 import Link from 'next/link';
@@ -145,7 +145,7 @@ function ImageComponent() {
               <h1 className="text-center mt-6 text-black text-xl font-medium leading-snug">
                 Think It. Type It. Launch It.
                 <br />
-                Build production-ready  website!
+                Build production-ready  website
               </h1>
 
               {/* Textbox UI (matches your screenshot) */}
