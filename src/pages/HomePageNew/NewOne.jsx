@@ -141,60 +141,6 @@ function ImageComponent() {
                 </Link>
 
               </div>
-
-              <h1 className="text-center mt-6 text-black text-xl font-medium leading-snug">
-                Think It. Type It. Launch It.
-                <br />
-                Build production-ready  website
-              </h1>
-
-              {/* Textbox UI (matches your screenshot) */}
-              {/* Wrapper Box */}
-              <div className="w-full max-w-3xl bg-white rounded-2xl border border-gray-200 shadow-md p-4 mx-auto mt-6">
-
-                {/* Textbox */}
-                <input
-                  type="text"
-                  placeholder="What can I build for you today?"
-                  className="
-                    w-full 
-                    bg-transparent
-                    px-2 
-                    py-2 
-                    text-gray-700 
-                    text-base 
-                    outline-none
-                  "
-                />
-
-                {/* Bottom Toolbar */}
-                <div className="flex items-center justify-between mt-4">
-
-                  {/* Left Buttons */}
-                  <div className="flex items-center gap-3">
-
-                    {/* Attach Button */}
-                    <button className="flex items-center justify-center w-8 h-8 bg-gray-100 rounded-lg hover:bg-gray-200 transition">
-                      <img src="/icons/paperclip.svg" className="w-4 h-4" />
-                    </button>
-
-                    {/* Import Button */}
-                    <button className="flex items-center gap-2 bg-gray-100 px-3 py-1.5 rounded-lg hover:bg-gray-200 transition">
-                      <img src="/icons/import.svg" className="w-4 h-4" />
-                      <span className="text-sm text-gray-700">Import</span>
-                    </button>
-
-                  </div>
-
-                  {/* Send Button */}
-                  <button className="flex items-center justify-center w-8 h-8 bg-gray-200 rounded-lg hover:bg-gray-300 transition">
-                    <img src="/icons/arrow-up.svg" className="w-4 h-4" />
-                  </button>
-
-                </div>
-              </div>
-
-
             </div>
           </div>
 
