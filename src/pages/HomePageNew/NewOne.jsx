@@ -131,12 +131,12 @@ function ImageComponent() {
                 </Link>
 
                 {/* Second */}
-                <Link href="https://triz-apphigher-education.vercel.app/" className="w-full flex justify-center">
+                <Link href="https://he.scholarclone.com/" className="w-full flex justify-center">
                   <img loading="lazy" src="/center_home_images/Group 243.png" className="w-full" />
                 </Link>
 
                 {/* Third */}
-                <Link href="https://triz-corporate.vercel.app/" className="w-full flex justify-center">
+                <Link href="https://hp.scholarclone.com/" className="w-full flex justify-center">
                   <img loading="lazy" src="/center_home_images/Group 244.png" className="w-full" />
                 </Link>
 
