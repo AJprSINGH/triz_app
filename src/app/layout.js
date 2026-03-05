@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { Schema } from "../components/Schema";
+import { Schema } from "../component/Schema";
 
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react"

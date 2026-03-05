@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
-import { LeftMenuItem, RightMenuItem } from "../../Components/MenuItem";
-import { leftMenuItems } from "../../Components/menuItems";
+import { LeftMenuItem, RightMenuItem } from "../../component/MenuItem";
+import { leftMenuItems } from "../../component/menuItems";
 
 // Define the right-side menu items for each left-side menu item
 const rightMenuForERP = [
