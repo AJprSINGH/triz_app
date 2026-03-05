@@ -1,0 +1,52 @@
+{
+  "qaPairs": [
+    {
+      "question": "What is ScholarClone ERP?",
+      "answer": "ScholarClone is an AI-driven Higher Education ERP designed for academic institutions, offering comprehensive solutions for student information management, examinations, NAAC/NBA workflows, outcome-based education, CBCS, attendance tracking, and institutional analytics.",
+      "category": "General",
+      "keywords": ["ERP", "higher education", "academic software"]
+    },
+    {
+      "question": "How does ScholarClone help with NAAC accreditation?",
+      "answer": "ScholarClone provides built-in workflows and documentation templates aligned with NAAC criteria, enabling institutions to collect and organize data for SSR preparation, criterion-wise assessments, and continuous improvement initiatives required for accreditation.",
+      "category": "Accreditation",
+      "keywords": ["NAAC", "accreditation", "SSR", "quality"]
+    },
+    {
+      "question": "What modules are included in ScholarClone ERP?",
+      "answer": "ScholarClone includes modules for Student Information System, Learning Management, Examination Management, Finance Management, Human Resources, Library Management, Hostel Management, and more, all integrated into a single platform.",
+      "category": "Features",
+      "keywords": ["modules", "features", "integration"]
+    },
+    {
+      "question": "Is ScholarClone suitable for CBSE and state board schools?",
+      "answer": "Yes, ScholarClone is designed to support various educational boards including CBSE, ICSE, and state boards, with configurable academic calendars, examination patterns, and report card generation specific to each board's requirements.",
+      "category": "Compatibility",
+      "keywords": ["CBSE", "ICSE", "boards", "schools"]
+    },
+    {
+      "question": "How does ScholarClone support outcome-based education (OBE)?",
+      "answer": "ScholarClone includes OBE-specific features for defining course outcomes, program outcomes, mapping CO-PO, calculating attainment levels, and generating OBE reports required for NBA accreditation and academic compliance.",
+      "category": "Features",
+      "keywords": ["OBE", "outcome-based", "NBA", "attainment"]
+    },
+    {
+      "question": "Can ScholarClone integrate with existing college systems?",
+      "answer": "Yes, ScholarClone offers RESTful APIs and pre-built integrations with popular third-party systems including payment gateways, SMS/email services, biometric devices, and learning management systems for seamless data exchange.",
+      "category": "Integration",
+      "keywords": ["API", "integration", "third-party"]
+    },
+    {
+      "question": "What makes ScholarClone different from generic ERP solutions?",
+      "answer": "ScholarClone is purpose-built for higher education with specialized features like NAAC/NBA workflow support, OBE/CBCS curriculum management, examination automation, and education-specific analytics, unlike generic ERPs that require extensive customization.",
+      "category": "Comparison",
+      "keywords": ["difference", "specialized", "education-specific"]
+    },
+    {
+      "question": "Does ScholarClone provide mobile access for students and faculty?",
+      "answer": "Yes, ScholarClone includes responsive mobile applications for iOS and Android, allowing students to access marks, attendance, assignments, and faculty to manage courses, enter grades, and communicate with students on the go.",
+      "category": "Features",
+      "keywords": ["mobile", "app", "iOS", "Android"]
+    }
+  ]
+}
