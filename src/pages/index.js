@@ -1,8 +1,8 @@
 import React from "react";
 import HomePage from "./HomePageNew/UnlockPotential";
-import FAQ from "../Components/FAQ";
-import AnswerBlock from "../components/seo/AnswerBlock";
-import SEOFAQ from "../components/seo/FAQ";
+import { FAQ } from "../Components/FAQ";
+import { AnswerBlock } from "../components/seo/AnswerBlock";
+import { SEOFAQ } from "../components/seo/FAQ";
 import { SITE } from "../lib/seo/site";
 import Link from "next/link";
 
