@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { SITE } from '../lib/seo/site';
-import AnswerBlock from '../components/seo/AnswerBlock';
-import SEOFAQ from '../components/seo/FAQ';
+import SEOFAQ from '../Components/seo/FAQ';
 
 export default function ComparePage({ seo }) {
   const comparisonPoints = [
