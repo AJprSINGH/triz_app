@@ -116,40 +116,6 @@ function ImageComponent() {
         Scholar Clone in Your Pocket Mobile Apps for Everyone
       </h1>
       <Service />
-      {modalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 transition-opacity duration-500 opacity-100">
-          <div
-            className="flex overflow-hidden flex-col items-center px-6 pt-5 pb-6 bg-white rounded-xl shadow-sm w-[95vw] max-w-[1200px]"
-            style={{ boxShadow: '0 0 25px 3px rgba(36, 174, 139, 0.45)' }}
-          >
-            <div className="w-full">
-              <div className="grid grid-cols-3 gap-5 max-md:grid-cols-1">
-
-                {/* First */}
-                <Link href="/" onClick={() => setModalOpen(false)} className="w-full flex justify-center">
-                  <img loading="lazy" src="/center_home_images/Group 242.png" className="w-full" />
-                </Link>
-
-                {/* Second */}
-                <Link href="https://he.scholarclone.com/" className="w-full flex justify-center">
-                  <img loading="lazy" src="/center_home_images/Group 243.png" className="w-full" />
-                </Link>
-
-                {/* Third */}
-                <Link href="https://hp.scholarclone.com/" className="w-full flex justify-center">
-                  <img loading="lazy" src="/center_home_images/Group 244.png" className="w-full" />
-                </Link>
-
-              </div>
-
-              
-
-
-            </div>
-          </div>
-
-        </div>
-      )}
     </>
   );
 }
