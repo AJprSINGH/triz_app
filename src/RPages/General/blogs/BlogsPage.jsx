@@ -25,7 +25,7 @@ export default function BlogsPage() {
     const fetchBlogs = async () => {
       try {
         const res = await fetch(
-          "https://erp.triz.co.in/lms_data?table=blogs&filters[status]=published&filters[type]=blog"
+          "https://erp.triz.co.in/lms_data?table=blogs&filters[status]=published&filters[type]=blog&filters[platform]=K12"
         );
         const json = await res.json();
         console.log("Full API response:", json);
